@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!--
+  OPS-STATUS-02 dashboard.
+
+  Rendering contract: every dynamic value reaches the page through
+  document.createElement + textContent + classList only. There is no innerHTML
+  assignment, no insertAdjacentHTML, no document.write, no template string
+  interpolated into markup, and no eval anywhere in this file. Markup and data
+  therefore never share a parser, so a hostile string in status.json has no path
+  to becoming an element or an attribute.
+
+  Defence in depth on top of that: the collector constructs status.json from a
+  closed vocabulary and the client re-checks every value against the same
+  vocabulary before it is displayed. A value outside the contract is dropped and
+  the page reports a contract violation rather than rendering it.
+
+  frame-ancestors, X-Frame-Options and a real Referrer-Policy header cannot be
+  delivered from a <meta> tag or from GitHub Pages. The meta referrer below is
+  the deliverable equivalent; the rest is accepted exposure for a page that
+  contains no secret, no form, no cookie and no credential.
+-->
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'none'; connect-src 'self'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<title>Certification status</title>
+<style>
+  :root {
+    --bg: #0e1116;
+    --panel: #161b22;
+    --panel-2: #1c232c;
+    --line: #262d36;
+    --fg: #e6edf3;
+    --dim: #8b949e;
+    --green: #3fb950;
+    --blue: #58a6ff;
+    --amber: #d29922;
+    --red: #f85149;
+    --grey: #6e7681;
+    --purple: #a371f7;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f6f8fa; --panel: #ffffff; --panel-2: #f0f3f6; --line: #d0d7de;
+      --fg: #1f2328; --dim: #636c76; --green: #1a7f37; --blue: #0969da;
+      --amber: #9a6700; --red: #cf222e; --grey: #808a94; --purple: #8250df;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 0 3rem;
+    background: var(--bg); color: var(--fg);
+    font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 0 12px; }
+
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--panel); border-bottom: 1px solid var(--line);
+    padding: 10px 0 9px;
+    padding-top: max(10px, env(safe-area-inset-top));
+  }
+  .hrow { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  h1 { font-size: 1.02rem; margin: 0; font-weight: 650; letter-spacing: .2px; }
+  .updated { font-size: .78rem; color: var(--dim); margin-top: 5px; }
+
+  .banner {
+    display: none; margin-top: 8px; padding: 9px 11px; border-radius: 8px;
+    font-size: .84rem; font-weight: 600; border: 1px solid;
+  }
+  .banner.show { display: block; }
+  .banner.warn { background: rgba(210,153,34,.13); border-color: var(--amber); color: var(--amber); }
+  .banner.dead { background: rgba(248,81,73,.13);  border-color: var(--red);   color: var(--red); }
+
+  .now {
+    margin: 12px 0; padding: 13px 14px; border-radius: 10px;
+    background: var(--panel); border: 1px solid var(--line);
+    border-left: 4px solid var(--grey);
+  }
+  .now.running  { border-left-color: var(--blue); }
+  .now.complete { border-left-color: var(--green); }
+  .now.review   { border-left-color: var(--red); }
+  .now.queued   { border-left-color: var(--grey); }
+  .now .k { font-size: .72rem; letter-spacing: .09em; text-transform: uppercase; color: var(--dim); }
+  .now .v { font-size: 1.14rem; font-weight: 650; margin-top: 3px; }
+  .now .sub { font-size: .8rem; color: var(--dim); margin-top: 4px; }
+
+  .counts { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0; }
+  .pill {
+    flex: 1 1 auto; min-width: 62px; text-align: center;
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: 8px; padding: 8px 4px;
+  }
+  .pill .n { font: 650 1.14rem/1.1 ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .pill .l { font-size: .63rem; letter-spacing: .07em; text-transform: uppercase;
+             color: var(--dim); margin-top: 3px; }
+  .pill.completed .n { color: var(--green); }
+  .pill.running .n   { color: var(--blue); }
+  .pill.pending .n   { color: var(--grey); }
+  .pill.failed .n    { color: var(--red); }
+  .pill.cancelled .n { color: var(--purple); }
+
+  section.group {
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: 10px; margin-bottom: 9px; overflow: hidden;
+  }
+  .node {
+    display: flex; align-items: center; gap: 9px;
+    padding: 8px 12px; border-top: 1px solid var(--line);
+  }
+  .node:first-child { border-top: none; }
+  .node .nm { flex: 1; font-size: .87rem; min-width: 0; }
+  .node .nm .why { display: block; font-size: .71rem; color: var(--dim);
+                   overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .node .el { font: .74rem/1 ui-monospace, Menlo, monospace; color: var(--dim);
+              flex: none; text-align: right; }
+  .node .st { font: 600 .64rem/1 ui-monospace, Menlo, monospace; letter-spacing: .04em;
+              flex: none; padding: 3px 6px; border-radius: 5px;
+              background: var(--panel-2); color: var(--dim); border: 1px solid var(--line); }
+  .st.completed { color: var(--green); }
+  .st.running   { color: var(--blue); }
+  .st.failed    { color: var(--red); }
+  .st.cancelled { color: var(--purple); }
+  .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; background: var(--grey); }
+  .dot.completed { background: var(--green); }
+  .dot.running   { background: var(--blue); animation: pulse 1.5s ease-in-out infinite; }
+  .dot.failed    { background: var(--red); }
+  .dot.cancelled { background: var(--purple); }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .28; } }
+  @media (prefers-reduced-motion: reduce) { .dot.running { animation: none; } }
+
+  .meta { margin-top: 14px; background: var(--panel); border: 1px solid var(--line);
+          border-radius: 10px; padding: 11px 12px; font-size: .8rem; color: var(--dim); }
+  footer { text-align: center; color: var(--dim); font-size: .7rem; margin-top: 18px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="hrow">
+      <h1>Certification status</h1>
+    </div>
+    <div class="updated" id="updated">loading&hellip;</div>
+    <div class="banner" id="banner"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="now queued" id="now">
+    <div class="k">Status</div>
+    <div class="v" id="now-v">&mdash;</div>
+    <div class="sub" id="now-sub"></div>
+  </div>
+
+  <div class="counts" id="counts"></div>
+  <div id="nodes"></div>
+
+  <div class="meta">
+    Read-only view. Named verdicts, job identity, hosts, paths and scientific results
+    are never published here; the PI releases the certification outcome separately.
+  </div>
+
+  <footer>read-only &middot; no controls &middot; OPS-STATUS-02</footer>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  var SRC = "status.json";
+  var REFRESH_MS = 30000;
+  var STALE_S = 600;
+  var DEAD_S = 1800;
+  var SCHEMA_VERSION = 2;
+
+  // The client mirrors the collector's public contract. Anything outside it is not
+  // rendered -- not escaped and rendered, not rendered, full stop.
+  var HEALTH = ["online", "stale", "offline", "error"];
+  var PHASES = ["setup", "build", "tests", "preflight", "gate", "canaries",
+                "evidence", "review"];
+  var STATES = ["pending", "running", "completed", "failed", "cancelled"];
+  var REASONS = ["priority", "resources", "dependency", "reservation",
+                 "maintenance", "unknown"];
+  var MESSAGES = ["Running", "Queued", "Review required", "Complete after PI release"];
+  var LABELS = [
+    "Build", "Promote",
+    "Solver check 1", "Solver check 2", "Solver check 3", "Solver check 4",
+    "Solver check 5", "Solver check 6W", "Solver check 6S", "Fail-closed check",
+    "Preflight A1", "Preflight A3", "Preflight A4", "Preflight A5",
+    "Timing merge", "Worst stratum", "K95",
+    "Gate publish", "Gate apply",
+    "Canary barrier", "Canary A1", "Canary A3", "Canary A4", "Canary A5", "Canary C2",
+    "Write-freeze", "Capture"
+  ];
+  var UTC_RE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/;
+  var ELAPSED_RE =
+    /^(?:\d{1,3}d \d{2}h \d{2}m|\d{1,2}h \d{2}m|\d{1,2}m \d{2}s|\d{1,2}s)$/;
+  var MAX_NODES = 64;
+
+  var $ = function (id) { return document.getElementById(id); };
+  function has(list, v) { return typeof v === "string" && list.indexOf(v) !== -1; }
+  function isCount(v) {
+    return typeof v === "number" && isFinite(v) && v >= 0 && v <= 1e6 &&
+           Math.floor(v) === v;
+  }
+
+  // ---- DOM construction helpers. textContent only; no markup is ever parsed. -------
+  function el(tag, classes, text) {
+    var node = document.createElement(tag);
+    if (classes) {
+      for (var i = 0; i < classes.length; i++) {
+        if (classes[i]) { node.classList.add(classes[i]); }
+      }
+    }
+    if (text !== undefined && text !== null) { node.textContent = String(text); }
+    return node;
+  }
+
+  function clear(node) {
+    while (node.firstChild) { node.removeChild(node.firstChild); }
+  }
+
+  // ---- contract validation --------------------------------------------------------
+  var TOP_KEYS = ["schema_version", "generated_at", "collector_health", "phase",
+                  "message", "state_counts", "nodes"];
+
+  function sameKeySet(obj, allowed) {
+    var keys = Object.keys(obj);
+    if (keys.length !== allowed.length) { return false; }
+    for (var i = 0; i < keys.length; i++) {
+      if (allowed.indexOf(keys[i]) === -1) { return false; }
+    }
+    return true;
+  }
+
+  function validate(d) {
+    if (!d || typeof d !== "object" || Array.isArray(d)) { return null; }
+    // Exact key set, not merely "the required keys are present". An extra top-level
+    // field is exactly the shape a leak takes, so it refuses the whole document.
+    if (!sameKeySet(d, TOP_KEYS)) { return null; }
+    if (d.schema_version !== SCHEMA_VERSION) { return null; }
+    if (!UTC_RE.test(d.generated_at)) { return null; }
+    if (!has(HEALTH, d.collector_health)) { return null; }
+    if (!has(PHASES, d.phase)) { return null; }
+    if (!has(MESSAGES, d.message)) { return null; }
+
+    var counts = d.state_counts;
+    if (!counts || typeof counts !== "object" || Array.isArray(counts)) { return null; }
+    if (!sameKeySet(counts, STATES)) { return null; }
+    for (var i = 0; i < STATES.length; i++) {
+      if (!isCount(counts[STATES[i]])) { return null; }
+    }
+
+    if (!Array.isArray(d.nodes) || d.nodes.length > MAX_NODES) { return null; }
+    var clean = [];
+    for (var j = 0; j < d.nodes.length; j++) {
+      var n = d.nodes[j];
+      if (!n || typeof n !== "object" || Array.isArray(n)) { return null; }
+      var nkeys = Object.keys(n);
+      for (var k = 0; k < nkeys.length; k++) {
+        if (["label", "state", "elapsed", "reason"].indexOf(nkeys[k]) === -1) {
+          return null;
+        }
+      }
+      if (!has(LABELS, n.label) || !has(STATES, n.state)) { return null; }
+      if (n.elapsed !== undefined && !ELAPSED_RE.test(n.elapsed)) { return null; }
+      if (n.reason !== undefined && !has(REASONS, n.reason)) { return null; }
+      // Rebuild the node from validated primitives; the received object is discarded.
+      clean.push({
+        label: n.label,
+        state: n.state,
+        elapsed: n.elapsed === undefined ? null : n.elapsed,
+        reason: n.reason === undefined ? null : n.reason
+      });
+    }
+
+    var total = 0;
+    for (var m = 0; m < STATES.length; m++) { total += counts[STATES[m]]; }
+    if (total !== clean.length) { return null; }
+
+    return {
+      generated_at: d.generated_at,
+      collector_health: d.collector_health,
+      phase: d.phase,
+      message: d.message,
+      counts: counts,
+      nodes: clean
+    };
+  }
+
+  function ago(sec) {
+    sec = Math.max(0, Math.round(sec));
+    if (sec < 60) { return sec + "s ago"; }
+    if (sec < 3600) { return Math.floor(sec / 60) + "m ago"; }
+    if (sec < 86400) {
+      return Math.floor(sec / 3600) + "h " + Math.floor((sec % 3600) / 60) + "m ago";
+    }
+    return Math.floor(sec / 86400) + "d ago";
+  }
+
+  // Freshness is a browser-side wall-clock property, computed from the generated
+  // timestamp in the document. The collector publishes no age field of its own: a
+  // server-stamped age cannot detect the one failure that matters, a collector that
+  // stopped running.
+  function generatedEpoch(stamp) {
+    var t = Date.parse(stamp);
+    return isFinite(t) ? t / 1000 : null;
+  }
+
+  var last = null;
+
+  function renderCounts(counts) {
+    var box = $("counts");
+    clear(box);
+    var order = ["completed", "running", "pending", "failed", "cancelled"];
+    for (var i = 0; i < order.length; i++) {
+      var pill = el("div", ["pill", order[i]]);
+      pill.appendChild(el("div", ["n"], counts[order[i]]));
+      pill.appendChild(el("div", ["l"], order[i].slice(0, 4)));
+      box.appendChild(pill);
+    }
+  }
+
+  function renderNodes(nodes) {
+    var box = $("nodes");
+    clear(box);
+    if (!nodes.length) { return; }
+    var section = el("section", ["group"]);
+    for (var i = 0; i < nodes.length; i++) {
+      var n = nodes[i];
+      var row = el("div", ["node"]);
+      row.appendChild(el("span", ["dot", n.state]));
+
+      var nm = el("span", ["nm"], n.label);
+      if (n.reason) { nm.appendChild(el("span", ["why"], "queued: " + n.reason)); }
+      row.appendChild(nm);
+
+      row.appendChild(el("span", ["el"], n.elapsed || ""));
+      row.appendChild(el("span", ["st", n.state], n.state));
+      section.appendChild(row);
+    }
+    box.appendChild(section);
+  }
+
+  function nowClass(message) {
+    if (message === "Running") { return "running"; }
+    if (message === "Complete after PI release") { return "complete"; }
+    if (message === "Review required") { return "review"; }
+    return "queued";
+  }
+
+  function tickFreshness() {
+    var b = $("banner");
+    if (!last) { return; }
+    var epoch = generatedEpoch(last.generated_at);
+    var age = epoch === null ? null : (Date.now() / 1000) - epoch;
+
+    clear($("updated"));
+    $("updated").appendChild(
+      el("span", null, "last updated " + (age === null ? "unknown" : ago(age)) +
+                       " · " + last.generated_at));
+
+    b.className = "banner";
+    b.textContent = "";
+    if (age === null || age > DEAD_S) {
+      b.classList.add("dead", "show");
+      b.textContent = "DISCONNECTED — no fresh data" +
+        (age === null ? "" : " for " + ago(age)) +
+        ". The collector job is not running. Everything below is history.";
+    } else if (age > STALE_S) {
+      b.classList.add("warn", "show");
+      b.textContent = "STALE — last refresh " + ago(age) +
+                      ". Expected every 2-5 minutes.";
+    } else if (last.collector_health === "error") {
+      b.classList.add("dead", "show");
+      b.textContent = "COLLECTOR ERROR — the campaign state could not be " +
+                      "determined. Nothing below is a status claim.";
+    } else if (last.collector_health === "offline") {
+      b.classList.add("dead", "show");
+      b.textContent = "SCHEDULER UNREACHABLE — no job states are knowable.";
+    } else if (last.collector_health === "stale") {
+      // The current collector never emits `stale`: a partially observed board is
+      // refused outright rather than published with filler states. The value is part
+      // of the published vocabulary, so the page keeps handling it defensively -- if
+      // some future producer ever sends one, it warns rather than rendering quietly.
+      b.classList.add("warn", "show");
+      b.textContent = "PARTIAL — this view is incomplete and some rows may be " +
+                      "unconfirmed. Do not read it as a status claim.";
+    }
+  }
+
+  function render(d) {
+    last = d;
+    $("now").className = "now " + nowClass(d.message);
+    $("now-v").textContent = d.message;
+    $("now-sub").textContent = "phase: " + d.phase +
+                               " · collector: " + d.collector_health;
+    renderCounts(d.counts);
+    renderNodes(d.nodes);
+    tickFreshness();
+  }
+
+  function renderContractViolation() {
+    var b = $("banner");
+    b.className = "banner";
+    b.classList.add("dead", "show");
+    b.textContent = "CONTRACT VIOLATION — the published document does not match " +
+                    "the expected schema and was not rendered.";
+    clear($("nodes"));
+    clear($("counts"));
+    $("now").className = "now review";
+    $("now-v").textContent = "Review required";
+    $("now-sub").textContent = "";
+  }
+
+  function poll() {
+    var url = SRC + "?t=" + Date.now();   // defeat intermediary caching
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url, true);
+    xhr.timeout = 15000;
+    xhr.onload = function () {
+      if (xhr.status < 200 || xhr.status >= 300) { return; }
+      var raw;
+      try { raw = JSON.parse(xhr.responseText); } catch (e) { return; }
+      var ok = validate(raw);
+      if (ok === null) { renderContractViolation(); return; }
+      render(ok);
+    };
+    xhr.send();
+  }
+
+  poll();
+  setInterval(poll, REFRESH_MS);
+  setInterval(tickFreshness, 1000);
+  document.addEventListener("visibilitychange", function () {
+    if (!document.hidden) { poll(); }
+  });
+})();
+</script>
+</body>
+</html>

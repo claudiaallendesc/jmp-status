@@ -1,0 +1,15 @@
+{
+ "collector_health": "offline",
+ "generated_at": "2026-08-14T17:43:38Z",
+ "message": "Review required",
+ "nodes": [],
+ "phase": "review",
+ "schema_version": 2,
+ "state_counts": {
+  "cancelled": 0,
+  "completed": 0,
+  "failed": 0,
+  "pending": 0,
+  "running": 0
+ }
+}
