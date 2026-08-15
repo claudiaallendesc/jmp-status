@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "2s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T11:03:06Z",
+        "started": "2026-08-15T11:06:01Z",
         "state": "running",
-        "submitted": "2026-08-15T11:00:28Z"
+        "submitted": "2026-08-15T11:03:13Z"
       }
     ],
     "active_dropped": 0,
@@ -174,26 +174,6 @@
         "name": "r21_f2_probe",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "59s",
-        "ended": "2026-08-14T23:05:39Z",
-        "exit_code": 0,
-        "id": "39046274",
-        "kind": "research",
-        "name": "r21_f1_race",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "54s",
-        "ended": "2026-08-14T23:05:34Z",
-        "exit_code": 0,
-        "id": "39046860",
-        "kind": "research",
-        "name": "r21_f1_race_n",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -352,20 +332,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T11:03:08Z",
+  "generated_at": "2026-08-15T11:06:09Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T11:03:08Z",
+      "observed_at": "2026-08-15T11:06:09Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T11:03:08Z",
+      "observed_at": "2026-08-15T11:06:09Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T11:03:08Z",
+      "observed_at": "2026-08-15T11:06:09Z",
       "status": "ok"
     }
   }
