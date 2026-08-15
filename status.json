@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "7s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T07:33:08Z",
+        "started": "2026-08-15T07:36:02Z",
         "state": "running",
-        "submitted": "2026-08-15T07:30:12Z"
+        "submitted": "2026-08-15T07:33:29Z"
       }
     ],
     "active_dropped": 0,
@@ -440,7 +440,7 @@
       }
     ],
     "recent_dropped": 0,
-    "recent_omitted": 9,
+    "recent_omitted": 8,
     "service_count": 1,
     "window_hours": 12
   },
@@ -595,20 +595,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T07:33:15Z",
+  "generated_at": "2026-08-15T07:36:04Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T07:33:15Z",
+      "observed_at": "2026-08-15T07:36:04Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T07:33:15Z",
+      "observed_at": "2026-08-15T07:36:04Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T07:33:15Z",
+      "observed_at": "2026-08-15T07:36:04Z",
       "status": "ok"
     }
   }
