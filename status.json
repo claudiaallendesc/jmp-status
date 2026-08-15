@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "9s",
+        "elapsed": "15s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T12:33:19Z",
+        "started": "2026-08-15T12:36:11Z",
         "state": "running",
-        "submitted": "2026-08-15T12:30:23Z"
+        "submitted": "2026-08-15T12:33:40Z"
       }
     ],
     "active_dropped": 0,
@@ -132,16 +132,6 @@
         "id": "39071134",
         "kind": "research",
         "name": "blp47_gates_a3",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "12m 38s",
-        "ended": "2026-08-15T00:33:30Z",
-        "exit_code": 0,
-        "id": "39060024",
-        "kind": "research",
-        "name": "blp47_r1b",
         "partition": "gsb",
         "state": "completed"
       }
@@ -302,20 +292,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T12:33:28Z",
+  "generated_at": "2026-08-15T12:36:26Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T12:33:28Z",
+      "observed_at": "2026-08-15T12:36:26Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T12:33:28Z",
+      "observed_at": "2026-08-15T12:36:26Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T12:33:28Z",
+      "observed_at": "2026-08-15T12:36:26Z",
       "status": "ok"
     }
   }
