@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "10s",
+        "elapsed": "36s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T10:00:15Z",
+        "started": "2026-08-15T10:03:08Z",
         "state": "running",
-        "submitted": "2026-08-15T09:57:32Z"
+        "submitted": "2026-08-15T10:00:42Z"
       }
     ],
     "active_dropped": 0,
@@ -278,27 +278,6 @@
         "name": "blp47_gates_fix3",
         "partition": "gsb",
         "state": "failed"
-      },
-      {
-        "elapsed": "4m 34s",
-        "ended": "2026-08-14T22:02:16Z",
-        "exit_code": 0,
-        "id": "39034541",
-        "kind": "research",
-        "name": "blp51_preflight_pairsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "1m 57s",
-        "ended": "2026-08-14T22:01:42Z",
-        "exit_code": 3,
-        "id": "39036459",
-        "kind": "research",
-        "name": "blp47_gates_fix2",
-        "partition": "gsb",
-        "state": "failed"
       }
     ],
     "recent_dropped": 0,
@@ -457,20 +436,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T10:00:25Z",
+  "generated_at": "2026-08-15T10:03:45Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T10:00:25Z",
+      "observed_at": "2026-08-15T10:03:45Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T10:00:25Z",
+      "observed_at": "2026-08-15T10:03:45Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T10:00:25Z",
+      "observed_at": "2026-08-15T10:03:45Z",
       "status": "ok"
     }
   }
