@@ -2,26 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "1m 40s",
-        "id": "39199160",
-        "kind": "research",
-        "name": "MFAILCLOSED",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-15T19:40:41Z",
-        "state": "running",
-        "submitted": "2026-08-15T19:40:37Z"
-      },
-      {
-        "elapsed": "5s",
+        "elapsed": "4s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T19:42:16Z",
+        "started": "2026-08-15T19:45:04Z",
         "state": "running",
-        "submitted": "2026-08-15T19:39:19Z"
+        "submitted": "2026-08-15T19:42:26Z"
       }
     ],
     "active_dropped": 0,
@@ -33,9 +22,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 2
+      "running": 1
     },
     "recent": [
+      {
+        "elapsed": "2m 48s",
+        "ended": "2026-08-15T19:43:29Z",
+        "exit_code": 0,
+        "id": "39199160",
+        "kind": "research",
+        "name": "MFAILCLOSED",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "18m 42s",
         "ended": "2026-08-15T19:26:58Z",
@@ -263,20 +262,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T19:42:22Z",
-  "message": "Running",
+  "generated_at": "2026-08-15T19:45:08Z",
+  "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T19:42:22Z",
+      "observed_at": "2026-08-15T19:45:08Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T19:42:22Z",
+      "observed_at": "2026-08-15T19:45:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T19:42:22Z",
+      "observed_at": "2026-08-15T19:45:08Z",
       "status": "ok"
     }
   }
