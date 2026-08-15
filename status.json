@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2m 47s",
+        "elapsed": "5m 55s",
         "id": "39071134",
         "kind": "research",
         "name": "blp47_gates_a3",
@@ -19,9 +19,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T01:24:03Z",
+        "started": "2026-08-15T01:27:11Z",
         "state": "running",
-        "submitted": "2026-08-15T01:21:19Z"
+        "submitted": "2026-08-15T01:24:20Z"
       }
     ],
     "active_dropped": 0,
@@ -612,20 +612,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T01:24:11Z",
+  "generated_at": "2026-08-15T01:27:18Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T01:24:11Z",
+      "observed_at": "2026-08-15T01:27:18Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T01:24:11Z",
+      "observed_at": "2026-08-15T01:27:18Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T01:24:11Z",
+      "observed_at": "2026-08-15T01:27:18Z",
       "status": "ok"
     }
   }
