@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!--
-  OPS-STATUS-02 dashboard.
+  OPS-STATUS-07 dashboard -- account-wide Sherlock activity.
 
   Rendering contract: every dynamic value reaches the page through
   document.createElement + textContent + classList only. There is no innerHTML
@@ -13,9 +13,11 @@
   to becoming an element or an attribute.
 
   Defence in depth on top of that: the collector constructs status.json from a
-  closed vocabulary and the client re-checks every value against the same
-  vocabulary before it is displayed. A value outside the contract is dropped and
-  the page reports a contract violation rather than rendering it.
+  closed vocabulary plus six pinned generated shapes, and the client re-checks
+  every value against the same vocabulary and the same anchored shapes before it
+  is displayed. A value outside the contract is dropped and the page reports a
+  contract violation rather than rendering it. Schema 3 only: an older document
+  is refused, never rendered.
 
   frame-ancestors, X-Frame-Options and a real Referrer-Policy header cannot be
   delivered from a <meta> tag or from GitHub Pages. The meta referrer below is
@@ -28,7 +30,7 @@
 <meta name="robots" content="noindex,nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark light">
-<title>Certification status</title>
+<title>Sherlock activity</title>
 <style>
   :root {
     --bg: #0e1116;
@@ -43,12 +45,14 @@
     --red: #f85149;
     --grey: #6e7681;
     --purple: #a371f7;
+    --teal: #39c5cf;
   }
   @media (prefers-color-scheme: light) {
     :root {
       --bg: #f6f8fa; --panel: #ffffff; --panel-2: #f0f3f6; --line: #d0d7de;
       --fg: #1f2328; --dim: #636c76; --green: #1a7f37; --blue: #0969da;
       --amber: #9a6700; --red: #cf222e; --grey: #808a94; --purple: #8250df;
+      --teal: #0f7d8c;
     }
   }
   * { box-sizing: border-box; }
@@ -58,7 +62,7 @@
     font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
     -webkit-text-size-adjust: 100%;
   }
-  .wrap { max-width: 780px; margin: 0 auto; padding: 0 12px; }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 0 12px; }
 
   header {
     position: sticky; top: 0; z-index: 10;
@@ -84,9 +88,9 @@
     border-left: 4px solid var(--grey);
   }
   .now.running  { border-left-color: var(--blue); }
-  .now.complete { border-left-color: var(--green); }
-  .now.review   { border-left-color: var(--red); }
-  .now.queued   { border-left-color: var(--grey); }
+  .now.idle     { border-left-color: var(--grey); }
+  .now.queued   { border-left-color: var(--amber); }
+  .now.unavailable { border-left-color: var(--red); }
   .now .k { font-size: .72rem; letter-spacing: .09em; text-transform: uppercase; color: var(--dim); }
   .now .v { font-size: 1.14rem; font-weight: 650; margin-top: 3px; }
   .now .sub { font-size: .8rem; color: var(--dim); margin-top: 4px; }
@@ -100,43 +104,96 @@
   .pill .n { font: 650 1.14rem/1.1 ui-monospace, SFMono-Regular, Menlo, monospace; }
   .pill .l { font-size: .63rem; letter-spacing: .07em; text-transform: uppercase;
              color: var(--dim); margin-top: 3px; }
-  .pill.completed .n { color: var(--green); }
-  .pill.running .n   { color: var(--blue); }
-  .pill.pending .n   { color: var(--grey); }
-  .pill.failed .n    { color: var(--red); }
-  .pill.cancelled .n { color: var(--purple); }
+  .pill.running .n    { color: var(--blue); }
+  .pill.completing .n { color: var(--teal); }
+  .pill.pending .n    { color: var(--amber); }
+  .pill.completed .n  { color: var(--green); }
+  .pill.failed .n     { color: var(--red); }
+  .pill.cancelled .n  { color: var(--purple); }
+  .pill.other .n      { color: var(--grey); }
+
+  h2 { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase;
+       color: var(--dim); margin: 18px 0 7px; font-weight: 650; }
+  h2 .h2note { text-transform: none; letter-spacing: 0; font-weight: 400; }
 
   section.group {
     background: var(--panel); border: 1px solid var(--line);
     border-radius: 10px; margin-bottom: 9px; overflow: hidden;
   }
-  .node {
+  .ghead {
+    display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;
+    padding: 9px 12px; background: var(--panel-2);
+    border-bottom: 1px solid var(--line);
+  }
+  .ghead .gname { font-size: .89rem; font-weight: 650; word-break: break-all; }
+  .ghead .gmeta { font-size: .72rem; color: var(--dim); }
+  .ghead .gtag { font: 600 .6rem/1 ui-monospace, Menlo, monospace;
+                 letter-spacing: .05em; text-transform: uppercase;
+                 padding: 3px 5px; border-radius: 4px; color: var(--dim);
+                 border: 1px solid var(--line); }
+
+  .row {
     display: flex; align-items: center; gap: 9px;
     padding: 8px 12px; border-top: 1px solid var(--line);
   }
-  .node:first-child { border-top: none; }
-  .node .nm { flex: 1; font-size: .87rem; min-width: 0; }
-  .node .nm .why { display: block; font-size: .71rem; color: var(--dim);
-                   overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .node .el { font: .74rem/1 ui-monospace, Menlo, monospace; color: var(--dim);
-              flex: none; text-align: right; }
-  .node .st { font: 600 .64rem/1 ui-monospace, Menlo, monospace; letter-spacing: .04em;
-              flex: none; padding: 3px 6px; border-radius: 5px;
-              background: var(--panel-2); color: var(--dim); border: 1px solid var(--line); }
-  .st.completed { color: var(--green); }
-  .st.running   { color: var(--blue); }
-  .st.failed    { color: var(--red); }
-  .st.cancelled { color: var(--purple); }
+  .row:first-child { border-top: none; }
+  .row .idc { font: .74rem/1.25 ui-monospace, Menlo, monospace; color: var(--dim);
+              flex: none; min-width: 78px; }
+  .row .mid { flex: 1; min-width: 0; font-size: .82rem; }
+  .row .mid .why { display: block; font-size: .7rem; color: var(--dim); }
+  .row .el { font: .74rem/1 ui-monospace, Menlo, monospace; color: var(--dim);
+             flex: none; text-align: right; }
+  .row .st { font: 600 .62rem/1 ui-monospace, Menlo, monospace; letter-spacing: .04em;
+             flex: none; padding: 3px 6px; border-radius: 5px;
+             background: var(--panel-2); color: var(--dim); border: 1px solid var(--line); }
+  .st.running    { color: var(--blue); }
+  .st.completing { color: var(--teal); }
+  .st.pending    { color: var(--amber); }
+  .st.completed  { color: var(--green); }
+  .st.failed     { color: var(--red); }
+  .st.cancelled  { color: var(--purple); }
   .dot { width: 9px; height: 9px; border-radius: 50%; flex: none; background: var(--grey); }
-  .dot.completed { background: var(--green); }
-  .dot.running   { background: var(--blue); animation: pulse 1.5s ease-in-out infinite; }
-  .dot.failed    { background: var(--red); }
-  .dot.cancelled { background: var(--purple); }
+  .dot.running    { background: var(--blue); animation: pulse 1.5s ease-in-out infinite; }
+  .dot.completing { background: var(--teal); }
+  .dot.pending    { background: var(--amber); }
+  .dot.completed  { background: var(--green); }
+  .dot.failed     { background: var(--red); }
+  .dot.cancelled  { background: var(--purple); }
   @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .28; } }
   @media (prefers-reduced-motion: reduce) { .dot.running { animation: none; } }
 
+  .empty { padding: 12px; font-size: .82rem; color: var(--dim); }
+
+  .camp { background: var(--panel); border: 1px solid var(--line);
+          border-radius: 10px; overflow: hidden; }
+  .camp .chead { padding: 11px 12px; border-bottom: 1px solid var(--line);
+                 background: var(--panel-2); }
+  .camp .ctitle { font-size: .9rem; font-weight: 650; }
+  .camp .cmeta { font-size: .74rem; color: var(--dim); margin-top: 4px; }
+  .badge { display: inline-block; font: 600 .6rem/1 ui-monospace, Menlo, monospace;
+           letter-spacing: .06em; text-transform: uppercase; padding: 3px 6px;
+           border-radius: 4px; border: 1px solid var(--line); color: var(--dim);
+           margin-right: 6px; }
+  .badge.active { color: var(--blue); border-color: var(--blue); }
+  .badge.historical { color: var(--grey); }
+  .badge.unknown { color: var(--amber); border-color: var(--amber); }
+  details > summary { cursor: pointer; padding: 9px 12px; font-size: .8rem;
+                      color: var(--dim); }
+  .node { display: flex; align-items: center; gap: 9px; padding: 7px 12px;
+          border-top: 1px solid var(--line); }
+  .node .nm { flex: 1; font-size: .84rem; min-width: 0; }
+  .node .nm .why { display: block; font-size: .7rem; color: var(--dim); }
+
   .meta { margin-top: 14px; background: var(--panel); border: 1px solid var(--line);
-          border-radius: 10px; padding: 11px 12px; font-size: .8rem; color: var(--dim); }
+          border-radius: 10px; padding: 11px 12px; font-size: .79rem; color: var(--dim); }
+  .meta b { color: var(--fg); font-weight: 600; }
+  .meta ul { margin: 6px 0 0; padding-left: 18px; }
+  .meta li { margin: 2px 0; }
+  .srcrow { display: flex; gap: 8px; align-items: baseline; font-size: .76rem;
+            padding: 3px 0; }
+  .srcrow .sname { min-width: 92px; color: var(--fg); }
+  .srcrow .sok { color: var(--green); }
+  .srcrow .sbad { color: var(--red); font-weight: 600; }
   footer { text-align: center; color: var(--dim); font-size: .7rem; margin-top: 18px; }
 </style>
 </head>
@@ -144,7 +201,7 @@
 <header>
   <div class="wrap">
     <div class="hrow">
-      <h1>Certification status</h1>
+      <h1>Sherlock activity</h1>
     </div>
     <div class="updated" id="updated">loading&hellip;</div>
     <div class="banner" id="banner"></div>
@@ -152,21 +209,43 @@
 </header>
 
 <main class="wrap">
-  <div class="now queued" id="now">
-    <div class="k">Status</div>
+  <div class="now idle" id="now">
+    <div class="k">Account</div>
     <div class="v" id="now-v">&mdash;</div>
     <div class="sub" id="now-sub"></div>
   </div>
 
   <div class="counts" id="counts"></div>
-  <div id="nodes"></div>
+
+  <h2 id="active-h">Active jobs</h2>
+  <div id="active"></div>
+
+  <h2 id="recent-h">Recently finished</h2>
+  <div id="recent"></div>
+
+  <h2>Tracked campaign</h2>
+  <div id="campaign"></div>
+
+  <h2>Sources</h2>
+  <div class="meta" id="sources"></div>
 
   <div class="meta">
-    Read-only view. Named verdicts, job identity, hosts, paths and scientific results
-    are never published here; the PI releases the certification outcome separately.
+    <b>What this page covers.</b>
+    <ul>
+      <li><b>Sherlock jobs: covered.</b> Every top-level job the account owns, from the
+          scheduler itself, on every cycle.</li>
+      <li><b>Local Claude sessions: not covered.</b> They run on the laptop; this
+          collector runs on Sherlock and never inspects the laptop.</li>
+      <li><b>Yens jobs: not covered / unverified.</b> The Sherlock service cannot
+          authenticate to Yens, so Yens work is invisible here &mdash; absence below is
+          not evidence that nothing is running there.</li>
+    </ul>
+    Read-only. Job names are sanitized; command lines, directories, paths, logs, hosts,
+    accounts and usernames are never published, and the PI releases certification
+    verdicts separately.
   </div>
 
-  <footer>read-only &middot; no controls &middot; OPS-STATUS-02</footer>
+  <footer>read-only &middot; no controls &middot; OPS-STATUS-07</footer>
 </main>
 
 <script>
@@ -177,17 +256,28 @@
   var REFRESH_MS = 30000;
   var STALE_S = 600;
   var DEAD_S = 1800;
-  var SCHEMA_VERSION = 2;
+  var SCHEMA_VERSION = 3;
 
   // The client mirrors the collector's public contract. Anything outside it is not
   // rendered -- not escaped and rendered, not rendered, full stop.
-  var HEALTH = ["online", "stale", "offline", "error"];
+  var HEALTH = ["online", "degraded", "offline", "error"];
+  var TOP_MESSAGES = ["Running", "Queued", "No active jobs", "Status unavailable"];
+  var CAMPAIGN_MESSAGES = ["Running", "Queued", "Review required",
+                           "Complete after PI release", "Unavailable"];
+  var SOURCE_NAMES = ["queue", "recent", "campaign"];
+  var SOURCE_STATUS = ["ok", "unavailable"];
+  var ACCOUNT_STATES = ["running", "completing", "pending", "completed", "failed",
+                        "cancelled", "other"];
+  var KINDS = ["research", "service"];
+  var NAME_NOTES = ["sanitized", "unnamed"];
+  var PARTITIONS = ["normal", "gsb", "service", "dev", "owners", "bigmem", "gpu",
+                    "long", "hns", "donoho", "multiple", "other"];
+  var DISPOSITIONS = ["active", "historical", "unknown"];
   var PHASES = ["setup", "build", "tests", "preflight", "gate", "canaries",
                 "evidence", "review"];
   var STATES = ["pending", "running", "completed", "failed", "cancelled"];
   var REASONS = ["priority", "resources", "dependency", "reservation",
-                 "maintenance", "unknown"];
-  var MESSAGES = ["Running", "Queued", "Review required", "Complete after PI release"];
+                 "maintenance", "scheduled", "unknown"];
   var LABELS = [
     "Build", "Promote",
     "Solver check 1", "Solver check 2", "Solver check 3", "Solver check 4",
@@ -201,7 +291,28 @@
   var UTC_RE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/;
   var ELAPSED_RE =
     /^(?:\d{1,3}d \d{2}h \d{2}m|\d{1,2}h \d{2}m|\d{1,2}m \d{2}s|\d{1,2}s)$/;
+  var JOBID_RE = /^\d{1,12}$/;
+  var TASK_RE = /^(?:\d{1,9}|\[\d{1,9}(?:-\d{1,9})?(?::\d{1,6})?(?:,\d{1,9}(?:-\d{1,9})?(?::\d{1,6})?){0,31}(?:%\d{1,6})?\])$/;
+  var RUN_RE = /^r\d{1,4}$/;
+  var NAME_RE = /^[A-Za-z0-9][A-Za-z0-9_-]{0,31}$/;
   var MAX_NODES = 64;
+  var MAX_ACTIVE = 100;
+  var MAX_RECENT = 40;
+
+  var TOP_KEYS = ["schema_version", "generated_at", "collector_health", "message",
+                  "sources", "account", "campaign"];
+  var ACCOUNT_KEYS = ["window_hours", "counts", "service_count", "active",
+                      "active_omitted", "active_dropped", "recent", "recent_omitted",
+                      "recent_dropped"];
+  var ACTIVE_KEYS = ["id", "name", "kind", "state", "task", "name_note", "elapsed",
+                     "partition", "nodes", "reason", "submitted", "started"];
+  var ACTIVE_REQUIRED = ["id", "name", "kind", "state"];
+  var RECENT_KEYS = ["id", "name", "kind", "state", "exit_code", "task", "name_note",
+                     "signal", "elapsed", "partition", "ended"];
+  var RECENT_REQUIRED = ["id", "name", "kind", "state", "exit_code"];
+  var CAMPAIGN_KEYS = ["disposition", "phase", "message", "state_counts", "nodes",
+                       "run"];
+  var CAMPAIGN_REQUIRED = ["disposition", "phase", "message", "state_counts", "nodes"];
 
   var $ = function (id) { return document.getElementById(id); };
   function has(list, v) { return typeof v === "string" && list.indexOf(v) !== -1; }
@@ -227,9 +338,6 @@
   }
 
   // ---- contract validation --------------------------------------------------------
-  var TOP_KEYS = ["schema_version", "generated_at", "collector_health", "phase",
-                  "message", "state_counts", "nodes"];
-
   function sameKeySet(obj, allowed) {
     var keys = Object.keys(obj);
     if (keys.length !== allowed.length) { return false; }
@@ -239,29 +347,133 @@
     return true;
   }
 
-  function validate(d) {
-    if (!d || typeof d !== "object" || Array.isArray(d)) { return null; }
-    // Exact key set, not merely "the required keys are present". An extra top-level
-    // field is exactly the shape a leak takes, so it refuses the whole document.
-    if (!sameKeySet(d, TOP_KEYS)) { return null; }
-    if (d.schema_version !== SCHEMA_VERSION) { return null; }
-    if (!UTC_RE.test(d.generated_at)) { return null; }
-    if (!has(HEALTH, d.collector_health)) { return null; }
-    if (!has(PHASES, d.phase)) { return null; }
-    if (!has(MESSAGES, d.message)) { return null; }
-
-    var counts = d.state_counts;
-    if (!counts || typeof counts !== "object" || Array.isArray(counts)) { return null; }
-    if (!sameKeySet(counts, STATES)) { return null; }
-    for (var i = 0; i < STATES.length; i++) {
-      if (!isCount(counts[STATES[i]])) { return null; }
+  function keysWithin(obj, allowed, required) {
+    var keys = Object.keys(obj), i;
+    for (i = 0; i < keys.length; i++) {
+      if (allowed.indexOf(keys[i]) === -1) { return false; }
     }
+    for (i = 0; i < required.length; i++) {
+      if (keys.indexOf(required[i]) === -1) { return false; }
+    }
+    return true;
+  }
 
-    if (!Array.isArray(d.nodes) || d.nodes.length > MAX_NODES) { return null; }
-    var clean = [];
-    for (var j = 0; j < d.nodes.length; j++) {
-      var n = d.nodes[j];
-      if (!n || typeof n !== "object" || Array.isArray(n)) { return null; }
+  function isObj(v) {
+    return v && typeof v === "object" && !Array.isArray(v);
+  }
+
+  function validateRow(n, allowed, required, isRecent) {
+    if (!isObj(n) || !keysWithin(n, allowed, required)) { return null; }
+    if (!JOBID_RE.test(n.id) || !NAME_RE.test(n.name)) { return null; }
+    if (!has(KINDS, n.kind) || !has(ACCOUNT_STATES, n.state)) { return null; }
+    if (n.task !== undefined && !TASK_RE.test(n.task)) { return null; }
+    if (n.name_note !== undefined && !has(NAME_NOTES, n.name_note)) { return null; }
+    if (n.elapsed !== undefined && !ELAPSED_RE.test(n.elapsed)) { return null; }
+    if (n.partition !== undefined && !has(PARTITIONS, n.partition)) { return null; }
+    if (n.nodes !== undefined && !isCount(n.nodes)) { return null; }
+    if (n.reason !== undefined) {
+      if (!has(REASONS, n.reason) || n.state !== "pending") { return null; }
+    }
+    if (n.submitted !== undefined && !UTC_RE.test(n.submitted)) { return null; }
+    if (n.started !== undefined && !UTC_RE.test(n.started)) { return null; }
+    if (n.ended !== undefined && !UTC_RE.test(n.ended)) { return null; }
+    if (isRecent) {
+      if (!isCount(n.exit_code) || n.exit_code > 255) { return null; }
+      if (n.signal !== undefined && (!isCount(n.signal) || n.signal > 64)) {
+        return null;
+      }
+    }
+    // Rebuild from validated primitives; the received object is discarded.
+    return {
+      id: n.id,
+      task: n.task === undefined ? null : n.task,
+      name: n.name,
+      name_note: n.name_note === undefined ? null : n.name_note,
+      kind: n.kind,
+      state: n.state,
+      elapsed: n.elapsed === undefined ? null : n.elapsed,
+      partition: n.partition === undefined ? null : n.partition,
+      nodes: n.nodes === undefined ? null : n.nodes,
+      reason: n.reason === undefined ? null : n.reason,
+      submitted: n.submitted === undefined ? null : n.submitted,
+      started: n.started === undefined ? null : n.started,
+      ended: n.ended === undefined ? null : n.ended,
+      exit_code: n.exit_code === undefined ? null : n.exit_code,
+      signal: n.signal === undefined ? null : n.signal
+    };
+  }
+
+  function validateAccount(a) {
+    if (!isObj(a) || !sameKeySet(a, ACCOUNT_KEYS)) { return null; }
+    if (!isCount(a.window_hours) || a.window_hours < 1) { return null; }
+    if (!isObj(a.counts) || !sameKeySet(a.counts, ACCOUNT_STATES)) { return null; }
+    var i, total = 0;
+    for (i = 0; i < ACCOUNT_STATES.length; i++) {
+      if (!isCount(a.counts[ACCOUNT_STATES[i]])) { return null; }
+      total += a.counts[ACCOUNT_STATES[i]];
+    }
+    var ints = ["service_count", "active_omitted", "active_dropped", "recent_omitted",
+                "recent_dropped"];
+    for (i = 0; i < ints.length; i++) {
+      if (!isCount(a[ints[i]])) { return null; }
+    }
+    if (!Array.isArray(a.active) || a.active.length > MAX_ACTIVE) { return null; }
+    if (!Array.isArray(a.recent) || a.recent.length > MAX_RECENT) { return null; }
+    var active = [], recent = [], row;
+    for (i = 0; i < a.active.length; i++) {
+      row = validateRow(a.active[i], ACTIVE_KEYS, ACTIVE_REQUIRED, false);
+      if (row === null) { return null; }
+      active.push(row);
+    }
+    for (i = 0; i < a.recent.length; i++) {
+      row = validateRow(a.recent[i], RECENT_KEYS, RECENT_REQUIRED, true);
+      if (row === null) { return null; }
+      recent.push(row);
+    }
+    // The truncation invariant, re-derived client-side: a capped list that did not
+    // declare its cap is a contract violation, not a shorter page.
+    if (total !== active.length + a.active_omitted) { return null; }
+    if (a.service_count > total) { return null; }
+    // Identity is unique within each list, and a job that is CURRENT is never also
+    // listed as recently finished. Duplicated identity is how a census double-counts.
+    var seen = {}, ident;
+    for (i = 0; i < active.length; i++) {
+      ident = active[i].id + "/" + active[i].task;
+      if (seen[ident]) { return null; }
+      seen[ident] = 1;
+    }
+    for (i = 0; i < recent.length; i++) {
+      ident = recent[i].id + "/" + recent[i].task;
+      if (seen[ident]) { return null; }
+      seen[ident] = 1;
+    }
+    return {
+      window_hours: a.window_hours, counts: a.counts,
+      service_count: a.service_count,
+      active: active, active_omitted: a.active_omitted,
+      active_dropped: a.active_dropped,
+      recent: recent, recent_omitted: a.recent_omitted,
+      recent_dropped: a.recent_dropped
+    };
+  }
+
+  function validateCampaign(c) {
+    if (!isObj(c) || !keysWithin(c, CAMPAIGN_KEYS, CAMPAIGN_REQUIRED)) { return null; }
+    if (!has(DISPOSITIONS, c.disposition)) { return null; }
+    if (!has(PHASES, c.phase)) { return null; }
+    if (!has(CAMPAIGN_MESSAGES, c.message)) { return null; }
+    if (c.run !== undefined && !RUN_RE.test(c.run)) { return null; }
+    if (!isObj(c.state_counts) || !sameKeySet(c.state_counts, STATES)) { return null; }
+    var i, total = 0;
+    for (i = 0; i < STATES.length; i++) {
+      if (!isCount(c.state_counts[STATES[i]])) { return null; }
+      total += c.state_counts[STATES[i]];
+    }
+    if (!Array.isArray(c.nodes) || c.nodes.length > MAX_NODES) { return null; }
+    var nodes = [];
+    for (i = 0; i < c.nodes.length; i++) {
+      var n = c.nodes[i];
+      if (!isObj(n)) { return null; }
       var nkeys = Object.keys(n);
       for (var k = 0; k < nkeys.length; k++) {
         if (["label", "state", "elapsed", "reason"].indexOf(nkeys[k]) === -1) {
@@ -270,27 +482,68 @@
       }
       if (!has(LABELS, n.label) || !has(STATES, n.state)) { return null; }
       if (n.elapsed !== undefined && !ELAPSED_RE.test(n.elapsed)) { return null; }
-      if (n.reason !== undefined && !has(REASONS, n.reason)) { return null; }
-      // Rebuild the node from validated primitives; the received object is discarded.
-      clean.push({
-        label: n.label,
-        state: n.state,
+      if (n.reason !== undefined) {
+        if (!has(REASONS, n.reason) || n.state !== "pending") { return null; }
+      }
+      nodes.push({
+        label: n.label, state: n.state,
         elapsed: n.elapsed === undefined ? null : n.elapsed,
         reason: n.reason === undefined ? null : n.reason
       });
     }
+    if (total !== nodes.length) { return null; }
+    if (!nodes.length && c.disposition !== "unknown") { return null; }
+    return {
+      disposition: c.disposition, run: c.run === undefined ? null : c.run,
+      phase: c.phase, message: c.message, counts: c.state_counts, nodes: nodes
+    };
+  }
 
-    var total = 0;
-    for (var m = 0; m < STATES.length; m++) { total += counts[STATES[m]]; }
-    if (total !== clean.length) { return null; }
+  function validate(d) {
+    if (!isObj(d)) { return null; }
+    // Exact key set, not merely "the required keys are present". An extra top-level
+    // field is exactly the shape a leak takes, so it refuses the whole document.
+    if (!sameKeySet(d, TOP_KEYS)) { return null; }
+    if (d.schema_version !== SCHEMA_VERSION) { return null; }
+    if (!UTC_RE.test(d.generated_at)) { return null; }
+    if (!has(HEALTH, d.collector_health)) { return null; }
+    if (!has(TOP_MESSAGES, d.message)) { return null; }
+
+    if (!isObj(d.sources) || !sameKeySet(d.sources, SOURCE_NAMES)) { return null; }
+    var sources = {};
+    for (var i = 0; i < SOURCE_NAMES.length; i++) {
+      var s = d.sources[SOURCE_NAMES[i]];
+      if (!isObj(s) || !keysWithin(s, ["status", "observed_at"], ["status"])) {
+        return null;
+      }
+      if (!has(SOURCE_STATUS, s.status)) { return null; }
+      if (s.observed_at !== undefined) {
+        if (!UTC_RE.test(s.observed_at) || s.status !== "ok") { return null; }
+      } else if (s.status === "ok") { return null; }
+      sources[SOURCE_NAMES[i]] = {
+        status: s.status,
+        observed_at: s.observed_at === undefined ? null : s.observed_at
+      };
+    }
+
+    var account = validateAccount(d.account);
+    if (account === null) { return null; }
+    var campaign = validateCampaign(d.campaign);
+    if (campaign === null) { return null; }
+
+    // An unavailable source may never carry rows: that is the "no cached queue data"
+    // rule, checked again here rather than trusted from the producer.
+    if (sources.queue.status !== "ok" && account.active.length) { return null; }
+    if (sources.recent.status !== "ok" && account.recent.length) { return null; }
+    if (sources.campaign.status !== "ok" && campaign.nodes.length) { return null; }
 
     return {
       generated_at: d.generated_at,
       collector_health: d.collector_health,
-      phase: d.phase,
       message: d.message,
-      counts: counts,
-      nodes: clean
+      sources: sources,
+      account: account,
+      campaign: campaign
     };
   }
 
@@ -315,44 +568,216 @@
 
   var last = null;
 
-  function renderCounts(counts) {
+  function renderCounts(a) {
     var box = $("counts");
     clear(box);
-    var order = ["completed", "running", "pending", "failed", "cancelled"];
+    var order = ["running", "completing", "pending", "other"];
     for (var i = 0; i < order.length; i++) {
+      if (order[i] === "other" && !a.counts.other) { continue; }
+      if (order[i] === "completing" && !a.counts.completing) { continue; }
       var pill = el("div", ["pill", order[i]]);
-      pill.appendChild(el("div", ["n"], counts[order[i]]));
-      pill.appendChild(el("div", ["l"], order[i].slice(0, 4)));
+      pill.appendChild(el("div", ["n"], a.counts[order[i]]));
+      pill.appendChild(el("div", ["l"], order[i]));
       box.appendChild(pill);
+    }
+    var rp = el("div", ["pill", "completed"]);
+    rp.appendChild(el("div", ["n"], a.recent.length));
+    rp.appendChild(el("div", ["l"], "recent"));
+    box.appendChild(rp);
+  }
+
+  function jobIdText(row) {
+    return row.task === null ? row.id : row.id + "_" + row.task;
+  }
+
+  function rowDetail(row, isRecent) {
+    var bits = [];
+    if (row.partition) { bits.push(row.partition); }
+    if (row.nodes !== null) {
+      bits.push(row.nodes + (row.nodes === 1 ? " node" : " nodes"));
+    }
+    if (isRecent) {
+      bits.push("exit " + row.exit_code + (row.signal ? "/sig " + row.signal : ""));
+      if (row.ended) { bits.push("ended " + row.ended); }
+    } else if (row.started) {
+      bits.push("started " + row.started);
+    } else if (row.submitted) {
+      bits.push("submitted " + row.submitted);
+    }
+    if (row.name_note) { bits.push("name " + row.name_note); }
+    return bits.join(" · ");
+  }
+
+  function makeRow(row, isRecent) {
+    var node = el("div", ["row"]);
+    node.appendChild(el("span", ["dot", row.state]));
+    node.appendChild(el("span", ["idc"], jobIdText(row)));
+    var mid = el("span", ["mid"], row.name);
+    var detail = rowDetail(row, isRecent);
+    if (detail) { mid.appendChild(el("span", ["why"], detail)); }
+    if (row.reason) {
+      mid.appendChild(el("span", ["why"], "waiting: " + row.reason));
+    }
+    node.appendChild(mid);
+    node.appendChild(el("span", ["el"], row.elapsed || ""));
+    node.appendChild(el("span", ["st", row.state], row.state));
+    return node;
+  }
+
+  // Grouping is a READABILITY device only: it groups by sanitized name, states the
+  // exact per-state counts of the group, and still renders every individual job row
+  // beneath it. Nothing is hidden by grouping.
+  function groupRows(rows) {
+    var order = [], byName = {};
+    for (var i = 0; i < rows.length; i++) {
+      var key = rows[i].kind + " " + rows[i].name;
+      if (!byName[key]) {
+        byName[key] = { name: rows[i].name, kind: rows[i].kind, rows: [] };
+        order.push(key);
+      }
+      byName[key].rows.push(rows[i]);
+    }
+    var out = [];
+    for (var j = 0; j < order.length; j++) { out.push(byName[order[j]]); }
+    return out;
+  }
+
+  function stateSummary(rows) {
+    var counts = {}, order = [], i;
+    for (i = 0; i < rows.length; i++) {
+      if (counts[rows[i].state] === undefined) {
+        counts[rows[i].state] = 0;
+        order.push(rows[i].state);
+      }
+      counts[rows[i].state] += 1;
+    }
+    var bits = [];
+    for (i = 0; i < order.length; i++) {
+      bits.push(counts[order[i]] + " " + order[i]);
+    }
+    return bits.join(", ");
+  }
+
+  function renderJobs(boxId, rows, omitted, dropped, isRecent, emptyText) {
+    var box = $(boxId);
+    clear(box);
+    if (!rows.length) {
+      var section = el("section", ["group"]);
+      section.appendChild(el("div", ["empty"], emptyText));
+      box.appendChild(section);
+    } else {
+      var groups = groupRows(rows);
+      for (var g = 0; g < groups.length; g++) {
+        var grp = groups[g];
+        var sec = el("section", ["group"]);
+        var head = el("div", ["ghead"]);
+        head.appendChild(el("span", ["gname"], grp.name));
+        if (grp.rows.length > 1) {
+          head.appendChild(el("span", ["gmeta"],
+                              grp.rows.length + " jobs · " + stateSummary(grp.rows)));
+        }
+        if (grp.kind === "service") {
+          head.appendChild(el("span", ["gtag"], "this dashboard"));
+        }
+        sec.appendChild(head);
+        for (var r = 0; r < grp.rows.length; r++) {
+          sec.appendChild(makeRow(grp.rows[r], isRecent));
+        }
+        box.appendChild(sec);
+      }
+    }
+    if (omitted || dropped) {
+      var note = el("div", ["meta"]);
+      var msg = [];
+      if (omitted) { msg.push(omitted + " further job(s) not listed (row cap)"); }
+      if (dropped) {
+        msg.push(dropped + " scheduler line(s) could not be read and are not shown");
+      }
+      note.textContent = msg.join(". ") + ".";
+      box.appendChild(note);
     }
   }
 
-  function renderNodes(nodes) {
-    var box = $("nodes");
+  function renderCampaign(c, source) {
+    var box = $("campaign");
     clear(box);
-    if (!nodes.length) { return; }
-    var section = el("section", ["group"]);
-    for (var i = 0; i < nodes.length; i++) {
-      var n = nodes[i];
+    var wrapper = el("div", ["camp"]);
+    var head = el("div", ["chead"]);
+    var title = el("div", ["ctitle"], "BLP-51 certification");
+    head.appendChild(title);
+
+    var meta = el("div", ["cmeta"]);
+    meta.appendChild(el("span", ["badge", c.disposition], c.disposition));
+    var bits = [];
+    if (c.run) { bits.push("attempt " + c.run); }
+    bits.push(c.message);
+    if (c.nodes.length) { bits.push("phase " + c.phase); }
+    if (source.status === "ok" && source.observed_at) {
+      bits.push("observed " + source.observed_at);
+    } else {
+      bits.push("source unavailable this cycle");
+    }
+    meta.appendChild(el("span", null, bits.join(" · ")));
+    head.appendChild(meta);
+    wrapper.appendChild(head);
+
+    if (!c.nodes.length) {
+      wrapper.appendChild(el("div", ["empty"],
+        "No campaign board this cycle. This panel is a secondary view; it never " +
+        "determines the account status above."));
+      box.appendChild(wrapper);
+      return;
+    }
+
+    var det = el("details");
+    var sum = el("summary", null,
+                 c.counts.completed + " completed · " + c.counts.running + " running · " +
+                 c.counts.pending + " pending · " + c.counts.failed + " failed · " +
+                 c.counts.cancelled + " cancelled — show the " + c.nodes.length +
+                 " tracked steps");
+    det.appendChild(sum);
+    for (var i = 0; i < c.nodes.length; i++) {
+      var n = c.nodes[i];
       var row = el("div", ["node"]);
       row.appendChild(el("span", ["dot", n.state]));
-
       var nm = el("span", ["nm"], n.label);
       if (n.reason) { nm.appendChild(el("span", ["why"], "queued: " + n.reason)); }
       row.appendChild(nm);
-
       row.appendChild(el("span", ["el"], n.elapsed || ""));
       row.appendChild(el("span", ["st", n.state], n.state));
-      section.appendChild(row);
+      det.appendChild(row);
     }
-    box.appendChild(section);
+    wrapper.appendChild(det);
+    box.appendChild(wrapper);
+  }
+
+  function renderSources(sources) {
+    var box = $("sources");
+    clear(box);
+    var names = [["queue", "current queue"], ["recent", "recent jobs"],
+                 ["campaign", "campaign root"]];
+    for (var i = 0; i < names.length; i++) {
+      var s = sources[names[i][0]];
+      var row = el("div", ["srcrow"]);
+      row.appendChild(el("span", ["sname"], names[i][1]));
+      if (s.status === "ok") {
+        row.appendChild(el("span", ["sok"], "observed " + s.observed_at));
+      } else {
+        row.appendChild(el("span", ["sbad"], "UNAVAILABLE this cycle"));
+      }
+      box.appendChild(row);
+    }
+    box.appendChild(el("div", ["srcrow"], ""));
+    box.appendChild(el("div", null,
+      "Each source is observed independently every cycle and nothing is cached: an " +
+      "unavailable source shows no rows at all rather than old ones."));
   }
 
   function nowClass(message) {
     if (message === "Running") { return "running"; }
-    if (message === "Complete after PI release") { return "complete"; }
-    if (message === "Review required") { return "review"; }
-    return "queued";
+    if (message === "Queued") { return "queued"; }
+    if (message === "Status unavailable") { return "unavailable"; }
+    return "idle";
   }
 
   function tickFreshness() {
@@ -379,30 +804,46 @@
                       ". Expected every 2-5 minutes.";
     } else if (last.collector_health === "error") {
       b.classList.add("dead", "show");
-      b.textContent = "COLLECTOR ERROR — the campaign state could not be " +
-                      "determined. Nothing below is a status claim.";
+      b.textContent = "COLLECTOR ERROR — account activity could not be determined. " +
+                      "Nothing below is a status claim.";
     } else if (last.collector_health === "offline") {
       b.classList.add("dead", "show");
-      b.textContent = "SCHEDULER UNREACHABLE — no job states are knowable.";
-    } else if (last.collector_health === "stale") {
-      // The current collector never emits `stale`: a partially observed board is
-      // refused outright rather than published with filler states. The value is part
-      // of the published vocabulary, so the page keeps handling it defensively -- if
-      // some future producer ever sends one, it warns rather than rendering quietly.
+      b.textContent = "SCHEDULER UNREACHABLE — the current queue could not be read, " +
+                      "so no job below is a claim about right now.";
+    } else if (last.collector_health === "degraded") {
       b.classList.add("warn", "show");
-      b.textContent = "PARTIAL — this view is incomplete and some rows may be " +
-                      "unconfirmed. Do not read it as a status claim.";
+      b.textContent = "PARTIAL — the queue is fresh, but at least one other source " +
+                      "was unavailable this cycle. See Sources below.";
     }
   }
 
   function render(d) {
     last = d;
+    var a = d.account;
     $("now").className = "now " + nowClass(d.message);
     $("now-v").textContent = d.message;
-    $("now-sub").textContent = "phase: " + d.phase +
-                               " · collector: " + d.collector_health;
-    renderCounts(d.counts);
-    renderNodes(d.nodes);
+    var sub = [];
+    sub.push(a.counts.running + " running");
+    sub.push(a.counts.pending + " pending");
+    if (a.service_count) {
+      sub.push(a.service_count + " of them this dashboard's own");
+    }
+    $("now-sub").textContent = sub.join(" · ") + " · collector: " + d.collector_health;
+
+    renderCounts(a);
+    $("recent-h").textContent = "Recently finished";
+    var note = el("span", ["h2note"], " (last " + a.window_hours + "h)");
+    $("recent-h").appendChild(note);
+    renderJobs("active", a.active, a.active_omitted, a.active_dropped, false,
+               d.sources.queue.status === "ok"
+                 ? "No jobs in the queue for this account."
+                 : "The current queue could not be read this cycle.");
+    renderJobs("recent", a.recent, a.recent_omitted, a.recent_dropped, true,
+               d.sources.recent.status === "ok"
+                 ? "Nothing finished in the window."
+                 : "Recent accounting could not be read this cycle.");
+    renderCampaign(d.campaign, d.sources.campaign);
+    renderSources(d.sources);
     tickFreshness();
   }
 
@@ -412,10 +853,13 @@
     b.classList.add("dead", "show");
     b.textContent = "CONTRACT VIOLATION — the published document does not match " +
                     "the expected schema and was not rendered.";
-    clear($("nodes"));
+    clear($("active"));
+    clear($("recent"));
+    clear($("campaign"));
     clear($("counts"));
-    $("now").className = "now review";
-    $("now-v").textContent = "Review required";
+    clear($("sources"));
+    $("now").className = "now unavailable";
+    $("now-v").textContent = "Status unavailable";
     $("now-sub").textContent = "";
   }
 

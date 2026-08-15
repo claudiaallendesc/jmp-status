@@ -1,151 +1,632 @@
 {
-  "collector_health": "online",
-  "generated_at": "2026-08-15T01:18:12Z",
-  "message": "Review required",
-  "nodes": [
-    {
-      "elapsed": "1m 56s",
-      "label": "Build",
-      "state": "completed"
+  "account": {
+    "active": [
+      {
+        "elapsed": "8s",
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "nodes": 1,
+        "partition": "service",
+        "started": "2026-08-15T01:21:01Z",
+        "state": "running",
+        "submitted": "2026-08-15T01:18:17Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39071134",
+        "kind": "research",
+        "name": "blp47_gates_a3",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-15T01:16:11Z"
+      }
+    ],
+    "active_dropped": 0,
+    "active_omitted": 0,
+    "counts": {
+      "cancelled": 0,
+      "completed": 0,
+      "completing": 0,
+      "failed": 0,
+      "other": 0,
+      "pending": 1,
+      "running": 1
     },
-    {
-      "elapsed": "5s",
-      "label": "Promote",
-      "state": "failed"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Solver check 1",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Solver check 2",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Solver check 3",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Solver check 4",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Solver check 5",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Solver check 6W",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Solver check 6S",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Fail-closed check",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Preflight A1",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Preflight A3",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Preflight A4",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Preflight A5",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Timing merge",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Worst stratum",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "K95",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Gate publish",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Gate apply",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Canary barrier",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Canary A1",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Canary A3",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Canary A4",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Canary A5",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Canary C2",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Write-freeze",
-      "state": "cancelled"
-    },
-    {
-      "elapsed": "0s",
-      "label": "Capture",
-      "state": "cancelled"
+    "recent": [
+      {
+        "elapsed": "12m 38s",
+        "ended": "2026-08-15T00:33:30Z",
+        "exit_code": 0,
+        "id": "39060024",
+        "kind": "research",
+        "name": "blp47_r1b",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "11s",
+        "ended": "2026-08-15T00:19:36Z",
+        "exit_code": 0,
+        "id": "39060088",
+        "kind": "research",
+        "name": "blp51_r22_probe",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "3m 41s",
+        "ended": "2026-08-15T00:13:17Z",
+        "exit_code": 3,
+        "id": "39058908",
+        "kind": "research",
+        "name": "blp47_r1b",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "12s",
+        "ended": "2026-08-14T23:08:54Z",
+        "exit_code": 0,
+        "id": "39046336",
+        "kind": "research",
+        "name": "r21_f2_probe",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "59s",
+        "ended": "2026-08-14T23:05:39Z",
+        "exit_code": 0,
+        "id": "39046274",
+        "kind": "research",
+        "name": "r21_f1_race",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "54s",
+        "ended": "2026-08-14T23:05:34Z",
+        "exit_code": 0,
+        "id": "39046860",
+        "kind": "research",
+        "name": "r21_f1_race_n",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "1m 43s",
+        "ended": "2026-08-14T22:16:25Z",
+        "exit_code": 0,
+        "id": "39038363",
+        "kind": "research",
+        "name": "blp47_freshcold_fix",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "5s",
+        "ended": "2026-08-14T22:15:20Z",
+        "exit_code": 95,
+        "id": "39034549",
+        "kind": "research",
+        "name": "blp51_k95sbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "4s",
+        "ended": "2026-08-14T22:14:46Z",
+        "exit_code": 0,
+        "id": "39034547",
+        "kind": "research",
+        "name": "blp51_op",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "4s",
+        "ended": "2026-08-14T22:14:46Z",
+        "exit_code": 0,
+        "id": "39034546",
+        "kind": "research",
+        "name": "blp51_op",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "6m 38s",
+        "ended": "2026-08-14T22:14:32Z",
+        "exit_code": 0,
+        "id": "39034545",
+        "kind": "research",
+        "name": "blp51_preflight_pairsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "6m 50s",
+        "ended": "2026-08-14T22:14:30Z",
+        "exit_code": 0,
+        "id": "39034543",
+        "kind": "research",
+        "name": "blp51_preflight_pairsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "5m 26s",
+        "ended": "2026-08-14T22:07:49Z",
+        "exit_code": 0,
+        "id": "39034542",
+        "kind": "research",
+        "name": "blp51_preflight_pairsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "2m 53s",
+        "ended": "2026-08-14T22:06:12Z",
+        "exit_code": 3,
+        "id": "39037802",
+        "kind": "research",
+        "name": "blp47_gates_fix3",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "4m 34s",
+        "ended": "2026-08-14T22:02:16Z",
+        "exit_code": 0,
+        "id": "39034541",
+        "kind": "research",
+        "name": "blp51_preflight_pairsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "1m 57s",
+        "ended": "2026-08-14T22:01:42Z",
+        "exit_code": 3,
+        "id": "39036459",
+        "kind": "research",
+        "name": "blp47_gates_fix2",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "13m 02s",
+        "ended": "2026-08-14T21:59:28Z",
+        "exit_code": 0,
+        "id": "39034537",
+        "kind": "research",
+        "name": "blp51_mtsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "1m 40s",
+        "ended": "2026-08-14T21:59:22Z",
+        "exit_code": 0,
+        "id": "39036458",
+        "kind": "research",
+        "name": "blp47f_post_on",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "1m 46s",
+        "ended": "2026-08-14T21:57:35Z",
+        "exit_code": 0,
+        "id": "39036457",
+        "kind": "research",
+        "name": "blp47f_post",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "6m 58s",
+        "ended": "2026-08-14T21:56:56Z",
+        "exit_code": 0,
+        "id": "39034538",
+        "kind": "research",
+        "name": "blp51_mtsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "10m 13s",
+        "ended": "2026-08-14T21:56:39Z",
+        "exit_code": 0,
+        "id": "39034539",
+        "kind": "research",
+        "name": "blp51_mtsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "9m 38s",
+        "ended": "2026-08-14T21:56:04Z",
+        "exit_code": 0,
+        "id": "39034535",
+        "kind": "research",
+        "name": "blp51_mtsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "9m 13s",
+        "ended": "2026-08-14T21:55:39Z",
+        "exit_code": 1,
+        "id": "39034540",
+        "kind": "research",
+        "name": "blp51_mtsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "5m 40s",
+        "ended": "2026-08-14T21:55:38Z",
+        "exit_code": 0,
+        "id": "39034536",
+        "kind": "research",
+        "name": "blp51_mtsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "8m 58s",
+        "ended": "2026-08-14T21:55:24Z",
+        "exit_code": 0,
+        "id": "39034534",
+        "kind": "research",
+        "name": "blp51_mtsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "8m 52s",
+        "ended": "2026-08-14T21:55:18Z",
+        "exit_code": 0,
+        "id": "39034533",
+        "kind": "research",
+        "name": "blp51_mtsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "3m 06s",
+        "ended": "2026-08-14T21:53:04Z",
+        "exit_code": 3,
+        "id": "39034834",
+        "kind": "research",
+        "name": "blp47_gates_fix",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "2m 19s",
+        "ended": "2026-08-14T21:52:17Z",
+        "exit_code": 0,
+        "id": "39034859",
+        "kind": "research",
+        "name": "blp47f_mid_on",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "2m 08s",
+        "ended": "2026-08-14T21:52:06Z",
+        "exit_code": 0,
+        "id": "39034856",
+        "kind": "research",
+        "name": "blp47f_pre_b",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "2m 00s",
+        "ended": "2026-08-14T21:51:58Z",
+        "exit_code": 0,
+        "id": "39034860",
+        "kind": "research",
+        "name": "blp47f_pre_on",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "1m 42s",
+        "ended": "2026-08-14T21:51:40Z",
+        "exit_code": 0,
+        "id": "39034857",
+        "kind": "research",
+        "name": "blp47f_post",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "2m 22s",
+        "ended": "2026-08-14T21:48:48Z",
+        "exit_code": 0,
+        "id": "39034853",
+        "kind": "research",
+        "name": "blp47f_pre_a",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "10s",
+        "ended": "2026-08-14T21:44:36Z",
+        "exit_code": 0,
+        "id": "39034532",
+        "kind": "research",
+        "name": "blp51_op",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "2m 48s",
+        "ended": "2026-08-14T21:42:17Z",
+        "exit_code": 0,
+        "id": "39033081",
+        "kind": "research",
+        "name": "blp51_build",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "3m 00s",
+        "ended": "2026-08-14T19:46:01Z",
+        "exit_code": 93,
+        "id": "39011721",
+        "kind": "research",
+        "name": "blp51_preflight_pairsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "3m 18s",
+        "ended": "2026-08-14T19:41:22Z",
+        "exit_code": 93,
+        "id": "39011720",
+        "kind": "research",
+        "name": "blp51_preflight_pairsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "2m 08s",
+        "ended": "2026-08-14T19:37:42Z",
+        "exit_code": 93,
+        "id": "39011718",
+        "kind": "research",
+        "name": "blp51_preflight_pairsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "2m 29s",
+        "ended": "2026-08-14T19:35:07Z",
+        "exit_code": 93,
+        "id": "39011719",
+        "kind": "research",
+        "name": "blp51_preflight_pairsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "19m 07s",
+        "ended": "2026-08-14T19:31:08Z",
+        "exit_code": 0,
+        "id": "39011714",
+        "kind": "research",
+        "name": "blp51_mtsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "17m 07s",
+        "ended": "2026-08-14T19:29:08Z",
+        "exit_code": 1,
+        "id": "39011715",
+        "kind": "research",
+        "name": "blp51_mtsbatch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "failed"
+      }
+    ],
+    "recent_dropped": 0,
+    "recent_omitted": 30,
+    "service_count": 1,
+    "window_hours": 12
+  },
+  "campaign": {
+    "disposition": "historical",
+    "message": "Review required",
+    "nodes": [
+      {
+        "elapsed": "1m 56s",
+        "label": "Build",
+        "state": "completed"
+      },
+      {
+        "elapsed": "5s",
+        "label": "Promote",
+        "state": "failed"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Solver check 1",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Solver check 2",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Solver check 3",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Solver check 4",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Solver check 5",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Solver check 6W",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Solver check 6S",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Fail-closed check",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Preflight A1",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Preflight A3",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Preflight A4",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Preflight A5",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Timing merge",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Worst stratum",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "K95",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Gate publish",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Gate apply",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Canary barrier",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Canary A1",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Canary A3",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Canary A4",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Canary A5",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Canary C2",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Write-freeze",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "label": "Capture",
+        "state": "cancelled"
+      }
+    ],
+    "phase": "build",
+    "run": "r6",
+    "state_counts": {
+      "cancelled": 25,
+      "completed": 1,
+      "failed": 1,
+      "pending": 0,
+      "running": 0
     }
-  ],
-  "phase": "build",
-  "schema_version": 2,
-  "state_counts": {
-    "cancelled": 25,
-    "completed": 1,
-    "failed": 1,
-    "pending": 0,
-    "running": 0
+  },
+  "collector_health": "online",
+  "generated_at": "2026-08-15T01:21:09Z",
+  "message": "Queued",
+  "schema_version": 3,
+  "sources": {
+    "campaign": {
+      "observed_at": "2026-08-15T01:21:09Z",
+      "status": "ok"
+    },
+    "queue": {
+      "observed_at": "2026-08-15T01:21:09Z",
+      "status": "ok"
+    },
+    "recent": {
+      "observed_at": "2026-08-15T01:21:09Z",
+      "status": "ok"
+    }
   }
 }
