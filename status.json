@@ -2,37 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "1m 48s",
-        "id": "39195464",
-        "kind": "research",
-        "name": "blp51_build",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-15T19:01:27Z",
-        "state": "running",
-        "submitted": "2026-08-15T19:00:45Z"
-      },
-      {
-        "elapsed": "5s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T19:03:10Z",
+        "started": "2026-08-15T19:06:09Z",
         "state": "running",
-        "submitted": "2026-08-15T19:00:26Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39195465",
-        "kind": "research",
-        "name": "promotion_verify",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-15T19:00:48Z"
+        "submitted": "2026-08-15T19:03:20Z"
       },
       {
         "elapsed": "0s",
@@ -41,7 +19,7 @@
         "name": "k95",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "dependency",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-15T19:00:51Z"
       }
@@ -54,10 +32,30 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 2,
-      "running": 2
+      "pending": 1,
+      "running": 1
     },
     "recent": [
+      {
+        "elapsed": "10s",
+        "ended": "2026-08-15T19:04:30Z",
+        "exit_code": 0,
+        "id": "39195465",
+        "kind": "research",
+        "name": "promotion_verify",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "2m 13s",
+        "ended": "2026-08-15T19:03:40Z",
+        "exit_code": 0,
+        "id": "39195464",
+        "kind": "research",
+        "name": "blp51_build",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "11m 40s",
         "ended": "2026-08-15T17:05:10Z",
@@ -255,20 +253,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T19:03:16Z",
-  "message": "Running",
+  "generated_at": "2026-08-15T19:06:11Z",
+  "message": "Queued",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T19:03:16Z",
+      "observed_at": "2026-08-15T19:06:11Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T19:03:16Z",
+      "observed_at": "2026-08-15T19:06:11Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T19:03:16Z",
+      "observed_at": "2026-08-15T19:06:11Z",
       "status": "ok"
     }
   }
