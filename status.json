@@ -2,26 +2,95 @@
   "account": {
     "active": [
       {
-        "elapsed": "1m 44s",
-        "id": "39074865",
-        "kind": "research",
-        "name": "blp51_build",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-15T01:43:30Z",
-        "state": "running",
-        "submitted": "2026-08-15T01:42:54Z"
-      },
-      {
-        "elapsed": "9s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T01:45:05Z",
+        "started": "2026-08-15T01:48:10Z",
         "state": "running",
-        "submitted": "2026-08-15T01:42:22Z"
+        "submitted": "2026-08-15T01:45:30Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39075373",
+        "kind": "research",
+        "name": "MT1",
+        "nodes": 1,
+        "partition": "multiple",
+        "state": "pending",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39075375",
+        "kind": "research",
+        "name": "MT2",
+        "nodes": 1,
+        "partition": "multiple",
+        "state": "pending",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39075376",
+        "kind": "research",
+        "name": "MT3",
+        "nodes": 1,
+        "partition": "multiple",
+        "state": "pending",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39075377",
+        "kind": "research",
+        "name": "MT4",
+        "nodes": 1,
+        "partition": "multiple",
+        "state": "pending",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39075379",
+        "kind": "research",
+        "name": "MT5",
+        "nodes": 1,
+        "partition": "multiple",
+        "state": "pending",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39075380",
+        "kind": "research",
+        "name": "MT6W",
+        "nodes": 1,
+        "partition": "multiple",
+        "state": "pending",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39075381",
+        "kind": "research",
+        "name": "MT6S",
+        "nodes": 1,
+        "partition": "multiple",
+        "state": "pending",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39075383",
+        "kind": "research",
+        "name": "MFAILCLOSED",
+        "nodes": 1,
+        "partition": "multiple",
+        "state": "pending",
+        "submitted": "2026-08-15T01:46:22Z"
       }
     ],
     "active_dropped": 0,
@@ -32,10 +101,30 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 0,
-      "running": 2
+      "pending": 8,
+      "running": 1
     },
     "recent": [
+      {
+        "elapsed": "15s",
+        "ended": "2026-08-15T01:47:34Z",
+        "exit_code": 0,
+        "id": "39075372",
+        "kind": "research",
+        "name": "promotion_verify",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "2m 23s",
+        "ended": "2026-08-15T01:45:53Z",
+        "exit_code": 0,
+        "id": "39074865",
+        "kind": "research",
+        "name": "blp51_build",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "7m 04s",
         "ended": "2026-08-15T01:28:27Z",
@@ -431,32 +520,10 @@
         "name_note": "sanitized",
         "partition": "gsb",
         "state": "failed"
-      },
-      {
-        "elapsed": "2m 29s",
-        "ended": "2026-08-14T19:35:07Z",
-        "exit_code": 93,
-        "id": "39011719",
-        "kind": "research",
-        "name": "blp51_preflight_pairsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "failed"
-      },
-      {
-        "elapsed": "19m 07s",
-        "ended": "2026-08-14T19:31:08Z",
-        "exit_code": 0,
-        "id": "39011714",
-        "kind": "research",
-        "name": "blp51_mtsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
-    "recent_omitted": 31,
+    "recent_omitted": 33,
     "service_count": 1,
     "window_hours": 12
   },
@@ -611,20 +678,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T01:45:17Z",
-  "message": "Running",
+  "generated_at": "2026-08-15T01:48:12Z",
+  "message": "Queued",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T01:45:17Z",
+      "observed_at": "2026-08-15T01:48:12Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T01:45:17Z",
+      "observed_at": "2026-08-15T01:48:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T01:45:17Z",
+      "observed_at": "2026-08-15T01:48:12Z",
       "status": "ok"
     }
   }
