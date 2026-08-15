@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "54s",
+        "elapsed": "3m 59s",
         "id": "39195467",
         "kind": "research",
         "name": "k95",
@@ -13,15 +13,15 @@
         "submitted": "2026-08-15T19:00:51Z"
       },
       {
-        "elapsed": "2s",
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T19:09:08Z",
+        "started": "2026-08-15T19:12:09Z",
         "state": "running",
-        "submitted": "2026-08-15T19:06:16Z"
+        "submitted": "2026-08-15T19:09:27Z"
       }
     ],
     "active_dropped": 0,
@@ -253,20 +253,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T19:09:10Z",
+  "generated_at": "2026-08-15T19:12:18Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T19:09:10Z",
+      "observed_at": "2026-08-15T19:12:18Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T19:09:10Z",
+      "observed_at": "2026-08-15T19:12:18Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T19:09:10Z",
+      "observed_at": "2026-08-15T19:12:18Z",
       "status": "ok"
     }
   }
