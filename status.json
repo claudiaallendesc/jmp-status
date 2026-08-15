@@ -2,26 +2,26 @@
   "account": {
     "active": [
       {
+        "elapsed": "54s",
+        "id": "39195467",
+        "kind": "research",
+        "name": "k95",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-15T19:08:16Z",
+        "state": "running",
+        "submitted": "2026-08-15T19:00:51Z"
+      },
+      {
         "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T19:06:09Z",
+        "started": "2026-08-15T19:09:08Z",
         "state": "running",
-        "submitted": "2026-08-15T19:03:20Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39195467",
-        "kind": "research",
-        "name": "k95",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-08-15T19:00:51Z"
+        "submitted": "2026-08-15T19:06:16Z"
       }
     ],
     "active_dropped": 0,
@@ -32,8 +32,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 1,
-      "running": 1
+      "pending": 0,
+      "running": 2
     },
     "recent": [
       {
@@ -253,20 +253,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T19:06:11Z",
-  "message": "Queued",
+  "generated_at": "2026-08-15T19:09:10Z",
+  "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T19:06:11Z",
+      "observed_at": "2026-08-15T19:09:10Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T19:06:11Z",
+      "observed_at": "2026-08-15T19:09:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T19:06:11Z",
+      "observed_at": "2026-08-15T19:09:10Z",
       "status": "ok"
     }
   }
