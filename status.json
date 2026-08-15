@@ -2,18 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "11m 37s",
-        "id": "39075373",
-        "kind": "research",
-        "name": "MT1",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-15T01:48:41Z",
-        "state": "running",
-        "submitted": "2026-08-15T01:46:22Z"
-      },
-      {
-        "elapsed": "11m 37s",
+        "elapsed": "14m 30s",
         "id": "39075375",
         "kind": "research",
         "name": "MT2",
@@ -24,7 +13,7 @@
         "submitted": "2026-08-15T01:46:22Z"
       },
       {
-        "elapsed": "11m 37s",
+        "elapsed": "14m 30s",
         "id": "39075379",
         "kind": "research",
         "name": "MT5",
@@ -35,18 +24,7 @@
         "submitted": "2026-08-15T01:46:22Z"
       },
       {
-        "elapsed": "11m 37s",
-        "id": "39075383",
-        "kind": "research",
-        "name": "MFAILCLOSED",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-15T01:48:41Z",
-        "state": "running",
-        "submitted": "2026-08-15T01:46:22Z"
-      },
-      {
-        "elapsed": "10m 21s",
+        "elapsed": "13m 14s",
         "id": "39075376",
         "kind": "research",
         "name": "MT3",
@@ -57,7 +35,7 @@
         "submitted": "2026-08-15T01:46:22Z"
       },
       {
-        "elapsed": "10m 21s",
+        "elapsed": "13m 14s",
         "id": "39075377",
         "kind": "research",
         "name": "MT4",
@@ -68,7 +46,7 @@
         "submitted": "2026-08-15T01:46:22Z"
       },
       {
-        "elapsed": "10m 21s",
+        "elapsed": "13m 14s",
         "id": "39075380",
         "kind": "research",
         "name": "MT6W",
@@ -79,7 +57,7 @@
         "submitted": "2026-08-15T01:46:22Z"
       },
       {
-        "elapsed": "10m 21s",
+        "elapsed": "13m 14s",
         "id": "39075381",
         "kind": "research",
         "name": "MT6S",
@@ -90,15 +68,15 @@
         "submitted": "2026-08-15T01:46:22Z"
       },
       {
-        "elapsed": "8s",
+        "elapsed": "11s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T02:00:10Z",
+        "started": "2026-08-15T02:03:00Z",
         "state": "running",
-        "submitted": "2026-08-15T01:57:21Z"
+        "submitted": "2026-08-15T02:00:26Z"
       }
     ],
     "active_dropped": 0,
@@ -110,9 +88,29 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 9
+      "running": 7
     },
     "recent": [
+      {
+        "elapsed": "13m 30s",
+        "ended": "2026-08-15T02:02:11Z",
+        "exit_code": 0,
+        "id": "39075383",
+        "kind": "research",
+        "name": "MFAILCLOSED",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "12m 56s",
+        "ended": "2026-08-15T02:01:37Z",
+        "exit_code": 0,
+        "id": "39075373",
+        "kind": "research",
+        "name": "MT1",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "15s",
         "ended": "2026-08-15T01:47:34Z",
@@ -506,32 +504,10 @@
         "name_note": "sanitized",
         "partition": "gsb",
         "state": "failed"
-      },
-      {
-        "elapsed": "3m 18s",
-        "ended": "2026-08-14T19:41:22Z",
-        "exit_code": 93,
-        "id": "39011720",
-        "kind": "research",
-        "name": "blp51_preflight_pairsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "failed"
-      },
-      {
-        "elapsed": "2m 08s",
-        "ended": "2026-08-14T19:37:42Z",
-        "exit_code": 93,
-        "id": "39011718",
-        "kind": "research",
-        "name": "blp51_preflight_pairsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "failed"
       }
     ],
     "recent_dropped": 0,
-    "recent_omitted": 33,
+    "recent_omitted": 35,
     "service_count": 1,
     "window_hours": 12
   },
@@ -686,20 +662,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T02:00:21Z",
+  "generated_at": "2026-08-15T02:03:12Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T02:00:21Z",
+      "observed_at": "2026-08-15T02:03:12Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T02:00:21Z",
+      "observed_at": "2026-08-15T02:03:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T02:00:21Z",
+      "observed_at": "2026-08-15T02:03:12Z",
       "status": "ok"
     }
   }
