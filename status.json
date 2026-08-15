@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "6s",
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T09:54:00Z",
+        "started": "2026-08-15T09:57:12Z",
         "state": "running",
-        "submitted": "2026-08-15T09:51:14Z"
+        "submitted": "2026-08-15T09:54:11Z"
       }
     ],
     "active_dropped": 0,
@@ -330,83 +330,6 @@
         "name": "blp47f_post",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "6m 58s",
-        "ended": "2026-08-14T21:56:56Z",
-        "exit_code": 0,
-        "id": "39034538",
-        "kind": "research",
-        "name": "blp51_mtsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "10m 13s",
-        "ended": "2026-08-14T21:56:39Z",
-        "exit_code": 0,
-        "id": "39034539",
-        "kind": "research",
-        "name": "blp51_mtsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "9m 38s",
-        "ended": "2026-08-14T21:56:04Z",
-        "exit_code": 0,
-        "id": "39034535",
-        "kind": "research",
-        "name": "blp51_mtsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "9m 13s",
-        "ended": "2026-08-14T21:55:39Z",
-        "exit_code": 1,
-        "id": "39034540",
-        "kind": "research",
-        "name": "blp51_mtsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "failed"
-      },
-      {
-        "elapsed": "5m 40s",
-        "ended": "2026-08-14T21:55:38Z",
-        "exit_code": 0,
-        "id": "39034536",
-        "kind": "research",
-        "name": "blp51_mtsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "8m 58s",
-        "ended": "2026-08-14T21:55:24Z",
-        "exit_code": 0,
-        "id": "39034534",
-        "kind": "research",
-        "name": "blp51_mtsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "8m 52s",
-        "ended": "2026-08-14T21:55:18Z",
-        "exit_code": 0,
-        "id": "39034533",
-        "kind": "research",
-        "name": "blp51_mtsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -565,20 +488,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T09:54:07Z",
+  "generated_at": "2026-08-15T09:57:23Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T09:54:07Z",
+      "observed_at": "2026-08-15T09:57:23Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T09:54:07Z",
+      "observed_at": "2026-08-15T09:57:23Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T09:54:07Z",
+      "observed_at": "2026-08-15T09:57:23Z",
       "status": "ok"
     }
   }
