@@ -8,9 +8,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T09:57:12Z",
+        "started": "2026-08-15T10:00:15Z",
         "state": "running",
-        "submitted": "2026-08-15T09:54:11Z"
+        "submitted": "2026-08-15T09:57:32Z"
       }
     ],
     "active_dropped": 0,
@@ -299,37 +299,6 @@
         "name": "blp47_gates_fix2",
         "partition": "gsb",
         "state": "failed"
-      },
-      {
-        "elapsed": "13m 02s",
-        "ended": "2026-08-14T21:59:28Z",
-        "exit_code": 0,
-        "id": "39034537",
-        "kind": "research",
-        "name": "blp51_mtsbatch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "1m 40s",
-        "ended": "2026-08-14T21:59:22Z",
-        "exit_code": 0,
-        "id": "39036458",
-        "kind": "research",
-        "name": "blp47f_post_on",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "1m 46s",
-        "ended": "2026-08-14T21:57:35Z",
-        "exit_code": 0,
-        "id": "39036457",
-        "kind": "research",
-        "name": "blp47f_post",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -488,20 +457,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T09:57:23Z",
+  "generated_at": "2026-08-15T10:00:25Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T09:57:23Z",
+      "observed_at": "2026-08-15T10:00:25Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T09:57:23Z",
+      "observed_at": "2026-08-15T10:00:25Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T09:57:23Z",
+      "observed_at": "2026-08-15T10:00:25Z",
       "status": "ok"
     }
   }
