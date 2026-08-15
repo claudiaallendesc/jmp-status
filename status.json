@@ -2,95 +2,103 @@
   "account": {
     "active": [
       {
+        "elapsed": "2m 29s",
+        "id": "39075373",
+        "kind": "research",
+        "name": "MT1",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-15T01:48:41Z",
+        "state": "running",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "2m 29s",
+        "id": "39075375",
+        "kind": "research",
+        "name": "MT2",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-15T01:48:41Z",
+        "state": "running",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "2m 29s",
+        "id": "39075379",
+        "kind": "research",
+        "name": "MT5",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-15T01:48:41Z",
+        "state": "running",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "2m 29s",
+        "id": "39075383",
+        "kind": "research",
+        "name": "MFAILCLOSED",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-15T01:48:41Z",
+        "state": "running",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "1m 13s",
+        "id": "39075376",
+        "kind": "research",
+        "name": "MT3",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-15T01:49:57Z",
+        "state": "running",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "1m 13s",
+        "id": "39075377",
+        "kind": "research",
+        "name": "MT4",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-15T01:49:57Z",
+        "state": "running",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "1m 13s",
+        "id": "39075380",
+        "kind": "research",
+        "name": "MT6W",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-15T01:49:57Z",
+        "state": "running",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
+        "elapsed": "1m 13s",
+        "id": "39075381",
+        "kind": "research",
+        "name": "MT6S",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-15T01:49:57Z",
+        "state": "running",
+        "submitted": "2026-08-15T01:46:22Z"
+      },
+      {
         "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T01:48:10Z",
+        "started": "2026-08-15T01:51:08Z",
         "state": "running",
-        "submitted": "2026-08-15T01:45:30Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39075373",
-        "kind": "research",
-        "name": "MT1",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-15T01:46:22Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39075375",
-        "kind": "research",
-        "name": "MT2",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-15T01:46:22Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39075376",
-        "kind": "research",
-        "name": "MT3",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-15T01:46:22Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39075377",
-        "kind": "research",
-        "name": "MT4",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-15T01:46:22Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39075379",
-        "kind": "research",
-        "name": "MT5",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-15T01:46:22Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39075380",
-        "kind": "research",
-        "name": "MT6W",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-15T01:46:22Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39075381",
-        "kind": "research",
-        "name": "MT6S",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-15T01:46:22Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39075383",
-        "kind": "research",
-        "name": "MFAILCLOSED",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-15T01:46:22Z"
+        "submitted": "2026-08-15T01:48:17Z"
       }
     ],
     "active_dropped": 0,
@@ -101,8 +109,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 8,
-      "running": 1
+      "pending": 0,
+      "running": 9
     },
     "recent": [
       {
@@ -678,20 +686,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T01:48:12Z",
-  "message": "Queued",
+  "generated_at": "2026-08-15T01:51:11Z",
+  "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T01:48:12Z",
+      "observed_at": "2026-08-15T01:51:11Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T01:48:12Z",
+      "observed_at": "2026-08-15T01:51:11Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T01:48:12Z",
+      "observed_at": "2026-08-15T01:51:11Z",
       "status": "ok"
     }
   }
