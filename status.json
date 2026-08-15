@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "8m 32s",
+        "elapsed": "11m 29s",
         "id": "39180722",
         "kind": "research",
         "name": "MFAILCLOSED",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-15T16:39:41Z"
       },
       {
-        "elapsed": "3m 39s",
+        "elapsed": "6m 36s",
         "id": "39180723",
         "kind": "research",
         "name": "k95",
@@ -30,9 +30,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-15T16:57:06Z",
+        "started": "2026-08-15T17:00:03Z",
         "state": "running",
-        "submitted": "2026-08-15T16:54:26Z"
+        "submitted": "2026-08-15T16:57:15Z"
       }
     ],
     "active_dropped": 0,
@@ -224,20 +224,20 @@
     }
   },
   "collector_health": "online",
-  "generated_at": "2026-08-15T16:57:10Z",
+  "generated_at": "2026-08-15T17:00:08Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-15T16:57:10Z",
+      "observed_at": "2026-08-15T17:00:08Z",
       "status": "ok"
     },
     "queue": {
-      "observed_at": "2026-08-15T16:57:10Z",
+      "observed_at": "2026-08-15T17:00:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-15T16:57:10Z",
+      "observed_at": "2026-08-15T17:00:08Z",
       "status": "ok"
     }
   }
