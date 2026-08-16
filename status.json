@@ -8,9 +8,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-16T07:03:01Z",
+        "started": "2026-08-16T07:06:06Z",
         "state": "running",
-        "submitted": "2026-08-16T07:00:22Z"
+        "submitted": "2026-08-16T07:03:08Z"
       }
     ],
     "active_dropped": 0,
@@ -44,26 +44,6 @@
         "name": "k95",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "10s",
-        "ended": "2026-08-15T19:04:30Z",
-        "exit_code": 0,
-        "id": "39195465",
-        "kind": "research",
-        "name": "promotion_verify",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "2m 13s",
-        "ended": "2026-08-15T19:03:40Z",
-        "exit_code": 0,
-        "id": "39195464",
-        "kind": "research",
-        "name": "blp51_build",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -85,7 +65,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-16T07:03:03Z",
+  "generated_at": "2026-08-16T07:06:08Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
@@ -93,11 +73,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-16T07:03:03Z",
+      "observed_at": "2026-08-16T07:06:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-16T07:03:03Z",
+      "observed_at": "2026-08-16T07:06:08Z",
       "status": "ok"
     }
   }
