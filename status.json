@@ -8,9 +8,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-16T04:00:05Z",
+        "started": "2026-08-16T04:03:07Z",
         "state": "running",
-        "submitted": "2026-08-16T03:57:37Z"
+        "submitted": "2026-08-16T04:00:35Z"
       }
     ],
     "active_dropped": 0,
@@ -112,170 +112,32 @@
     "window_hours": 12
   },
   "campaign": {
-    "disposition": "historical",
-    "message": "Review required",
-    "nodes": [
-      {
-        "elapsed": "1m 56s",
-        "label": "Build",
-        "state": "completed"
-      },
-      {
-        "elapsed": "5s",
-        "label": "Promote",
-        "state": "failed"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Solver check 1",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Solver check 2",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Solver check 3",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Solver check 4",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Solver check 5",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Solver check 6W",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Solver check 6S",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Fail-closed check",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Preflight A1",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Preflight A3",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Preflight A4",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Preflight A5",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Timing merge",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Worst stratum",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "K95",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Gate publish",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Gate apply",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Canary barrier",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Canary A1",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Canary A3",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Canary A4",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Canary A5",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Canary C2",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Write-freeze",
-        "state": "cancelled"
-      },
-      {
-        "elapsed": "0s",
-        "label": "Capture",
-        "state": "cancelled"
-      }
-    ],
-    "phase": "build",
-    "run": "r6",
+    "disposition": "unknown",
+    "message": "Unavailable",
+    "nodes": [],
+    "phase": "review",
     "state_counts": {
-      "cancelled": 25,
-      "completed": 1,
-      "failed": 1,
+      "cancelled": 0,
+      "completed": 0,
+      "failed": 0,
       "pending": 0,
       "running": 0
     }
   },
-  "collector_health": "online",
-  "generated_at": "2026-08-16T04:00:18Z",
+  "collector_health": "degraded",
+  "generated_at": "2026-08-16T04:03:19Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
-      "observed_at": "2026-08-16T04:00:18Z",
-      "status": "ok"
+      "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-16T04:00:18Z",
+      "observed_at": "2026-08-16T04:03:19Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-16T04:00:18Z",
+      "observed_at": "2026-08-16T04:03:19Z",
       "status": "ok"
     }
   }
