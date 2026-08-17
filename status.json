@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "6m 23s",
+        "elapsed": "9m 24s",
         "id": "39402444",
         "kind": "research",
         "name": "blp51_run_build",
@@ -13,15 +13,15 @@
         "submitted": "2026-08-17T15:57:23Z"
       },
       {
-        "elapsed": "4s",
+        "elapsed": "8s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T16:06:06Z",
+        "started": "2026-08-17T16:09:03Z",
         "state": "running",
-        "submitted": "2026-08-17T16:03:25Z"
+        "submitted": "2026-08-17T16:06:15Z"
       },
       {
         "elapsed": "0s",
@@ -543,7 +543,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T16:06:10Z",
+  "generated_at": "2026-08-17T16:09:11Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -551,11 +551,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T16:06:10Z",
+      "observed_at": "2026-08-17T16:09:11Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T16:06:10Z",
+      "observed_at": "2026-08-17T16:09:11Z",
       "status": "ok"
     }
   }
