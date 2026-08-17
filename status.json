@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "30m 58s",
+        "elapsed": "33m 47s",
         "id": "39370061",
         "kind": "research",
         "name": "blp51_pf_arm_A3",
@@ -13,26 +13,26 @@
         "submitted": "2026-08-17T08:52:08Z"
       },
       {
+        "elapsed": "2m 43s",
+        "id": "39370063",
+        "kind": "research",
+        "name": "blp51_pf_arm_A4",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-17T09:36:21Z",
+        "state": "running",
+        "submitted": "2026-08-17T08:52:13Z"
+      },
+      {
         "elapsed": "3s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T09:36:12Z",
+        "started": "2026-08-17T09:39:01Z",
         "state": "running",
-        "submitted": "2026-08-17T09:33:22Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370063",
-        "kind": "research",
-        "name": "blp51_pf_arm_A4",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:13Z"
+        "submitted": "2026-08-17T09:36:20Z"
       },
       {
         "elapsed": "0s",
@@ -197,8 +197,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 15,
-      "running": 2
+      "pending": 14,
+      "running": 3
     },
     "recent": [
       {
@@ -352,7 +352,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T09:36:15Z",
+  "generated_at": "2026-08-17T09:39:04Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -360,11 +360,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T09:36:15Z",
+      "observed_at": "2026-08-17T09:39:04Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T09:36:15Z",
+      "observed_at": "2026-08-17T09:39:04Z",
       "status": "ok"
     }
   }
