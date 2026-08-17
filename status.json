@@ -2,124 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "7s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T10:27:06Z",
+        "started": "2026-08-17T10:30:08Z",
         "state": "running",
-        "submitted": "2026-08-17T10:24:32Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370153",
-        "kind": "research",
-        "name": "blp51_gate_publish",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:27Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370158",
-        "kind": "research",
-        "name": "blp51_gate_apply",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:27Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370167",
-        "kind": "research",
-        "name": "blp51_barrier_canary",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:28Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370178",
-        "kind": "research",
-        "name": "blp51_canary_tag_A1",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:29Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370190",
-        "kind": "research",
-        "name": "blp51_canary_tag_A3",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:31Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370209",
-        "kind": "research",
-        "name": "blp51_canary_tag_A4",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:32Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370232",
-        "kind": "research",
-        "name": "blp51_canary_tag_A5",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:35Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370252",
-        "kind": "research",
-        "name": "blp51_canary_tag_C2",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:37Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370259",
-        "kind": "research",
-        "name": "blp51_ev_writefreeze",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:38Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370264",
-        "kind": "research",
-        "name": "blp51_ev_capture",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:39Z"
+        "submitted": "2026-08-17T10:27:26Z"
       }
     ],
     "active_dropped": 0,
@@ -130,10 +21,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 10,
+      "pending": 0,
       "running": 1
     },
     "recent": [
+      {
+        "elapsed": "6s",
+        "ended": "2026-08-17T10:27:48Z",
+        "exit_code": 55,
+        "id": "39370153",
+        "kind": "research",
+        "name": "blp51_gate_publish",
+        "partition": "gsb",
+        "state": "failed"
+      },
       {
         "elapsed": "8m 06s",
         "ended": "2026-08-17T10:26:46Z",
@@ -345,19 +246,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T10:27:13Z",
-  "message": "Queued",
+  "generated_at": "2026-08-17T10:30:13Z",
+  "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T10:27:13Z",
+      "observed_at": "2026-08-17T10:30:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T10:27:13Z",
+      "observed_at": "2026-08-17T10:30:13Z",
       "status": "ok"
     }
   }
