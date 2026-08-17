@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "10m 05s",
+        "elapsed": "13m 07s",
         "id": "39454754",
         "kind": "research",
         "name": "blp51amd_canary_A1",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-17T21:41:37Z"
       },
       {
-        "elapsed": "7m 16s",
+        "elapsed": "10m 18s",
         "id": "39454756",
         "kind": "research",
         "name": "blp51amd_canary_A3",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-17T21:41:39Z"
       },
       {
-        "elapsed": "4m 38s",
+        "elapsed": "7m 40s",
         "id": "39454856",
         "kind": "research",
         "name": "blp51amd_canary_A4",
@@ -35,15 +35,15 @@
         "submitted": "2026-08-17T21:41:42Z"
       },
       {
-        "elapsed": "33s",
-        "id": "39454862",
+        "elapsed": "1m 03s",
+        "id": "39454867",
         "kind": "research",
-        "name": "blp51amd_canary_A5",
+        "name": "blp51amd_canary_C2",
         "nodes": 1,
         "partition": "gsb",
-        "started": "2026-08-17T21:53:39Z",
+        "started": "2026-08-17T21:56:11Z",
         "state": "running",
-        "submitted": "2026-08-17T21:41:43Z"
+        "submitted": "2026-08-17T21:41:46Z"
       },
       {
         "elapsed": "6s",
@@ -52,21 +52,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T21:54:06Z",
+        "started": "2026-08-17T21:57:08Z",
         "state": "running",
-        "submitted": "2026-08-17T21:51:15Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39454867",
-        "kind": "research",
-        "name": "blp51amd_canary_C2",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "priority",
-        "started": "2026-08-17T21:54:12Z",
-        "state": "pending",
-        "submitted": "2026-08-17T21:41:46Z"
+        "submitted": "2026-08-17T21:54:31Z"
       }
     ],
     "active_dropped": 0,
@@ -77,10 +65,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 1,
+      "pending": 0,
       "running": 5
     },
     "recent": [
+      {
+        "elapsed": "2m 37s",
+        "ended": "2026-08-17T21:56:16Z",
+        "exit_code": 0,
+        "id": "39454862",
+        "kind": "research",
+        "name": "blp51amd_canary_A5",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
       {
         "elapsed": "2h 39m",
         "ended": "2026-08-17T21:41:17Z",
@@ -392,7 +390,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T21:54:13Z",
+  "generated_at": "2026-08-17T21:57:14Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -400,11 +398,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T21:54:13Z",
+      "observed_at": "2026-08-17T21:57:14Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T21:54:13Z",
+      "observed_at": "2026-08-17T21:57:14Z",
       "status": "ok"
     }
   }
