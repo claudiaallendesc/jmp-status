@@ -2,26 +2,26 @@
   "account": {
     "active": [
       {
-        "elapsed": "8m 59s",
-        "id": "39402455",
+        "elapsed": "2m 49s",
+        "id": "39402464",
         "kind": "research",
-        "name": "blp51_mt_leg_MT5",
+        "name": "blp51_pf_arm_A3",
         "nodes": 1,
         "partition": "gsb",
-        "started": "2026-08-17T16:15:08Z",
+        "started": "2026-08-17T16:24:16Z",
         "state": "running",
-        "submitted": "2026-08-17T15:57:51Z"
+        "submitted": "2026-08-17T15:58:04Z"
       },
       {
-        "elapsed": "4s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T16:24:03Z",
+        "started": "2026-08-17T16:27:03Z",
         "state": "running",
-        "submitted": "2026-08-17T16:21:22Z"
+        "submitted": "2026-08-17T16:24:26Z"
       },
       {
         "elapsed": "0s",
@@ -34,18 +34,6 @@
         "started": "2026-08-17T20:15:11Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:02Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39402464",
-        "kind": "research",
-        "name": "blp51_pf_arm_A3",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-08-17T16:24:07Z",
-        "state": "pending",
-        "submitted": "2026-08-17T15:58:04Z"
       },
       {
         "elapsed": "0s",
@@ -223,10 +211,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 17,
+      "pending": 16,
       "running": 2
     },
     "recent": [
+      {
+        "elapsed": "11m 49s",
+        "ended": "2026-08-17T16:26:57Z",
+        "exit_code": 0,
+        "id": "39402455",
+        "kind": "research",
+        "name": "blp51_mt_leg_MT5",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "4m 46s",
         "ended": "2026-08-17T16:21:46Z",
@@ -538,7 +536,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T16:24:07Z",
+  "generated_at": "2026-08-17T16:27:05Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -546,11 +544,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T16:24:07Z",
+      "observed_at": "2026-08-17T16:27:05Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T16:24:07Z",
+      "observed_at": "2026-08-17T16:27:05Z",
       "status": "ok"
     }
   }
