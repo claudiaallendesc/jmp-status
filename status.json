@@ -8,9 +8,306 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T08:51:01Z",
+        "started": "2026-08-17T08:54:07Z",
         "state": "running",
-        "submitted": "2026-08-17T08:48:33Z"
+        "submitted": "2026-08-17T08:51:23Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39369964",
+        "kind": "research",
+        "name": "blp51_run_build",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-17T08:51:16Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39369965",
+        "kind": "research",
+        "name": "blp51_promotion_verify",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:51:21Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39369970",
+        "kind": "research",
+        "name": "blp51_mt_leg_MT1",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:51:32Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39369972",
+        "kind": "research",
+        "name": "blp51_mt_leg_MT2",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:51:37Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370016",
+        "kind": "research",
+        "name": "blp51_mt_leg_MT3",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:51:44Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370018",
+        "kind": "research",
+        "name": "blp51_mt_leg_MT4",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:51:49Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370023",
+        "kind": "research",
+        "name": "blp51_mt_leg_MT5",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:51:52Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370029",
+        "kind": "research",
+        "name": "blp51_mt_leg_MT6W",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:51:54Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370035",
+        "kind": "research",
+        "name": "blp51_mt_leg_MT6S",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:51:59Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370040",
+        "kind": "research",
+        "name": "blp51_mt_leg_MFAILCLOSED",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:01Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370057",
+        "kind": "research",
+        "name": "blp51_pf_arm_A1",
+        "nodes": 1,
+        "partition": "gsb",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:04Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370061",
+        "kind": "research",
+        "name": "blp51_pf_arm_A3",
+        "nodes": 1,
+        "partition": "gsb",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:08Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370063",
+        "kind": "research",
+        "name": "blp51_pf_arm_A4",
+        "nodes": 1,
+        "partition": "gsb",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:13Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370074",
+        "kind": "research",
+        "name": "blp51_pf_arm_A5",
+        "nodes": 1,
+        "partition": "gsb",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:18Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370102",
+        "kind": "research",
+        "name": "blp51_pf_timing_merge",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:22Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370110",
+        "kind": "research",
+        "name": "blp51_pf_worst_stratum",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:23Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370134",
+        "kind": "research",
+        "name": "blp51_k95_run",
+        "nodes": 1,
+        "partition": "gsb",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:25Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370153",
+        "kind": "research",
+        "name": "blp51_gate_publish",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:27Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370158",
+        "kind": "research",
+        "name": "blp51_gate_apply",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:27Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370167",
+        "kind": "research",
+        "name": "blp51_barrier_canary",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:28Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370178",
+        "kind": "research",
+        "name": "blp51_canary_tag_A1",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:29Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370190",
+        "kind": "research",
+        "name": "blp51_canary_tag_A3",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:31Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370209",
+        "kind": "research",
+        "name": "blp51_canary_tag_A4",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:32Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370232",
+        "kind": "research",
+        "name": "blp51_canary_tag_A5",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:35Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370252",
+        "kind": "research",
+        "name": "blp51_canary_tag_C2",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:37Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370259",
+        "kind": "research",
+        "name": "blp51_ev_writefreeze",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:38Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39370264",
+        "kind": "research",
+        "name": "blp51_ev_capture",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-08-17T08:52:39Z"
       }
     ],
     "active_dropped": 0,
@@ -21,7 +318,7 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 0,
+      "pending": 27,
       "running": 1
     },
     "recent": [
@@ -66,19 +363,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T08:51:12Z",
-  "message": "No active jobs",
+  "generated_at": "2026-08-17T08:54:16Z",
+  "message": "Queued",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T08:51:12Z",
+      "observed_at": "2026-08-17T08:54:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T08:51:12Z",
+      "observed_at": "2026-08-17T08:54:16Z",
       "status": "ok"
     }
   }
