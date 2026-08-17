@@ -2,26 +2,37 @@
   "account": {
     "active": [
       {
-        "elapsed": "1m 32s",
-        "id": "39426750",
-        "kind": "research",
-        "name": "blp48_smoke",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-17T18:55:37Z",
-        "state": "running",
-        "submitted": "2026-08-17T18:54:07Z"
-      },
-      {
-        "elapsed": "5s",
+        "elapsed": "8s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T18:57:04Z",
+        "started": "2026-08-17T19:00:06Z",
         "state": "running",
-        "submitted": "2026-08-17T18:54:22Z"
+        "submitted": "2026-08-17T18:57:23Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39427351",
+        "kind": "research",
+        "name": "blp48_A3",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-17T18:58:53Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39427353",
+        "kind": "research",
+        "name": "blp48_A5",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-17T18:58:53Z"
       }
     ],
     "active_dropped": 0,
@@ -32,10 +43,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 0,
-      "running": 2
+      "pending": 2,
+      "running": 1
     },
     "recent": [
+      {
+        "elapsed": "3m 02s",
+        "ended": "2026-08-17T18:58:39Z",
+        "exit_code": 0,
+        "id": "39426750",
+        "kind": "research",
+        "name": "blp48_smoke",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "13s",
         "ended": "2026-08-17T17:59:16Z",
@@ -427,19 +448,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T18:57:09Z",
-  "message": "Running",
+  "generated_at": "2026-08-17T19:00:14Z",
+  "message": "Queued",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T18:57:09Z",
+      "observed_at": "2026-08-17T19:00:14Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T18:57:09Z",
+      "observed_at": "2026-08-17T19:00:14Z",
       "status": "ok"
     }
   }
