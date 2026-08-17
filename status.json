@@ -8,9 +8,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T18:45:09Z",
+        "started": "2026-08-17T18:48:01Z",
         "state": "running",
-        "submitted": "2026-08-17T18:42:19Z"
+        "submitted": "2026-08-17T18:45:27Z"
       }
     ],
     "active_dropped": 0,
@@ -404,16 +404,6 @@
         "name": "sdp_promotion_verify",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "10m 30s",
-        "ended": "2026-08-17T06:48:00Z",
-        "exit_code": 0,
-        "id": "39349732",
-        "kind": "research",
-        "name": "blp51_sdp_build",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -436,7 +426,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T18:45:18Z",
+  "generated_at": "2026-08-17T18:48:10Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
@@ -444,11 +434,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T18:45:18Z",
+      "observed_at": "2026-08-17T18:48:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T18:45:18Z",
+      "observed_at": "2026-08-17T18:48:10Z",
       "status": "ok"
     }
   }
