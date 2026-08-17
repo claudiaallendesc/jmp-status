@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "19m 17s",
+        "elapsed": "22m 14s",
         "id": "39427351",
         "kind": "research",
         "name": "blp48_A3",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-17T18:58:53Z"
       },
       {
-        "elapsed": "19m 17s",
+        "elapsed": "22m 14s",
         "id": "39427353",
         "kind": "research",
         "name": "blp48_A5",
@@ -24,15 +24,26 @@
         "submitted": "2026-08-17T18:58:53Z"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T19:21:08Z",
+        "started": "2026-08-17T19:24:07Z",
         "state": "running",
-        "submitted": "2026-08-17T19:18:11Z"
+        "submitted": "2026-08-17T19:21:23Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39431558",
+        "kind": "research",
+        "name": "g1diag_replay",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "resources",
+        "state": "pending",
+        "submitted": "2026-08-17T19:22:47Z"
       }
     ],
     "active_dropped": 0,
@@ -43,7 +54,7 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 0,
+      "pending": 1,
       "running": 3
     },
     "recent": [
@@ -448,7 +459,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T19:21:15Z",
+  "generated_at": "2026-08-17T19:24:12Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -456,11 +467,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T19:21:15Z",
+      "observed_at": "2026-08-17T19:24:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T19:21:15Z",
+      "observed_at": "2026-08-17T19:24:12Z",
       "status": "ok"
     }
   }
