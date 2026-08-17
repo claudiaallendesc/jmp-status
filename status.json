@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "25m 14s",
+        "elapsed": "28m 09s",
         "id": "39454754",
         "kind": "research",
         "name": "blp51amd_canary_A1",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-17T21:41:37Z"
       },
       {
-        "elapsed": "22m 25s",
+        "elapsed": "25m 20s",
         "id": "39454756",
         "kind": "research",
         "name": "blp51amd_canary_A3",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-17T21:41:39Z"
       },
       {
-        "elapsed": "19m 47s",
+        "elapsed": "22m 42s",
         "id": "39454856",
         "kind": "research",
         "name": "blp51amd_canary_A4",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-17T21:41:42Z"
       },
       {
-        "elapsed": "13m 10s",
+        "elapsed": "16m 05s",
         "id": "39454867",
         "kind": "research",
         "name": "blp51amd_canary_C2",
@@ -46,27 +46,26 @@
         "submitted": "2026-08-17T21:41:46Z"
       },
       {
-        "elapsed": "6s",
+        "elapsed": "53s",
+        "id": "39457931",
+        "kind": "research",
+        "name": "blp48_stallcont",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-17T22:11:23Z",
+        "state": "running",
+        "submitted": "2026-08-17T22:06:31Z"
+      },
+      {
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T22:09:15Z",
+        "started": "2026-08-17T22:12:06Z",
         "state": "running",
-        "submitted": "2026-08-17T22:06:31Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39457931",
-        "kind": "research",
-        "name": "blp48_stallcont",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "priority",
-        "started": "2026-08-17T22:09:21Z",
-        "state": "pending",
-        "submitted": "2026-08-17T22:06:31Z"
+        "submitted": "2026-08-17T22:09:30Z"
       }
     ],
     "active_dropped": 0,
@@ -77,8 +76,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 1,
-      "running": 5
+      "pending": 0,
+      "running": 6
     },
     "recent": [
       {
@@ -403,7 +402,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T22:09:21Z",
+  "generated_at": "2026-08-17T22:12:16Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -411,11 +410,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T22:09:21Z",
+      "observed_at": "2026-08-17T22:12:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T22:09:21Z",
+      "observed_at": "2026-08-17T22:12:16Z",
       "status": "ok"
     }
   }
