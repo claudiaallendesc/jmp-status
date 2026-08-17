@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "12m 04s",
+        "elapsed": "14m 52s",
         "id": "39370063",
         "kind": "research",
         "name": "blp51_pf_arm_A4",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-17T08:52:13Z"
       },
       {
-        "elapsed": "7m 06s",
+        "elapsed": "9m 54s",
         "id": "39370074",
         "kind": "research",
         "name": "blp51_pf_arm_A5",
@@ -24,15 +24,15 @@
         "submitted": "2026-08-17T08:52:18Z"
       },
       {
-        "elapsed": "2s",
+        "elapsed": "8s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T09:48:23Z",
+        "started": "2026-08-17T09:51:05Z",
         "state": "running",
-        "submitted": "2026-08-17T09:45:33Z"
+        "submitted": "2026-08-17T09:48:30Z"
       },
       {
         "elapsed": "0s",
@@ -351,7 +351,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T09:48:25Z",
+  "generated_at": "2026-08-17T09:51:13Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -359,11 +359,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T09:48:25Z",
+      "observed_at": "2026-08-17T09:51:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T09:48:25Z",
+      "observed_at": "2026-08-17T09:51:13Z",
       "status": "ok"
     }
   }
