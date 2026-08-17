@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2m 49s",
+        "elapsed": "6m 01s",
         "id": "39402464",
         "kind": "research",
         "name": "blp51_pf_arm_A3",
@@ -13,27 +13,26 @@
         "submitted": "2026-08-17T15:58:04Z"
       },
       {
-        "elapsed": "2s",
-        "id": "39005528",
-        "kind": "service",
-        "name": "jmp_status_collect",
-        "nodes": 1,
-        "partition": "service",
-        "started": "2026-08-17T16:27:03Z",
-        "state": "running",
-        "submitted": "2026-08-17T16:24:26Z"
-      },
-      {
-        "elapsed": "0s",
+        "elapsed": "1m 50s",
         "id": "39402461",
         "kind": "research",
         "name": "blp51_pf_arm_A1",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-08-17T20:15:11Z",
-        "state": "pending",
+        "started": "2026-08-17T16:28:27Z",
+        "state": "running",
         "submitted": "2026-08-17T15:58:02Z"
+      },
+      {
+        "elapsed": "10s",
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "nodes": 1,
+        "partition": "service",
+        "started": "2026-08-17T16:30:07Z",
+        "state": "running",
+        "submitted": "2026-08-17T16:27:18Z"
       },
       {
         "elapsed": "0s",
@@ -43,7 +42,6 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-17T20:15:11Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:09Z"
       },
@@ -55,7 +53,6 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-17T20:15:11Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:11Z"
       },
@@ -211,8 +208,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 16,
-      "running": 2
+      "pending": 15,
+      "running": 3
     },
     "recent": [
       {
@@ -536,7 +533,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T16:27:05Z",
+  "generated_at": "2026-08-17T16:30:17Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -544,11 +541,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T16:27:05Z",
+      "observed_at": "2026-08-17T16:30:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T16:27:05Z",
+      "observed_at": "2026-08-17T16:30:17Z",
       "status": "ok"
     }
   }
