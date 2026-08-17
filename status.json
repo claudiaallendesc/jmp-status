@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "3s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T06:33:07Z",
+        "started": "2026-08-17T06:36:09Z",
         "state": "running",
-        "submitted": "2026-08-17T06:30:10Z"
+        "submitted": "2026-08-17T06:33:19Z"
       },
       {
         "elapsed": "0s",
@@ -19,6 +19,7 @@
         "name": "blp51_sdp_build",
         "nodes": 1,
         "partition": "gsb",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-17T06:32:53Z"
       },
@@ -65,7 +66,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T06:33:10Z",
+  "generated_at": "2026-08-17T06:36:14Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -73,11 +74,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T06:33:10Z",
+      "observed_at": "2026-08-17T06:36:14Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T06:33:10Z",
+      "observed_at": "2026-08-17T06:36:14Z",
       "status": "ok"
     }
   }
