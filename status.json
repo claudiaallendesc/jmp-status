@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "54m 57s",
+        "elapsed": "58m 05s",
         "id": "39454754",
         "kind": "research",
         "name": "blp51amd_canary_A1",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-17T21:41:37Z"
       },
       {
-        "elapsed": "52m 08s",
+        "elapsed": "55m 16s",
         "id": "39454756",
         "kind": "research",
         "name": "blp51amd_canary_A3",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-17T21:41:39Z"
       },
       {
-        "elapsed": "49m 30s",
+        "elapsed": "52m 38s",
         "id": "39454856",
         "kind": "research",
         "name": "blp51amd_canary_A4",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-17T21:41:42Z"
       },
       {
-        "elapsed": "42m 53s",
+        "elapsed": "46m 01s",
         "id": "39454867",
         "kind": "research",
         "name": "blp51amd_canary_C2",
@@ -46,26 +46,15 @@
         "submitted": "2026-08-17T21:41:46Z"
       },
       {
-        "elapsed": "27m 41s",
-        "id": "39457931",
-        "kind": "research",
-        "name": "blp48_stallcont",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-17T22:11:23Z",
-        "state": "running",
-        "submitted": "2026-08-17T22:06:31Z"
-      },
-      {
-        "elapsed": "2s",
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T22:39:02Z",
+        "started": "2026-08-17T22:42:06Z",
         "state": "running",
-        "submitted": "2026-08-17T22:36:15Z"
+        "submitted": "2026-08-17T22:39:08Z"
       }
     ],
     "active_dropped": 0,
@@ -77,9 +66,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 6
+      "running": 5
     },
     "recent": [
+      {
+        "elapsed": "30m 16s",
+        "ended": "2026-08-17T22:41:39Z",
+        "exit_code": 0,
+        "id": "39457931",
+        "kind": "research",
+        "name": "blp48_stallcont",
+        "partition": "gsb",
+        "state": "failed"
+      },
       {
         "elapsed": "2m 37s",
         "ended": "2026-08-17T21:56:16Z",
@@ -342,7 +341,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T22:39:04Z",
+  "generated_at": "2026-08-17T22:42:12Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -350,11 +349,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T22:39:04Z",
+      "observed_at": "2026-08-17T22:42:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T22:39:04Z",
+      "observed_at": "2026-08-17T22:42:12Z",
       "status": "ok"
     }
   }
