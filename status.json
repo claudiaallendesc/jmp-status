@@ -2,25 +2,26 @@
   "account": {
     "active": [
       {
-        "elapsed": "7s",
+        "elapsed": "1m 32s",
+        "id": "39426750",
+        "kind": "research",
+        "name": "blp48_smoke",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-17T18:55:37Z",
+        "state": "running",
+        "submitted": "2026-08-17T18:54:07Z"
+      },
+      {
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T18:54:02Z",
+        "started": "2026-08-17T18:57:04Z",
         "state": "running",
-        "submitted": "2026-08-17T18:51:22Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39426750",
-        "kind": "research",
-        "name": "blp48_smoke",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-17T18:54:07Z"
+        "submitted": "2026-08-17T18:54:22Z"
       }
     ],
     "active_dropped": 0,
@@ -31,8 +32,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 1,
-      "running": 1
+      "pending": 0,
+      "running": 2
     },
     "recent": [
       {
@@ -426,19 +427,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T18:54:09Z",
-  "message": "Queued",
+  "generated_at": "2026-08-17T18:57:09Z",
+  "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T18:54:09Z",
+      "observed_at": "2026-08-17T18:57:09Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T18:54:09Z",
+      "observed_at": "2026-08-17T18:57:09Z",
       "status": "ok"
     }
   }
