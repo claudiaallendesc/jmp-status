@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1m 05s",
+        "elapsed": "3m 57s",
         "id": "39402454",
         "kind": "research",
         "name": "blp51_mt_leg_MT4",
@@ -13,18 +13,7 @@
         "submitted": "2026-08-17T15:57:48Z"
       },
       {
-        "elapsed": "13s",
-        "id": "39005528",
-        "kind": "service",
-        "name": "jmp_status_collect",
-        "nodes": 1,
-        "partition": "service",
-        "started": "2026-08-17T16:15:03Z",
-        "state": "running",
-        "submitted": "2026-08-17T16:12:18Z"
-      },
-      {
-        "elapsed": "8s",
+        "elapsed": "3m 00s",
         "id": "39402448",
         "kind": "research",
         "name": "blp51_mt_leg_MT1",
@@ -35,7 +24,7 @@
         "submitted": "2026-08-17T15:57:34Z"
       },
       {
-        "elapsed": "8s",
+        "elapsed": "3m 00s",
         "id": "39402449",
         "kind": "research",
         "name": "blp51_mt_leg_MT2",
@@ -46,7 +35,7 @@
         "submitted": "2026-08-17T15:57:39Z"
       },
       {
-        "elapsed": "8s",
+        "elapsed": "3m 00s",
         "id": "39402455",
         "kind": "research",
         "name": "blp51_mt_leg_MT5",
@@ -57,7 +46,7 @@
         "submitted": "2026-08-17T15:57:51Z"
       },
       {
-        "elapsed": "8s",
+        "elapsed": "3m 00s",
         "id": "39402460",
         "kind": "research",
         "name": "blp51_mt_leg_MFAILCLOSED",
@@ -68,40 +57,48 @@
         "submitted": "2026-08-17T15:58:00Z"
       },
       {
-        "elapsed": "0s",
+        "elapsed": "1m 08s",
         "id": "39402451",
         "kind": "research",
         "name": "blp51_mt_leg_MT3",
         "nodes": 1,
-        "partition": "multiple",
-        "reason": "resources",
-        "started": "2026-08-17T20:14:20Z",
-        "state": "pending",
+        "partition": "gsb",
+        "started": "2026-08-17T16:17:00Z",
+        "state": "running",
         "submitted": "2026-08-17T15:57:46Z"
       },
       {
-        "elapsed": "0s",
+        "elapsed": "1m 08s",
         "id": "39402457",
         "kind": "research",
         "name": "blp51_mt_leg_MT6W",
         "nodes": 1,
-        "partition": "multiple",
-        "reason": "resources",
-        "started": "2026-08-17T20:14:20Z",
-        "state": "pending",
+        "partition": "gsb",
+        "started": "2026-08-17T16:17:00Z",
+        "state": "running",
         "submitted": "2026-08-17T15:57:53Z"
       },
       {
-        "elapsed": "0s",
+        "elapsed": "1m 08s",
         "id": "39402459",
         "kind": "research",
         "name": "blp51_mt_leg_MT6S",
         "nodes": 1,
-        "partition": "multiple",
-        "reason": "resources",
-        "started": "2026-08-17T20:14:20Z",
-        "state": "pending",
+        "partition": "gsb",
+        "started": "2026-08-17T16:17:00Z",
+        "state": "running",
         "submitted": "2026-08-17T15:57:55Z"
+      },
+      {
+        "elapsed": "3s",
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "nodes": 1,
+        "partition": "service",
+        "started": "2026-08-17T16:18:05Z",
+        "state": "running",
+        "submitted": "2026-08-17T16:15:28Z"
       },
       {
         "elapsed": "0s",
@@ -110,7 +107,7 @@
         "name": "blp51_pf_arm_A1",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "resources",
+        "reason": "priority",
         "started": "2026-08-17T20:14:20Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:02Z"
@@ -122,7 +119,7 @@
         "name": "blp51_pf_arm_A3",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "resources",
+        "reason": "priority",
         "started": "2026-08-17T20:14:20Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:04Z"
@@ -134,7 +131,7 @@
         "name": "blp51_pf_arm_A4",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "resources",
+        "reason": "priority",
         "started": "2026-08-17T20:14:20Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:09Z"
@@ -146,7 +143,7 @@
         "name": "blp51_pf_arm_A5",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "resources",
+        "reason": "priority",
         "started": "2026-08-17T20:14:20Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:11Z"
@@ -303,8 +300,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 20,
-      "running": 6
+      "pending": 17,
+      "running": 9
     },
     "recent": [
       {
@@ -548,7 +545,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T16:15:16Z",
+  "generated_at": "2026-08-17T16:18:08Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -556,11 +553,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T16:15:16Z",
+      "observed_at": "2026-08-17T16:18:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T16:15:16Z",
+      "observed_at": "2026-08-17T16:18:08Z",
       "status": "ok"
     }
   }
