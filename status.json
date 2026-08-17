@@ -2,18 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 31m",
-        "id": "39427351",
-        "kind": "research",
-        "name": "blp48_A3",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-17T19:01:58Z",
-        "state": "running",
-        "submitted": "2026-08-17T18:58:53Z"
-      },
-      {
-        "elapsed": "2h 31m",
+        "elapsed": "2h 34m",
         "id": "39427353",
         "kind": "research",
         "name": "blp48_A5",
@@ -24,15 +13,15 @@
         "submitted": "2026-08-17T18:58:53Z"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T21:33:05Z",
+        "started": "2026-08-17T21:36:03Z",
         "state": "running",
-        "submitted": "2026-08-17T21:30:17Z"
+        "submitted": "2026-08-17T21:33:27Z"
       }
     ],
     "active_dropped": 0,
@@ -44,9 +33,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 3
+      "running": 2
     },
     "recent": [
+      {
+        "elapsed": "2h 32m",
+        "ended": "2026-08-17T21:34:51Z",
+        "exit_code": 0,
+        "id": "39427351",
+        "kind": "research",
+        "name": "blp48_A3",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "13m 24s",
         "ended": "2026-08-17T19:40:47Z",
@@ -326,16 +325,6 @@
         "name": "blp51_pf_arm_A3",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "27m 07s",
-        "ended": "2026-08-17T09:35:54Z",
-        "exit_code": 0,
-        "id": "39370057",
-        "kind": "research",
-        "name": "blp51_pf_arm_A1",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -358,7 +347,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T21:33:14Z",
+  "generated_at": "2026-08-17T21:36:08Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -366,11 +355,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T21:33:14Z",
+      "observed_at": "2026-08-17T21:36:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T21:33:14Z",
+      "observed_at": "2026-08-17T21:36:08Z",
       "status": "ok"
     }
   }
