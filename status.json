@@ -2,59 +2,70 @@
   "account": {
     "active": [
       {
-        "elapsed": "12m 26s",
-        "id": "39402444",
+        "elapsed": "1m 05s",
+        "id": "39402454",
         "kind": "research",
-        "name": "blp51_run_build",
+        "name": "blp51_mt_leg_MT4",
         "nodes": 1,
         "partition": "gsb",
-        "started": "2026-08-17T15:59:47Z",
+        "started": "2026-08-17T16:14:11Z",
         "state": "running",
-        "submitted": "2026-08-17T15:57:23Z"
+        "submitted": "2026-08-17T15:57:48Z"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "13s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T16:12:04Z",
+        "started": "2026-08-17T16:15:03Z",
         "state": "running",
-        "submitted": "2026-08-17T16:09:22Z"
+        "submitted": "2026-08-17T16:12:18Z"
       },
       {
-        "elapsed": "0s",
-        "id": "39402445",
-        "kind": "research",
-        "name": "blp51_promotion_verify",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T15:57:28Z"
-      },
-      {
-        "elapsed": "0s",
+        "elapsed": "8s",
         "id": "39402448",
         "kind": "research",
         "name": "blp51_mt_leg_MT1",
         "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
+        "partition": "gsb",
+        "started": "2026-08-17T16:15:08Z",
+        "state": "running",
         "submitted": "2026-08-17T15:57:34Z"
       },
       {
-        "elapsed": "0s",
+        "elapsed": "8s",
         "id": "39402449",
         "kind": "research",
         "name": "blp51_mt_leg_MT2",
         "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
+        "partition": "gsb",
+        "started": "2026-08-17T16:15:08Z",
+        "state": "running",
         "submitted": "2026-08-17T15:57:39Z"
+      },
+      {
+        "elapsed": "8s",
+        "id": "39402455",
+        "kind": "research",
+        "name": "blp51_mt_leg_MT5",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-17T16:15:08Z",
+        "state": "running",
+        "submitted": "2026-08-17T15:57:51Z"
+      },
+      {
+        "elapsed": "8s",
+        "id": "39402460",
+        "kind": "research",
+        "name": "blp51_mt_leg_MFAILCLOSED",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-17T16:15:08Z",
+        "state": "running",
+        "submitted": "2026-08-17T15:58:00Z"
       },
       {
         "elapsed": "0s",
@@ -63,31 +74,10 @@
         "name": "blp51_mt_leg_MT3",
         "nodes": 1,
         "partition": "multiple",
-        "reason": "dependency",
+        "reason": "resources",
+        "started": "2026-08-17T20:14:20Z",
         "state": "pending",
         "submitted": "2026-08-17T15:57:46Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39402454",
-        "kind": "research",
-        "name": "blp51_mt_leg_MT4",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T15:57:48Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39402455",
-        "kind": "research",
-        "name": "blp51_mt_leg_MT5",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T15:57:51Z"
       },
       {
         "elapsed": "0s",
@@ -96,7 +86,8 @@
         "name": "blp51_mt_leg_MT6W",
         "nodes": 1,
         "partition": "multiple",
-        "reason": "dependency",
+        "reason": "resources",
+        "started": "2026-08-17T20:14:20Z",
         "state": "pending",
         "submitted": "2026-08-17T15:57:53Z"
       },
@@ -107,20 +98,10 @@
         "name": "blp51_mt_leg_MT6S",
         "nodes": 1,
         "partition": "multiple",
-        "reason": "dependency",
+        "reason": "resources",
+        "started": "2026-08-17T20:14:20Z",
         "state": "pending",
         "submitted": "2026-08-17T15:57:55Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39402460",
-        "kind": "research",
-        "name": "blp51_mt_leg_MFAILCLOSED",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-17T15:58:00Z"
       },
       {
         "elapsed": "0s",
@@ -129,7 +110,8 @@
         "name": "blp51_pf_arm_A1",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "dependency",
+        "reason": "resources",
+        "started": "2026-08-17T20:14:20Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:02Z"
       },
@@ -140,7 +122,8 @@
         "name": "blp51_pf_arm_A3",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "dependency",
+        "reason": "resources",
+        "started": "2026-08-17T20:14:20Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:04Z"
       },
@@ -151,7 +134,8 @@
         "name": "blp51_pf_arm_A4",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "dependency",
+        "reason": "resources",
+        "started": "2026-08-17T20:14:20Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:09Z"
       },
@@ -162,7 +146,8 @@
         "name": "blp51_pf_arm_A5",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "dependency",
+        "reason": "resources",
+        "started": "2026-08-17T20:14:20Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:11Z"
       },
@@ -318,10 +303,30 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 26,
-      "running": 2
+      "pending": 20,
+      "running": 6
     },
     "recent": [
+      {
+        "elapsed": "15s",
+        "ended": "2026-08-17T16:13:10Z",
+        "exit_code": 0,
+        "id": "39402445",
+        "kind": "research",
+        "name": "blp51_promotion_verify",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "12m 30s",
+        "ended": "2026-08-17T16:12:17Z",
+        "exit_code": 0,
+        "id": "39402444",
+        "kind": "research",
+        "name": "blp51_run_build",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "6s",
         "ended": "2026-08-17T10:27:48Z",
@@ -543,7 +548,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T16:12:13Z",
+  "generated_at": "2026-08-17T16:15:16Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -551,11 +556,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T16:12:13Z",
+      "observed_at": "2026-08-17T16:15:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T16:12:13Z",
+      "observed_at": "2026-08-17T16:15:16Z",
       "status": "ok"
     }
   }
