@@ -2,45 +2,25 @@
   "account": {
     "active": [
       {
-        "elapsed": "9s",
+        "elapsed": "35s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T10:15:02Z",
+        "started": "2026-08-17T10:18:10Z",
         "state": "running",
-        "submitted": "2026-08-17T10:12:29Z"
+        "submitted": "2026-08-17T10:15:21Z"
       },
       {
-        "elapsed": "0s",
-        "id": "39370102",
-        "kind": "research",
-        "name": "blp51_pf_timing_merge",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:22Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "39370110",
-        "kind": "research",
-        "name": "blp51_pf_worst_stratum",
-        "nodes": 1,
-        "partition": "multiple",
-        "state": "pending",
-        "submitted": "2026-08-17T08:52:23Z"
-      },
-      {
-        "elapsed": "0s",
+        "elapsed": "5s",
         "id": "39370134",
         "kind": "research",
         "name": "blp51_k95_run",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "dependency",
-        "state": "pending",
+        "started": "2026-08-17T10:18:40Z",
+        "state": "running",
         "submitted": "2026-08-17T08:52:25Z"
       },
       {
@@ -162,10 +142,30 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 13,
-      "running": 1
+      "pending": 10,
+      "running": 2
     },
     "recent": [
+      {
+        "elapsed": "10s",
+        "ended": "2026-08-17T10:17:38Z",
+        "exit_code": 0,
+        "id": "39370110",
+        "kind": "research",
+        "name": "blp51_pf_worst_stratum",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "10s",
+        "ended": "2026-08-17T10:17:38Z",
+        "exit_code": 0,
+        "id": "39370102",
+        "kind": "research",
+        "name": "blp51_pf_timing_merge",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "38m 25s",
         "ended": "2026-08-17T10:14:46Z",
@@ -347,19 +347,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T10:15:11Z",
-  "message": "Queued",
+  "generated_at": "2026-08-17T10:18:45Z",
+  "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T10:15:11Z",
+      "observed_at": "2026-08-17T10:18:45Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T10:15:11Z",
+      "observed_at": "2026-08-17T10:18:45Z",
       "status": "ok"
     }
   }
