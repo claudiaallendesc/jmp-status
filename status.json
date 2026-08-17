@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 07m",
+        "elapsed": "2h 10m",
         "id": "39427351",
         "kind": "research",
         "name": "blp48_A3",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-17T18:58:53Z"
       },
       {
-        "elapsed": "2h 07m",
+        "elapsed": "2h 10m",
         "id": "39427353",
         "kind": "research",
         "name": "blp48_A5",
@@ -24,15 +24,15 @@
         "submitted": "2026-08-17T18:58:53Z"
       },
       {
-        "elapsed": "2s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T21:09:01Z",
+        "started": "2026-08-17T21:12:07Z",
         "state": "running",
-        "submitted": "2026-08-17T21:06:22Z"
+        "submitted": "2026-08-17T21:09:08Z"
       }
     ],
     "active_dropped": 0,
@@ -336,16 +336,6 @@
         "name": "blp51_pf_arm_A1",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "6m 21s",
-        "ended": "2026-08-17T09:09:54Z",
-        "exit_code": 0,
-        "id": "39370023",
-        "kind": "research",
-        "name": "blp51_mt_leg_MT5",
-        "partition": "normal",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -368,7 +358,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T21:09:03Z",
+  "generated_at": "2026-08-17T21:12:12Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -376,11 +366,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T21:09:03Z",
+      "observed_at": "2026-08-17T21:12:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T21:09:03Z",
+      "observed_at": "2026-08-17T21:12:12Z",
       "status": "ok"
     }
   }
