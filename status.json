@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "6m 05s",
+        "elapsed": "8m 59s",
         "id": "39402455",
         "kind": "research",
         "name": "blp51_mt_leg_MT5",
@@ -13,26 +13,15 @@
         "submitted": "2026-08-17T15:57:51Z"
       },
       {
-        "elapsed": "4m 13s",
-        "id": "39402459",
-        "kind": "research",
-        "name": "blp51_mt_leg_MT6S",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-17T16:17:00Z",
-        "state": "running",
-        "submitted": "2026-08-17T15:57:55Z"
-      },
-      {
-        "elapsed": "10s",
+        "elapsed": "4s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T16:21:03Z",
+        "started": "2026-08-17T16:24:03Z",
         "state": "running",
-        "submitted": "2026-08-17T16:18:12Z"
+        "submitted": "2026-08-17T16:21:22Z"
       },
       {
         "elapsed": "0s",
@@ -42,7 +31,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-17T20:17:05Z",
+        "started": "2026-08-17T20:15:11Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:02Z"
       },
@@ -54,7 +43,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-17T20:17:05Z",
+        "started": "2026-08-17T16:24:07Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:04Z"
       },
@@ -66,7 +55,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-17T20:17:05Z",
+        "started": "2026-08-17T20:15:11Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:09Z"
       },
@@ -78,7 +67,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-17T20:17:05Z",
+        "started": "2026-08-17T20:15:11Z",
         "state": "pending",
         "submitted": "2026-08-17T15:58:11Z"
       },
@@ -235,9 +224,19 @@
       "failed": 0,
       "other": 0,
       "pending": 17,
-      "running": 3
+      "running": 2
     },
     "recent": [
+      {
+        "elapsed": "4m 46s",
+        "ended": "2026-08-17T16:21:46Z",
+        "exit_code": 0,
+        "id": "39402459",
+        "kind": "research",
+        "name": "blp51_mt_leg_MT6S",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "3m 54s",
         "ended": "2026-08-17T16:20:54Z",
@@ -539,7 +538,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T16:21:13Z",
+  "generated_at": "2026-08-17T16:24:07Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -547,11 +546,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T16:21:13Z",
+      "observed_at": "2026-08-17T16:24:07Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T16:21:13Z",
+      "observed_at": "2026-08-17T16:24:07Z",
       "status": "ok"
     }
   }
