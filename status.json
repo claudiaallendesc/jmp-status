@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "51s",
+        "elapsed": "3m 54s",
         "id": "39402490",
         "kind": "research",
         "name": "blp51_k95_run",
@@ -13,15 +13,15 @@
         "submitted": "2026-08-17T15:58:24Z"
       },
       {
-        "elapsed": "2s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-17T17:48:07Z",
+        "started": "2026-08-17T17:51:05Z",
         "state": "running",
-        "submitted": "2026-08-17T17:45:10Z"
+        "submitted": "2026-08-17T17:48:14Z"
       },
       {
         "elapsed": "0s",
@@ -527,7 +527,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-17T17:48:09Z",
+  "generated_at": "2026-08-17T17:51:12Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -535,11 +535,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-17T17:48:09Z",
+      "observed_at": "2026-08-17T17:51:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-17T17:48:09Z",
+      "observed_at": "2026-08-17T17:51:12Z",
       "status": "ok"
     }
   }
