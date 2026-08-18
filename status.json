@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "11m 35s",
+        "elapsed": "14m 40s",
         "id": "39541272",
         "kind": "research",
         "name": "blp51_a4detdiag",
@@ -13,15 +13,15 @@
         "submitted": "2026-08-18T06:46:46Z"
       },
       {
-        "elapsed": "13s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-18T09:33:00Z",
+        "started": "2026-08-18T09:36:09Z",
         "state": "running",
-        "submitted": "2026-08-18T09:30:24Z"
+        "submitted": "2026-08-18T09:33:27Z"
       }
     ],
     "active_dropped": 0,
@@ -106,16 +106,6 @@
         "name": "blp48_A5",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "2h 32m",
-        "ended": "2026-08-17T21:34:51Z",
-        "exit_code": 0,
-        "id": "39427351",
-        "kind": "research",
-        "name": "blp48_A3",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -138,7 +128,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-18T09:33:13Z",
+  "generated_at": "2026-08-18T09:36:18Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -146,11 +136,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-18T09:33:13Z",
+      "observed_at": "2026-08-18T09:36:18Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-18T09:33:13Z",
+      "observed_at": "2026-08-18T09:36:18Z",
       "status": "ok"
     }
   }
