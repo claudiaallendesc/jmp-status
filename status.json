@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "5s",
+        "elapsed": "11s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-18T06:57:06Z",
+        "started": "2026-08-18T07:00:08Z",
         "state": "running",
-        "submitted": "2026-08-18T06:54:14Z"
+        "submitted": "2026-08-18T06:57:23Z"
       },
       {
         "elapsed": "0s",
@@ -126,16 +126,6 @@
         "name": "g1diag_replay",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "3m 02s",
-        "ended": "2026-08-17T18:58:39Z",
-        "exit_code": 0,
-        "id": "39426750",
-        "kind": "research",
-        "name": "blp48_smoke",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -158,7 +148,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-18T06:57:11Z",
+  "generated_at": "2026-08-18T07:00:19Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -166,11 +156,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-18T06:57:11Z",
+      "observed_at": "2026-08-18T07:00:19Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-18T06:57:11Z",
+      "observed_at": "2026-08-18T07:00:19Z",
       "status": "ok"
     }
   }
