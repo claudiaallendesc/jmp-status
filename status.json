@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "10s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-18T17:48:03Z",
+        "started": "2026-08-18T17:51:18Z",
         "state": "running",
-        "submitted": "2026-08-18T17:45:17Z"
+        "submitted": "2026-08-18T17:48:32Z"
       },
       {
         "elapsed": "0s",
@@ -20,6 +20,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-08-18T18:00:52Z",
         "state": "pending",
         "submitted": "2026-08-18T17:41:00Z"
       }
@@ -45,16 +46,6 @@
         "name": "blp51_a4detdiag",
         "partition": "normal",
         "state": "completed"
-      },
-      {
-        "elapsed": "8h 00m",
-        "ended": "2026-08-18T05:50:17Z",
-        "exit_code": 67,
-        "id": "39454856",
-        "kind": "research",
-        "name": "blp51amd_canary_A4",
-        "partition": "gsb",
-        "state": "failed"
       }
     ],
     "recent_dropped": 0,
@@ -77,7 +68,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-18T17:48:13Z",
+  "generated_at": "2026-08-18T17:51:20Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -85,11 +76,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-18T17:48:13Z",
+      "observed_at": "2026-08-18T17:51:20Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-18T17:48:13Z",
+      "observed_at": "2026-08-18T17:51:20Z",
       "status": "ok"
     }
   }
