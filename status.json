@@ -2,26 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "7h 58m",
-        "id": "39454856",
-        "kind": "research",
-        "name": "blp51amd_canary_A4",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-17T21:49:34Z",
-        "state": "running",
-        "submitted": "2026-08-17T21:41:42Z"
-      },
-      {
-        "elapsed": "10s",
+        "elapsed": "39s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-18T05:48:01Z",
+        "started": "2026-08-18T05:51:02Z",
         "state": "running",
-        "submitted": "2026-08-18T05:45:44Z"
+        "submitted": "2026-08-18T05:48:19Z"
       }
     ],
     "active_dropped": 0,
@@ -33,9 +22,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 2
+      "running": 1
     },
     "recent": [
+      {
+        "elapsed": "8h 00m",
+        "ended": "2026-08-18T05:50:17Z",
+        "exit_code": 67,
+        "id": "39454856",
+        "kind": "research",
+        "name": "blp51amd_canary_A4",
+        "partition": "gsb",
+        "state": "failed"
+      },
       {
         "elapsed": "2h 49m",
         "ended": "2026-08-18T00:36:01Z",
@@ -178,19 +177,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-18T05:48:11Z",
-  "message": "Running",
+  "generated_at": "2026-08-18T05:51:42Z",
+  "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-18T05:48:11Z",
+      "observed_at": "2026-08-18T05:51:42Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-18T05:48:11Z",
+      "observed_at": "2026-08-18T05:51:42Z",
       "status": "ok"
     }
   }
