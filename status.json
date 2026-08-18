@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 40m",
+        "elapsed": "2h 43m",
         "id": "39454756",
         "kind": "research",
         "name": "blp51amd_canary_A3",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-17T21:41:39Z"
       },
       {
-        "elapsed": "2h 37m",
+        "elapsed": "2h 40m",
         "id": "39454856",
         "kind": "research",
         "name": "blp51amd_canary_A4",
@@ -24,15 +24,15 @@
         "submitted": "2026-08-17T21:41:42Z"
       },
       {
-        "elapsed": "1s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-18T00:27:03Z",
+        "started": "2026-08-18T00:30:07Z",
         "state": "running",
-        "submitted": "2026-08-18T00:24:15Z"
+        "submitted": "2026-08-18T00:27:16Z"
       }
     ],
     "active_dropped": 0,
@@ -339,7 +339,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-18T00:27:05Z",
+  "generated_at": "2026-08-18T00:30:14Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -347,11 +347,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-18T00:27:05Z",
+      "observed_at": "2026-08-18T00:30:14Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-18T00:27:05Z",
+      "observed_at": "2026-08-18T00:30:14Z",
       "status": "ok"
     }
   }
