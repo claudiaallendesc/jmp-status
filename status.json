@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "4h 17m",
+        "elapsed": "4h 20m",
         "id": "39541272",
         "kind": "research",
         "name": "blp51_a4detdiag",
@@ -13,15 +13,15 @@
         "submitted": "2026-08-18T06:46:46Z"
       },
       {
-        "elapsed": "3s",
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-18T13:39:07Z",
+        "started": "2026-08-18T13:42:07Z",
         "state": "running",
-        "submitted": "2026-08-18T13:36:21Z"
+        "submitted": "2026-08-18T13:39:15Z"
       }
     ],
     "active_dropped": 0,
@@ -67,7 +67,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-18T13:39:10Z",
+  "generated_at": "2026-08-18T13:42:13Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -75,11 +75,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-18T13:39:10Z",
+      "observed_at": "2026-08-18T13:42:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-18T13:39:10Z",
+      "observed_at": "2026-08-18T13:42:13Z",
       "status": "ok"
     }
   }
