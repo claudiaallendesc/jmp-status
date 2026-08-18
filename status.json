@@ -3,17 +3,6 @@
     "active": [
       {
         "elapsed": "2h 46m",
-        "id": "39454756",
-        "kind": "research",
-        "name": "blp51amd_canary_A3",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-17T21:46:56Z",
-        "state": "running",
-        "submitted": "2026-08-17T21:41:39Z"
-      },
-      {
-        "elapsed": "2h 43m",
         "id": "39454856",
         "kind": "research",
         "name": "blp51amd_canary_A4",
@@ -24,15 +13,15 @@
         "submitted": "2026-08-17T21:41:42Z"
       },
       {
-        "elapsed": "5s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-18T00:33:09Z",
+        "started": "2026-08-18T00:36:08Z",
         "state": "running",
-        "submitted": "2026-08-18T00:30:28Z"
+        "submitted": "2026-08-18T00:33:25Z"
       }
     ],
     "active_dropped": 0,
@@ -44,9 +33,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 3
+      "running": 2
     },
     "recent": [
+      {
+        "elapsed": "2h 49m",
+        "ended": "2026-08-18T00:36:01Z",
+        "exit_code": 0,
+        "id": "39454756",
+        "kind": "research",
+        "name": "blp51amd_canary_A3",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "1h 10m",
         "ended": "2026-08-17T23:06:48Z",
@@ -339,7 +338,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-18T00:33:14Z",
+  "generated_at": "2026-08-18T00:36:17Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -347,11 +346,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-18T00:33:14Z",
+      "observed_at": "2026-08-18T00:36:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-18T00:33:14Z",
+      "observed_at": "2026-08-18T00:36:17Z",
       "status": "ok"
     }
   }
