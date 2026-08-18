@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "7h 52m",
+        "elapsed": "7h 55m",
         "id": "39454856",
         "kind": "research",
         "name": "blp51amd_canary_A4",
@@ -13,15 +13,15 @@
         "submitted": "2026-08-17T21:41:42Z"
       },
       {
-        "elapsed": "3s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-18T05:42:03Z",
+        "started": "2026-08-18T05:45:07Z",
         "state": "running",
-        "submitted": "2026-08-18T05:39:26Z"
+        "submitted": "2026-08-18T05:42:14Z"
       }
     ],
     "active_dropped": 0,
@@ -156,36 +156,6 @@
         "name": "blp51_k95_run",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "8s",
-        "ended": "2026-08-17T17:44:38Z",
-        "exit_code": 0,
-        "id": "39402475",
-        "kind": "research",
-        "name": "blp51_pf_worst_stratum",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "8s",
-        "ended": "2026-08-17T17:44:38Z",
-        "exit_code": 0,
-        "id": "39402469",
-        "kind": "research",
-        "name": "blp51_pf_timing_merge",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "33m 19s",
-        "ended": "2026-08-17T17:42:52Z",
-        "exit_code": 0,
-        "id": "39402466",
-        "kind": "research",
-        "name": "blp51_pf_arm_A5",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -208,7 +178,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-18T05:42:06Z",
+  "generated_at": "2026-08-18T05:45:16Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -216,11 +186,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-18T05:42:06Z",
+      "observed_at": "2026-08-18T05:45:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-18T05:42:06Z",
+      "observed_at": "2026-08-18T05:45:16Z",
       "status": "ok"
     }
   }
