@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1h 17m",
+        "elapsed": "1h 20m",
         "id": "39541272",
         "kind": "research",
         "name": "blp51_a4detdiag",
@@ -13,15 +13,15 @@
         "submitted": "2026-08-18T06:46:46Z"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-18T10:39:04Z",
+        "started": "2026-08-18T10:42:04Z",
         "state": "running",
-        "submitted": "2026-08-18T10:36:21Z"
+        "submitted": "2026-08-18T10:39:25Z"
       }
     ],
     "active_dropped": 0,
@@ -75,16 +75,6 @@
         "name": "blp51amd_canary_A1",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "30m 16s",
-        "ended": "2026-08-17T22:41:39Z",
-        "exit_code": 0,
-        "id": "39457931",
-        "kind": "research",
-        "name": "blp48_stallcont",
-        "partition": "gsb",
-        "state": "failed"
       }
     ],
     "recent_dropped": 0,
@@ -107,7 +97,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-18T10:39:11Z",
+  "generated_at": "2026-08-18T10:42:11Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -115,11 +105,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-18T10:39:11Z",
+      "observed_at": "2026-08-18T10:42:11Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-18T10:39:11Z",
+      "observed_at": "2026-08-18T10:42:11Z",
       "status": "ok"
     }
   }
