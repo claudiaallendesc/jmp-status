@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "6h 28m",
+        "elapsed": "6h 31m",
         "id": "39454856",
         "kind": "research",
         "name": "blp51amd_canary_A4",
@@ -13,15 +13,15 @@
         "submitted": "2026-08-17T21:41:42Z"
       },
       {
-        "elapsed": "2s",
+        "elapsed": "17s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-18T04:18:10Z",
+        "started": "2026-08-18T04:21:03Z",
         "state": "running",
-        "submitted": "2026-08-18T04:15:17Z"
+        "submitted": "2026-08-18T04:18:16Z"
       }
     ],
     "active_dropped": 0,
@@ -236,66 +236,6 @@
         "name": "blp51_mt_leg_MT6S",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "3m 54s",
-        "ended": "2026-08-17T16:20:54Z",
-        "exit_code": 0,
-        "id": "39402457",
-        "kind": "research",
-        "name": "blp51_mt_leg_MT6W",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "6m 20s",
-        "ended": "2026-08-17T16:20:31Z",
-        "exit_code": 0,
-        "id": "39402454",
-        "kind": "research",
-        "name": "blp51_mt_leg_MT4",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "5m 07s",
-        "ended": "2026-08-17T16:20:15Z",
-        "exit_code": 0,
-        "id": "39402460",
-        "kind": "research",
-        "name": "blp51_mt_leg_MFAILCLOSED",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "5m 07s",
-        "ended": "2026-08-17T16:20:15Z",
-        "exit_code": 0,
-        "id": "39402449",
-        "kind": "research",
-        "name": "blp51_mt_leg_MT2",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "4m 54s",
-        "ended": "2026-08-17T16:20:02Z",
-        "exit_code": 0,
-        "id": "39402448",
-        "kind": "research",
-        "name": "blp51_mt_leg_MT1",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "2m 35s",
-        "ended": "2026-08-17T16:19:35Z",
-        "exit_code": 0,
-        "id": "39402451",
-        "kind": "research",
-        "name": "blp51_mt_leg_MT3",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -318,7 +258,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-18T04:18:12Z",
+  "generated_at": "2026-08-18T04:21:20Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -326,11 +266,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-18T04:18:12Z",
+      "observed_at": "2026-08-18T04:21:20Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-18T04:18:12Z",
+      "observed_at": "2026-08-18T04:21:20Z",
       "status": "ok"
     }
   }
