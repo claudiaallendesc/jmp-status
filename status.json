@@ -2,26 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "6h 14m",
-        "id": "39541272",
-        "kind": "research",
-        "name": "blp51_a4detdiag",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-18T09:21:38Z",
-        "state": "running",
-        "submitted": "2026-08-18T06:46:46Z"
-      },
-      {
-        "elapsed": "7s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-18T15:36:03Z",
+        "started": "2026-08-18T15:39:01Z",
         "state": "running",
-        "submitted": "2026-08-18T15:33:18Z"
+        "submitted": "2026-08-18T15:36:24Z"
       }
     ],
     "active_dropped": 0,
@@ -33,9 +22,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 2
+      "running": 1
     },
     "recent": [
+      {
+        "elapsed": "6h 16m",
+        "ended": "2026-08-18T15:37:38Z",
+        "exit_code": 0,
+        "id": "39541272",
+        "kind": "research",
+        "name": "blp51_a4detdiag",
+        "partition": "normal",
+        "state": "completed"
+      },
       {
         "elapsed": "8h 00m",
         "ended": "2026-08-18T05:50:17Z",
@@ -67,19 +66,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-18T15:36:10Z",
-  "message": "Running",
+  "generated_at": "2026-08-18T15:39:10Z",
+  "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-18T15:36:10Z",
+      "observed_at": "2026-08-18T15:39:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-18T15:36:10Z",
+      "observed_at": "2026-08-18T15:39:10Z",
       "status": "ok"
     }
   }
