@@ -1,18 +1,6 @@
 {
   "account": {
-    "active": [
-      {
-        "elapsed": "10s",
-        "id": "39005528",
-        "kind": "service",
-        "name": "jmp_status_collect",
-        "nodes": 1,
-        "partition": "service",
-        "started": "2026-08-19T08:51:09Z",
-        "state": "running",
-        "submitted": "2026-08-19T08:48:40Z"
-      }
-    ],
+    "active": [],
     "active_dropped": 0,
     "active_omitted": 0,
     "counts": {
@@ -22,7 +10,7 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 1
+      "running": 0
     },
     "recent": [
       {
@@ -34,11 +22,20 @@
         "name": "opthandoff01_h2",
         "partition": "normal",
         "state": "completed"
+      },
+      {
+        "elapsed": "38s",
+        "exit_code": 0,
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "partition": "service",
+        "state": "running"
       }
     ],
     "recent_dropped": 0,
     "recent_omitted": 0,
-    "service_count": 1,
+    "service_count": 0,
     "window_hours": 12
   },
   "campaign": {
@@ -55,20 +52,19 @@
       "running": 0
     }
   },
-  "collector_health": "degraded",
-  "generated_at": "2026-08-19T08:51:19Z",
-  "message": "No active jobs",
+  "collector_health": "offline",
+  "generated_at": "2026-08-19T08:54:44Z",
+  "message": "Status unavailable",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-19T08:51:19Z",
-      "status": "ok"
+      "status": "unavailable"
     },
     "recent": {
-      "observed_at": "2026-08-19T08:51:19Z",
+      "observed_at": "2026-08-19T08:54:44Z",
       "status": "ok"
     }
   }
