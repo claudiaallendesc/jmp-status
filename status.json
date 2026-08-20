@@ -8,9 +8,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-20T02:24:07Z",
+        "started": "2026-08-20T02:27:11Z",
         "state": "running",
-        "submitted": "2026-08-20T02:21:24Z"
+        "submitted": "2026-08-20T02:24:22Z"
       },
       {
         "elapsed": "0s",
@@ -20,7 +20,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:24:09Z",
+        "started": "2026-08-20T02:27:13Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:08Z"
       },
@@ -32,7 +32,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:24:09Z",
+        "started": "2026-08-20T02:27:13Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:08Z"
       },
@@ -44,7 +44,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:24:09Z",
+        "started": "2026-08-20T02:27:13Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:10Z"
       },
@@ -56,7 +56,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:24:09Z",
+        "started": "2026-08-20T02:27:13Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:30Z"
       }
@@ -93,7 +93,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-20T02:24:09Z",
+  "generated_at": "2026-08-20T02:27:13Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -101,11 +101,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T02:24:09Z",
+      "observed_at": "2026-08-20T02:27:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-20T02:24:09Z",
+      "observed_at": "2026-08-20T02:27:13Z",
       "status": "ok"
     }
   }
