@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "19h 21m",
+        "elapsed": "19h 24m",
         "id": "39941993",
         "kind": "research",
         "name": "mcp01_est",
@@ -13,51 +13,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "19h 21m",
-        "id": "39941997",
-        "kind": "research",
-        "name": "mcp01_est",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T03:59:54Z",
-        "state": "running",
-        "submitted": "2026-08-20T03:57:13Z"
-      },
-      {
-        "elapsed": "19h 21m",
-        "id": "39941998",
-        "kind": "research",
-        "name": "mcp01_est",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T03:59:54Z",
-        "state": "running",
-        "submitted": "2026-08-20T03:57:13Z"
-      },
-      {
-        "elapsed": "19h 19m",
-        "id": "39941999",
-        "kind": "research",
-        "name": "mcp01_est",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T04:01:26Z",
-        "state": "running",
-        "submitted": "2026-08-20T03:57:13Z"
-      },
-      {
-        "elapsed": "19h 19m",
-        "id": "39942001",
-        "kind": "research",
-        "name": "mcp01_est",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T04:01:26Z",
-        "state": "running",
-        "submitted": "2026-08-20T03:57:14Z"
-      },
-      {
-        "elapsed": "6h 07m",
+        "elapsed": "6h 10m",
         "id": "40025824",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -68,73 +24,7 @@
         "submitted": "2026-08-20T17:13:24Z"
       },
       {
-        "elapsed": "6h 07m",
-        "id": "40025825",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:13:27Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:24Z"
-      },
-      {
-        "elapsed": "6h 07m",
-        "id": "40025869",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:14:07Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:52Z"
-      },
-      {
-        "elapsed": "6h 07m",
-        "id": "40025873",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:14:07Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:53Z"
-      },
-      {
-        "elapsed": "6h 06m",
-        "id": "40025867",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:14:39Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:52Z"
-      },
-      {
-        "elapsed": "6h 06m",
-        "id": "40025870",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:14:39Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:52Z"
-      },
-      {
-        "elapsed": "6h 06m",
-        "id": "40025875",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:14:39Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:53Z"
-      },
-      {
-        "elapsed": "6h 06m",
+        "elapsed": "6h 09m",
         "id": "40025818",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -145,7 +35,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "6h 05m",
+        "elapsed": "6h 08m",
         "id": "40025769",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -156,18 +46,7 @@
         "submitted": "2026-08-20T17:13:14Z"
       },
       {
-        "elapsed": "6h 05m",
-        "id": "40025872",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:15:38Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:53Z"
-      },
-      {
-        "elapsed": "6h 05m",
+        "elapsed": "6h 08m",
         "id": "40025821",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -178,106 +57,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "6h 05m",
-        "id": "40025831",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:15:51Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:45Z"
-      },
-      {
-        "elapsed": "6h 05m",
-        "id": "40025874",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:15:51Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:53Z"
-      },
-      {
-        "elapsed": "6h 04m",
-        "id": "40025836",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:16:37Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:45Z"
-      },
-      {
-        "elapsed": "6h 04m",
-        "id": "40025864",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:16:37Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:51Z"
-      },
-      {
-        "elapsed": "6h 04m",
-        "id": "40025837",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:16:56Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:48Z"
-      },
-      {
-        "elapsed": "6h 03m",
-        "id": "40025835",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:17:19Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:45Z"
-      },
-      {
-        "elapsed": "6h 03m",
-        "id": "40025865",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:17:19Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:51Z"
-      },
-      {
-        "elapsed": "6h 03m",
-        "id": "40025868",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:17:19Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:52Z"
-      },
-      {
-        "elapsed": "6h 03m",
-        "id": "40025871",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T17:17:56Z",
-        "state": "running",
-        "submitted": "2026-08-20T17:13:52Z"
-      },
-      {
-        "elapsed": "2h 17m",
+        "elapsed": "2h 20m",
         "id": "40055973",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -288,7 +68,7 @@
         "submitted": "2026-08-20T21:02:28Z"
       },
       {
-        "elapsed": "1h 47m",
+        "elapsed": "1h 50m",
         "id": "40055864",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -299,7 +79,7 @@
         "submitted": "2026-08-20T21:02:20Z"
       },
       {
-        "elapsed": "1h 47m",
+        "elapsed": "1h 50m",
         "id": "40055869",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -310,7 +90,7 @@
         "submitted": "2026-08-20T21:02:20Z"
       },
       {
-        "elapsed": "1h 43m",
+        "elapsed": "1h 46m",
         "id": "40055870",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -321,7 +101,7 @@
         "submitted": "2026-08-20T21:02:20Z"
       },
       {
-        "elapsed": "1h 43m",
+        "elapsed": "1h 46m",
         "id": "40055944",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -332,7 +112,7 @@
         "submitted": "2026-08-20T21:02:25Z"
       },
       {
-        "elapsed": "1h 01m",
+        "elapsed": "1h 04m",
         "id": "40056034",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -343,7 +123,7 @@
         "submitted": "2026-08-20T21:02:29Z"
       },
       {
-        "elapsed": "1h 01m",
+        "elapsed": "1h 04m",
         "id": "40056036",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -354,7 +134,7 @@
         "submitted": "2026-08-20T21:02:29Z"
       },
       {
-        "elapsed": "1h 01m",
+        "elapsed": "1h 04m",
         "id": "40056048",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -365,7 +145,7 @@
         "submitted": "2026-08-20T21:02:31Z"
       },
       {
-        "elapsed": "29m 49s",
+        "elapsed": "32m 52s",
         "id": "40056038",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -376,7 +156,7 @@
         "submitted": "2026-08-20T21:02:30Z"
       },
       {
-        "elapsed": "23m 15s",
+        "elapsed": "26m 18s",
         "id": "40056040",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -387,7 +167,7 @@
         "submitted": "2026-08-20T21:02:31Z"
       },
       {
-        "elapsed": "15m 30s",
+        "elapsed": "18m 33s",
         "id": "40056044",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -398,7 +178,7 @@
         "submitted": "2026-08-20T21:02:31Z"
       },
       {
-        "elapsed": "3m 55s",
+        "elapsed": "6m 58s",
         "id": "40056045",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -409,15 +189,15 @@
         "submitted": "2026-08-20T21:02:31Z"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-20T23:21:07Z",
+        "started": "2026-08-20T23:24:17Z",
         "state": "running",
-        "submitted": "2026-08-20T23:18:20Z"
+        "submitted": "2026-08-20T23:21:25Z"
       },
       {
         "elapsed": "0s",
@@ -427,6 +207,7 @@
         "nodes": 1,
         "partition": "multiple",
         "reason": "priority",
+        "started": "2026-08-21T01:14:08Z",
         "state": "pending",
         "submitted": "2026-08-20T21:02:31Z"
       },
@@ -438,6 +219,7 @@
         "nodes": 1,
         "partition": "multiple",
         "reason": "priority",
+        "started": "2026-08-21T01:14:08Z",
         "state": "pending",
         "submitted": "2026-08-20T21:02:31Z"
       },
@@ -449,6 +231,7 @@
         "nodes": 1,
         "partition": "multiple",
         "reason": "priority",
+        "started": "2026-08-21T01:14:08Z",
         "state": "pending",
         "submitted": "2026-08-20T21:02:31Z"
       },
@@ -460,6 +243,7 @@
         "nodes": 1,
         "partition": "multiple",
         "reason": "priority",
+        "started": "2026-08-21T01:14:08Z",
         "state": "pending",
         "submitted": "2026-08-20T21:02:31Z"
       }
@@ -473,9 +257,209 @@
       "failed": 0,
       "other": 0,
       "pending": 4,
-      "running": 38
+      "running": 18
     },
     "recent": [
+      {
+        "elapsed": "6h 06m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025875",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 05m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025874",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 07m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025873",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 05m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025872",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 03m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025871",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 06m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025870",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 07m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025869",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 04m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025868",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 06m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025867",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 04m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025865",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 04m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025864",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 04m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025837",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 04m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025836",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 04m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025835",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 05m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025831",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "6h 07m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "40025825",
+        "kind": "research",
+        "name": "mcp01_est_k",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "19h 19m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "39942001",
+        "kind": "research",
+        "name": "mcp01_est",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "19h 19m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "39941999",
+        "kind": "research",
+        "name": "mcp01_est",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "19h 21m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "39941998",
+        "kind": "research",
+        "name": "mcp01_est",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "19h 21m",
+        "ended": "2026-08-20T23:21:21Z",
+        "exit_code": 0,
+        "id": "39941997",
+        "kind": "research",
+        "name": "mcp01_est",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
       {
         "elapsed": "1h 39m",
         "ended": "2026-08-20T23:17:41Z",
@@ -657,7 +641,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-20T23:21:16Z",
+  "generated_at": "2026-08-20T23:24:19Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -665,11 +649,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T23:21:16Z",
+      "observed_at": "2026-08-20T23:24:19Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-20T23:21:16Z",
+      "observed_at": "2026-08-20T23:24:19Z",
       "status": "ok"
     }
   }
