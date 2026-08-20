@@ -2,37 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "2m 40s",
-        "id": "39923363",
-        "kind": "research",
-        "name": "blp48_assemble",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-20T02:57:33Z",
-        "state": "running",
-        "submitted": "2026-08-20T02:07:08Z"
-      },
-      {
-        "elapsed": "2m 40s",
-        "id": "39923366",
-        "kind": "research",
-        "name": "blp48_assemble",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-20T02:57:33Z",
-        "state": "running",
-        "submitted": "2026-08-20T02:07:08Z"
-      },
-      {
-        "elapsed": "9s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-20T03:00:04Z",
+        "started": "2026-08-20T03:03:11Z",
         "state": "running",
-        "submitted": "2026-08-20T02:57:29Z"
+        "submitted": "2026-08-20T03:00:27Z"
       },
       {
         "elapsed": "0s",
@@ -110,9 +88,30 @@
       "failed": 0,
       "other": 0,
       "pending": 6,
-      "running": 3
+      "running": 1
     },
-    "recent": [],
+    "recent": [
+      {
+        "elapsed": "4m 36s",
+        "ended": "2026-08-20T03:02:09Z",
+        "exit_code": 0,
+        "id": "39923363",
+        "kind": "research",
+        "name": "blp48_assemble",
+        "partition": "normal",
+        "state": "completed"
+      },
+      {
+        "elapsed": "4m 25s",
+        "ended": "2026-08-20T03:01:58Z",
+        "exit_code": 0,
+        "id": "39923366",
+        "kind": "research",
+        "name": "blp48_assemble",
+        "partition": "normal",
+        "state": "completed"
+      }
+    ],
     "recent_dropped": 0,
     "recent_omitted": 0,
     "service_count": 1,
@@ -133,19 +132,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-20T03:00:13Z",
-  "message": "Running",
+  "generated_at": "2026-08-20T03:03:16Z",
+  "message": "Queued",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T03:00:13Z",
+      "observed_at": "2026-08-20T03:03:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-20T03:00:13Z",
+      "observed_at": "2026-08-20T03:03:16Z",
       "status": "ok"
     }
   }
