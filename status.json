@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "11h 00m",
+        "elapsed": "11h 03m",
         "id": "39941993",
         "kind": "research",
         "name": "mcp01_est",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "11h 00m",
+        "elapsed": "11h 03m",
         "id": "39941997",
         "kind": "research",
         "name": "mcp01_est",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "11h 00m",
+        "elapsed": "11h 03m",
         "id": "39941998",
         "kind": "research",
         "name": "mcp01_est",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "10h 58m",
+        "elapsed": "11h 01m",
         "id": "39941999",
         "kind": "research",
         "name": "mcp01_est",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "10h 58m",
+        "elapsed": "11h 01m",
         "id": "39942001",
         "kind": "research",
         "name": "mcp01_est",
@@ -63,9 +63,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-20T15:00:11Z",
+        "started": "2026-08-20T15:03:02Z",
         "state": "running",
-        "submitted": "2026-08-20T14:57:16Z"
+        "submitted": "2026-08-20T15:00:19Z"
       }
     ],
     "active_dropped": 0,
@@ -399,26 +399,6 @@
         "name": "blp48_assemble",
         "partition": "normal",
         "state": "completed"
-      },
-      {
-        "elapsed": "4m 36s",
-        "ended": "2026-08-20T03:02:09Z",
-        "exit_code": 0,
-        "id": "39923363",
-        "kind": "research",
-        "name": "blp48_assemble",
-        "partition": "normal",
-        "state": "completed"
-      },
-      {
-        "elapsed": "4m 25s",
-        "ended": "2026-08-20T03:01:58Z",
-        "exit_code": 0,
-        "id": "39923366",
-        "kind": "research",
-        "name": "blp48_assemble",
-        "partition": "normal",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -441,7 +421,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-20T15:00:13Z",
+  "generated_at": "2026-08-20T15:03:04Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -449,11 +429,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T15:00:13Z",
+      "observed_at": "2026-08-20T15:03:04Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-20T15:00:13Z",
+      "observed_at": "2026-08-20T15:03:04Z",
       "status": "ok"
     }
   }
