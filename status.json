@@ -8,9 +8,53 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-20T02:06:00Z",
+        "started": "2026-08-20T02:09:04Z",
         "state": "running",
-        "submitted": "2026-08-20T02:03:34Z"
+        "submitted": "2026-08-20T02:06:09Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39923363",
+        "kind": "research",
+        "name": "blp48_assemble",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-20T02:07:08Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39923366",
+        "kind": "research",
+        "name": "blp48_assemble",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-20T02:07:08Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39923367",
+        "kind": "research",
+        "name": "blp48_assemble",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-20T02:07:10Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39923369",
+        "kind": "research",
+        "name": "blp48_assemble",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-20T02:07:30Z"
       }
     ],
     "active_dropped": 0,
@@ -21,7 +65,7 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 0,
+      "pending": 4,
       "running": 1
     },
     "recent": [],
@@ -45,19 +89,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-20T02:06:04Z",
-  "message": "No active jobs",
+  "generated_at": "2026-08-20T02:09:08Z",
+  "message": "Queued",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T02:06:04Z",
+      "observed_at": "2026-08-20T02:09:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-20T02:06:04Z",
+      "observed_at": "2026-08-20T02:09:08Z",
       "status": "ok"
     }
   }
