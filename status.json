@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "6h 03m",
+        "elapsed": "6h 06m",
         "id": "39941993",
         "kind": "research",
         "name": "mcp01_est",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "6h 03m",
+        "elapsed": "6h 06m",
         "id": "39941997",
         "kind": "research",
         "name": "mcp01_est",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "6h 03m",
+        "elapsed": "6h 06m",
         "id": "39941998",
         "kind": "research",
         "name": "mcp01_est",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "6h 01m",
+        "elapsed": "6h 04m",
         "id": "39941999",
         "kind": "research",
         "name": "mcp01_est",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "6h 01m",
+        "elapsed": "6h 04m",
         "id": "39942001",
         "kind": "research",
         "name": "mcp01_est",
@@ -63,9 +63,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-20T10:03:12Z",
+        "started": "2026-08-20T10:06:08Z",
         "state": "running",
-        "submitted": "2026-08-20T10:00:19Z"
+        "submitted": "2026-08-20T10:03:31Z"
       }
     ],
     "active_dropped": 0,
@@ -441,7 +441,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-20T10:03:18Z",
+  "generated_at": "2026-08-20T10:06:14Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -449,11 +449,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T10:03:18Z",
+      "observed_at": "2026-08-20T10:06:14Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-20T10:03:18Z",
+      "observed_at": "2026-08-20T10:06:14Z",
       "status": "ok"
     }
   }
