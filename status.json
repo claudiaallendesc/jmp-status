@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "2s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-20T02:54:06Z",
+        "started": "2026-08-20T02:57:09Z",
         "state": "running",
-        "submitted": "2026-08-20T02:51:25Z"
+        "submitted": "2026-08-20T02:54:23Z"
       },
       {
         "elapsed": "0s",
@@ -20,7 +20,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:54:08Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:08Z"
       },
@@ -32,7 +31,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:54:08Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:08Z"
       },
@@ -44,7 +42,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:54:08Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:10Z"
       },
@@ -56,7 +53,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:54:08Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:30Z"
       },
@@ -67,6 +63,7 @@
         "name": "blp48_assemble",
         "nodes": 1,
         "partition": "normal",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-20T02:53:14Z"
       },
@@ -77,6 +74,7 @@
         "name": "blp48_assemble",
         "nodes": 1,
         "partition": "normal",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-20T02:53:15Z"
       },
@@ -87,6 +85,7 @@
         "name": "blp48_assemble",
         "nodes": 1,
         "partition": "normal",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-20T02:53:19Z"
       },
@@ -97,6 +96,7 @@
         "name": "blp48_assemble",
         "nodes": 1,
         "partition": "normal",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-20T02:53:19Z"
       }
@@ -133,7 +133,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-20T02:54:08Z",
+  "generated_at": "2026-08-20T02:57:16Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -141,11 +141,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T02:54:08Z",
+      "observed_at": "2026-08-20T02:57:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-20T02:54:08Z",
+      "observed_at": "2026-08-20T02:57:16Z",
       "status": "ok"
     }
   }
