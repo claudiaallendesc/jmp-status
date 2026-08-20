@@ -1,260 +1,6 @@
 {
   "account": {
-    "active": [
-      {
-        "elapsed": "3h 24m",
-        "id": "39941993",
-        "kind": "research",
-        "name": "mcp01_est",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T03:59:54Z",
-        "state": "running",
-        "submitted": "2026-08-20T03:57:13Z"
-      },
-      {
-        "elapsed": "3h 24m",
-        "id": "39941997",
-        "kind": "research",
-        "name": "mcp01_est",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T03:59:54Z",
-        "state": "running",
-        "submitted": "2026-08-20T03:57:13Z"
-      },
-      {
-        "elapsed": "3h 24m",
-        "id": "39941998",
-        "kind": "research",
-        "name": "mcp01_est",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T03:59:54Z",
-        "state": "running",
-        "submitted": "2026-08-20T03:57:13Z"
-      },
-      {
-        "elapsed": "3h 23m",
-        "id": "39941999",
-        "kind": "research",
-        "name": "mcp01_est",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T04:01:26Z",
-        "state": "running",
-        "submitted": "2026-08-20T03:57:13Z"
-      },
-      {
-        "elapsed": "3h 23m",
-        "id": "39942001",
-        "kind": "research",
-        "name": "mcp01_est",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T04:01:26Z",
-        "state": "running",
-        "submitted": "2026-08-20T03:57:14Z"
-      },
-      {
-        "elapsed": "32m 23s",
-        "id": "39962567",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T06:52:13Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:12Z"
-      },
-      {
-        "elapsed": "24m 38s",
-        "id": "39962570",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T06:59:58Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:12Z"
-      },
-      {
-        "elapsed": "20m 24s",
-        "id": "39962571",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:04:12Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:12Z"
-      },
-      {
-        "elapsed": "16m 51s",
-        "id": "39962572",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:07:45Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:12Z"
-      },
-      {
-        "elapsed": "13m 25s",
-        "id": "39962573",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:11:11Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:12Z"
-      },
-      {
-        "elapsed": "13m 25s",
-        "id": "39962575",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:11:11Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:12Z"
-      },
-      {
-        "elapsed": "13m 25s",
-        "id": "39962580",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:11:11Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:13Z"
-      },
-      {
-        "elapsed": "9m 41s",
-        "id": "39962574",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:14:55Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:12Z"
-      },
-      {
-        "elapsed": "9m 41s",
-        "id": "39962578",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:14:55Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:13Z"
-      },
-      {
-        "elapsed": "9m 41s",
-        "id": "39962582",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:14:55Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:13Z"
-      },
-      {
-        "elapsed": "9m 41s",
-        "id": "39962583",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:14:55Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:13Z"
-      },
-      {
-        "elapsed": "9m 41s",
-        "id": "39962586",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:14:55Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:13Z"
-      },
-      {
-        "elapsed": "8m 50s",
-        "id": "39962577",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:15:46Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:12Z"
-      },
-      {
-        "elapsed": "8m 50s",
-        "id": "39962579",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:15:46Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:13Z"
-      },
-      {
-        "elapsed": "8m 04s",
-        "id": "39962581",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:16:32Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:13Z"
-      },
-      {
-        "elapsed": "8m 04s",
-        "id": "39962584",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:16:32Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:13Z"
-      },
-      {
-        "elapsed": "8m 04s",
-        "id": "39962585",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T07:16:32Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:13Z"
-      },
-      {
-        "elapsed": "32s",
-        "id": "39005528",
-        "kind": "service",
-        "name": "jmp_status_collect",
-        "nodes": 1,
-        "partition": "service",
-        "started": "2026-08-20T07:24:04Z",
-        "state": "running",
-        "submitted": "2026-08-20T07:21:29Z"
-      }
-    ],
+    "active": [],
     "active_dropped": 0,
     "active_omitted": 0,
     "counts": {
@@ -264,9 +10,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 23
+      "running": 0
     },
     "recent": [
+      {
+        "elapsed": "32m 42s",
+        "ended": "2026-08-20T07:24:55Z",
+        "exit_code": 0,
+        "id": "39962567",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "27m 23s",
         "ended": "2026-08-20T07:23:39Z",
@@ -436,11 +192,209 @@
         "name": "blp48_assemble",
         "partition": "normal",
         "state": "completed"
+      },
+      {
+        "elapsed": "12m 53s",
+        "exit_code": 0,
+        "id": "39962586",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "11m 16s",
+        "exit_code": 0,
+        "id": "39962585",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "11m 16s",
+        "exit_code": 0,
+        "id": "39962584",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "12m 53s",
+        "exit_code": 0,
+        "id": "39962583",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "12m 53s",
+        "exit_code": 0,
+        "id": "39962582",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "11m 16s",
+        "exit_code": 0,
+        "id": "39962581",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "16m 37s",
+        "exit_code": 0,
+        "id": "39962580",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "12m 02s",
+        "exit_code": 0,
+        "id": "39962579",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "12m 53s",
+        "exit_code": 0,
+        "id": "39962578",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "12m 02s",
+        "exit_code": 0,
+        "id": "39962577",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "16m 37s",
+        "exit_code": 0,
+        "id": "39962575",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "12m 53s",
+        "exit_code": 0,
+        "id": "39962574",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "16m 37s",
+        "exit_code": 0,
+        "id": "39962573",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "20m 03s",
+        "exit_code": 0,
+        "id": "39962572",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "23m 36s",
+        "exit_code": 0,
+        "id": "39962571",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "27m 50s",
+        "exit_code": 0,
+        "id": "39962570",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "3h 26m",
+        "exit_code": 0,
+        "id": "39942001",
+        "kind": "research",
+        "name": "mcp01_est",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "3h 26m",
+        "exit_code": 0,
+        "id": "39941999",
+        "kind": "research",
+        "name": "mcp01_est",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "3h 27m",
+        "exit_code": 0,
+        "id": "39941998",
+        "kind": "research",
+        "name": "mcp01_est",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "3h 27m",
+        "exit_code": 0,
+        "id": "39941997",
+        "kind": "research",
+        "name": "mcp01_est",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "3h 27m",
+        "exit_code": 0,
+        "id": "39941993",
+        "kind": "research",
+        "name": "mcp01_est",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "37s",
+        "exit_code": 0,
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "partition": "service",
+        "state": "running"
       }
     ],
     "recent_dropped": 0,
     "recent_omitted": 0,
-    "service_count": 1,
+    "service_count": 0,
     "window_hours": 12
   },
   "campaign": {
@@ -457,20 +411,19 @@
       "running": 0
     }
   },
-  "collector_health": "degraded",
-  "generated_at": "2026-08-20T07:24:36Z",
-  "message": "Running",
+  "collector_health": "offline",
+  "generated_at": "2026-08-20T07:27:48Z",
+  "message": "Status unavailable",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T07:24:36Z",
-      "status": "ok"
+      "status": "unavailable"
     },
     "recent": {
-      "observed_at": "2026-08-20T07:24:36Z",
+      "observed_at": "2026-08-20T07:27:48Z",
       "status": "ok"
     }
   }
