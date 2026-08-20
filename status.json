@@ -2,81 +2,81 @@
   "account": {
     "active": [
       {
-        "elapsed": "5s",
-        "id": "39005528",
-        "kind": "service",
-        "name": "jmp_status_collect",
-        "nodes": 1,
-        "partition": "service",
-        "started": "2026-08-20T03:03:11Z",
-        "state": "running",
-        "submitted": "2026-08-20T03:00:27Z"
-      },
-      {
-        "elapsed": "0s",
+        "elapsed": "2m 22s",
         "id": "39923367",
         "kind": "research",
         "name": "blp48_assemble",
         "nodes": 1,
         "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
+        "started": "2026-08-20T03:03:50Z",
+        "state": "running",
         "submitted": "2026-08-20T02:07:10Z"
       },
       {
-        "elapsed": "0s",
+        "elapsed": "2m 22s",
         "id": "39923369",
         "kind": "research",
         "name": "blp48_assemble",
         "nodes": 1,
         "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
+        "started": "2026-08-20T03:03:50Z",
+        "state": "running",
         "submitted": "2026-08-20T02:07:30Z"
       },
       {
-        "elapsed": "0s",
+        "elapsed": "2m 22s",
         "id": "39928839",
         "kind": "research",
         "name": "blp48_assemble",
         "nodes": 1,
         "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
+        "started": "2026-08-20T03:03:50Z",
+        "state": "running",
         "submitted": "2026-08-20T02:53:14Z"
       },
       {
-        "elapsed": "0s",
+        "elapsed": "2m 22s",
         "id": "39928841",
         "kind": "research",
         "name": "blp48_assemble",
         "nodes": 1,
         "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
+        "started": "2026-08-20T03:03:50Z",
+        "state": "running",
         "submitted": "2026-08-20T02:53:15Z"
       },
       {
-        "elapsed": "0s",
+        "elapsed": "2m 22s",
         "id": "39928842",
         "kind": "research",
         "name": "blp48_assemble",
         "nodes": 1,
         "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
+        "started": "2026-08-20T03:03:50Z",
+        "state": "running",
         "submitted": "2026-08-20T02:53:19Z"
       },
       {
-        "elapsed": "0s",
+        "elapsed": "2m 22s",
         "id": "39928844",
         "kind": "research",
         "name": "blp48_assemble",
         "nodes": 1,
         "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
+        "started": "2026-08-20T03:03:50Z",
+        "state": "running",
         "submitted": "2026-08-20T02:53:19Z"
+      },
+      {
+        "elapsed": "7s",
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "nodes": 1,
+        "partition": "service",
+        "started": "2026-08-20T03:06:05Z",
+        "state": "running",
+        "submitted": "2026-08-20T03:03:28Z"
       }
     ],
     "active_dropped": 0,
@@ -87,8 +87,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 6,
-      "running": 1
+      "pending": 0,
+      "running": 7
     },
     "recent": [
       {
@@ -132,19 +132,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-20T03:03:16Z",
-  "message": "Queued",
+  "generated_at": "2026-08-20T03:06:12Z",
+  "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T03:03:16Z",
+      "observed_at": "2026-08-20T03:06:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-20T03:03:16Z",
+      "observed_at": "2026-08-20T03:06:12Z",
       "status": "ok"
     }
   }
