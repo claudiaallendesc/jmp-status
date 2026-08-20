@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "12m 39s",
+        "elapsed": "15m 34s",
         "id": "39936895",
         "kind": "research",
         "name": "mcp01_stage",
@@ -13,18 +13,7 @@
         "submitted": "2026-08-20T03:33:21Z"
       },
       {
-        "elapsed": "12m 39s",
-        "id": "39936897",
-        "kind": "research",
-        "name": "mcp01_stage",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T03:35:39Z",
-        "state": "running",
-        "submitted": "2026-08-20T03:33:24Z"
-      },
-      {
-        "elapsed": "12m 39s",
+        "elapsed": "15m 34s",
         "id": "39936900",
         "kind": "research",
         "name": "mcp01_stage",
@@ -35,7 +24,7 @@
         "submitted": "2026-08-20T03:33:24Z"
       },
       {
-        "elapsed": "12m 29s",
+        "elapsed": "15m 24s",
         "id": "39936903",
         "kind": "research",
         "name": "mcp01_stage",
@@ -46,7 +35,7 @@
         "submitted": "2026-08-20T03:33:26Z"
       },
       {
-        "elapsed": "12m 29s",
+        "elapsed": "15m 24s",
         "id": "39936905",
         "kind": "research",
         "name": "mcp01_stage",
@@ -57,15 +46,15 @@
         "submitted": "2026-08-20T03:33:26Z"
       },
       {
-        "elapsed": "14s",
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-20T03:48:04Z",
+        "started": "2026-08-20T03:51:03Z",
         "state": "running",
-        "submitted": "2026-08-20T03:45:30Z"
+        "submitted": "2026-08-20T03:48:30Z"
       }
     ],
     "active_dropped": 0,
@@ -77,9 +66,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 6
+      "running": 5
     },
     "recent": [
+      {
+        "elapsed": "14m 09s",
+        "ended": "2026-08-20T03:49:48Z",
+        "exit_code": 0,
+        "id": "39936897",
+        "kind": "research",
+        "name": "mcp01_stage",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "6m 06s",
         "ended": "2026-08-20T03:09:56Z",
@@ -181,7 +180,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-20T03:48:18Z",
+  "generated_at": "2026-08-20T03:51:13Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -189,11 +188,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T03:48:18Z",
+      "observed_at": "2026-08-20T03:51:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-20T03:48:18Z",
+      "observed_at": "2026-08-20T03:51:13Z",
       "status": "ok"
     }
   }
