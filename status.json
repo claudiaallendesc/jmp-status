@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "3h 30m",
+        "elapsed": "3h 33m",
         "id": "39941993",
         "kind": "research",
         "name": "mcp01_est",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "3h 30m",
+        "elapsed": "3h 33m",
         "id": "39941997",
         "kind": "research",
         "name": "mcp01_est",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "3h 30m",
+        "elapsed": "3h 33m",
         "id": "39941998",
         "kind": "research",
         "name": "mcp01_est",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "3h 28m",
+        "elapsed": "3h 31m",
         "id": "39941999",
         "kind": "research",
         "name": "mcp01_est",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "3h 28m",
+        "elapsed": "3h 31m",
         "id": "39942001",
         "kind": "research",
         "name": "mcp01_est",
@@ -57,18 +57,7 @@
         "submitted": "2026-08-20T03:57:14Z"
       },
       {
-        "elapsed": "30m 12s",
-        "id": "39962570",
-        "kind": "research",
-        "name": "mcp01_kstart",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-20T06:59:58Z",
-        "state": "running",
-        "submitted": "2026-08-20T06:46:12Z"
-      },
-      {
-        "elapsed": "25m 58s",
+        "elapsed": "28m 56s",
         "id": "39962571",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -79,7 +68,7 @@
         "submitted": "2026-08-20T06:46:12Z"
       },
       {
-        "elapsed": "22m 25s",
+        "elapsed": "25m 23s",
         "id": "39962572",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -90,7 +79,7 @@
         "submitted": "2026-08-20T06:46:12Z"
       },
       {
-        "elapsed": "18m 59s",
+        "elapsed": "21m 57s",
         "id": "39962573",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -101,7 +90,7 @@
         "submitted": "2026-08-20T06:46:12Z"
       },
       {
-        "elapsed": "18m 59s",
+        "elapsed": "21m 57s",
         "id": "39962575",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -112,7 +101,7 @@
         "submitted": "2026-08-20T06:46:12Z"
       },
       {
-        "elapsed": "18m 59s",
+        "elapsed": "21m 57s",
         "id": "39962580",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -123,7 +112,7 @@
         "submitted": "2026-08-20T06:46:13Z"
       },
       {
-        "elapsed": "15m 15s",
+        "elapsed": "18m 13s",
         "id": "39962574",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -134,7 +123,7 @@
         "submitted": "2026-08-20T06:46:12Z"
       },
       {
-        "elapsed": "15m 15s",
+        "elapsed": "18m 13s",
         "id": "39962578",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -145,7 +134,7 @@
         "submitted": "2026-08-20T06:46:13Z"
       },
       {
-        "elapsed": "15m 15s",
+        "elapsed": "18m 13s",
         "id": "39962582",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -156,7 +145,7 @@
         "submitted": "2026-08-20T06:46:13Z"
       },
       {
-        "elapsed": "15m 15s",
+        "elapsed": "18m 13s",
         "id": "39962583",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -167,7 +156,7 @@
         "submitted": "2026-08-20T06:46:13Z"
       },
       {
-        "elapsed": "15m 15s",
+        "elapsed": "18m 13s",
         "id": "39962586",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -178,7 +167,7 @@
         "submitted": "2026-08-20T06:46:13Z"
       },
       {
-        "elapsed": "14m 24s",
+        "elapsed": "17m 22s",
         "id": "39962577",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -189,7 +178,7 @@
         "submitted": "2026-08-20T06:46:12Z"
       },
       {
-        "elapsed": "14m 24s",
+        "elapsed": "17m 22s",
         "id": "39962579",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -200,7 +189,7 @@
         "submitted": "2026-08-20T06:46:13Z"
       },
       {
-        "elapsed": "13m 38s",
+        "elapsed": "16m 36s",
         "id": "39962581",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -211,7 +200,7 @@
         "submitted": "2026-08-20T06:46:13Z"
       },
       {
-        "elapsed": "13m 38s",
+        "elapsed": "16m 36s",
         "id": "39962584",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -222,7 +211,7 @@
         "submitted": "2026-08-20T06:46:13Z"
       },
       {
-        "elapsed": "13m 38s",
+        "elapsed": "16m 36s",
         "id": "39962585",
         "kind": "research",
         "name": "mcp01_kstart",
@@ -233,15 +222,15 @@
         "submitted": "2026-08-20T06:46:13Z"
       },
       {
-        "elapsed": "3s",
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-20T07:30:07Z",
+        "started": "2026-08-20T07:33:02Z",
         "state": "running",
-        "submitted": "2026-08-20T07:27:57Z"
+        "submitted": "2026-08-20T07:30:39Z"
       }
     ],
     "active_dropped": 0,
@@ -253,9 +242,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 22
+      "running": 21
     },
     "recent": [
+      {
+        "elapsed": "32m 41s",
+        "ended": "2026-08-20T07:32:39Z",
+        "exit_code": 0,
+        "id": "39962570",
+        "kind": "research",
+        "name": "mcp01_kstart",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "32m 42s",
         "ended": "2026-08-20T07:24:55Z",
@@ -457,7 +456,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-20T07:30:10Z",
+  "generated_at": "2026-08-20T07:33:08Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -465,11 +464,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T07:30:10Z",
+      "observed_at": "2026-08-20T07:33:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-20T07:30:10Z",
+      "observed_at": "2026-08-20T07:33:08Z",
       "status": "ok"
     }
   }
