@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "6s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-20T02:51:03Z",
+        "started": "2026-08-20T02:54:06Z",
         "state": "running",
-        "submitted": "2026-08-20T02:48:19Z"
+        "submitted": "2026-08-20T02:51:25Z"
       },
       {
         "elapsed": "0s",
@@ -20,7 +20,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:51:09Z",
+        "started": "2026-08-20T02:54:08Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:08Z"
       },
@@ -32,7 +32,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:51:09Z",
+        "started": "2026-08-20T02:54:08Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:08Z"
       },
@@ -44,7 +44,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:51:09Z",
+        "started": "2026-08-20T02:54:08Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:10Z"
       },
@@ -56,9 +56,49 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-08-20T02:51:09Z",
+        "started": "2026-08-20T02:54:08Z",
         "state": "pending",
         "submitted": "2026-08-20T02:07:30Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39928839",
+        "kind": "research",
+        "name": "blp48_assemble",
+        "nodes": 1,
+        "partition": "normal",
+        "state": "pending",
+        "submitted": "2026-08-20T02:53:14Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39928841",
+        "kind": "research",
+        "name": "blp48_assemble",
+        "nodes": 1,
+        "partition": "normal",
+        "state": "pending",
+        "submitted": "2026-08-20T02:53:15Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39928842",
+        "kind": "research",
+        "name": "blp48_assemble",
+        "nodes": 1,
+        "partition": "normal",
+        "state": "pending",
+        "submitted": "2026-08-20T02:53:19Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "39928844",
+        "kind": "research",
+        "name": "blp48_assemble",
+        "nodes": 1,
+        "partition": "normal",
+        "state": "pending",
+        "submitted": "2026-08-20T02:53:19Z"
       }
     ],
     "active_dropped": 0,
@@ -69,7 +109,7 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 4,
+      "pending": 8,
       "running": 1
     },
     "recent": [],
@@ -93,7 +133,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-20T02:51:09Z",
+  "generated_at": "2026-08-20T02:54:08Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -101,11 +141,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-20T02:51:09Z",
+      "observed_at": "2026-08-20T02:54:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-20T02:51:09Z",
+      "observed_at": "2026-08-20T02:54:08Z",
       "status": "ok"
     }
   }
