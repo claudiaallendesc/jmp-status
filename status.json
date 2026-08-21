@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 12h 48m",
+        "elapsed": "1d 12h 51m",
         "id": "39941993",
         "kind": "research",
         "name": "mcp01_est",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "23h 34m",
+        "elapsed": "23h 37m",
         "id": "40025824",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-20T17:13:24Z"
       },
       {
-        "elapsed": "23h 33m",
+        "elapsed": "23h 36m",
         "id": "40025818",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "23h 32m",
+        "elapsed": "23h 35m",
         "id": "40025769",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-20T17:13:14Z"
       },
       {
-        "elapsed": "23h 32m",
+        "elapsed": "23h 35m",
         "id": "40025821",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -57,7 +57,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "10h 01m",
+        "elapsed": "10h 04m",
         "id": "40118133",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -68,7 +68,7 @@
         "submitted": "2026-08-21T06:45:47Z"
       },
       {
-        "elapsed": "10h 01m",
+        "elapsed": "10h 04m",
         "id": "40118137",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -79,7 +79,7 @@
         "submitted": "2026-08-21T06:45:49Z"
       },
       {
-        "elapsed": "10h 01m",
+        "elapsed": "10h 04m",
         "id": "40118140",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -90,7 +90,7 @@
         "submitted": "2026-08-21T06:45:52Z"
       },
       {
-        "elapsed": "5h 24m",
+        "elapsed": "5h 26m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -101,7 +101,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "5h 23m",
+        "elapsed": "5h 26m",
         "id": "40143142",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -112,7 +112,7 @@
         "submitted": "2026-08-21T11:23:18Z"
       },
       {
-        "elapsed": "5h 23m",
+        "elapsed": "5h 26m",
         "id": "40143156",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -123,7 +123,7 @@
         "submitted": "2026-08-21T11:23:21Z"
       },
       {
-        "elapsed": "5h 23m",
+        "elapsed": "5h 26m",
         "id": "40143158",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -134,7 +134,7 @@
         "submitted": "2026-08-21T11:23:25Z"
       },
       {
-        "elapsed": "5h 23m",
+        "elapsed": "5h 26m",
         "id": "40143162",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -145,15 +145,15 @@
         "submitted": "2026-08-21T11:23:30Z"
       },
       {
-        "elapsed": "6s",
+        "elapsed": "3s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-21T16:48:12Z",
+        "started": "2026-08-21T16:51:12Z",
         "state": "running",
-        "submitted": "2026-08-21T16:45:29Z"
+        "submitted": "2026-08-21T16:48:27Z"
       }
     ],
     "active_dropped": 0,
@@ -307,16 +307,6 @@
         "name": "mcfb01_arm",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "1h 37m",
-        "ended": "2026-08-21T04:48:55Z",
-        "exit_code": 0,
-        "id": "40093705",
-        "kind": "research",
-        "name": "mcfb01_arm",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -339,7 +329,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-21T16:48:18Z",
+  "generated_at": "2026-08-21T16:51:15Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -347,11 +337,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-21T16:48:18Z",
+      "observed_at": "2026-08-21T16:51:15Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-21T16:48:18Z",
+      "observed_at": "2026-08-21T16:51:15Z",
       "status": "ok"
     }
   }
