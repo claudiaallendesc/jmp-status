@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 13h 33m",
+        "elapsed": "1d 13h 36m",
         "id": "39941993",
         "kind": "research",
         "name": "mcp01_est",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "1d 00h 19m",
+        "elapsed": "1d 00h 22m",
         "id": "40025824",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-20T17:13:24Z"
       },
       {
-        "elapsed": "1d 00h 17m",
+        "elapsed": "1d 00h 21m",
         "id": "40025818",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "1d 00h 17m",
+        "elapsed": "1d 00h 20m",
         "id": "40025769",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-20T17:13:14Z"
       },
       {
-        "elapsed": "1d 00h 17m",
+        "elapsed": "1d 00h 20m",
         "id": "40025821",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -57,7 +57,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "10h 46m",
+        "elapsed": "10h 49m",
         "id": "40118133",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -68,7 +68,7 @@
         "submitted": "2026-08-21T06:45:47Z"
       },
       {
-        "elapsed": "10h 46m",
+        "elapsed": "10h 49m",
         "id": "40118137",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -79,7 +79,7 @@
         "submitted": "2026-08-21T06:45:49Z"
       },
       {
-        "elapsed": "10h 46m",
+        "elapsed": "10h 49m",
         "id": "40118140",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -90,7 +90,7 @@
         "submitted": "2026-08-21T06:45:52Z"
       },
       {
-        "elapsed": "6h 08m",
+        "elapsed": "6h 12m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -101,7 +101,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "6h 08m",
+        "elapsed": "6h 11m",
         "id": "40143142",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -112,7 +112,7 @@
         "submitted": "2026-08-21T11:23:18Z"
       },
       {
-        "elapsed": "6h 08m",
+        "elapsed": "6h 11m",
         "id": "40143156",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -123,7 +123,7 @@
         "submitted": "2026-08-21T11:23:21Z"
       },
       {
-        "elapsed": "6h 08m",
+        "elapsed": "6h 11m",
         "id": "40143158",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -134,7 +134,7 @@
         "submitted": "2026-08-21T11:23:25Z"
       },
       {
-        "elapsed": "6h 08m",
+        "elapsed": "6h 11m",
         "id": "40143162",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -145,15 +145,15 @@
         "submitted": "2026-08-21T11:23:30Z"
       },
       {
-        "elapsed": "4s",
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-21T17:33:07Z",
+        "started": "2026-08-21T17:36:10Z",
         "state": "running",
-        "submitted": "2026-08-21T17:30:52Z"
+        "submitted": "2026-08-21T17:33:16Z"
       }
     ],
     "active_dropped": 0,
@@ -227,16 +227,6 @@
         "name": "mcfb01_arm",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "2h 28m",
-        "ended": "2026-08-21T05:34:45Z",
-        "exit_code": 0,
-        "id": "40093715",
-        "kind": "research",
-        "name": "mcfb01_arm",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -259,7 +249,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-21T17:33:11Z",
+  "generated_at": "2026-08-21T17:36:17Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -267,11 +257,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-21T17:33:11Z",
+      "observed_at": "2026-08-21T17:36:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-21T17:33:11Z",
+      "observed_at": "2026-08-21T17:36:17Z",
       "status": "ok"
     }
   }
