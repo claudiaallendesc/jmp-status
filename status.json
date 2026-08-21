@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "20h 03m",
+        "elapsed": "20h 06m",
         "id": "39941993",
         "kind": "research",
         "name": "mcp01_est",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-20T03:57:13Z"
       },
       {
-        "elapsed": "6h 49m",
+        "elapsed": "6h 52m",
         "id": "40025824",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-20T17:13:24Z"
       },
       {
-        "elapsed": "6h 47m",
+        "elapsed": "6h 51m",
         "id": "40025818",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "6h 47m",
+        "elapsed": "6h 50m",
         "id": "40025769",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-20T17:13:14Z"
       },
       {
-        "elapsed": "6h 47m",
+        "elapsed": "6h 50m",
         "id": "40025821",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -57,7 +57,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "2h 29m",
+        "elapsed": "2h 32m",
         "id": "40055864",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -68,7 +68,7 @@
         "submitted": "2026-08-20T21:02:20Z"
       },
       {
-        "elapsed": "1h 43m",
+        "elapsed": "1h 46m",
         "id": "40056048",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -79,7 +79,7 @@
         "submitted": "2026-08-20T21:02:31Z"
       },
       {
-        "elapsed": "1h 11m",
+        "elapsed": "1h 14m",
         "id": "40056038",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -90,7 +90,7 @@
         "submitted": "2026-08-20T21:02:30Z"
       },
       {
-        "elapsed": "1h 05m",
+        "elapsed": "1h 08m",
         "id": "40056040",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -101,7 +101,7 @@
         "submitted": "2026-08-20T21:02:31Z"
       },
       {
-        "elapsed": "57m 25s",
+        "elapsed": "1h 00m",
         "id": "40056044",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -112,7 +112,7 @@
         "submitted": "2026-08-20T21:02:31Z"
       },
       {
-        "elapsed": "45m 50s",
+        "elapsed": "48m 52s",
         "id": "40056045",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -123,7 +123,7 @@
         "submitted": "2026-08-20T21:02:31Z"
       },
       {
-        "elapsed": "37m 20s",
+        "elapsed": "40m 22s",
         "id": "40056047",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -134,7 +134,7 @@
         "submitted": "2026-08-20T21:02:31Z"
       },
       {
-        "elapsed": "37m 20s",
+        "elapsed": "40m 22s",
         "id": "40056049",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -145,7 +145,7 @@
         "submitted": "2026-08-20T21:02:31Z"
       },
       {
-        "elapsed": "37m 20s",
+        "elapsed": "40m 22s",
         "id": "40056050",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -156,7 +156,7 @@
         "submitted": "2026-08-20T21:02:31Z"
       },
       {
-        "elapsed": "37m 20s",
+        "elapsed": "40m 22s",
         "id": "40056052",
         "kind": "research",
         "name": "mcfb01_arm",
@@ -173,9 +173,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-21T00:03:04Z",
+        "started": "2026-08-21T00:06:06Z",
         "state": "running",
-        "submitted": "2026-08-21T00:00:23Z"
+        "submitted": "2026-08-21T00:03:23Z"
       }
     ],
     "active_dropped": 0,
@@ -611,7 +611,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-21T00:03:11Z",
+  "generated_at": "2026-08-21T00:06:13Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -619,11 +619,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-21T00:03:11Z",
+      "observed_at": "2026-08-21T00:06:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-21T00:03:11Z",
+      "observed_at": "2026-08-21T00:06:13Z",
       "status": "ok"
     }
   }
