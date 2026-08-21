@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 04h 49m",
+        "elapsed": "1d 04h 52m",
         "id": "40025824",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-20T17:13:24Z"
       },
       {
-        "elapsed": "1d 04h 48m",
+        "elapsed": "1d 04h 51m",
         "id": "40025818",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "1d 04h 47m",
+        "elapsed": "1d 04h 50m",
         "id": "40025769",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-20T17:13:14Z"
       },
       {
-        "elapsed": "1d 04h 47m",
+        "elapsed": "1d 04h 50m",
         "id": "40025821",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "15h 16m",
+        "elapsed": "15h 19m",
         "id": "40118137",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -57,7 +57,7 @@
         "submitted": "2026-08-21T06:45:49Z"
       },
       {
-        "elapsed": "10h 39m",
+        "elapsed": "10h 41m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -68,7 +68,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "10h 38m",
+        "elapsed": "10h 41m",
         "id": "40143142",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -79,7 +79,7 @@
         "submitted": "2026-08-21T11:23:18Z"
       },
       {
-        "elapsed": "10h 38m",
+        "elapsed": "10h 41m",
         "id": "40143156",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -90,7 +90,7 @@
         "submitted": "2026-08-21T11:23:21Z"
       },
       {
-        "elapsed": "10h 38m",
+        "elapsed": "10h 41m",
         "id": "40143158",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -101,7 +101,7 @@
         "submitted": "2026-08-21T11:23:25Z"
       },
       {
-        "elapsed": "10h 38m",
+        "elapsed": "10h 41m",
         "id": "40143162",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -112,7 +112,7 @@
         "submitted": "2026-08-21T11:23:30Z"
       },
       {
-        "elapsed": "3h 43m",
+        "elapsed": "3h 46m",
         "id": "40181778",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -123,7 +123,7 @@
         "submitted": "2026-08-21T18:18:59Z"
       },
       {
-        "elapsed": "3h 43m",
+        "elapsed": "3h 46m",
         "id": "40181779",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -134,7 +134,7 @@
         "submitted": "2026-08-21T18:18:59Z"
       },
       {
-        "elapsed": "8m 29s",
+        "elapsed": "11m 28s",
         "id": "40209560",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -145,7 +145,7 @@
         "submitted": "2026-08-21T21:53:05Z"
       },
       {
-        "elapsed": "8m 29s",
+        "elapsed": "11m 28s",
         "id": "40209564",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -156,15 +156,15 @@
         "submitted": "2026-08-21T21:53:10Z"
       },
       {
-        "elapsed": "6s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-21T22:03:10Z",
+        "started": "2026-08-21T22:06:10Z",
         "state": "running",
-        "submitted": "2026-08-21T22:02:17Z"
+        "submitted": "2026-08-21T22:03:27Z"
       }
     ],
     "active_dropped": 0,
@@ -250,7 +250,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-21T22:03:17Z",
+  "generated_at": "2026-08-21T22:06:15Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -258,11 +258,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-21T22:03:17Z",
+      "observed_at": "2026-08-21T22:06:15Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-21T22:03:17Z",
+      "observed_at": "2026-08-21T22:06:15Z",
       "status": "ok"
     }
   }
