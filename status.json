@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 05h 13m",
+        "elapsed": "1d 05h 16m",
         "id": "40025824",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-20T17:13:24Z"
       },
       {
-        "elapsed": "1d 05h 12m",
+        "elapsed": "1d 05h 14m",
         "id": "40025818",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "1d 05h 11m",
+        "elapsed": "1d 05h 14m",
         "id": "40025769",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-20T17:13:14Z"
       },
       {
-        "elapsed": "1d 05h 11m",
+        "elapsed": "1d 05h 14m",
         "id": "40025821",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "15h 40m",
+        "elapsed": "15h 43m",
         "id": "40118137",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -57,7 +57,7 @@
         "submitted": "2026-08-21T06:45:49Z"
       },
       {
-        "elapsed": "11h 03m",
+        "elapsed": "11h 05m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -68,7 +68,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "11h 02m",
+        "elapsed": "11h 05m",
         "id": "40143142",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -79,7 +79,7 @@
         "submitted": "2026-08-21T11:23:18Z"
       },
       {
-        "elapsed": "11h 02m",
+        "elapsed": "11h 05m",
         "id": "40143156",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -90,7 +90,7 @@
         "submitted": "2026-08-21T11:23:21Z"
       },
       {
-        "elapsed": "11h 02m",
+        "elapsed": "11h 05m",
         "id": "40143158",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -101,7 +101,7 @@
         "submitted": "2026-08-21T11:23:25Z"
       },
       {
-        "elapsed": "11h 02m",
+        "elapsed": "11h 05m",
         "id": "40143162",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -112,7 +112,7 @@
         "submitted": "2026-08-21T11:23:30Z"
       },
       {
-        "elapsed": "4h 07m",
+        "elapsed": "4h 10m",
         "id": "40181778",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -123,7 +123,7 @@
         "submitted": "2026-08-21T18:18:59Z"
       },
       {
-        "elapsed": "4h 07m",
+        "elapsed": "4h 10m",
         "id": "40181779",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -134,7 +134,7 @@
         "submitted": "2026-08-21T18:18:59Z"
       },
       {
-        "elapsed": "32m 32s",
+        "elapsed": "35m 23s",
         "id": "40209564",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -145,15 +145,15 @@
         "submitted": "2026-08-21T21:53:10Z"
       },
       {
-        "elapsed": "10s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-21T22:27:09Z",
+        "started": "2026-08-21T22:30:03Z",
         "state": "running",
-        "submitted": "2026-08-21T22:24:36Z"
+        "submitted": "2026-08-21T22:27:30Z"
       }
     ],
     "active_dropped": 0,
@@ -249,7 +249,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-21T22:27:19Z",
+  "generated_at": "2026-08-21T22:30:10Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -257,11 +257,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-21T22:27:19Z",
+      "observed_at": "2026-08-21T22:30:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-21T22:27:19Z",
+      "observed_at": "2026-08-21T22:30:10Z",
       "status": "ok"
     }
   }
