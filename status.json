@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 08h 44m",
+        "elapsed": "1d 08h 47m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "13h 49m",
+        "elapsed": "13h 52m",
         "id": "40257418",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-22T06:16:55Z"
       },
       {
-        "elapsed": "13h 49m",
+        "elapsed": "13h 52m",
         "id": "40257456",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-22T06:17:45Z"
       },
       {
-        "elapsed": "13h 49m",
+        "elapsed": "13h 52m",
         "id": "40257602",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-22T06:18:34Z"
       },
       {
-        "elapsed": "13h 48m",
+        "elapsed": "13h 51m",
         "id": "40257674",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -57,7 +57,7 @@
         "submitted": "2026-08-22T06:19:44Z"
       },
       {
-        "elapsed": "12h 23m",
+        "elapsed": "12h 26m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -69,7 +69,7 @@
         "task": "2"
       },
       {
-        "elapsed": "12h 22m",
+        "elapsed": "12h 25m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -81,7 +81,7 @@
         "task": "6"
       },
       {
-        "elapsed": "10h 05m",
+        "elapsed": "10h 08m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -93,7 +93,7 @@
         "task": "9"
       },
       {
-        "elapsed": "7h 10m",
+        "elapsed": "7h 13m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -111,9 +111,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-22T20:09:02Z",
+        "started": "2026-08-22T20:12:05Z",
         "state": "running",
-        "submitted": "2026-08-22T20:06:20Z"
+        "submitted": "2026-08-22T20:09:15Z"
       }
     ],
     "active_dropped": 0,
@@ -458,7 +458,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-22T20:09:10Z",
+  "generated_at": "2026-08-22T20:12:13Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -466,11 +466,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-22T20:09:10Z",
+      "observed_at": "2026-08-22T20:12:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-22T20:09:10Z",
+      "observed_at": "2026-08-22T20:12:13Z",
       "status": "ok"
     }
   }
