@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 21h 19m",
+        "elapsed": "1d 21h 22m",
         "id": "40025824",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-20T17:13:24Z"
       },
       {
-        "elapsed": "1d 21h 18m",
+        "elapsed": "1d 21h 20m",
         "id": "40025818",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "1d 03h 09m",
+        "elapsed": "1d 03h 11m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "1d 03h 08m",
+        "elapsed": "1d 03h 11m",
         "id": "40143142",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-21T11:23:18Z"
       },
       {
-        "elapsed": "1d 03h 08m",
+        "elapsed": "1d 03h 11m",
         "id": "40143158",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -57,7 +57,7 @@
         "submitted": "2026-08-21T11:23:25Z"
       },
       {
-        "elapsed": "8h 14m",
+        "elapsed": "8h 16m",
         "id": "40257418",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -68,7 +68,7 @@
         "submitted": "2026-08-22T06:16:55Z"
       },
       {
-        "elapsed": "8h 14m",
+        "elapsed": "8h 16m",
         "id": "40257456",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -79,7 +79,7 @@
         "submitted": "2026-08-22T06:17:45Z"
       },
       {
-        "elapsed": "8h 14m",
+        "elapsed": "8h 16m",
         "id": "40257602",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -90,7 +90,7 @@
         "submitted": "2026-08-22T06:18:34Z"
       },
       {
-        "elapsed": "8h 12m",
+        "elapsed": "8h 15m",
         "id": "40257674",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -101,7 +101,7 @@
         "submitted": "2026-08-22T06:19:44Z"
       },
       {
-        "elapsed": "6h 48m",
+        "elapsed": "6h 50m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -113,7 +113,7 @@
         "task": "0"
       },
       {
-        "elapsed": "6h 47m",
+        "elapsed": "6h 50m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -125,7 +125,7 @@
         "task": "2"
       },
       {
-        "elapsed": "6h 47m",
+        "elapsed": "6h 50m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -137,7 +137,7 @@
         "task": "3"
       },
       {
-        "elapsed": "6h 47m",
+        "elapsed": "6h 50m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -149,7 +149,7 @@
         "task": "4"
       },
       {
-        "elapsed": "6h 46m",
+        "elapsed": "6h 49m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -161,7 +161,7 @@
         "task": "6"
       },
       {
-        "elapsed": "6h 46m",
+        "elapsed": "6h 49m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -173,7 +173,7 @@
         "task": "7"
       },
       {
-        "elapsed": "4h 39m",
+        "elapsed": "4h 42m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -185,7 +185,7 @@
         "task": "2"
       },
       {
-        "elapsed": "4h 29m",
+        "elapsed": "4h 31m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -197,19 +197,7 @@
         "task": "9"
       },
       {
-        "elapsed": "2h 22m",
-        "id": "40267948",
-        "kind": "research",
-        "name": "rcd01_LCsh",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-22T12:11:06Z",
-        "state": "running",
-        "submitted": "2026-08-22T07:44:43Z",
-        "task": "5"
-      },
-      {
-        "elapsed": "2h 22m",
+        "elapsed": "2h 25m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -221,7 +209,7 @@
         "task": "6"
       },
       {
-        "elapsed": "1h 59m",
+        "elapsed": "2h 02m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -233,7 +221,7 @@
         "task": "7"
       },
       {
-        "elapsed": "1h 42m",
+        "elapsed": "1h 45m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -245,7 +233,7 @@
         "task": "8"
       },
       {
-        "elapsed": "1h 34m",
+        "elapsed": "1h 36m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -257,15 +245,15 @@
         "task": "9"
       },
       {
-        "elapsed": "2s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-22T14:33:16Z",
+        "started": "2026-08-22T14:36:00Z",
         "state": "running",
-        "submitted": "2026-08-22T14:30:29Z"
+        "submitted": "2026-08-22T14:33:23Z"
       }
     ],
     "active_dropped": 0,
@@ -277,9 +265,20 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 23
+      "running": 22
     },
     "recent": [
+      {
+        "elapsed": "2h 22m",
+        "ended": "2026-08-22T14:33:47Z",
+        "exit_code": 0,
+        "id": "40267948",
+        "kind": "research",
+        "name": "rcd01_LCsh",
+        "partition": "gsb",
+        "state": "completed",
+        "task": "5"
+      },
       {
         "elapsed": "1d 21h 07m",
         "ended": "2026-08-22T14:22:55Z",
@@ -682,20 +681,10 @@
         "name": "mcsp01_stage",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "3m 51s",
-        "ended": "2026-08-22T06:12:35Z",
-        "exit_code": 0,
-        "id": "40256604",
-        "kind": "research",
-        "name": "mcd01_parity",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
-    "recent_omitted": 6,
+    "recent_omitted": 7,
     "service_count": 1,
     "window_hours": 12
   },
@@ -714,7 +703,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-22T14:33:18Z",
+  "generated_at": "2026-08-22T14:36:07Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -722,11 +711,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-22T14:33:18Z",
+      "observed_at": "2026-08-22T14:36:07Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-22T14:33:18Z",
+      "observed_at": "2026-08-22T14:36:07Z",
       "status": "ok"
     }
   }
