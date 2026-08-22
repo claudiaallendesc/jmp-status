@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 11h 14m",
+        "elapsed": "1d 11h 17m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "16h 19m",
+        "elapsed": "16h 23m",
         "id": "40257456",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-22T06:17:45Z"
       },
       {
-        "elapsed": "16h 19m",
+        "elapsed": "16h 23m",
         "id": "40257602",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-22T06:18:34Z"
       },
       {
-        "elapsed": "14h 52m",
+        "elapsed": "14h 55m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -47,7 +47,7 @@
         "task": "6"
       },
       {
-        "elapsed": "12h 35m",
+        "elapsed": "12h 38m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -59,7 +59,7 @@
         "task": "9"
       },
       {
-        "elapsed": "9h 39m",
+        "elapsed": "9h 43m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -71,15 +71,15 @@
         "task": "9"
       },
       {
-        "elapsed": "5s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-22T22:39:03Z",
+        "started": "2026-08-22T22:42:05Z",
         "state": "running",
-        "submitted": "2026-08-22T22:36:31Z"
+        "submitted": "2026-08-22T22:39:22Z"
       }
     ],
     "active_dropped": 0,
@@ -391,7 +391,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-22T22:39:08Z",
+  "generated_at": "2026-08-22T22:42:14Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -399,11 +399,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-22T22:39:08Z",
+      "observed_at": "2026-08-22T22:42:14Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-22T22:39:08Z",
+      "observed_at": "2026-08-22T22:42:14Z",
       "status": "ok"
     }
   }
