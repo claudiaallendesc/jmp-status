@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 22h 02m",
+        "elapsed": "1d 22h 04m",
         "id": "40025824",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-20T17:13:24Z"
       },
       {
-        "elapsed": "1d 22h 00m",
+        "elapsed": "1d 22h 02m",
         "id": "40025818",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "1d 03h 51m",
+        "elapsed": "1d 03h 53m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "1d 03h 50m",
+        "elapsed": "1d 03h 53m",
         "id": "40143142",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-21T11:23:18Z"
       },
       {
-        "elapsed": "8h 56m",
+        "elapsed": "8h 58m",
         "id": "40257418",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -57,7 +57,7 @@
         "submitted": "2026-08-22T06:16:55Z"
       },
       {
-        "elapsed": "8h 56m",
+        "elapsed": "8h 58m",
         "id": "40257456",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -68,7 +68,7 @@
         "submitted": "2026-08-22T06:17:45Z"
       },
       {
-        "elapsed": "8h 56m",
+        "elapsed": "8h 58m",
         "id": "40257602",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -79,7 +79,7 @@
         "submitted": "2026-08-22T06:18:34Z"
       },
       {
-        "elapsed": "8h 55m",
+        "elapsed": "8h 57m",
         "id": "40257674",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -90,7 +90,7 @@
         "submitted": "2026-08-22T06:19:44Z"
       },
       {
-        "elapsed": "7h 30m",
+        "elapsed": "7h 32m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -102,7 +102,7 @@
         "task": "0"
       },
       {
-        "elapsed": "7h 29m",
+        "elapsed": "7h 32m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -114,7 +114,7 @@
         "task": "2"
       },
       {
-        "elapsed": "7h 29m",
+        "elapsed": "7h 32m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -126,7 +126,7 @@
         "task": "3"
       },
       {
-        "elapsed": "7h 29m",
+        "elapsed": "7h 32m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -138,7 +138,7 @@
         "task": "4"
       },
       {
-        "elapsed": "7h 28m",
+        "elapsed": "7h 31m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -150,7 +150,7 @@
         "task": "6"
       },
       {
-        "elapsed": "7h 28m",
+        "elapsed": "7h 31m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -162,7 +162,7 @@
         "task": "7"
       },
       {
-        "elapsed": "5h 11m",
+        "elapsed": "5h 13m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -174,7 +174,7 @@
         "task": "9"
       },
       {
-        "elapsed": "3h 04m",
+        "elapsed": "3h 07m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -186,7 +186,7 @@
         "task": "6"
       },
       {
-        "elapsed": "2h 41m",
+        "elapsed": "2h 44m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -198,7 +198,7 @@
         "task": "7"
       },
       {
-        "elapsed": "2h 24m",
+        "elapsed": "2h 27m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -210,7 +210,7 @@
         "task": "8"
       },
       {
-        "elapsed": "2h 16m",
+        "elapsed": "2h 18m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -222,15 +222,15 @@
         "task": "9"
       },
       {
-        "elapsed": "2s",
+        "elapsed": "3s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-22T15:15:27Z",
+        "started": "2026-08-22T15:18:03Z",
         "state": "running",
-        "submitted": "2026-08-22T15:12:18Z"
+        "submitted": "2026-08-22T15:15:33Z"
       }
     ],
     "active_dropped": 0,
@@ -681,7 +681,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-22T15:15:29Z",
+  "generated_at": "2026-08-22T15:18:06Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -689,11 +689,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-22T15:15:29Z",
+      "observed_at": "2026-08-22T15:18:06Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-22T15:15:29Z",
+      "observed_at": "2026-08-22T15:18:06Z",
       "status": "ok"
     }
   }
