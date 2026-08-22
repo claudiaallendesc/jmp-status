@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 07h 32m",
+        "elapsed": "1d 07h 35m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "12h 37m",
+        "elapsed": "12h 40m",
         "id": "40257418",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-22T06:16:55Z"
       },
       {
-        "elapsed": "12h 37m",
+        "elapsed": "12h 40m",
         "id": "40257456",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-22T06:17:45Z"
       },
       {
-        "elapsed": "12h 37m",
+        "elapsed": "12h 40m",
         "id": "40257602",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-22T06:18:34Z"
       },
       {
-        "elapsed": "12h 36m",
+        "elapsed": "12h 39m",
         "id": "40257674",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -57,7 +57,7 @@
         "submitted": "2026-08-22T06:19:44Z"
       },
       {
-        "elapsed": "11h 11m",
+        "elapsed": "11h 14m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -69,7 +69,7 @@
         "task": "2"
       },
       {
-        "elapsed": "11h 10m",
+        "elapsed": "11h 13m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -81,7 +81,7 @@
         "task": "6"
       },
       {
-        "elapsed": "8h 53m",
+        "elapsed": "8h 56m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -93,7 +93,7 @@
         "task": "9"
       },
       {
-        "elapsed": "6h 46m",
+        "elapsed": "6h 49m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -105,7 +105,7 @@
         "task": "6"
       },
       {
-        "elapsed": "5h 57m",
+        "elapsed": "6h 01m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -123,9 +123,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-22T18:57:01Z",
+        "started": "2026-08-22T19:00:05Z",
         "state": "running",
-        "submitted": "2026-08-22T18:54:23Z"
+        "submitted": "2026-08-22T18:57:20Z"
       }
     ],
     "active_dropped": 0,
@@ -512,7 +512,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-22T18:57:08Z",
+  "generated_at": "2026-08-22T19:00:12Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -520,11 +520,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-22T18:57:08Z",
+      "observed_at": "2026-08-22T19:00:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-22T18:57:08Z",
+      "observed_at": "2026-08-22T19:00:12Z",
       "status": "ok"
     }
   }
