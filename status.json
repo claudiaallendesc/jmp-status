@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 16h 17m",
+        "elapsed": "1d 16h 19m",
         "id": "40025824",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-20T17:13:24Z"
       },
       {
-        "elapsed": "1d 16h 15m",
+        "elapsed": "1d 16h 18m",
         "id": "40025818",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "1d 16h 14m",
+        "elapsed": "1d 16h 17m",
         "id": "40025769",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-20T17:13:14Z"
       },
       {
-        "elapsed": "1d 16h 14m",
+        "elapsed": "1d 16h 17m",
         "id": "40025821",
         "kind": "research",
         "name": "mcp01_est_k",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-20T17:13:19Z"
       },
       {
-        "elapsed": "1d 02h 43m",
+        "elapsed": "1d 02h 46m",
         "id": "40118137",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -57,7 +57,7 @@
         "submitted": "2026-08-21T06:45:49Z"
       },
       {
-        "elapsed": "22h 06m",
+        "elapsed": "22h 09m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -68,7 +68,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "22h 05m",
+        "elapsed": "22h 08m",
         "id": "40143142",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -79,7 +79,7 @@
         "submitted": "2026-08-21T11:23:18Z"
       },
       {
-        "elapsed": "22h 05m",
+        "elapsed": "22h 08m",
         "id": "40143156",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -90,7 +90,7 @@
         "submitted": "2026-08-21T11:23:21Z"
       },
       {
-        "elapsed": "22h 05m",
+        "elapsed": "22h 08m",
         "id": "40143158",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -101,7 +101,7 @@
         "submitted": "2026-08-21T11:23:25Z"
       },
       {
-        "elapsed": "22h 05m",
+        "elapsed": "22h 08m",
         "id": "40143162",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -112,7 +112,7 @@
         "submitted": "2026-08-21T11:23:30Z"
       },
       {
-        "elapsed": "15h 11m",
+        "elapsed": "15h 13m",
         "id": "40181779",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -123,7 +123,7 @@
         "submitted": "2026-08-21T18:18:59Z"
       },
       {
-        "elapsed": "3h 11m",
+        "elapsed": "3h 14m",
         "id": "40257418",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -134,7 +134,7 @@
         "submitted": "2026-08-22T06:16:55Z"
       },
       {
-        "elapsed": "3h 11m",
+        "elapsed": "3h 14m",
         "id": "40257456",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -145,7 +145,7 @@
         "submitted": "2026-08-22T06:17:45Z"
       },
       {
-        "elapsed": "3h 11m",
+        "elapsed": "3h 14m",
         "id": "40257602",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -156,7 +156,7 @@
         "submitted": "2026-08-22T06:18:34Z"
       },
       {
-        "elapsed": "3h 10m",
+        "elapsed": "3h 12m",
         "id": "40257674",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -167,7 +167,7 @@
         "submitted": "2026-08-22T06:19:44Z"
       },
       {
-        "elapsed": "2h 22m",
+        "elapsed": "2h 25m",
         "id": "40263011",
         "kind": "research",
         "name": "rcd01_p2sep",
@@ -179,7 +179,7 @@
         "task": "1"
       },
       {
-        "elapsed": "1h 45m",
+        "elapsed": "1h 48m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -191,7 +191,7 @@
         "task": "0"
       },
       {
-        "elapsed": "1h 45m",
+        "elapsed": "1h 48m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -203,7 +203,7 @@
         "task": "1"
       },
       {
-        "elapsed": "1h 44m",
+        "elapsed": "1h 47m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -215,7 +215,7 @@
         "task": "2"
       },
       {
-        "elapsed": "1h 44m",
+        "elapsed": "1h 47m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -227,7 +227,7 @@
         "task": "3"
       },
       {
-        "elapsed": "1h 44m",
+        "elapsed": "1h 47m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -239,7 +239,7 @@
         "task": "4"
       },
       {
-        "elapsed": "1h 44m",
+        "elapsed": "1h 47m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -251,7 +251,7 @@
         "task": "5"
       },
       {
-        "elapsed": "1h 43m",
+        "elapsed": "1h 46m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -263,7 +263,7 @@
         "task": "6"
       },
       {
-        "elapsed": "1h 43m",
+        "elapsed": "1h 46m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -275,7 +275,7 @@
         "task": "7"
       },
       {
-        "elapsed": "1h 42m",
+        "elapsed": "1h 45m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -287,7 +287,7 @@
         "task": "8"
       },
       {
-        "elapsed": "54m 57s",
+        "elapsed": "57m 45s",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -299,7 +299,7 @@
         "task": "0"
       },
       {
-        "elapsed": "42m 32s",
+        "elapsed": "45m 20s",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -311,15 +311,15 @@
         "task": "1"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "14s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-22T09:30:29Z",
+        "started": "2026-08-22T09:33:10Z",
         "state": "running",
-        "submitted": "2026-08-22T09:29:25Z"
+        "submitted": "2026-08-22T09:30:50Z"
       },
       {
         "elapsed": "0s",
@@ -736,7 +736,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-22T09:30:36Z",
+  "generated_at": "2026-08-22T09:33:24Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -744,11 +744,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-22T09:30:36Z",
+      "observed_at": "2026-08-22T09:33:24Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-22T09:30:36Z",
+      "observed_at": "2026-08-22T09:33:24Z",
       "status": "ok"
     }
   }
