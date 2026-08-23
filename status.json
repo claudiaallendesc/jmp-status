@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 19h 44m",
+        "elapsed": "1d 19h 47m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "23h 22m",
+        "elapsed": "23h 25m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -25,7 +25,7 @@
         "task": "6"
       },
       {
-        "elapsed": "21h 05m",
+        "elapsed": "21h 08m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -37,7 +37,7 @@
         "task": "9"
       },
       {
-        "elapsed": "18h 10m",
+        "elapsed": "18h 13m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -49,15 +49,15 @@
         "task": "9"
       },
       {
-        "elapsed": "2s",
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-23T07:09:08Z",
+        "started": "2026-08-23T07:12:09Z",
         "state": "running",
-        "submitted": "2026-08-23T07:06:29Z"
+        "submitted": "2026-08-23T07:09:15Z"
       }
     ],
     "active_dropped": 0,
@@ -132,17 +132,6 @@
         "name": "mcsp01_ds",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "7h 00m",
-        "ended": "2026-08-22T19:11:47Z",
-        "exit_code": 0,
-        "id": "40267948",
-        "kind": "research",
-        "name": "rcd01_LCsh",
-        "partition": "gsb",
-        "state": "cancelled",
-        "task": "6"
       }
     ],
     "recent_dropped": 0,
@@ -165,7 +154,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-23T07:09:10Z",
+  "generated_at": "2026-08-23T07:12:15Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -173,11 +162,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-23T07:09:10Z",
+      "observed_at": "2026-08-23T07:12:15Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-23T07:09:10Z",
+      "observed_at": "2026-08-23T07:12:15Z",
       "status": "ok"
     }
   }
