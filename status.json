@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 04h 16m",
+        "elapsed": "1d 04h 19m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -14,7 +14,7 @@
         "task": "6"
       },
       {
-        "elapsed": "1d 01h 59m",
+        "elapsed": "1d 02h 02m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -26,7 +26,7 @@
         "task": "9"
       },
       {
-        "elapsed": "57m 44s",
+        "elapsed": "1h 00m",
         "id": "40445435",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -37,7 +37,7 @@
         "submitted": "2026-08-23T11:04:52Z"
       },
       {
-        "elapsed": "57m 44s",
+        "elapsed": "1h 00m",
         "id": "40445438",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -48,7 +48,7 @@
         "submitted": "2026-08-23T11:05:01Z"
       },
       {
-        "elapsed": "57m 44s",
+        "elapsed": "1h 00m",
         "id": "40445442",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -59,7 +59,7 @@
         "submitted": "2026-08-23T11:05:08Z"
       },
       {
-        "elapsed": "57m 44s",
+        "elapsed": "1h 00m",
         "id": "40445446",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -70,7 +70,7 @@
         "submitted": "2026-08-23T11:05:13Z"
       },
       {
-        "elapsed": "49m 33s",
+        "elapsed": "52m 24s",
         "id": "40445014",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -81,15 +81,15 @@
         "submitted": "2026-08-23T11:01:59Z"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "14s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-23T12:03:23Z",
+        "started": "2026-08-23T12:06:07Z",
         "state": "running",
-        "submitted": "2026-08-23T12:00:49Z"
+        "submitted": "2026-08-23T12:03:49Z"
       }
     ],
     "active_dropped": 0,
@@ -196,7 +196,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-23T12:03:30Z",
+  "generated_at": "2026-08-23T12:06:21Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -204,11 +204,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-23T12:03:30Z",
+      "observed_at": "2026-08-23T12:06:21Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-23T12:03:30Z",
+      "observed_at": "2026-08-23T12:06:21Z",
       "status": "ok"
     }
   }
