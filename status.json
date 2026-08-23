@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 18h 59m",
+        "elapsed": "1d 19h 02m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "1d 00h 05m",
+        "elapsed": "1d 00h 08m",
         "id": "40257602",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-22T06:18:34Z"
       },
       {
-        "elapsed": "22h 37m",
+        "elapsed": "22h 40m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -36,7 +36,7 @@
         "task": "6"
       },
       {
-        "elapsed": "20h 20m",
+        "elapsed": "20h 23m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -48,7 +48,7 @@
         "task": "9"
       },
       {
-        "elapsed": "17h 25m",
+        "elapsed": "17h 28m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -60,15 +60,15 @@
         "task": "9"
       },
       {
-        "elapsed": "11s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-23T06:24:03Z",
+        "started": "2026-08-23T06:27:06Z",
         "state": "running",
-        "submitted": "2026-08-23T06:21:49Z"
+        "submitted": "2026-08-23T06:24:32Z"
       }
     ],
     "active_dropped": 0,
@@ -156,7 +156,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-23T06:24:14Z",
+  "generated_at": "2026-08-23T06:27:15Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -164,11 +164,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-23T06:24:14Z",
+      "observed_at": "2026-08-23T06:27:15Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-23T06:24:14Z",
+      "observed_at": "2026-08-23T06:27:15Z",
       "status": "ok"
     }
   }
