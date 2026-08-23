@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 13h 02m",
+        "elapsed": "1d 13h 05m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -14,7 +14,7 @@
         "task": "9"
       },
       {
-        "elapsed": "11h 52m",
+        "elapsed": "11h 55m",
         "id": "40445014",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -25,15 +25,15 @@
         "submitted": "2026-08-23T11:01:59Z"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "4s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-23T23:06:02Z",
+        "started": "2026-08-23T23:09:05Z",
         "state": "running",
-        "submitted": "2026-08-23T23:03:18Z"
+        "submitted": "2026-08-23T23:06:21Z"
       }
     ],
     "active_dropped": 0,
@@ -129,16 +129,6 @@
         "name": "mcfb01_ds",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "2m 43s",
-        "ended": "2026-08-23T11:08:29Z",
-        "exit_code": 66,
-        "id": "40445436",
-        "kind": "research",
-        "name": "mcfb01_ds",
-        "partition": "gsb",
-        "state": "failed"
       }
     ],
     "recent_dropped": 0,
@@ -161,7 +151,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-23T23:06:11Z",
+  "generated_at": "2026-08-23T23:09:09Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -169,11 +159,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-23T23:06:11Z",
+      "observed_at": "2026-08-23T23:09:09Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-23T23:06:11Z",
+      "observed_at": "2026-08-23T23:09:09Z",
       "status": "ok"
     }
   }
