@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 04h 07m",
+        "elapsed": "1d 04h 10m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -14,7 +14,7 @@
         "task": "6"
       },
       {
-        "elapsed": "1d 01h 50m",
+        "elapsed": "1d 01h 52m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -26,19 +26,7 @@
         "task": "9"
       },
       {
-        "elapsed": "22h 55m",
-        "id": "40267948",
-        "kind": "research",
-        "name": "rcd01_LCsh",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-22T12:59:09Z",
-        "state": "running",
-        "submitted": "2026-08-22T07:44:43Z",
-        "task": "9"
-      },
-      {
-        "elapsed": "48m 27s",
+        "elapsed": "51m 20s",
         "id": "40445435",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -49,7 +37,7 @@
         "submitted": "2026-08-23T11:04:52Z"
       },
       {
-        "elapsed": "48m 27s",
+        "elapsed": "51m 20s",
         "id": "40445438",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -60,7 +48,7 @@
         "submitted": "2026-08-23T11:05:01Z"
       },
       {
-        "elapsed": "48m 27s",
+        "elapsed": "51m 20s",
         "id": "40445442",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -71,7 +59,7 @@
         "submitted": "2026-08-23T11:05:08Z"
       },
       {
-        "elapsed": "48m 27s",
+        "elapsed": "51m 20s",
         "id": "40445446",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -82,7 +70,7 @@
         "submitted": "2026-08-23T11:05:13Z"
       },
       {
-        "elapsed": "40m 16s",
+        "elapsed": "43m 09s",
         "id": "40445014",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -99,9 +87,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-23T11:54:09Z",
+        "started": "2026-08-23T11:57:02Z",
         "state": "running",
-        "submitted": "2026-08-23T11:51:16Z"
+        "submitted": "2026-08-23T11:54:18Z"
       }
     ],
     "active_dropped": 0,
@@ -113,9 +101,20 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 9
+      "running": 8
     },
     "recent": [
+      {
+        "elapsed": "22h 57m",
+        "ended": "2026-08-23T11:56:09Z",
+        "exit_code": 0,
+        "id": "40267948",
+        "kind": "research",
+        "name": "rcd01_LCsh",
+        "partition": "normal",
+        "state": "cancelled",
+        "task": "9"
+      },
       {
         "elapsed": "29m 59s",
         "ended": "2026-08-23T11:35:45Z",
@@ -197,7 +196,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-23T11:54:13Z",
+  "generated_at": "2026-08-23T11:57:06Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -205,11 +204,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-23T11:54:13Z",
+      "observed_at": "2026-08-23T11:57:06Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-23T11:54:13Z",
+      "observed_at": "2026-08-23T11:57:06Z",
       "status": "ok"
     }
   }
