@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 14h 20m",
+        "elapsed": "1d 14h 24m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "19h 25m",
+        "elapsed": "19h 29m",
         "id": "40257602",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-22T06:18:34Z"
       },
       {
-        "elapsed": "17h 58m",
+        "elapsed": "18h 01m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -36,7 +36,7 @@
         "task": "6"
       },
       {
-        "elapsed": "15h 41m",
+        "elapsed": "15h 44m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -48,7 +48,7 @@
         "task": "9"
       },
       {
-        "elapsed": "12h 46m",
+        "elapsed": "12h 49m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -60,15 +60,15 @@
         "task": "9"
       },
       {
-        "elapsed": "8s",
+        "elapsed": "12s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-23T01:45:04Z",
+        "started": "2026-08-23T01:48:05Z",
         "state": "running",
-        "submitted": "2026-08-23T01:42:25Z"
+        "submitted": "2026-08-23T01:45:24Z"
       }
     ],
     "active_dropped": 0,
@@ -272,16 +272,6 @@
         "name": "mcp01_est_k",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "1d 20h 31m",
-        "ended": "2026-08-22T13:47:20Z",
-        "exit_code": 0,
-        "id": "40025821",
-        "kind": "research",
-        "name": "mcp01_est_k",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -304,7 +294,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-23T01:45:12Z",
+  "generated_at": "2026-08-23T01:48:17Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -312,11 +302,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-23T01:45:12Z",
+      "observed_at": "2026-08-23T01:48:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-23T01:45:12Z",
+      "observed_at": "2026-08-23T01:48:17Z",
       "status": "ok"
     }
   }
