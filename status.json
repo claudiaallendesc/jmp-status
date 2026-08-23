@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 04h 37m",
+        "elapsed": "1d 04h 46m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -14,7 +14,7 @@
         "task": "6"
       },
       {
-        "elapsed": "1d 02h 20m",
+        "elapsed": "1d 02h 29m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -26,7 +26,7 @@
         "task": "9"
       },
       {
-        "elapsed": "1h 18m",
+        "elapsed": "1h 27m",
         "id": "40445435",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -37,7 +37,7 @@
         "submitted": "2026-08-23T11:04:52Z"
       },
       {
-        "elapsed": "1h 18m",
+        "elapsed": "1h 27m",
         "id": "40445442",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -48,7 +48,7 @@
         "submitted": "2026-08-23T11:05:08Z"
       },
       {
-        "elapsed": "1h 18m",
+        "elapsed": "1h 27m",
         "id": "40445446",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -59,7 +59,7 @@
         "submitted": "2026-08-23T11:05:13Z"
       },
       {
-        "elapsed": "1h 10m",
+        "elapsed": "1h 19m",
         "id": "40445014",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -70,15 +70,15 @@
         "submitted": "2026-08-23T11:01:59Z"
       },
       {
-        "elapsed": "27s",
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-23T12:24:12Z",
+        "started": "2026-08-23T12:33:09Z",
         "state": "running",
-        "submitted": "2026-08-23T12:21:10Z"
+        "submitted": "2026-08-23T12:32:37Z"
       }
     ],
     "active_dropped": 0,
@@ -195,7 +195,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-23T12:24:40Z",
+  "generated_at": "2026-08-23T12:33:19Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -203,11 +203,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-23T12:24:40Z",
+      "observed_at": "2026-08-23T12:33:19Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-23T12:24:40Z",
+      "observed_at": "2026-08-23T12:33:19Z",
       "status": "ok"
     }
   }
