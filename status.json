@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 19h 41m",
+        "elapsed": "1d 19h 44m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "23h 19m",
+        "elapsed": "23h 22m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -25,7 +25,7 @@
         "task": "6"
       },
       {
-        "elapsed": "21h 02m",
+        "elapsed": "21h 05m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -37,7 +37,7 @@
         "task": "9"
       },
       {
-        "elapsed": "18h 07m",
+        "elapsed": "18h 10m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -49,26 +49,15 @@
         "task": "9"
       },
       {
-        "elapsed": "20m 10s",
-        "id": "40420155",
-        "kind": "research",
-        "name": "mcsp01_final_probe",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-23T06:46:02Z",
-        "state": "running",
-        "submitted": "2026-08-23T06:44:42Z"
-      },
-      {
-        "elapsed": "7s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-23T07:06:05Z",
+        "started": "2026-08-23T07:09:08Z",
         "state": "running",
-        "submitted": "2026-08-23T07:03:33Z"
+        "submitted": "2026-08-23T07:06:29Z"
       }
     ],
     "active_dropped": 0,
@@ -80,9 +69,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 6
+      "running": 5
     },
     "recent": [
+      {
+        "elapsed": "21m 23s",
+        "ended": "2026-08-23T07:07:25Z",
+        "exit_code": 0,
+        "id": "40420155",
+        "kind": "research",
+        "name": "mcsp01_final_probe",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "1d 00h 15m",
         "ended": "2026-08-23T06:35:11Z",
@@ -166,7 +165,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-23T07:06:12Z",
+  "generated_at": "2026-08-23T07:09:10Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -174,11 +173,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-23T07:06:12Z",
+      "observed_at": "2026-08-23T07:09:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-23T07:06:12Z",
+      "observed_at": "2026-08-23T07:09:10Z",
       "status": "ok"
     }
   }
