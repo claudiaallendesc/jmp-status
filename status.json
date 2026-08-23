@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 13h 44m",
+        "elapsed": "1d 13h 53m",
         "id": "40143160",
         "kind": "research",
         "name": "mcfb01_ds",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-21T11:23:27Z"
       },
       {
-        "elapsed": "18h 50m",
+        "elapsed": "18h 58m",
         "id": "40257602",
         "kind": "research",
         "name": "mcsp01_ds",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-22T06:18:34Z"
       },
       {
-        "elapsed": "17h 22m",
+        "elapsed": "17h 31m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -36,7 +36,7 @@
         "task": "6"
       },
       {
-        "elapsed": "15h 05m",
+        "elapsed": "15h 14m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -48,7 +48,7 @@
         "task": "9"
       },
       {
-        "elapsed": "12h 10m",
+        "elapsed": "12h 19m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -66,9 +66,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-23T01:09:08Z",
+        "started": "2026-08-23T01:18:03Z",
         "state": "running",
-        "submitted": "2026-08-23T01:06:30Z"
+        "submitted": "2026-08-23T01:17:46Z"
       }
     ],
     "active_dropped": 0,
@@ -282,39 +282,6 @@
         "name": "mcp01_est_k",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "5h 22m",
-        "ended": "2026-08-22T13:10:33Z",
-        "exit_code": 0,
-        "id": "40267834",
-        "kind": "research",
-        "name": "rcd01_TIsh",
-        "partition": "gsb",
-        "state": "cancelled",
-        "task": "8"
-      },
-      {
-        "elapsed": "4h 34m",
-        "ended": "2026-08-22T13:10:31Z",
-        "exit_code": 0,
-        "id": "40267948",
-        "kind": "research",
-        "name": "rcd01_LCsh",
-        "partition": "gsb",
-        "state": "cancelled",
-        "task": "0"
-      },
-      {
-        "elapsed": "5h 25m",
-        "ended": "2026-08-22T13:10:31Z",
-        "exit_code": 0,
-        "id": "40267834",
-        "kind": "research",
-        "name": "rcd01_TIsh",
-        "partition": "gsb",
-        "state": "cancelled",
-        "task": "1"
       }
     ],
     "recent_dropped": 0,
@@ -337,7 +304,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-23T01:09:14Z",
+  "generated_at": "2026-08-23T01:18:09Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -345,11 +312,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-23T01:09:14Z",
+      "observed_at": "2026-08-23T01:18:09Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-23T01:09:14Z",
+      "observed_at": "2026-08-23T01:18:09Z",
       "status": "ok"
     }
   }
