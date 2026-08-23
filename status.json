@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 03h 16m",
+        "elapsed": "1d 03h 19m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -14,7 +14,7 @@
         "task": "6"
       },
       {
-        "elapsed": "1d 00h 59m",
+        "elapsed": "1d 01h 02m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -26,7 +26,7 @@
         "task": "9"
       },
       {
-        "elapsed": "22h 04m",
+        "elapsed": "22h 07m",
         "id": "40267948",
         "kind": "research",
         "name": "rcd01_LCsh",
@@ -38,15 +38,92 @@
         "task": "9"
       },
       {
-        "elapsed": "28s",
+        "elapsed": "34s",
+        "id": "40445435",
+        "kind": "research",
+        "name": "mcfb01_ds",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-23T11:05:46Z",
+        "state": "running",
+        "submitted": "2026-08-23T11:04:52Z"
+      },
+      {
+        "elapsed": "34s",
+        "id": "40445436",
+        "kind": "research",
+        "name": "mcfb01_ds",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-23T11:05:46Z",
+        "state": "running",
+        "submitted": "2026-08-23T11:04:56Z"
+      },
+      {
+        "elapsed": "34s",
+        "id": "40445438",
+        "kind": "research",
+        "name": "mcfb01_ds",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-23T11:05:46Z",
+        "state": "running",
+        "submitted": "2026-08-23T11:05:01Z"
+      },
+      {
+        "elapsed": "34s",
+        "id": "40445439",
+        "kind": "research",
+        "name": "mcfb01_ds",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-23T11:05:46Z",
+        "state": "running",
+        "submitted": "2026-08-23T11:05:06Z"
+      },
+      {
+        "elapsed": "34s",
+        "id": "40445442",
+        "kind": "research",
+        "name": "mcfb01_ds",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-23T11:05:46Z",
+        "state": "running",
+        "submitted": "2026-08-23T11:05:08Z"
+      },
+      {
+        "elapsed": "34s",
+        "id": "40445444",
+        "kind": "research",
+        "name": "mcfb01_ds",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-23T11:05:46Z",
+        "state": "running",
+        "submitted": "2026-08-23T11:05:10Z"
+      },
+      {
+        "elapsed": "34s",
+        "id": "40445446",
+        "kind": "research",
+        "name": "mcfb01_ds",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-23T11:05:46Z",
+        "state": "running",
+        "submitted": "2026-08-23T11:05:13Z"
+      },
+      {
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-23T11:03:04Z",
+        "started": "2026-08-23T11:06:14Z",
         "state": "running",
-        "submitted": "2026-08-23T11:00:44Z"
+        "submitted": "2026-08-23T11:04:10Z"
       },
       {
         "elapsed": "0s",
@@ -56,6 +133,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-08-23T11:16:20Z",
         "state": "pending",
         "submitted": "2026-08-23T11:01:59Z"
       }
@@ -69,7 +147,7 @@
       "failed": 0,
       "other": 0,
       "pending": 1,
-      "running": 4
+      "running": 11
     },
     "recent": [
       {
@@ -133,7 +211,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-23T11:03:32Z",
+  "generated_at": "2026-08-23T11:06:21Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -141,11 +219,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-23T11:03:32Z",
+      "observed_at": "2026-08-23T11:06:21Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-23T11:03:32Z",
+      "observed_at": "2026-08-23T11:06:21Z",
       "status": "ok"
     }
   }
