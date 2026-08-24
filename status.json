@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1d 23h 35m",
+        "elapsed": "1d 23h 38m",
         "id": "40267834",
         "kind": "research",
         "name": "rcd01_TIsh",
@@ -14,26 +14,15 @@
         "task": "9"
       },
       {
-        "elapsed": "22h 25m",
-        "id": "40445014",
-        "kind": "research",
-        "name": "mcfb01_ds",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-23T11:13:57Z",
-        "state": "running",
-        "submitted": "2026-08-23T11:01:59Z"
-      },
-      {
-        "elapsed": "10s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-24T09:39:00Z",
+        "started": "2026-08-24T09:42:03Z",
         "state": "running",
-        "submitted": "2026-08-24T09:36:16Z"
+        "submitted": "2026-08-24T09:39:24Z"
       }
     ],
     "active_dropped": 0,
@@ -45,9 +34,20 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 3
+      "running": 2
     },
-    "recent": [],
+    "recent": [
+      {
+        "elapsed": "22h 25m",
+        "ended": "2026-08-24T09:39:40Z",
+        "exit_code": 0,
+        "id": "40445014",
+        "kind": "research",
+        "name": "mcfb01_ds",
+        "partition": "normal",
+        "state": "completed"
+      }
+    ],
     "recent_dropped": 0,
     "recent_omitted": 0,
     "service_count": 1,
@@ -68,7 +68,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-24T09:39:10Z",
+  "generated_at": "2026-08-24T09:42:08Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -76,11 +76,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-24T09:39:10Z",
+      "observed_at": "2026-08-24T09:42:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-24T09:39:10Z",
+      "observed_at": "2026-08-24T09:42:08Z",
       "status": "ok"
     }
   }
