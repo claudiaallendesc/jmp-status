@@ -2,18 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1h 26m",
-        "id": "40589572",
-        "kind": "research",
-        "name": "mcfb01_ds",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-24T10:00:41Z",
-        "state": "running",
-        "submitted": "2026-08-24T09:56:39Z"
-      },
-      {
-        "elapsed": "1h 02m",
+        "elapsed": "1h 11m",
         "id": "40591898",
         "kind": "research",
         "name": "rcd01_TIshR",
@@ -25,15 +14,15 @@
         "task": "0"
       },
       {
-        "elapsed": "4s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-24T11:27:07Z",
+        "started": "2026-08-24T11:36:03Z",
         "state": "running",
-        "submitted": "2026-08-24T11:24:14Z"
+        "submitted": "2026-08-24T11:35:16Z"
       }
     ],
     "active_dropped": 0,
@@ -45,9 +34,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 3
+      "running": 2
     },
     "recent": [
+      {
+        "elapsed": "1h 28m",
+        "ended": "2026-08-24T11:29:00Z",
+        "exit_code": 0,
+        "id": "40589572",
+        "kind": "research",
+        "name": "mcfb01_ds",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "2d 00h 00m",
         "ended": "2026-08-24T10:05:06Z",
@@ -90,7 +89,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-24T11:27:11Z",
+  "generated_at": "2026-08-24T11:36:10Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -98,11 +97,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-24T11:27:11Z",
+      "observed_at": "2026-08-24T11:36:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-24T11:27:11Z",
+      "observed_at": "2026-08-24T11:36:10Z",
       "status": "ok"
     }
   }
