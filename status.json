@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "23h 23m",
+        "elapsed": "23h 26m",
         "id": "40591898",
         "kind": "research",
         "name": "rcd01_TIshR",
@@ -20,9 +20,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-25T09:48:01Z",
+        "started": "2026-08-25T09:51:07Z",
         "state": "running",
-        "submitted": "2026-08-25T09:45:42Z"
+        "submitted": "2026-08-25T09:48:23Z"
       }
     ],
     "active_dropped": 0,
@@ -57,7 +57,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-25T09:48:10Z",
+  "generated_at": "2026-08-25T09:51:16Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -65,11 +65,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-25T09:48:10Z",
+      "observed_at": "2026-08-25T09:51:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-25T09:48:10Z",
+      "observed_at": "2026-08-25T09:51:16Z",
       "status": "ok"
     }
   }
