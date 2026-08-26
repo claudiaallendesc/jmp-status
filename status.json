@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "33m 05s",
+        "elapsed": "36m 06s",
         "id": "40843173",
         "kind": "research",
         "name": "opr01_d2",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-26T11:14:13Z"
       },
       {
-        "elapsed": "33m 05s",
+        "elapsed": "36m 06s",
         "id": "40843175",
         "kind": "research",
         "name": "opr01_d2",
@@ -24,15 +24,59 @@
         "submitted": "2026-08-26T11:14:18Z"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "2m 17s",
+        "id": "40862242",
+        "kind": "research",
+        "name": "opr01_recert",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-26T16:37:00Z",
+        "state": "running",
+        "submitted": "2026-08-26T16:36:47Z"
+      },
+      {
+        "elapsed": "2m 17s",
+        "id": "40862243",
+        "kind": "research",
+        "name": "opr01_recert",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-08-26T16:37:00Z",
+        "state": "running",
+        "submitted": "2026-08-26T16:36:48Z"
+      },
+      {
+        "elapsed": "39s",
+        "id": "40862244",
+        "kind": "research",
+        "name": "opr01_recert",
+        "nodes": 1,
+        "partition": "normal",
+        "started": "2026-08-26T16:38:38Z",
+        "state": "running",
+        "submitted": "2026-08-26T16:36:48Z"
+      },
+      {
+        "elapsed": "39s",
+        "id": "40862245",
+        "kind": "research",
+        "name": "opr01_recert",
+        "nodes": 1,
+        "partition": "normal",
+        "started": "2026-08-26T16:38:38Z",
+        "state": "running",
+        "submitted": "2026-08-26T16:36:48Z"
+      },
+      {
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-26T16:36:09Z",
+        "started": "2026-08-26T16:39:07Z",
         "state": "running",
-        "submitted": "2026-08-26T16:33:07Z"
+        "submitted": "2026-08-26T16:36:28Z"
       }
     ],
     "active_dropped": 0,
@@ -44,7 +88,7 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 3
+      "running": 7
     },
     "recent": [
       {
@@ -248,7 +292,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-26T16:36:16Z",
+  "generated_at": "2026-08-26T16:39:17Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -256,11 +300,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-26T16:36:16Z",
+      "observed_at": "2026-08-26T16:39:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-26T16:36:16Z",
+      "observed_at": "2026-08-26T16:39:17Z",
       "status": "ok"
     }
   }
