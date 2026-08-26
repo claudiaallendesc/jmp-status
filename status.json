@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "13s",
+        "elapsed": "3s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-26T11:06:01Z",
+        "started": "2026-08-26T11:09:00Z",
         "state": "running",
-        "submitted": "2026-08-26T11:03:28Z"
+        "submitted": "2026-08-26T11:06:37Z"
       }
     ],
     "active_dropped": 0,
@@ -25,6 +25,106 @@
       "running": 1
     },
     "recent": [
+      {
+        "elapsed": "1m 31s",
+        "ended": "2026-08-26T11:08:51Z",
+        "exit_code": 0,
+        "id": "40843009",
+        "kind": "research",
+        "name": "opr01_d2",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "1m 29s",
+        "ended": "2026-08-26T11:08:49Z",
+        "exit_code": 0,
+        "id": "40843011",
+        "kind": "research",
+        "name": "opr01_d2",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "1m 29s",
+        "ended": "2026-08-26T11:08:49Z",
+        "exit_code": 0,
+        "id": "40843007",
+        "kind": "research",
+        "name": "opr01_d2",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "1m 27s",
+        "ended": "2026-08-26T11:08:47Z",
+        "exit_code": 0,
+        "id": "40843005",
+        "kind": "research",
+        "name": "opr01_d2",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "1m 26s",
+        "ended": "2026-08-26T11:08:46Z",
+        "exit_code": 0,
+        "id": "40843013",
+        "kind": "research",
+        "name": "opr01_d2",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "20s",
+        "ended": "2026-08-26T11:07:46Z",
+        "exit_code": 1,
+        "id": "40843014",
+        "kind": "research",
+        "name": "opr01_d2",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "19s",
+        "ended": "2026-08-26T11:07:39Z",
+        "exit_code": 1,
+        "id": "40843008",
+        "kind": "research",
+        "name": "opr01_d2",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "18s",
+        "ended": "2026-08-26T11:07:38Z",
+        "exit_code": 1,
+        "id": "40843012",
+        "kind": "research",
+        "name": "opr01_d2",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "18s",
+        "ended": "2026-08-26T11:07:38Z",
+        "exit_code": 1,
+        "id": "40843010",
+        "kind": "research",
+        "name": "opr01_d2",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "18s",
+        "ended": "2026-08-26T11:07:38Z",
+        "exit_code": 1,
+        "id": "40843006",
+        "kind": "research",
+        "name": "opr01_d2",
+        "partition": "gsb",
+        "state": "failed"
+      },
       {
         "elapsed": "1d 16h 10m",
         "ended": "2026-08-26T02:36:05Z",
@@ -57,7 +157,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-26T11:06:14Z",
+  "generated_at": "2026-08-26T11:09:03Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
@@ -65,11 +165,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-26T11:06:14Z",
+      "observed_at": "2026-08-26T11:09:03Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-26T11:06:14Z",
+      "observed_at": "2026-08-26T11:09:03Z",
       "status": "ok"
     }
   }
