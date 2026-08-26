@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "36m 06s",
+        "elapsed": "38m 59s",
         "id": "40843173",
         "kind": "research",
         "name": "opr01_d2",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-26T11:14:13Z"
       },
       {
-        "elapsed": "36m 06s",
+        "elapsed": "38m 59s",
         "id": "40843175",
         "kind": "research",
         "name": "opr01_d2",
@@ -24,29 +24,7 @@
         "submitted": "2026-08-26T11:14:18Z"
       },
       {
-        "elapsed": "2m 17s",
-        "id": "40862242",
-        "kind": "research",
-        "name": "opr01_recert",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-26T16:37:00Z",
-        "state": "running",
-        "submitted": "2026-08-26T16:36:47Z"
-      },
-      {
-        "elapsed": "2m 17s",
-        "id": "40862243",
-        "kind": "research",
-        "name": "opr01_recert",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-26T16:37:00Z",
-        "state": "running",
-        "submitted": "2026-08-26T16:36:48Z"
-      },
-      {
-        "elapsed": "39s",
+        "elapsed": "3m 32s",
         "id": "40862244",
         "kind": "research",
         "name": "opr01_recert",
@@ -57,7 +35,7 @@
         "submitted": "2026-08-26T16:36:48Z"
       },
       {
-        "elapsed": "39s",
+        "elapsed": "3m 32s",
         "id": "40862245",
         "kind": "research",
         "name": "opr01_recert",
@@ -68,15 +46,15 @@
         "submitted": "2026-08-26T16:36:48Z"
       },
       {
-        "elapsed": "10s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-26T16:39:07Z",
+        "started": "2026-08-26T16:42:01Z",
         "state": "running",
-        "submitted": "2026-08-26T16:36:28Z"
+        "submitted": "2026-08-26T16:39:21Z"
       }
     ],
     "active_dropped": 0,
@@ -88,9 +66,29 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 7
+      "running": 5
     },
     "recent": [
+      {
+        "elapsed": "4m 44s",
+        "ended": "2026-08-26T16:41:44Z",
+        "exit_code": 0,
+        "id": "40862243",
+        "kind": "research",
+        "name": "opr01_recert",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "4m 44s",
+        "ended": "2026-08-26T16:41:44Z",
+        "exit_code": 0,
+        "id": "40862242",
+        "kind": "research",
+        "name": "opr01_recert",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "1h 05m",
         "ended": "2026-08-26T16:21:42Z",
@@ -292,7 +290,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-26T16:39:17Z",
+  "generated_at": "2026-08-26T16:42:10Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -300,11 +298,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-26T16:39:17Z",
+      "observed_at": "2026-08-26T16:42:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-26T16:39:17Z",
+      "observed_at": "2026-08-26T16:42:10Z",
       "status": "ok"
     }
   }
