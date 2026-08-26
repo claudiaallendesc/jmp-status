@@ -8,9 +8,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-26T12:33:05Z",
+        "started": "2026-08-26T12:36:04Z",
         "state": "running",
-        "submitted": "2026-08-26T12:30:17Z"
+        "submitted": "2026-08-26T12:33:29Z"
       },
       {
         "elapsed": "0s",
@@ -277,7 +277,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-26T12:33:14Z",
+  "generated_at": "2026-08-26T12:36:13Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -285,11 +285,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-26T12:33:14Z",
+      "observed_at": "2026-08-26T12:36:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-26T12:33:14Z",
+      "observed_at": "2026-08-26T12:36:13Z",
       "status": "ok"
     }
   }
