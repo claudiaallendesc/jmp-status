@@ -1,29 +1,6 @@
 {
   "account": {
-    "active": [
-      {
-        "elapsed": "2h 05m",
-        "id": "40926077",
-        "kind": "research",
-        "name": "opr01_d3",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-27T15:31:13Z",
-        "state": "running",
-        "submitted": "2026-08-27T04:30:35Z"
-      },
-      {
-        "elapsed": "9s",
-        "id": "39005528",
-        "kind": "service",
-        "name": "jmp_status_collect",
-        "nodes": 1,
-        "partition": "service",
-        "started": "2026-08-27T17:36:14Z",
-        "state": "running",
-        "submitted": "2026-08-27T17:34:03Z"
-      }
-    ],
+    "active": [],
     "active_dropped": 0,
     "active_omitted": 0,
     "counts": {
@@ -33,7 +10,7 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 2
+      "running": 0
     },
     "recent": [
       {
@@ -65,11 +42,29 @@
         "name": "opr01_d3",
         "partition": "gsb",
         "state": "completed"
+      },
+      {
+        "elapsed": "2h 08m",
+        "exit_code": 0,
+        "id": "40926077",
+        "kind": "research",
+        "name": "opr01_d3",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "38s",
+        "exit_code": 0,
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "partition": "service",
+        "state": "running"
       }
     ],
     "recent_dropped": 0,
     "recent_omitted": 0,
-    "service_count": 1,
+    "service_count": 0,
     "window_hours": 12
   },
   "campaign": {
@@ -86,20 +81,19 @@
       "running": 0
     }
   },
-  "collector_health": "degraded",
-  "generated_at": "2026-08-27T17:36:23Z",
-  "message": "Running",
+  "collector_health": "offline",
+  "generated_at": "2026-08-27T17:40:06Z",
+  "message": "Status unavailable",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T17:36:23Z",
-      "status": "ok"
+      "status": "unavailable"
     },
     "recent": {
-      "observed_at": "2026-08-27T17:36:23Z",
+      "observed_at": "2026-08-27T17:40:06Z",
       "status": "ok"
     }
   }
