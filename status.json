@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1h 01m",
+        "elapsed": "1h 04m",
         "id": "40926075",
         "kind": "research",
         "name": "opr01_d3",
@@ -13,15 +13,15 @@
         "submitted": "2026-08-27T04:30:35Z"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-27T13:51:22Z",
+        "started": "2026-08-27T13:54:26Z",
         "state": "running",
-        "submitted": "2026-08-27T13:48:30Z"
+        "submitted": "2026-08-27T13:51:42Z"
       },
       {
         "elapsed": "0s",
@@ -89,7 +89,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-27T13:51:29Z",
+  "generated_at": "2026-08-27T13:54:28Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -97,11 +97,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T13:51:29Z",
+      "observed_at": "2026-08-27T13:54:28Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-27T13:51:29Z",
+      "observed_at": "2026-08-27T13:54:28Z",
       "status": "ok"
     }
   }
