@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "12s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-27T06:27:11Z",
+        "started": "2026-08-27T06:30:26Z",
         "state": "running",
-        "submitted": "2026-08-27T06:24:26Z"
+        "submitted": "2026-08-27T06:27:37Z"
       },
       {
         "elapsed": "0s",
@@ -32,7 +32,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-27T06:27:23Z",
+        "started": "2026-08-27T06:30:31Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       },
@@ -72,18 +72,7 @@
       "pending": 4,
       "running": 1
     },
-    "recent": [
-      {
-        "elapsed": "13m 55s",
-        "ended": "2026-08-26T18:30:12Z",
-        "exit_code": 0,
-        "id": "40870568",
-        "kind": "research",
-        "name": "opr01_recert",
-        "partition": "gsb",
-        "state": "completed"
-      }
-    ],
+    "recent": [],
     "recent_dropped": 0,
     "recent_omitted": 0,
     "service_count": 1,
@@ -104,7 +93,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-27T06:27:23Z",
+  "generated_at": "2026-08-27T06:30:31Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -112,11 +101,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T06:27:23Z",
+      "observed_at": "2026-08-27T06:30:31Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-27T06:27:23Z",
+      "observed_at": "2026-08-27T06:30:31Z",
       "status": "ok"
     }
   }
