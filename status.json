@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "7s",
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-27T04:39:32Z",
+        "started": "2026-08-27T04:42:11Z",
         "state": "running",
-        "submitted": "2026-08-27T04:36:41Z"
+        "submitted": "2026-08-27T04:39:51Z"
       },
       {
         "elapsed": "0s",
@@ -132,26 +132,6 @@
         "name": "opr01_recert",
         "partition": "normal",
         "state": "completed"
-      },
-      {
-        "elapsed": "4m 44s",
-        "ended": "2026-08-26T16:41:44Z",
-        "exit_code": 0,
-        "id": "40862243",
-        "kind": "research",
-        "name": "opr01_recert",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "4m 44s",
-        "ended": "2026-08-26T16:41:44Z",
-        "exit_code": 0,
-        "id": "40862242",
-        "kind": "research",
-        "name": "opr01_recert",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -174,7 +154,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-27T04:39:39Z",
+  "generated_at": "2026-08-27T04:42:21Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -182,11 +162,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T04:39:39Z",
+      "observed_at": "2026-08-27T04:42:21Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-27T04:39:39Z",
+      "observed_at": "2026-08-27T04:42:21Z",
       "status": "ok"
     }
   }
