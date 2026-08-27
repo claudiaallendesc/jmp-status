@@ -1,41 +1,6 @@
 {
   "account": {
-    "active": [
-      {
-        "elapsed": "2h 11m",
-        "id": "40926075",
-        "kind": "research",
-        "name": "opr01_d3",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-08-27T12:49:33Z",
-        "state": "running",
-        "submitted": "2026-08-27T04:30:35Z"
-      },
-      {
-        "elapsed": "38s",
-        "id": "39005528",
-        "kind": "service",
-        "name": "jmp_status_collect",
-        "nodes": 1,
-        "partition": "service",
-        "started": "2026-08-27T15:00:08Z",
-        "state": "running",
-        "submitted": "2026-08-27T14:57:59Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "40926077",
-        "kind": "research",
-        "name": "opr01_d3",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "resources",
-        "started": "2026-08-28T01:00:00Z",
-        "state": "pending",
-        "submitted": "2026-08-27T04:30:35Z"
-      }
-    ],
+    "active": [],
     "active_dropped": 0,
     "active_omitted": 0,
     "counts": {
@@ -44,8 +9,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 1,
-      "running": 2
+      "pending": 0,
+      "running": 0
     },
     "recent": [
       {
@@ -67,11 +32,38 @@
         "name": "opr01_d3",
         "partition": "gsb",
         "state": "completed"
+      },
+      {
+        "elapsed": "0s",
+        "exit_code": 0,
+        "id": "40926077",
+        "kind": "research",
+        "name": "opr01_d3",
+        "partition": "gsb",
+        "state": "pending"
+      },
+      {
+        "elapsed": "2h 14m",
+        "exit_code": 0,
+        "id": "40926075",
+        "kind": "research",
+        "name": "opr01_d3",
+        "partition": "gsb",
+        "state": "running"
+      },
+      {
+        "elapsed": "39s",
+        "exit_code": 0,
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "partition": "service",
+        "state": "running"
       }
     ],
     "recent_dropped": 0,
     "recent_omitted": 0,
-    "service_count": 1,
+    "service_count": 0,
     "window_hours": 12
   },
   "campaign": {
@@ -88,20 +80,19 @@
       "running": 0
     }
   },
-  "collector_health": "degraded",
-  "generated_at": "2026-08-27T15:00:46Z",
-  "message": "Running",
+  "collector_health": "offline",
+  "generated_at": "2026-08-27T15:03:48Z",
+  "message": "Status unavailable",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T15:00:46Z",
-      "status": "ok"
+      "status": "unavailable"
     },
     "recent": {
-      "observed_at": "2026-08-27T15:00:46Z",
+      "observed_at": "2026-08-27T15:03:48Z",
       "status": "ok"
     }
   }
