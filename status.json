@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "5h 23m",
+        "elapsed": "5h 25m",
         "id": "40926077",
         "kind": "research",
         "name": "opr01_d3",
@@ -13,26 +13,15 @@
         "submitted": "2026-08-27T04:30:35Z"
       },
       {
-        "elapsed": "3m 00s",
-        "id": "40999480",
-        "kind": "research",
-        "name": "qc_inst",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-27T20:51:31Z",
-        "state": "running",
-        "submitted": "2026-08-27T20:34:00Z"
-      },
-      {
-        "elapsed": "20s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-27T20:54:11Z",
+        "started": "2026-08-27T20:57:05Z",
         "state": "running",
-        "submitted": "2026-08-27T20:51:37Z"
+        "submitted": "2026-08-27T20:55:11Z"
       }
     ],
     "active_dropped": 0,
@@ -44,9 +33,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 3
+      "running": 2
     },
     "recent": [
+      {
+        "elapsed": "4m 03s",
+        "ended": "2026-08-27T20:55:34Z",
+        "exit_code": 0,
+        "id": "40999480",
+        "kind": "research",
+        "name": "qc_inst",
+        "partition": "normal",
+        "state": "completed"
+      },
       {
         "elapsed": "1m 20s",
         "ended": "2026-08-27T18:38:14Z",
@@ -207,7 +206,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-27T20:54:31Z",
+  "generated_at": "2026-08-27T20:57:12Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -215,11 +214,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T20:54:31Z",
+      "observed_at": "2026-08-27T20:57:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-27T20:54:31Z",
+      "observed_at": "2026-08-27T20:57:12Z",
       "status": "ok"
     }
   }
