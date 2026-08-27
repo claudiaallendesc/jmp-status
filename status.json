@@ -2,15 +2,63 @@
   "account": {
     "active": [
       {
-        "elapsed": "4s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-27T04:30:20Z",
+        "started": "2026-08-27T04:33:14Z",
         "state": "running",
-        "submitted": "2026-08-27T04:27:26Z"
+        "submitted": "2026-08-27T04:30:29Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "40926073",
+        "kind": "research",
+        "name": "opr01_d3",
+        "nodes": 1,
+        "partition": "gsb",
+        "reason": "priority",
+        "started": "2026-08-27T09:26:09Z",
+        "state": "pending",
+        "submitted": "2026-08-27T04:30:35Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "40926074",
+        "kind": "research",
+        "name": "opr01_d3",
+        "nodes": 1,
+        "partition": "gsb",
+        "reason": "priority",
+        "started": "2026-08-27T09:26:09Z",
+        "state": "pending",
+        "submitted": "2026-08-27T04:30:35Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "40926075",
+        "kind": "research",
+        "name": "opr01_d3",
+        "nodes": 1,
+        "partition": "gsb",
+        "reason": "priority",
+        "started": "2026-08-27T09:26:09Z",
+        "state": "pending",
+        "submitted": "2026-08-27T04:30:35Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "40926077",
+        "kind": "research",
+        "name": "opr01_d3",
+        "nodes": 1,
+        "partition": "gsb",
+        "reason": "priority",
+        "started": "2026-08-27T09:26:09Z",
+        "state": "pending",
+        "submitted": "2026-08-27T04:30:35Z"
       }
     ],
     "active_dropped": 0,
@@ -21,7 +69,7 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 0,
+      "pending": 4,
       "running": 1
     },
     "recent": [
@@ -126,19 +174,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-27T04:30:25Z",
-  "message": "No active jobs",
+  "generated_at": "2026-08-27T04:33:23Z",
+  "message": "Queued",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T04:30:25Z",
+      "observed_at": "2026-08-27T04:33:23Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-27T04:30:25Z",
+      "observed_at": "2026-08-27T04:33:23Z",
       "status": "ok"
     }
   }
