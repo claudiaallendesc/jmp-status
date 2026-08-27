@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "10s",
+        "elapsed": "12s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-27T06:24:05Z",
+        "started": "2026-08-27T06:27:11Z",
         "state": "running",
-        "submitted": "2026-08-27T06:21:28Z"
+        "submitted": "2026-08-27T06:24:26Z"
       },
       {
         "elapsed": "0s",
@@ -20,7 +20,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-27T19:20:00Z",
+        "started": "2026-08-27T18:40:00Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       },
@@ -32,7 +32,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-27T07:16:18Z",
+        "started": "2026-08-27T06:27:23Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       },
@@ -44,7 +44,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-28T07:20:00Z",
+        "started": "2026-08-28T06:40:00Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       },
@@ -56,7 +56,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-28T19:20:00Z",
+        "started": "2026-08-28T18:40:00Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       }
@@ -78,16 +78,6 @@
         "ended": "2026-08-26T18:30:12Z",
         "exit_code": 0,
         "id": "40870568",
-        "kind": "research",
-        "name": "opr01_recert",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "10m 29s",
-        "ended": "2026-08-26T18:26:46Z",
-        "exit_code": 0,
-        "id": "40870569",
         "kind": "research",
         "name": "opr01_recert",
         "partition": "gsb",
@@ -114,7 +104,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-27T06:24:15Z",
+  "generated_at": "2026-08-27T06:27:23Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -122,11 +112,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T06:24:15Z",
+      "observed_at": "2026-08-27T06:27:23Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-27T06:24:15Z",
+      "observed_at": "2026-08-27T06:27:23Z",
       "status": "ok"
     }
   }
