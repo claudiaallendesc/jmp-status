@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 55m",
+        "elapsed": "2h 58m",
         "id": "40926077",
         "kind": "research",
         "name": "opr01_d3",
@@ -13,26 +13,15 @@
         "submitted": "2026-08-27T04:30:35Z"
       },
       {
-        "elapsed": "4m 24s",
-        "id": "40986796",
-        "kind": "research",
-        "name": "sec01ref",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-27T18:22:47Z",
-        "state": "running",
-        "submitted": "2026-08-27T18:12:34Z"
-      },
-      {
-        "elapsed": "8s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-27T18:27:03Z",
+        "started": "2026-08-27T18:30:00Z",
         "state": "running",
-        "submitted": "2026-08-27T18:24:15Z"
+        "submitted": "2026-08-27T18:27:28Z"
       }
     ],
     "active_dropped": 0,
@@ -44,9 +33,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 3
+      "running": 2
     },
     "recent": [
+      {
+        "elapsed": "7m 13s",
+        "ended": "2026-08-27T18:30:00Z",
+        "exit_code": 1,
+        "id": "40986796",
+        "kind": "research",
+        "name": "sec01ref",
+        "partition": "normal",
+        "state": "failed"
+      },
       {
         "elapsed": "1m 16s",
         "ended": "2026-08-27T18:16:45Z",
@@ -197,7 +196,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-27T18:27:11Z",
+  "generated_at": "2026-08-27T18:30:05Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -205,11 +204,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T18:27:11Z",
+      "observed_at": "2026-08-27T18:30:05Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-27T18:27:11Z",
+      "observed_at": "2026-08-27T18:30:05Z",
       "status": "ok"
     }
   }
