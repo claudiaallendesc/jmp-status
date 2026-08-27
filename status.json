@@ -1,66 +1,6 @@
 {
   "account": {
-    "active": [
-      {
-        "elapsed": "10s",
-        "id": "39005528",
-        "kind": "service",
-        "name": "jmp_status_collect",
-        "nodes": 1,
-        "partition": "service",
-        "started": "2026-08-27T04:42:11Z",
-        "state": "running",
-        "submitted": "2026-08-27T04:39:51Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "40926073",
-        "kind": "research",
-        "name": "opr01_d3",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-08-27T09:26:09Z",
-        "state": "pending",
-        "submitted": "2026-08-27T04:30:35Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "40926074",
-        "kind": "research",
-        "name": "opr01_d3",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-08-27T09:26:09Z",
-        "state": "pending",
-        "submitted": "2026-08-27T04:30:35Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "40926075",
-        "kind": "research",
-        "name": "opr01_d3",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-08-27T09:26:09Z",
-        "state": "pending",
-        "submitted": "2026-08-27T04:30:35Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "40926077",
-        "kind": "research",
-        "name": "opr01_d3",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-08-27T09:26:09Z",
-        "state": "pending",
-        "submitted": "2026-08-27T04:30:35Z"
-      }
-    ],
+    "active": [],
     "active_dropped": 0,
     "active_omitted": 0,
     "counts": {
@@ -69,8 +9,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 4,
-      "running": 1
+      "pending": 0,
+      "running": 0
     },
     "recent": [
       {
@@ -114,29 +54,54 @@
         "state": "completed"
       },
       {
-        "elapsed": "4m 22s",
-        "ended": "2026-08-26T16:43:00Z",
+        "elapsed": "0s",
         "exit_code": 0,
-        "id": "40862245",
+        "id": "40926077",
         "kind": "research",
-        "name": "opr01_recert",
-        "partition": "normal",
-        "state": "completed"
+        "name": "opr01_d3",
+        "partition": "gsb",
+        "state": "pending"
       },
       {
-        "elapsed": "4m 06s",
-        "ended": "2026-08-26T16:42:44Z",
+        "elapsed": "0s",
         "exit_code": 0,
-        "id": "40862244",
+        "id": "40926075",
         "kind": "research",
-        "name": "opr01_recert",
-        "partition": "normal",
-        "state": "completed"
+        "name": "opr01_d3",
+        "partition": "gsb",
+        "state": "pending"
+      },
+      {
+        "elapsed": "0s",
+        "exit_code": 0,
+        "id": "40926074",
+        "kind": "research",
+        "name": "opr01_d3",
+        "partition": "gsb",
+        "state": "pending"
+      },
+      {
+        "elapsed": "0s",
+        "exit_code": 0,
+        "id": "40926073",
+        "kind": "research",
+        "name": "opr01_d3",
+        "partition": "gsb",
+        "state": "pending"
+      },
+      {
+        "elapsed": "37s",
+        "exit_code": 0,
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "partition": "service",
+        "state": "running"
       }
     ],
     "recent_dropped": 0,
     "recent_omitted": 0,
-    "service_count": 1,
+    "service_count": 0,
     "window_hours": 12
   },
   "campaign": {
@@ -153,20 +118,19 @@
       "running": 0
     }
   },
-  "collector_health": "degraded",
-  "generated_at": "2026-08-27T04:42:21Z",
-  "message": "Queued",
+  "collector_health": "offline",
+  "generated_at": "2026-08-27T04:45:38Z",
+  "message": "Status unavailable",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T04:42:21Z",
-      "status": "ok"
+      "status": "unavailable"
     },
     "recent": {
-      "observed_at": "2026-08-27T04:42:21Z",
+      "observed_at": "2026-08-27T04:45:38Z",
       "status": "ok"
     }
   }
