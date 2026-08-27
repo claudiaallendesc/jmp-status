@@ -8,9 +8,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-27T05:27:15Z",
+        "started": "2026-08-27T05:30:10Z",
         "state": "running",
-        "submitted": "2026-08-27T05:24:21Z"
+        "submitted": "2026-08-27T05:27:30Z"
       },
       {
         "elapsed": "0s",
@@ -20,7 +20,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-27T09:26:09Z",
+        "started": "2026-08-27T09:20:40Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       },
@@ -32,7 +32,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-27T09:26:09Z",
+        "started": "2026-08-27T09:20:40Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       },
@@ -44,7 +44,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-27T09:26:09Z",
+        "started": "2026-08-27T09:20:40Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       },
@@ -56,7 +56,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-27T09:26:09Z",
+        "started": "2026-08-27T09:20:40Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       }
@@ -134,7 +134,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-27T05:27:22Z",
+  "generated_at": "2026-08-27T05:30:17Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -142,11 +142,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T05:27:22Z",
+      "observed_at": "2026-08-27T05:30:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-27T05:27:22Z",
+      "observed_at": "2026-08-27T05:30:17Z",
       "status": "ok"
     }
   }
