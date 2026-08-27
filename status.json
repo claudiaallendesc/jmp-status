@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "7s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-27T05:36:03Z",
+        "started": "2026-08-27T05:39:08Z",
         "state": "running",
-        "submitted": "2026-08-27T05:33:15Z"
+        "submitted": "2026-08-27T05:36:21Z"
       },
       {
         "elapsed": "0s",
@@ -20,7 +20,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-27T21:40:00Z",
+        "started": "2026-08-27T19:20:00Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       },
@@ -32,7 +32,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-27T09:20:40Z",
+        "started": "2026-08-27T07:16:18Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       },
@@ -44,7 +44,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-28T09:40:00Z",
+        "started": "2026-08-28T07:20:00Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       },
@@ -56,7 +56,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-08-28T21:40:00Z",
+        "started": "2026-08-28T19:20:00Z",
         "state": "pending",
         "submitted": "2026-08-27T04:30:35Z"
       }
@@ -134,7 +134,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-27T05:36:10Z",
+  "generated_at": "2026-08-27T05:39:17Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -142,11 +142,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T05:36:10Z",
+      "observed_at": "2026-08-27T05:39:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-27T05:36:10Z",
+      "observed_at": "2026-08-27T05:39:17Z",
       "status": "ok"
     }
   }
