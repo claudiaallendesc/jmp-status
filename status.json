@@ -8,9 +8,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-27T05:51:05Z",
+        "started": "2026-08-27T05:54:13Z",
         "state": "running",
-        "submitted": "2026-08-27T05:48:50Z"
+        "submitted": "2026-08-27T05:51:25Z"
       },
       {
         "elapsed": "0s",
@@ -102,16 +102,6 @@
         "name": "opr01_d2",
         "partition": "normal",
         "state": "completed"
-      },
-      {
-        "elapsed": "1h 50m",
-        "ended": "2026-08-26T17:53:28Z",
-        "exit_code": 0,
-        "id": "40843175",
-        "kind": "research",
-        "name": "opr01_d2",
-        "partition": "normal",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -134,7 +124,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-27T05:51:15Z",
+  "generated_at": "2026-08-27T05:54:23Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -142,11 +132,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-27T05:51:15Z",
+      "observed_at": "2026-08-27T05:54:23Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-27T05:51:15Z",
+      "observed_at": "2026-08-27T05:54:23Z",
       "status": "ok"
     }
   }
