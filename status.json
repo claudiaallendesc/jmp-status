@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "18s",
+        "elapsed": "11s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-28T06:06:28Z",
+        "started": "2026-08-28T06:09:21Z",
         "state": "running",
-        "submitted": "2026-08-28T06:04:04Z"
+        "submitted": "2026-08-28T06:07:02Z"
       }
     ],
     "active_dropped": 0,
@@ -75,94 +75,6 @@
         "partition": "normal",
         "state": "completed",
         "task": "8"
-      },
-      {
-        "elapsed": "1m 11s",
-        "ended": "2026-08-27T18:07:47Z",
-        "exit_code": 0,
-        "id": "40985252",
-        "kind": "research",
-        "name": "sec01",
-        "partition": "normal",
-        "state": "completed",
-        "task": "3"
-      },
-      {
-        "elapsed": "1m 06s",
-        "ended": "2026-08-27T18:07:42Z",
-        "exit_code": 0,
-        "id": "40985252",
-        "kind": "research",
-        "name": "sec01",
-        "partition": "normal",
-        "state": "completed",
-        "task": "0"
-      },
-      {
-        "elapsed": "1m 06s",
-        "ended": "2026-08-27T18:07:42Z",
-        "exit_code": 0,
-        "id": "40985252",
-        "kind": "research",
-        "name": "sec01",
-        "partition": "normal",
-        "state": "completed",
-        "task": "2"
-      },
-      {
-        "elapsed": "1m 04s",
-        "ended": "2026-08-27T18:07:40Z",
-        "exit_code": 0,
-        "id": "40985252",
-        "kind": "research",
-        "name": "sec01",
-        "partition": "normal",
-        "state": "completed",
-        "task": "1"
-      },
-      {
-        "elapsed": "1m 04s",
-        "ended": "2026-08-27T18:07:40Z",
-        "exit_code": 0,
-        "id": "40985252",
-        "kind": "research",
-        "name": "sec01",
-        "partition": "normal",
-        "state": "completed",
-        "task": "4"
-      },
-      {
-        "elapsed": "1m 01s",
-        "ended": "2026-08-27T18:07:37Z",
-        "exit_code": 0,
-        "id": "40985252",
-        "kind": "research",
-        "name": "sec01",
-        "partition": "normal",
-        "state": "completed",
-        "task": "7"
-      },
-      {
-        "elapsed": "59s",
-        "ended": "2026-08-27T18:07:35Z",
-        "exit_code": 0,
-        "id": "40985252",
-        "kind": "research",
-        "name": "sec01",
-        "partition": "normal",
-        "state": "completed",
-        "task": "5"
-      },
-      {
-        "elapsed": "59s",
-        "ended": "2026-08-27T18:07:35Z",
-        "exit_code": 0,
-        "id": "40985252",
-        "kind": "research",
-        "name": "sec01",
-        "partition": "normal",
-        "state": "completed",
-        "task": "6"
       }
     ],
     "recent_dropped": 0,
@@ -185,7 +97,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-28T06:06:46Z",
+  "generated_at": "2026-08-28T06:09:32Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
@@ -193,11 +105,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-28T06:06:46Z",
+      "observed_at": "2026-08-28T06:09:32Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-28T06:06:46Z",
+      "observed_at": "2026-08-28T06:09:32Z",
       "status": "ok"
     }
   }
