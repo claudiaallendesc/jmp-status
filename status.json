@@ -1,6 +1,18 @@
 {
   "account": {
-    "active": [],
+    "active": [
+      {
+        "elapsed": "34s",
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "nodes": 1,
+        "partition": "service",
+        "started": "2026-08-28T05:54:06Z",
+        "state": "running",
+        "submitted": "2026-08-28T05:52:49Z"
+      }
+    ],
     "active_dropped": 0,
     "active_omitted": 0,
     "counts": {
@@ -10,7 +22,7 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 0
+      "running": 1
     },
     "recent": [
       {
@@ -151,20 +163,11 @@
         "partition": "normal",
         "state": "completed",
         "task": "6"
-      },
-      {
-        "elapsed": "38s",
-        "exit_code": 0,
-        "id": "39005528",
-        "kind": "service",
-        "name": "jmp_status_collect",
-        "partition": "service",
-        "state": "running"
       }
     ],
     "recent_dropped": 0,
     "recent_omitted": 0,
-    "service_count": 0,
+    "service_count": 1,
     "window_hours": 12
   },
   "campaign": {
@@ -181,19 +184,20 @@
       "running": 0
     }
   },
-  "collector_health": "offline",
-  "generated_at": "2026-08-28T05:52:03Z",
-  "message": "Status unavailable",
+  "collector_health": "degraded",
+  "generated_at": "2026-08-28T05:54:41Z",
+  "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "status": "unavailable"
+      "observed_at": "2026-08-28T05:54:41Z",
+      "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-28T05:52:03Z",
+      "observed_at": "2026-08-28T05:54:41Z",
       "status": "ok"
     }
   }
