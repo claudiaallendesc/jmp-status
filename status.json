@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 25m",
+        "elapsed": "2h 28m",
         "id": "41167202",
         "kind": "research",
         "name": "sr02w_ivwatch",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-29T06:05:44Z"
       },
       {
-        "elapsed": "44m 11s",
+        "elapsed": "47m 23s",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -25,7 +25,7 @@
         "task": "0"
       },
       {
-        "elapsed": "39m 47s",
+        "elapsed": "42m 59s",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -37,7 +37,7 @@
         "task": "1"
       },
       {
-        "elapsed": "31m 25s",
+        "elapsed": "34m 37s",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -49,15 +49,15 @@
         "task": "2"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "11s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T08:36:09Z",
+        "started": "2026-08-29T08:39:19Z",
         "state": "running",
-        "submitted": "2026-08-29T08:33:19Z"
+        "submitted": "2026-08-29T08:36:39Z"
       },
       {
         "elapsed": "0s",
@@ -66,8 +66,7 @@
         "name": "sr02_sherlock_O",
         "nodes": 1,
         "partition": "normal",
-        "reason": "resources",
-        "started": "2026-08-29T08:36:18Z",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-29T06:04:54Z",
         "task": "[3-39%8]"
@@ -91,8 +90,7 @@
         "name": "sr02_sherlock_A",
         "nodes": 1,
         "partition": "normal",
-        "reason": "resources",
-        "started": "2026-08-29T08:36:18Z",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-29T07:04:02Z",
         "task": "[0-39%8]"
@@ -116,8 +114,7 @@
         "name": "sr02_sherlock_B",
         "nodes": 1,
         "partition": "normal",
-        "reason": "resources",
-        "started": "2026-08-29T08:36:18Z",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-29T07:04:22Z",
         "task": "[0-39%8]"
@@ -568,7 +565,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T08:36:18Z",
+  "generated_at": "2026-08-29T08:39:30Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -576,11 +573,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T08:36:18Z",
+      "observed_at": "2026-08-29T08:39:30Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T08:36:18Z",
+      "observed_at": "2026-08-29T08:39:30Z",
       "status": "ok"
     }
   }
