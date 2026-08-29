@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 15m",
+        "elapsed": "2h 18m",
         "id": "41159678",
         "kind": "research",
         "name": "p02_1102",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-29T04:28:46Z"
       },
       {
-        "elapsed": "2h 15m",
+        "elapsed": "2h 18m",
         "id": "41159685",
         "kind": "research",
         "name": "p02_1132",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-29T04:28:54Z"
       },
       {
-        "elapsed": "40m 48s",
+        "elapsed": "43m 40s",
         "id": "41167202",
         "kind": "research",
         "name": "sr02w_ivwatch",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-29T06:05:44Z"
       },
       {
-        "elapsed": "7m 23s",
+        "elapsed": "10m 15s",
         "id": "41167128",
         "kind": "research",
         "name": "sr02_O_m1010_y1",
@@ -46,15 +46,15 @@
         "submitted": "2026-08-29T06:03:47Z"
       },
       {
-        "elapsed": "5s",
+        "elapsed": "12s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T06:51:22Z",
+        "started": "2026-08-29T06:54:07Z",
         "state": "running",
-        "submitted": "2026-08-29T06:48:24Z"
+        "submitted": "2026-08-29T06:51:34Z"
       },
       {
         "elapsed": "0s",
@@ -438,7 +438,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T06:51:27Z",
+  "generated_at": "2026-08-29T06:54:19Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -446,11 +446,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T06:51:27Z",
+      "observed_at": "2026-08-29T06:54:19Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T06:51:27Z",
+      "observed_at": "2026-08-29T06:54:19Z",
       "status": "ok"
     }
   }
