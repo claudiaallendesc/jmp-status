@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "7h 55m",
+        "elapsed": "7h 59m",
         "id": "41167202",
         "kind": "research",
         "name": "sr02w_ivwatch",
@@ -13,19 +13,7 @@
         "submitted": "2026-08-29T06:05:44Z"
       },
       {
-        "elapsed": "5h 12m",
-        "id": "41167154",
-        "kind": "research",
-        "name": "sr02_sherlock_O",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-29T08:54:06Z",
-        "state": "running",
-        "submitted": "2026-08-29T06:04:54Z",
-        "task": "4"
-      },
-      {
-        "elapsed": "5h 12m",
+        "elapsed": "5h 15m",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -37,7 +25,7 @@
         "task": "5"
       },
       {
-        "elapsed": "4h 50m",
+        "elapsed": "4h 53m",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -49,7 +37,7 @@
         "task": "6"
       },
       {
-        "elapsed": "4h 50m",
+        "elapsed": "4h 53m",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -61,7 +49,7 @@
         "task": "7"
       },
       {
-        "elapsed": "4h 02m",
+        "elapsed": "4h 05m",
         "id": "41170892",
         "kind": "research",
         "name": "sr02_sherlock_A",
@@ -73,7 +61,7 @@
         "task": "0"
       },
       {
-        "elapsed": "4h 02m",
+        "elapsed": "4h 05m",
         "id": "41170892",
         "kind": "research",
         "name": "sr02_sherlock_A",
@@ -85,7 +73,7 @@
         "task": "1"
       },
       {
-        "elapsed": "3h 56m",
+        "elapsed": "4h 00m",
         "id": "41170892",
         "kind": "research",
         "name": "sr02_sherlock_A",
@@ -97,7 +85,7 @@
         "task": "2"
       },
       {
-        "elapsed": "3h 56m",
+        "elapsed": "4h 00m",
         "id": "41170892",
         "kind": "research",
         "name": "sr02_sherlock_A",
@@ -109,7 +97,7 @@
         "task": "3"
       },
       {
-        "elapsed": "3h 56m",
+        "elapsed": "4h 00m",
         "id": "41170892",
         "kind": "research",
         "name": "sr02_sherlock_A",
@@ -121,7 +109,7 @@
         "task": "4"
       },
       {
-        "elapsed": "3h 07m",
+        "elapsed": "3h 10m",
         "id": "41170892",
         "kind": "research",
         "name": "sr02_sherlock_A",
@@ -133,7 +121,7 @@
         "task": "5"
       },
       {
-        "elapsed": "2h 53m",
+        "elapsed": "2h 56m",
         "id": "41170892",
         "kind": "research",
         "name": "sr02_sherlock_A",
@@ -145,7 +133,7 @@
         "task": "6"
       },
       {
-        "elapsed": "2h 53m",
+        "elapsed": "2h 56m",
         "id": "41170892",
         "kind": "research",
         "name": "sr02_sherlock_A",
@@ -157,7 +145,7 @@
         "task": "7"
       },
       {
-        "elapsed": "2h 44m",
+        "elapsed": "2h 48m",
         "id": "41171324",
         "kind": "research",
         "name": "sr02_sherlock_B",
@@ -169,7 +157,7 @@
         "task": "0"
       },
       {
-        "elapsed": "2h 40m",
+        "elapsed": "2h 43m",
         "id": "41171324",
         "kind": "research",
         "name": "sr02_sherlock_B",
@@ -181,7 +169,7 @@
         "task": "1"
       },
       {
-        "elapsed": "2h 40m",
+        "elapsed": "2h 43m",
         "id": "41171324",
         "kind": "research",
         "name": "sr02_sherlock_B",
@@ -193,7 +181,7 @@
         "task": "2"
       },
       {
-        "elapsed": "2h 40m",
+        "elapsed": "2h 43m",
         "id": "41171324",
         "kind": "research",
         "name": "sr02_sherlock_B",
@@ -205,7 +193,7 @@
         "task": "3"
       },
       {
-        "elapsed": "2h 33m",
+        "elapsed": "2h 37m",
         "id": "41171324",
         "kind": "research",
         "name": "sr02_sherlock_B",
@@ -217,7 +205,7 @@
         "task": "4"
       },
       {
-        "elapsed": "1h 53m",
+        "elapsed": "1h 56m",
         "id": "41171324",
         "kind": "research",
         "name": "sr02_sherlock_B",
@@ -229,7 +217,7 @@
         "task": "5"
       },
       {
-        "elapsed": "1h 45m",
+        "elapsed": "1h 49m",
         "id": "41171324",
         "kind": "research",
         "name": "sr02_sherlock_B",
@@ -241,7 +229,7 @@
         "task": "6"
       },
       {
-        "elapsed": "1h 45m",
+        "elapsed": "1h 49m",
         "id": "41171324",
         "kind": "research",
         "name": "sr02_sherlock_B",
@@ -253,7 +241,7 @@
         "task": "7"
       },
       {
-        "elapsed": "1h 24m",
+        "elapsed": "1h 27m",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -265,7 +253,7 @@
         "task": "8"
       },
       {
-        "elapsed": "1h 00m",
+        "elapsed": "1h 04m",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -277,7 +265,7 @@
         "task": "9"
       },
       {
-        "elapsed": "49m 30s",
+        "elapsed": "53m 06s",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -289,7 +277,7 @@
         "task": "10"
       },
       {
-        "elapsed": "33m 22s",
+        "elapsed": "36m 58s",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -301,15 +289,15 @@
         "task": "11"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T14:06:04Z",
+        "started": "2026-08-29T14:09:37Z",
         "state": "running",
-        "submitted": "2026-08-29T14:03:22Z"
+        "submitted": "2026-08-29T14:06:16Z"
       },
       {
         "elapsed": "0s",
@@ -393,9 +381,20 @@
       "failed": 0,
       "other": 0,
       "pending": 6,
-      "running": 26
+      "running": 25
     },
     "recent": [
+      {
+        "elapsed": "5h 13m",
+        "ended": "2026-08-29T14:07:33Z",
+        "exit_code": 0,
+        "id": "41167154",
+        "kind": "research",
+        "name": "sr02_sherlock_O",
+        "partition": "normal",
+        "state": "completed",
+        "task": "4"
+      },
       {
         "elapsed": "4h 50m",
         "ended": "2026-08-29T13:29:40Z",
@@ -789,20 +788,10 @@
         "name": "p02_1185",
         "partition": "gsb",
         "state": "failed"
-      },
-      {
-        "elapsed": "0s",
-        "ended": "2026-08-29T04:29:11Z",
-        "exit_code": 1,
-        "id": "41159695",
-        "kind": "research",
-        "name": "p02_1177",
-        "partition": "gsb",
-        "state": "failed"
       }
     ],
     "recent_dropped": 0,
-    "recent_omitted": 5,
+    "recent_omitted": 6,
     "service_count": 1,
     "window_hours": 12
   },
@@ -821,7 +810,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T14:06:11Z",
+  "generated_at": "2026-08-29T14:09:47Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -829,11 +818,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T14:06:11Z",
+      "observed_at": "2026-08-29T14:09:47Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T14:06:11Z",
+      "observed_at": "2026-08-29T14:09:47Z",
       "status": "ok"
     }
   }
