@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1h 51m",
+        "elapsed": "1h 54m",
         "id": "41159678",
         "kind": "research",
         "name": "p02_1102",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-29T04:28:46Z"
       },
       {
-        "elapsed": "1h 51m",
+        "elapsed": "1h 54m",
         "id": "41159685",
         "kind": "research",
         "name": "p02_1132",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-29T04:28:54Z"
       },
       {
-        "elapsed": "16m 36s",
+        "elapsed": "19m 38s",
         "id": "41167125",
         "kind": "research",
         "name": "sr02_A_m1010_y1",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-29T06:03:40Z"
       },
       {
-        "elapsed": "16m 36s",
+        "elapsed": "19m 38s",
         "id": "41167126",
         "kind": "research",
         "name": "sr02_B_m1010_y1",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-29T06:03:44Z"
       },
       {
-        "elapsed": "16m 36s",
+        "elapsed": "19m 38s",
         "id": "41167202",
         "kind": "research",
         "name": "sr02w_ivwatch",
@@ -57,15 +57,15 @@
         "submitted": "2026-08-29T06:05:44Z"
       },
       {
-        "elapsed": "12s",
+        "elapsed": "8s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T06:27:03Z",
+        "started": "2026-08-29T06:30:09Z",
         "state": "running",
-        "submitted": "2026-08-29T06:24:14Z"
+        "submitted": "2026-08-29T06:27:28Z"
       },
       {
         "elapsed": "0s",
@@ -546,7 +546,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T06:27:16Z",
+  "generated_at": "2026-08-29T06:30:17Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -554,11 +554,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T06:27:16Z",
+      "observed_at": "2026-08-29T06:30:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T06:27:16Z",
+      "observed_at": "2026-08-29T06:30:17Z",
       "status": "ok"
     }
   }
