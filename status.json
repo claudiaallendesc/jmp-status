@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 00m",
+        "elapsed": "2h 03m",
         "id": "41159678",
         "kind": "research",
         "name": "p02_1102",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-29T04:28:46Z"
       },
       {
-        "elapsed": "2h 00m",
+        "elapsed": "2h 03m",
         "id": "41159685",
         "kind": "research",
         "name": "p02_1132",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-29T04:28:54Z"
       },
       {
-        "elapsed": "25m 31s",
+        "elapsed": "28m 38s",
         "id": "41167202",
         "kind": "research",
         "name": "sr02w_ivwatch",
@@ -41,9 +41,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T06:36:00Z",
+        "started": "2026-08-29T06:39:07Z",
         "state": "running",
-        "submitted": "2026-08-29T06:33:36Z"
+        "submitted": "2026-08-29T06:36:25Z"
       },
       {
         "elapsed": "0s",
@@ -58,45 +58,11 @@
       },
       {
         "elapsed": "0s",
-        "id": "41167131",
-        "kind": "research",
-        "name": "sr02adj_A_C0",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-08-29T06:04:06Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41167134",
-        "kind": "research",
-        "name": "sr02_A_m1029_y1",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-29T06:04:11Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41167135",
-        "kind": "research",
-        "name": "sr02_A_m1038_y1",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-29T06:04:17Z"
-      },
-      {
-        "elapsed": "0s",
         "id": "41167137",
         "kind": "research",
         "name": "sr02adj_A_P2",
         "nodes": 1,
         "partition": "normal",
-        "reason": "dependency",
         "state": "pending",
         "submitted": "2026-08-29T06:04:19Z"
       },
@@ -126,45 +92,11 @@
       },
       {
         "elapsed": "0s",
-        "id": "41167142",
-        "kind": "research",
-        "name": "sr02adj_B_C0",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-08-29T06:04:26Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41167143",
-        "kind": "research",
-        "name": "sr02_B_m1029_y1",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-29T06:04:28Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41167145",
-        "kind": "research",
-        "name": "sr02_B_m1038_y1",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-29T06:04:28Z"
-      },
-      {
-        "elapsed": "0s",
         "id": "41167146",
         "kind": "research",
         "name": "sr02adj_B_P2",
         "nodes": 1,
         "partition": "normal",
-        "reason": "dependency",
         "state": "pending",
         "submitted": "2026-08-29T06:04:31Z"
       },
@@ -269,10 +201,30 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 19,
+      "pending": 13,
       "running": 4
     },
     "recent": [
+      {
+        "elapsed": "13s",
+        "ended": "2026-08-29T06:39:00Z",
+        "exit_code": 0,
+        "id": "41167142",
+        "kind": "research",
+        "name": "sr02adj_B_C0",
+        "partition": "normal",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "13s",
+        "ended": "2026-08-29T06:39:00Z",
+        "exit_code": 0,
+        "id": "41167131",
+        "kind": "research",
+        "name": "sr02adj_A_C0",
+        "partition": "normal",
+        "state": "cancelled"
+      },
       {
         "elapsed": "23m 04s",
         "ended": "2026-08-29T06:33:43Z",
@@ -544,7 +496,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T06:36:10Z",
+  "generated_at": "2026-08-29T06:39:17Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -552,11 +504,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T06:36:10Z",
+      "observed_at": "2026-08-29T06:39:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T06:36:10Z",
+      "observed_at": "2026-08-29T06:39:17Z",
       "status": "ok"
     }
   }
