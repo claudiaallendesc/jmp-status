@@ -2,18 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "3h 42m",
-        "id": "41159685",
-        "kind": "research",
-        "name": "p02_1132",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-29T04:35:28Z",
-        "state": "running",
-        "submitted": "2026-08-29T04:28:54Z"
-      },
-      {
-        "elapsed": "2h 07m",
+        "elapsed": "2h 10m",
         "id": "41167202",
         "kind": "research",
         "name": "sr02w_ivwatch",
@@ -24,7 +13,7 @@
         "submitted": "2026-08-29T06:05:44Z"
       },
       {
-        "elapsed": "26m 06s",
+        "elapsed": "29m 03s",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -36,7 +25,7 @@
         "task": "0"
       },
       {
-        "elapsed": "21m 42s",
+        "elapsed": "24m 39s",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -48,7 +37,7 @@
         "task": "1"
       },
       {
-        "elapsed": "13m 20s",
+        "elapsed": "16m 17s",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -60,15 +49,15 @@
         "task": "2"
       },
       {
-        "elapsed": "5s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T08:18:08Z",
+        "started": "2026-08-29T08:21:01Z",
         "state": "running",
-        "submitted": "2026-08-29T08:15:39Z"
+        "submitted": "2026-08-29T08:18:17Z"
       },
       {
         "elapsed": "0s",
@@ -155,9 +144,19 @@
       "failed": 0,
       "other": 0,
       "pending": 6,
-      "running": 6
+      "running": 5
     },
     "recent": [
+      {
+        "elapsed": "3h 42m",
+        "ended": "2026-08-29T08:18:18Z",
+        "exit_code": 0,
+        "id": "41159685",
+        "kind": "research",
+        "name": "p02_1132",
+        "partition": "normal",
+        "state": "completed"
+      },
       {
         "elapsed": "8s",
         "ended": "2026-08-29T08:13:27Z",
@@ -547,20 +546,10 @@
         "name": "p02probe",
         "partition": "normal",
         "state": "completed"
-      },
-      {
-        "elapsed": "0s",
-        "ended": "2026-08-29T02:01:54Z",
-        "exit_code": 0,
-        "id": "41147754",
-        "kind": "research",
-        "name": "p02probe",
-        "partition": "multiple",
-        "state": "cancelled"
       }
     ],
     "recent_dropped": 0,
-    "recent_omitted": 2,
+    "recent_omitted": 3,
     "service_count": 1,
     "window_hours": 12
   },
@@ -579,7 +568,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T08:18:13Z",
+  "generated_at": "2026-08-29T08:21:10Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -587,11 +576,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T08:18:13Z",
+      "observed_at": "2026-08-29T08:21:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T08:18:13Z",
+      "observed_at": "2026-08-29T08:21:10Z",
       "status": "ok"
     }
   }
