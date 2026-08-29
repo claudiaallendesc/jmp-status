@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 30m",
+        "elapsed": "2h 33m",
         "id": "41159685",
         "kind": "research",
         "name": "p02_1132",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-29T04:28:54Z"
       },
       {
-        "elapsed": "55m 30s",
+        "elapsed": "58m 40s",
         "id": "41167202",
         "kind": "research",
         "name": "sr02w_ivwatch",
@@ -30,20 +30,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T07:06:02Z",
+        "started": "2026-08-29T07:09:12Z",
         "state": "running",
-        "submitted": "2026-08-29T07:04:02Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41167149",
-        "kind": "research",
-        "name": "sr02adj_O_C0",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-08-29T06:04:37Z"
+        "submitted": "2026-08-29T07:06:23Z"
       },
       {
         "elapsed": "0s",
@@ -52,7 +41,6 @@
         "name": "sr02_O_m1029_y1",
         "nodes": 1,
         "partition": "normal",
-        "reason": "dependency",
         "state": "pending",
         "submitted": "2026-08-29T06:04:42Z"
       },
@@ -63,7 +51,6 @@
         "name": "sr02_O_m1038_y1",
         "nodes": 1,
         "partition": "normal",
-        "reason": "dependency",
         "state": "pending",
         "submitted": "2026-08-29T06:04:49Z"
       },
@@ -104,23 +91,11 @@
       },
       {
         "elapsed": "0s",
-        "id": "41170868",
-        "kind": "research",
-        "name": "sr02adj_A_C0",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-08-29T07:03:50Z"
-      },
-      {
-        "elapsed": "0s",
         "id": "41170883",
         "kind": "research",
         "name": "sr02_A_m1029_y1",
         "nodes": 1,
         "partition": "normal",
-        "reason": "dependency",
         "state": "pending",
         "submitted": "2026-08-29T07:03:55Z"
       },
@@ -131,7 +106,6 @@
         "name": "sr02_A_m1038_y1",
         "nodes": 1,
         "partition": "normal",
-        "reason": "dependency",
         "state": "pending",
         "submitted": "2026-08-29T07:03:58Z"
       },
@@ -172,23 +146,11 @@
       },
       {
         "elapsed": "0s",
-        "id": "41170899",
-        "kind": "research",
-        "name": "sr02adj_B_C0",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-08-29T07:04:10Z"
-      },
-      {
-        "elapsed": "0s",
         "id": "41170902",
         "kind": "research",
         "name": "sr02_B_m1029_y1",
         "nodes": 1,
         "partition": "normal",
-        "reason": "dependency",
         "state": "pending",
         "submitted": "2026-08-29T07:04:12Z"
       },
@@ -199,7 +161,6 @@
         "name": "sr02_B_m1038_y1",
         "nodes": 1,
         "partition": "normal",
-        "reason": "dependency",
         "state": "pending",
         "submitted": "2026-08-29T07:04:16Z"
       },
@@ -247,10 +208,40 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 18,
+      "pending": 15,
       "running": 3
     },
     "recent": [
+      {
+        "elapsed": "14s",
+        "ended": "2026-08-29T07:08:30Z",
+        "exit_code": 0,
+        "id": "41170899",
+        "kind": "research",
+        "name": "sr02adj_B_C0",
+        "partition": "normal",
+        "state": "completed"
+      },
+      {
+        "elapsed": "14s",
+        "ended": "2026-08-29T07:08:30Z",
+        "exit_code": 0,
+        "id": "41170868",
+        "kind": "research",
+        "name": "sr02adj_A_C0",
+        "partition": "normal",
+        "state": "completed"
+      },
+      {
+        "elapsed": "14s",
+        "ended": "2026-08-29T07:08:30Z",
+        "exit_code": 0,
+        "id": "41167149",
+        "kind": "research",
+        "name": "sr02adj_O_C0",
+        "partition": "normal",
+        "state": "completed"
+      },
       {
         "elapsed": "17m 31s",
         "ended": "2026-08-29T07:01:35Z",
@@ -562,7 +553,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T07:06:09Z",
+  "generated_at": "2026-08-29T07:09:19Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -570,11 +561,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T07:06:09Z",
+      "observed_at": "2026-08-29T07:09:19Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T07:06:09Z",
+      "observed_at": "2026-08-29T07:09:19Z",
       "status": "ok"
     }
   }
