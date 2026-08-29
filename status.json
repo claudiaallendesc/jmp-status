@@ -2,15 +2,110 @@
   "account": {
     "active": [
       {
-        "elapsed": "7s",
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T04:27:11Z",
+        "started": "2026-08-29T04:30:05Z",
         "state": "running",
-        "submitted": "2026-08-29T04:24:37Z"
+        "submitted": "2026-08-29T04:27:31Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41159678",
+        "kind": "research",
+        "name": "p02_1102",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-29T04:28:46Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41159679",
+        "kind": "research",
+        "name": "p02_1119",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-29T04:28:49Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41159681",
+        "kind": "research",
+        "name": "p02_1125",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-29T04:28:51Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41159685",
+        "kind": "research",
+        "name": "p02_1132",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-29T04:28:54Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41159688",
+        "kind": "research",
+        "name": "p02_1140",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-29T04:28:59Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41159783",
+        "kind": "research",
+        "name": "p02_1149",
+        "nodes": 1,
+        "partition": "gsb",
+        "state": "pending",
+        "submitted": "2026-08-29T04:30:11Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41159785",
+        "kind": "research",
+        "name": "p02_1169",
+        "nodes": 1,
+        "partition": "gsb",
+        "state": "pending",
+        "submitted": "2026-08-29T04:30:11Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41159786",
+        "kind": "research",
+        "name": "p02_1177",
+        "nodes": 1,
+        "partition": "gsb",
+        "state": "pending",
+        "submitted": "2026-08-29T04:30:11Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41159787",
+        "kind": "research",
+        "name": "p02_1185",
+        "nodes": 1,
+        "partition": "gsb",
+        "state": "pending",
+        "submitted": "2026-08-29T04:30:11Z"
       }
     ],
     "active_dropped": 0,
@@ -21,10 +116,60 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 0,
+      "pending": 9,
       "running": 1
     },
     "recent": [
+      {
+        "elapsed": "0s",
+        "ended": "2026-08-29T04:29:16Z",
+        "exit_code": 1,
+        "id": "41159698",
+        "kind": "research",
+        "name": "p02_1194",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "0s",
+        "ended": "2026-08-29T04:29:14Z",
+        "exit_code": 1,
+        "id": "41159696",
+        "kind": "research",
+        "name": "p02_1185",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "0s",
+        "ended": "2026-08-29T04:29:11Z",
+        "exit_code": 1,
+        "id": "41159695",
+        "kind": "research",
+        "name": "p02_1177",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "0s",
+        "ended": "2026-08-29T04:29:09Z",
+        "exit_code": 1,
+        "id": "41159693",
+        "kind": "research",
+        "name": "p02_1169",
+        "partition": "gsb",
+        "state": "failed"
+      },
+      {
+        "elapsed": "0s",
+        "ended": "2026-08-29T04:29:04Z",
+        "exit_code": 1,
+        "id": "41159692",
+        "kind": "research",
+        "name": "p02_1149",
+        "partition": "gsb",
+        "state": "failed"
+      },
       {
         "elapsed": "1h 09m",
         "ended": "2026-08-29T04:25:50Z",
@@ -106,19 +251,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T04:27:18Z",
-  "message": "No active jobs",
+  "generated_at": "2026-08-29T04:30:11Z",
+  "message": "Queued",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T04:27:18Z",
+      "observed_at": "2026-08-29T04:30:11Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T04:27:18Z",
+      "observed_at": "2026-08-29T04:30:11Z",
       "status": "ok"
     }
   }
