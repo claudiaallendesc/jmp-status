@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "6s",
+        "elapsed": "8s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T04:30:05Z",
+        "started": "2026-08-29T04:33:07Z",
         "state": "running",
-        "submitted": "2026-08-29T04:27:31Z"
+        "submitted": "2026-08-29T04:30:25Z"
       },
       {
         "elapsed": "0s",
@@ -74,6 +74,7 @@
         "name": "p02_1149",
         "nodes": 1,
         "partition": "gsb",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-29T04:30:11Z"
       },
@@ -84,6 +85,7 @@
         "name": "p02_1169",
         "nodes": 1,
         "partition": "gsb",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-29T04:30:11Z"
       },
@@ -94,6 +96,7 @@
         "name": "p02_1177",
         "nodes": 1,
         "partition": "gsb",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-29T04:30:11Z"
       },
@@ -104,6 +107,18 @@
         "name": "p02_1185",
         "nodes": 1,
         "partition": "gsb",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-08-29T04:30:11Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41159788",
+        "kind": "research",
+        "name": "p02_1194",
+        "nodes": 1,
+        "partition": "gsb",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-08-29T04:30:11Z"
       }
@@ -116,7 +131,7 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 9,
+      "pending": 10,
       "running": 1
     },
     "recent": [
@@ -251,7 +266,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T04:30:11Z",
+  "generated_at": "2026-08-29T04:33:15Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -259,11 +274,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T04:30:11Z",
+      "observed_at": "2026-08-29T04:33:15Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T04:30:11Z",
+      "observed_at": "2026-08-29T04:33:15Z",
       "status": "ok"
     }
   }
