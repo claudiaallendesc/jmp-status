@@ -2,26 +2,26 @@
   "account": {
     "active": [
       {
-        "elapsed": "29s",
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T02:00:04Z",
+        "started": "2026-08-29T02:03:08Z",
         "state": "running",
-        "submitted": "2026-08-29T01:57:26Z"
+        "submitted": "2026-08-29T02:00:45Z"
       },
       {
         "elapsed": "0s",
-        "id": "41147754",
+        "id": "41148126",
         "kind": "research",
         "name": "p02probe",
         "nodes": 1,
-        "partition": "multiple",
-        "reason": "unknown",
+        "partition": "normal",
+        "reason": "priority",
         "state": "pending",
-        "submitted": "2026-08-29T01:57:53Z"
+        "submitted": "2026-08-29T02:02:23Z"
       }
     ],
     "active_dropped": 0,
@@ -36,6 +36,16 @@
       "running": 1
     },
     "recent": [
+      {
+        "elapsed": "0s",
+        "ended": "2026-08-29T02:01:54Z",
+        "exit_code": 0,
+        "id": "41147754",
+        "kind": "research",
+        "name": "p02probe",
+        "partition": "multiple",
+        "state": "cancelled"
+      },
       {
         "elapsed": "6s",
         "ended": "2026-08-28T23:26:48Z",
@@ -87,7 +97,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T02:00:34Z",
+  "generated_at": "2026-08-29T02:03:18Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -95,11 +105,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T02:00:34Z",
+      "observed_at": "2026-08-29T02:03:18Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T02:00:34Z",
+      "observed_at": "2026-08-29T02:03:18Z",
       "status": "ok"
     }
   }
