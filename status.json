@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "3h 06m",
+        "elapsed": "3h 10m",
         "id": "41159685",
         "kind": "research",
         "name": "p02_1132",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-29T04:28:54Z"
       },
       {
-        "elapsed": "1h 31m",
+        "elapsed": "1h 34m",
         "id": "41167202",
         "kind": "research",
         "name": "sr02w_ivwatch",
@@ -24,18 +24,7 @@
         "submitted": "2026-08-29T06:05:44Z"
       },
       {
-        "elapsed": "16m 23s",
-        "id": "41170883",
-        "kind": "research",
-        "name": "sr02_A_m1029_y1",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-29T07:25:49Z",
-        "state": "running",
-        "submitted": "2026-08-29T07:03:55Z"
-      },
-      {
-        "elapsed": "16m 23s",
+        "elapsed": "19m 40s",
         "id": "41171168",
         "kind": "research",
         "name": "sr02_B_m1038_y1",
@@ -46,7 +35,7 @@
         "submitted": "2026-08-29T07:04:16Z"
       },
       {
-        "elapsed": "6m 37s",
+        "elapsed": "9m 54s",
         "id": "41170886",
         "kind": "research",
         "name": "sr02_A_m1038_y1",
@@ -57,15 +46,26 @@
         "submitted": "2026-08-29T07:03:58Z"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "28s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T07:42:03Z",
+        "started": "2026-08-29T07:45:01Z",
         "state": "running",
-        "submitted": "2026-08-29T07:39:44Z"
+        "submitted": "2026-08-29T07:42:26Z"
+      },
+      {
+        "elapsed": "19m 15s",
+        "id": "41170883",
+        "kind": "research",
+        "name": "sr02_A_m1029_y1",
+        "nodes": 1,
+        "partition": "normal",
+        "started": "2026-08-29T07:25:49Z",
+        "state": "completing",
+        "submitted": "2026-08-29T07:03:55Z"
       },
       {
         "elapsed": "0s",
@@ -189,11 +189,11 @@
     "counts": {
       "cancelled": 0,
       "completed": 0,
-      "completing": 0,
+      "completing": 1,
       "failed": 0,
       "other": 0,
       "pending": 10,
-      "running": 6
+      "running": 5
     },
     "recent": [
       {
@@ -557,7 +557,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T07:42:12Z",
+  "generated_at": "2026-08-29T07:45:29Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -565,11 +565,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T07:42:12Z",
+      "observed_at": "2026-08-29T07:45:29Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T07:42:12Z",
+      "observed_at": "2026-08-29T07:45:29Z",
       "status": "ok"
     }
   }
