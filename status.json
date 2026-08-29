@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 57m",
+        "elapsed": "3h 00m",
         "id": "41159685",
         "kind": "research",
         "name": "p02_1132",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-29T04:28:54Z"
       },
       {
-        "elapsed": "1h 22m",
+        "elapsed": "1h 25m",
         "id": "41167202",
         "kind": "research",
         "name": "sr02w_ivwatch",
@@ -24,7 +24,7 @@
         "submitted": "2026-08-29T06:05:44Z"
       },
       {
-        "elapsed": "18m 28s",
+        "elapsed": "21m 32s",
         "id": "41167151",
         "kind": "research",
         "name": "sr02_O_m1038_y1",
@@ -35,7 +35,7 @@
         "submitted": "2026-08-29T06:04:49Z"
       },
       {
-        "elapsed": "7m 23s",
+        "elapsed": "10m 27s",
         "id": "41170883",
         "kind": "research",
         "name": "sr02_A_m1029_y1",
@@ -46,7 +46,7 @@
         "submitted": "2026-08-29T07:03:55Z"
       },
       {
-        "elapsed": "7m 23s",
+        "elapsed": "10m 27s",
         "id": "41171168",
         "kind": "research",
         "name": "sr02_B_m1038_y1",
@@ -57,26 +57,26 @@
         "submitted": "2026-08-29T07:04:16Z"
       },
       {
-        "elapsed": "10s",
+        "elapsed": "41s",
+        "id": "41170886",
+        "kind": "research",
+        "name": "sr02_A_m1038_y1",
+        "nodes": 1,
+        "partition": "normal",
+        "started": "2026-08-29T07:35:35Z",
+        "state": "running",
+        "submitted": "2026-08-29T07:03:58Z"
+      },
+      {
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T07:33:02Z",
+        "started": "2026-08-29T07:36:09Z",
         "state": "running",
-        "submitted": "2026-08-29T07:30:24Z"
-      },
-      {
-        "elapsed": "18m 21s",
-        "id": "41167150",
-        "kind": "research",
-        "name": "sr02_O_m1029_y1",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-29T07:14:44Z",
-        "state": "completing",
-        "submitted": "2026-08-29T06:04:42Z"
+        "submitted": "2026-08-29T07:33:21Z"
       },
       {
         "elapsed": "0s",
@@ -112,17 +112,6 @@
         "state": "pending",
         "submitted": "2026-08-29T06:04:59Z",
         "task": "[0-12%8]"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41170886",
-        "kind": "research",
-        "name": "sr02_A_m1038_y1",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-08-29T07:03:58Z"
       },
       {
         "elapsed": "0s",
@@ -167,6 +156,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-08-29T09:38:22Z",
         "state": "pending",
         "submitted": "2026-08-29T07:04:12Z"
       },
@@ -211,13 +201,23 @@
     "counts": {
       "cancelled": 0,
       "completed": 0,
-      "completing": 1,
+      "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 11,
-      "running": 6
+      "pending": 10,
+      "running": 7
     },
     "recent": [
+      {
+        "elapsed": "18m 21s",
+        "ended": "2026-08-29T07:33:05Z",
+        "exit_code": 0,
+        "id": "41167150",
+        "kind": "research",
+        "name": "sr02_O_m1029_y1",
+        "partition": "normal",
+        "state": "completed"
+      },
       {
         "elapsed": "14s",
         "ended": "2026-08-29T07:08:30Z",
@@ -559,7 +559,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T07:33:12Z",
+  "generated_at": "2026-08-29T07:36:16Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -567,11 +567,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T07:33:12Z",
+      "observed_at": "2026-08-29T07:36:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T07:33:12Z",
+      "observed_at": "2026-08-29T07:36:16Z",
       "status": "ok"
     }
   }
