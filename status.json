@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 54m",
+        "elapsed": "2h 57m",
         "id": "41159685",
         "kind": "research",
         "name": "p02_1132",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-29T04:28:54Z"
       },
       {
-        "elapsed": "1h 19m",
+        "elapsed": "1h 22m",
         "id": "41167202",
         "kind": "research",
         "name": "sr02w_ivwatch",
@@ -24,18 +24,7 @@
         "submitted": "2026-08-29T06:05:44Z"
       },
       {
-        "elapsed": "15m 31s",
-        "id": "41167150",
-        "kind": "research",
-        "name": "sr02_O_m1029_y1",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-29T07:14:44Z",
-        "state": "running",
-        "submitted": "2026-08-29T06:04:42Z"
-      },
-      {
-        "elapsed": "15m 31s",
+        "elapsed": "18m 28s",
         "id": "41167151",
         "kind": "research",
         "name": "sr02_O_m1038_y1",
@@ -46,7 +35,7 @@
         "submitted": "2026-08-29T06:04:49Z"
       },
       {
-        "elapsed": "4m 26s",
+        "elapsed": "7m 23s",
         "id": "41170883",
         "kind": "research",
         "name": "sr02_A_m1029_y1",
@@ -57,7 +46,7 @@
         "submitted": "2026-08-29T07:03:55Z"
       },
       {
-        "elapsed": "4m 26s",
+        "elapsed": "7m 23s",
         "id": "41171168",
         "kind": "research",
         "name": "sr02_B_m1038_y1",
@@ -68,15 +57,26 @@
         "submitted": "2026-08-29T07:04:16Z"
       },
       {
-        "elapsed": "8s",
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T07:30:07Z",
+        "started": "2026-08-29T07:33:02Z",
         "state": "running",
-        "submitted": "2026-08-29T07:27:15Z"
+        "submitted": "2026-08-29T07:30:24Z"
+      },
+      {
+        "elapsed": "18m 21s",
+        "id": "41167150",
+        "kind": "research",
+        "name": "sr02_O_m1029_y1",
+        "nodes": 1,
+        "partition": "normal",
+        "started": "2026-08-29T07:14:44Z",
+        "state": "completing",
+        "submitted": "2026-08-29T06:04:42Z"
       },
       {
         "elapsed": "0s",
@@ -211,11 +211,11 @@
     "counts": {
       "cancelled": 0,
       "completed": 0,
-      "completing": 0,
+      "completing": 1,
       "failed": 0,
       "other": 0,
       "pending": 11,
-      "running": 7
+      "running": 6
     },
     "recent": [
       {
@@ -559,7 +559,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T07:30:15Z",
+  "generated_at": "2026-08-29T07:33:12Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -567,11 +567,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T07:30:15Z",
+      "observed_at": "2026-08-29T07:33:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T07:30:15Z",
+      "observed_at": "2026-08-29T07:33:12Z",
       "status": "ok"
     }
   }
