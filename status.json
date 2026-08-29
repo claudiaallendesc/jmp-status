@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 58m",
+        "elapsed": "3h 01m",
         "id": "41167202",
         "kind": "research",
         "name": "sr02w_ivwatch",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-29T06:05:44Z"
       },
       {
-        "elapsed": "1h 17m",
+        "elapsed": "1h 20m",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -25,7 +25,7 @@
         "task": "0"
       },
       {
-        "elapsed": "1h 12m",
+        "elapsed": "1h 15m",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -37,7 +37,7 @@
         "task": "1"
       },
       {
-        "elapsed": "1h 04m",
+        "elapsed": "1h 07m",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -49,7 +49,7 @@
         "task": "2"
       },
       {
-        "elapsed": "29m 40s",
+        "elapsed": "32m 32s",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -61,7 +61,7 @@
         "task": "3"
       },
       {
-        "elapsed": "15m 09s",
+        "elapsed": "18m 01s",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -73,7 +73,7 @@
         "task": "4"
       },
       {
-        "elapsed": "15m 09s",
+        "elapsed": "18m 01s",
         "id": "41167154",
         "kind": "research",
         "name": "sr02_sherlock_O",
@@ -91,9 +91,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T09:09:10Z",
+        "started": "2026-08-29T09:12:02Z",
         "state": "running",
-        "submitted": "2026-08-29T09:06:25Z"
+        "submitted": "2026-08-29T09:09:31Z"
       },
       {
         "elapsed": "0s",
@@ -601,7 +601,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T09:09:15Z",
+  "generated_at": "2026-08-29T09:12:07Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -609,11 +609,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T09:09:15Z",
+      "observed_at": "2026-08-29T09:12:07Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T09:09:15Z",
+      "observed_at": "2026-08-29T09:12:07Z",
       "status": "ok"
     }
   }
