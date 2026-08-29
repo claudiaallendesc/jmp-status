@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "45m 48s",
+        "elapsed": "48m 59s",
         "id": "41159678",
         "kind": "research",
         "name": "p02_1102",
@@ -13,7 +13,7 @@
         "submitted": "2026-08-29T04:28:46Z"
       },
       {
-        "elapsed": "45m 48s",
+        "elapsed": "48m 59s",
         "id": "41159685",
         "kind": "research",
         "name": "p02_1132",
@@ -24,103 +24,15 @@
         "submitted": "2026-08-29T04:28:54Z"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-29T05:21:07Z",
+        "started": "2026-08-29T05:24:17Z",
         "state": "running",
-        "submitted": "2026-08-29T05:18:29Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41160114",
-        "kind": "research",
-        "name": "p02_1119",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "resources",
-        "state": "pending",
-        "submitted": "2026-08-29T04:37:40Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41160115",
-        "kind": "research",
-        "name": "p02_1125",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-29T04:37:40Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41160116",
-        "kind": "research",
-        "name": "p02_1140",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-29T04:37:40Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41160117",
-        "kind": "research",
-        "name": "p02_1149",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-29T04:37:40Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41160118",
-        "kind": "research",
-        "name": "p02_1169",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "resources",
-        "state": "pending",
-        "submitted": "2026-08-29T04:37:40Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41160119",
-        "kind": "research",
-        "name": "p02_1177",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-29T04:37:40Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41160120",
-        "kind": "research",
-        "name": "p02_1185",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-29T04:37:40Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41160121",
-        "kind": "research",
-        "name": "p02_1194",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-08-29T04:37:40Z"
+        "submitted": "2026-08-29T05:21:43Z"
       }
     ],
     "active_dropped": 0,
@@ -131,10 +43,50 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 8,
+      "pending": 0,
       "running": 3
     },
     "recent": [
+      {
+        "elapsed": "0s",
+        "ended": "2026-08-29T05:21:35Z",
+        "exit_code": 0,
+        "id": "41160119",
+        "kind": "research",
+        "name": "p02_1177",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "ended": "2026-08-29T05:21:35Z",
+        "exit_code": 0,
+        "id": "41160118",
+        "kind": "research",
+        "name": "p02_1169",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "ended": "2026-08-29T05:21:35Z",
+        "exit_code": 0,
+        "id": "41160116",
+        "kind": "research",
+        "name": "p02_1140",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "0s",
+        "ended": "2026-08-29T05:21:35Z",
+        "exit_code": 0,
+        "id": "41160114",
+        "kind": "research",
+        "name": "p02_1119",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
       {
         "elapsed": "0s",
         "ended": "2026-08-29T04:37:39Z",
@@ -346,7 +298,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-29T05:21:16Z",
+  "generated_at": "2026-08-29T05:24:27Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -354,11 +306,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-29T05:21:16Z",
+      "observed_at": "2026-08-29T05:24:27Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-29T05:21:16Z",
+      "observed_at": "2026-08-29T05:24:27Z",
       "status": "ok"
     }
   }
