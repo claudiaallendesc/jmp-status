@@ -2,26 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "3h 20m",
-        "id": "41439305",
-        "kind": "research",
-        "name": "pde01_f1_KL",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-08-31T17:27:17Z",
-        "state": "running",
-        "submitted": "2026-08-31T17:13:46Z"
-      },
-      {
-        "elapsed": "9s",
+        "elapsed": "15s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-31T20:48:00Z",
+        "started": "2026-08-31T20:51:04Z",
         "state": "running",
-        "submitted": "2026-08-31T20:45:21Z"
+        "submitted": "2026-08-31T20:48:20Z"
       }
     ],
     "active_dropped": 0,
@@ -33,9 +22,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 2
+      "running": 1
     },
     "recent": [
+      {
+        "elapsed": "3h 21m",
+        "ended": "2026-08-31T20:49:08Z",
+        "exit_code": 0,
+        "id": "41439305",
+        "kind": "research",
+        "name": "pde01_f1_KL",
+        "partition": "normal",
+        "state": "completed"
+      },
       {
         "elapsed": "1m 54s",
         "ended": "2026-08-31T13:18:53Z",
@@ -462,21 +461,10 @@
         "partition": "normal",
         "state": "completed",
         "task": "53"
-      },
-      {
-        "elapsed": "1h 11m",
-        "ended": "2026-08-31T10:32:02Z",
-        "exit_code": 0,
-        "id": "41374795",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SIE_8224P_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "5"
       }
     ],
     "recent_dropped": 0,
-    "recent_omitted": 64,
+    "recent_omitted": 63,
     "service_count": 1,
     "window_hours": 12
   },
@@ -495,19 +483,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-31T20:48:09Z",
-  "message": "Running",
+  "generated_at": "2026-08-31T20:51:19Z",
+  "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-31T20:48:09Z",
+      "observed_at": "2026-08-31T20:51:19Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-31T20:48:09Z",
+      "observed_at": "2026-08-31T20:51:19Z",
       "status": "ok"
     }
   }
