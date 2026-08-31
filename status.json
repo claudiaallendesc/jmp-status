@@ -8,9 +8,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-08-31T22:09:29Z",
+        "started": "2026-08-31T23:25:47Z",
         "state": "running",
-        "submitted": "2026-08-31T22:06:26Z"
+        "submitted": "2026-08-31T22:09:49Z"
       }
     ],
     "active_dropped": 0,
@@ -208,263 +208,10 @@
         "partition": "normal",
         "state": "completed",
         "task": "100"
-      },
-      {
-        "elapsed": "1h 29m",
-        "ended": "2026-08-31T11:24:38Z",
-        "exit_code": 0,
-        "id": "41349353",
-        "kind": "research",
-        "name": "sr02rp_B_R3_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "62"
-      },
-      {
-        "elapsed": "2h 44m",
-        "ended": "2026-08-31T11:24:28Z",
-        "exit_code": 0,
-        "id": "41374793",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SKX_5118_O",
-        "partition": "normal",
-        "state": "completed",
-        "task": "6"
-      },
-      {
-        "elapsed": "3h 04m",
-        "ended": "2026-08-31T11:24:23Z",
-        "exit_code": 0,
-        "id": "41374791",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SKX_5118_A",
-        "partition": "normal",
-        "state": "completed",
-        "task": "8"
-      },
-      {
-        "elapsed": "1h 49m",
-        "ended": "2026-08-31T11:19:38Z",
-        "exit_code": 0,
-        "id": "41374795",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SIE_8224P_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "7"
-      },
-      {
-        "elapsed": "59m 32s",
-        "ended": "2026-08-31T11:13:56Z",
-        "exit_code": 0,
-        "id": "41349353",
-        "kind": "research",
-        "name": "sr02rp_B_R3_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "86"
-      },
-      {
-        "elapsed": "2h 38m",
-        "ended": "2026-08-31T11:11:49Z",
-        "exit_code": 0,
-        "id": "41374792",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SKX_5118_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "9"
-      },
-      {
-        "elapsed": "2h 26m",
-        "ended": "2026-08-31T11:10:00Z",
-        "exit_code": 0,
-        "id": "41374793",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SKX_5118_O",
-        "partition": "normal",
-        "state": "completed",
-        "task": "7"
-      },
-      {
-        "elapsed": "1h 13m",
-        "ended": "2026-08-31T11:08:44Z",
-        "exit_code": 0,
-        "id": "41349353",
-        "kind": "research",
-        "name": "sr02rp_B_R3_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "64"
-      },
-      {
-        "elapsed": "1h 47m",
-        "ended": "2026-08-31T11:08:19Z",
-        "exit_code": 0,
-        "id": "41374796",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SIE_8224P_O",
-        "partition": "normal",
-        "state": "completed",
-        "task": "6"
-      },
-      {
-        "elapsed": "2h 35m",
-        "ended": "2026-08-31T11:08:19Z",
-        "exit_code": 0,
-        "id": "41374791",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SKX_5118_A",
-        "partition": "normal",
-        "state": "completed",
-        "task": "9"
-      },
-      {
-        "elapsed": "54m 29s",
-        "ended": "2026-08-31T11:05:25Z",
-        "exit_code": 0,
-        "id": "41349353",
-        "kind": "research",
-        "name": "sr02rp_B_R3_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "82"
-      },
-      {
-        "elapsed": "2h 31m",
-        "ended": "2026-08-31T11:04:11Z",
-        "exit_code": 0,
-        "id": "41374792",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SKX_5118_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "7"
-      },
-      {
-        "elapsed": "54m 57s",
-        "ended": "2026-08-31T11:02:24Z",
-        "exit_code": 0,
-        "id": "41349352",
-        "kind": "research",
-        "name": "sr02rp_B_R3_A",
-        "partition": "normal",
-        "state": "completed",
-        "task": "86"
-      },
-      {
-        "elapsed": "1h 03m",
-        "ended": "2026-08-31T11:01:55Z",
-        "exit_code": 0,
-        "id": "41349353",
-        "kind": "research",
-        "name": "sr02rp_B_R3_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "74"
-      },
-      {
-        "elapsed": "1h 57m",
-        "ended": "2026-08-31T11:01:46Z",
-        "exit_code": 0,
-        "id": "41349352",
-        "kind": "research",
-        "name": "sr02rp_B_R3_A",
-        "partition": "normal",
-        "state": "completed",
-        "task": "74"
-      },
-      {
-        "elapsed": "1h 09m",
-        "ended": "2026-08-31T10:59:18Z",
-        "exit_code": 0,
-        "id": "41349353",
-        "kind": "research",
-        "name": "sr02rp_B_R3_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "53"
-      },
-      {
-        "elapsed": "2h 26m",
-        "ended": "2026-08-31T10:58:59Z",
-        "exit_code": 0,
-        "id": "41374792",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SKX_5118_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "8"
-      },
-      {
-        "elapsed": "2h 32m",
-        "ended": "2026-08-31T10:53:03Z",
-        "exit_code": 0,
-        "id": "41374791",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SKX_5118_A",
-        "partition": "normal",
-        "state": "completed",
-        "task": "7"
-      },
-      {
-        "elapsed": "1h 02m",
-        "ended": "2026-08-31T10:52:11Z",
-        "exit_code": 0,
-        "id": "41374794",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SIE_8224P_A",
-        "partition": "normal",
-        "state": "completed",
-        "task": "8"
-      },
-      {
-        "elapsed": "2h 15m",
-        "ended": "2026-08-31T10:48:03Z",
-        "exit_code": 0,
-        "id": "41374792",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SKX_5118_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "6"
-      },
-      {
-        "elapsed": "1h 21m",
-        "ended": "2026-08-31T10:42:48Z",
-        "exit_code": 0,
-        "id": "41374794",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SIE_8224P_A",
-        "partition": "normal",
-        "state": "completed",
-        "task": "7"
-      },
-      {
-        "elapsed": "41m 32s",
-        "ended": "2026-08-31T10:36:46Z",
-        "exit_code": 0,
-        "id": "41349353",
-        "kind": "research",
-        "name": "sr02rp_B_R3_B",
-        "partition": "normal",
-        "state": "completed",
-        "task": "67"
-      },
-      {
-        "elapsed": "1h 54m",
-        "ended": "2026-08-31T10:34:10Z",
-        "exit_code": 0,
-        "id": "41349352",
-        "kind": "research",
-        "name": "sr02rp_B_R3_A",
-        "partition": "normal",
-        "state": "completed",
-        "task": "53"
       }
     ],
     "recent_dropped": 0,
-    "recent_omitted": 11,
+    "recent_omitted": 0,
     "service_count": 1,
     "window_hours": 12
   },
@@ -483,7 +230,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-08-31T22:09:37Z",
+  "generated_at": "2026-08-31T23:25:55Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
@@ -491,11 +238,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-08-31T22:09:37Z",
+      "observed_at": "2026-08-31T23:25:55Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-08-31T22:09:37Z",
+      "observed_at": "2026-08-31T23:25:55Z",
       "status": "ok"
     }
   }
