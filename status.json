@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "7s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-01T01:06:05Z",
+        "started": "2026-09-01T01:09:17Z",
         "state": "running",
-        "submitted": "2026-09-01T01:03:31Z"
+        "submitted": "2026-09-01T01:06:23Z"
       }
     ],
     "active_dropped": 0,
@@ -54,17 +54,6 @@
         "name": "sr02xw_expandwatch",
         "partition": "normal",
         "state": "completed"
-      },
-      {
-        "elapsed": "4h 23m",
-        "ended": "2026-08-31T13:06:47Z",
-        "exit_code": 0,
-        "id": "41374793",
-        "kind": "research",
-        "name": "sr02x_SHERLOCK_SKX_5118_O",
-        "partition": "normal",
-        "state": "completed",
-        "task": "8"
       }
     ],
     "recent_dropped": 0,
@@ -87,7 +76,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-01T01:06:13Z",
+  "generated_at": "2026-09-01T01:09:22Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
@@ -95,11 +84,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-01T01:06:13Z",
+      "observed_at": "2026-09-01T01:09:22Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-01T01:06:13Z",
+      "observed_at": "2026-09-01T01:09:22Z",
       "status": "ok"
     }
   }
