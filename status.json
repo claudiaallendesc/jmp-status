@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "15s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-01T16:51:00Z",
+        "started": "2026-09-01T16:54:03Z",
         "state": "running",
-        "submitted": "2026-09-01T16:48:36Z"
+        "submitted": "2026-09-01T16:51:29Z"
       },
       {
         "elapsed": "0s",
@@ -20,7 +20,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-02T12:33:09Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:00Z"
       },
@@ -32,7 +31,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-02T12:33:09Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:02Z"
       },
@@ -44,7 +42,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-02T12:33:09Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:02Z"
       },
@@ -56,7 +53,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-02T12:33:09Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:04Z"
       },
@@ -68,7 +64,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-02T12:33:09Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z"
       },
@@ -80,7 +75,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-02T01:18:40Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z",
         "task": "[1-4]"
@@ -95,6 +89,28 @@
         "reason": "dependency",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41563199",
+        "kind": "research",
+        "name": "ia01_prep_B20",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "priority",
+        "state": "pending",
+        "submitted": "2026-09-01T16:52:52Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41563204",
+        "kind": "research",
+        "name": "ia01_prep_O20",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-09-01T16:52:54Z"
       }
     ],
     "active_dropped": 0,
@@ -105,7 +121,7 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 7,
+      "pending": 9,
       "running": 1
     },
     "recent": [],
@@ -129,7 +145,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-01T16:51:15Z",
+  "generated_at": "2026-09-01T16:54:10Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -137,11 +153,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-01T16:51:15Z",
+      "observed_at": "2026-09-01T16:54:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-01T16:51:15Z",
+      "observed_at": "2026-09-01T16:54:10Z",
       "status": "ok"
     }
   }
