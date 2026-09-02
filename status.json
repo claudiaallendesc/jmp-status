@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "19h 37m",
+        "elapsed": "19h 40m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,7 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "2h 07m",
+        "elapsed": "2h 10m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -26,15 +26,15 @@
         "task": "4"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "13s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T23:09:02Z",
+        "started": "2026-09-02T23:12:00Z",
         "state": "running",
-        "submitted": "2026-09-02T23:06:22Z"
+        "submitted": "2026-09-02T23:09:21Z"
       },
       {
         "elapsed": "0s",
@@ -300,7 +300,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T23:09:09Z",
+  "generated_at": "2026-09-02T23:12:14Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -308,11 +308,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T23:09:09Z",
+      "observed_at": "2026-09-02T23:12:14Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T23:09:09Z",
+      "observed_at": "2026-09-02T23:12:14Z",
       "status": "ok"
     }
   }
