@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "3h 26m",
+        "elapsed": "3h 29m",
         "id": "41504840",
         "kind": "research",
         "name": "pa01_cont_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-01T04:08:02Z"
       },
       {
-        "elapsed": "3h 22m",
+        "elapsed": "3h 25m",
         "id": "41504837",
         "kind": "research",
         "name": "pa01_cont_KH",
@@ -24,7 +24,7 @@
         "submitted": "2026-09-01T04:08:00Z"
       },
       {
-        "elapsed": "3h 04m",
+        "elapsed": "3h 07m",
         "id": "41504844",
         "kind": "research",
         "name": "pa01_sign_K0",
@@ -35,7 +35,7 @@
         "submitted": "2026-09-01T04:08:02Z"
       },
       {
-        "elapsed": "30m 58s",
+        "elapsed": "33m 51s",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -47,15 +47,15 @@
         "task": "1"
       },
       {
-        "elapsed": "10s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T02:24:08Z",
+        "started": "2026-09-02T02:27:04Z",
         "state": "running",
-        "submitted": "2026-09-02T02:21:24Z"
+        "submitted": "2026-09-02T02:24:30Z"
       },
       {
         "elapsed": "0s",
@@ -65,7 +65,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-02T14:01:51Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:04Z"
       },
@@ -77,7 +76,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-02T14:01:51Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z"
       },
@@ -89,7 +87,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-02T13:19:29Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z",
         "task": "[2-4]"
@@ -215,7 +212,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T02:24:18Z",
+  "generated_at": "2026-09-02T02:27:11Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -223,11 +220,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T02:24:18Z",
+      "observed_at": "2026-09-02T02:27:11Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T02:24:18Z",
+      "observed_at": "2026-09-02T02:27:11Z",
       "status": "ok"
     }
   }
