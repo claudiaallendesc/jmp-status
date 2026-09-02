@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "17h 41m",
+        "elapsed": "17h 44m",
         "id": "41504840",
         "kind": "research",
         "name": "pa01_cont_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-01T04:08:02Z"
       },
       {
-        "elapsed": "17h 37m",
+        "elapsed": "17h 40m",
         "id": "41504837",
         "kind": "research",
         "name": "pa01_cont_KH",
@@ -24,7 +24,7 @@
         "submitted": "2026-09-01T04:08:00Z"
       },
       {
-        "elapsed": "13h 07m",
+        "elapsed": "13h 10m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -36,7 +36,7 @@
         "task": "2"
       },
       {
-        "elapsed": "7h 48m",
+        "elapsed": "7h 51m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -54,9 +54,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T16:39:07Z",
+        "started": "2026-09-02T16:42:08Z",
         "state": "running",
-        "submitted": "2026-09-02T16:36:23Z"
+        "submitted": "2026-09-02T16:39:23Z"
       },
       {
         "elapsed": "0s",
@@ -188,6 +188,7 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
+        "started": "2026-09-02T20:35:42Z",
         "state": "pending",
         "submitted": "2026-09-02T16:39:05Z"
       },
@@ -198,6 +199,8 @@
         "name": "bd01_hess_K0",
         "nodes": 1,
         "partition": "gsb",
+        "reason": "priority",
+        "started": "2026-09-02T20:35:42Z",
         "state": "pending",
         "submitted": "2026-09-02T16:39:09Z"
       },
@@ -208,6 +211,8 @@
         "name": "bd01_hess_KL",
         "nodes": 1,
         "partition": "gsb",
+        "reason": "priority",
+        "started": "2026-09-02T20:35:42Z",
         "state": "pending",
         "submitted": "2026-09-02T16:39:12Z"
       }
@@ -475,7 +480,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T16:39:14Z",
+  "generated_at": "2026-09-02T16:42:15Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -483,11 +488,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T16:39:14Z",
+      "observed_at": "2026-09-02T16:42:15Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T16:39:14Z",
+      "observed_at": "2026-09-02T16:42:15Z",
       "status": "ok"
     }
   }
