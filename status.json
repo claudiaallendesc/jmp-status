@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "20h 10m",
+        "elapsed": "20h 13m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,7 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "2h 40m",
+        "elapsed": "2h 43m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -26,15 +26,26 @@
         "task": "4"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "1m 15s",
+        "id": "41770142",
+        "kind": "research",
+        "name": "ssid01_l3aK0",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-02T23:43:56Z",
+        "state": "running",
+        "submitted": "2026-09-02T23:30:08Z"
+      },
+      {
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T23:42:03Z",
+        "started": "2026-09-02T23:45:06Z",
         "state": "running",
-        "submitted": "2026-09-02T23:39:18Z"
+        "submitted": "2026-09-02T23:42:22Z"
       },
       {
         "elapsed": "0s",
@@ -137,25 +148,13 @@
       },
       {
         "elapsed": "0s",
-        "id": "41770142",
-        "kind": "research",
-        "name": "ssid01_l3aK0",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-09-03T00:25:41Z",
-        "state": "pending",
-        "submitted": "2026-09-02T23:30:08Z"
-      },
-      {
-        "elapsed": "0s",
         "id": "41770143",
         "kind": "research",
         "name": "ssid01_l3aKL",
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
-        "started": "2026-09-03T00:25:41Z",
+        "started": "2026-09-04T15:59:21Z",
         "state": "pending",
         "submitted": "2026-09-02T23:30:12Z"
       },
@@ -190,8 +189,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 13,
-      "running": 3
+      "pending": 12,
+      "running": 4
     },
     "recent": [
       {
@@ -346,7 +345,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T23:42:12Z",
+  "generated_at": "2026-09-02T23:45:11Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -354,11 +353,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T23:42:12Z",
+      "observed_at": "2026-09-02T23:45:11Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T23:42:12Z",
+      "observed_at": "2026-09-02T23:45:11Z",
       "status": "ok"
     }
   }
