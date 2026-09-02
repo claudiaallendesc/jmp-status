@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "19h 19m",
+        "elapsed": "19h 22m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,7 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "1h 49m",
+        "elapsed": "1h 52m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -26,26 +26,26 @@
         "task": "4"
       },
       {
-        "elapsed": "12m 58s",
-        "id": "41762825",
+        "elapsed": "1m 39s",
+        "id": "41762833",
         "kind": "research",
-        "name": "pm01_rp_KL",
+        "name": "pm01_coldrp_KL",
         "nodes": 1,
         "partition": "gsb",
-        "started": "2026-09-02T22:38:19Z",
+        "started": "2026-09-02T22:52:28Z",
         "state": "running",
-        "submitted": "2026-09-02T22:16:42Z"
+        "submitted": "2026-09-02T22:16:47Z"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T22:51:10Z",
+        "started": "2026-09-02T22:54:05Z",
         "state": "running",
-        "submitted": "2026-09-02T22:48:25Z"
+        "submitted": "2026-09-02T22:51:28Z"
       },
       {
         "elapsed": "0s",
@@ -55,6 +55,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-09-03T06:42:08Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z"
       },
@@ -77,6 +78,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-09-03T06:42:08Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -145,17 +147,6 @@
         "reason": "dependency",
         "state": "pending",
         "submitted": "2026-09-01T17:02:37Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41762833",
-        "kind": "research",
-        "name": "pm01_coldrp_KL",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-09-02T22:16:47Z"
       }
     ],
     "active_dropped": 0,
@@ -166,10 +157,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 10,
+      "pending": 9,
       "running": 4
     },
     "recent": [
+      {
+        "elapsed": "13m 41s",
+        "ended": "2026-09-02T22:52:00Z",
+        "exit_code": 0,
+        "id": "41762825",
+        "kind": "research",
+        "name": "pm01_rp_KL",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "2m 01s",
         "ended": "2026-09-02T22:38:08Z",
@@ -302,7 +303,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T22:51:18Z",
+  "generated_at": "2026-09-02T22:54:07Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -310,11 +311,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T22:51:18Z",
+      "observed_at": "2026-09-02T22:54:07Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T22:51:18Z",
+      "observed_at": "2026-09-02T22:54:07Z",
       "status": "ok"
     }
   }
