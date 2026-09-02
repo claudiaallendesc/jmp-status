@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "18h 46m",
+        "elapsed": "18h 49m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,7 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "1h 16m",
+        "elapsed": "1h 19m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -26,15 +26,26 @@
         "task": "4"
       },
       {
-        "elapsed": "8s",
+        "elapsed": "47s",
+        "id": "41762808",
+        "kind": "research",
+        "name": "pm01_rp_K0",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-02T22:20:25Z",
+        "state": "running",
+        "submitted": "2026-09-02T22:16:39Z"
+      },
+      {
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T22:18:00Z",
+        "started": "2026-09-02T22:21:05Z",
         "state": "running",
-        "submitted": "2026-09-02T22:15:42Z"
+        "submitted": "2026-09-02T22:18:20Z"
       },
       {
         "elapsed": "0s",
@@ -137,23 +148,13 @@
       },
       {
         "elapsed": "0s",
-        "id": "41762808",
-        "kind": "research",
-        "name": "pm01_rp_K0",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-09-02T22:16:39Z"
-      },
-      {
-        "elapsed": "0s",
         "id": "41762825",
         "kind": "research",
         "name": "pm01_rp_KL",
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
+        "started": "2026-09-04T15:59:21Z",
         "state": "pending",
         "submitted": "2026-09-02T22:16:42Z"
       },
@@ -178,6 +179,16 @@
         "reason": "dependency",
         "state": "pending",
         "submitted": "2026-09-02T22:16:47Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "41763151",
+        "kind": "research",
+        "name": "ssid01_l2a",
+        "nodes": 1,
+        "partition": "gsb",
+        "state": "pending",
+        "submitted": "2026-09-02T22:21:08Z"
       }
     ],
     "active_dropped": 0,
@@ -189,7 +200,7 @@
       "failed": 0,
       "other": 0,
       "pending": 13,
-      "running": 3
+      "running": 4
     },
     "recent": [
       {
@@ -294,7 +305,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T22:18:08Z",
+  "generated_at": "2026-09-02T22:21:13Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -302,11 +313,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T22:18:08Z",
+      "observed_at": "2026-09-02T22:21:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T22:18:08Z",
+      "observed_at": "2026-09-02T22:21:13Z",
       "status": "ok"
     }
   }
