@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "8h 38m",
+        "elapsed": "8h 41m",
         "id": "41504840",
         "kind": "research",
         "name": "pa01_cont_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-01T04:08:02Z"
       },
       {
-        "elapsed": "8h 34m",
+        "elapsed": "8h 37m",
         "id": "41504837",
         "kind": "research",
         "name": "pa01_cont_KH",
@@ -24,7 +24,7 @@
         "submitted": "2026-09-01T04:08:00Z"
       },
       {
-        "elapsed": "4h 04m",
+        "elapsed": "4h 07m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -36,26 +36,26 @@
         "task": "2"
       },
       {
-        "elapsed": "1m 19s",
-        "id": "41684564",
+        "elapsed": "1m 13s",
+        "id": "41684567",
         "kind": "research",
-        "name": "pm01_t5diag",
+        "name": "pm01_t5jt01",
         "nodes": 1,
         "partition": "gsb",
-        "started": "2026-09-02T07:34:54Z",
+        "started": "2026-09-02T07:37:59Z",
         "state": "running",
-        "submitted": "2026-09-02T07:33:51Z"
+        "submitted": "2026-09-02T07:33:56Z"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T07:36:04Z",
+        "started": "2026-09-02T07:39:02Z",
         "state": "running",
-        "submitted": "2026-09-02T07:33:35Z"
+        "submitted": "2026-09-02T07:36:25Z"
       },
       {
         "elapsed": "0s",
@@ -178,17 +178,6 @@
         "reason": "dependency",
         "state": "pending",
         "submitted": "2026-09-01T17:02:37Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41684567",
-        "kind": "research",
-        "name": "pm01_t5jt01",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-09-02T07:33:56Z"
       }
     ],
     "active_dropped": 0,
@@ -199,10 +188,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 12,
+      "pending": 11,
       "running": 5
     },
     "recent": [
+      {
+        "elapsed": "2m 19s",
+        "ended": "2026-09-02T07:37:13Z",
+        "exit_code": 0,
+        "id": "41684564",
+        "kind": "research",
+        "name": "pm01_t5diag",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "1m 22s",
         "ended": "2026-09-02T07:13:08Z",
@@ -335,7 +334,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T07:36:13Z",
+  "generated_at": "2026-09-02T07:39:13Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -343,11 +342,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T07:36:13Z",
+      "observed_at": "2026-09-02T07:39:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T07:36:13Z",
+      "observed_at": "2026-09-02T07:39:13Z",
       "status": "ok"
     }
   }
