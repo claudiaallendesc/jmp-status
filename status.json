@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "16h 43m",
+        "elapsed": "16h 47m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,7 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "2h 25m",
+        "elapsed": "2h 29m",
         "id": "41504845",
         "kind": "research",
         "name": "pa01_sign_KH",
@@ -25,15 +25,15 @@
         "submitted": "2026-09-01T04:08:04Z"
       },
       {
-        "elapsed": "5s",
+        "elapsed": "13s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T20:15:09Z",
+        "started": "2026-09-02T20:18:24Z",
         "state": "running",
-        "submitted": "2026-09-02T20:13:28Z"
+        "submitted": "2026-09-02T20:15:28Z"
       },
       {
         "elapsed": "0s",
@@ -43,6 +43,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-09-03T04:04:25Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z"
       },
@@ -299,26 +300,6 @@
         "name": "pm01_equiv_p2_r3",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "1m 21s",
-        "ended": "2026-09-02T08:18:04Z",
-        "exit_code": 0,
-        "id": "41687976",
-        "kind": "research",
-        "name": "pm01_p1_pmoff_r3",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "1m 32s",
-        "ended": "2026-09-02T08:17:31Z",
-        "exit_code": 0,
-        "id": "41687979",
-        "kind": "research",
-        "name": "pm01_p1_pmon_r3",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -341,7 +322,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T20:15:14Z",
+  "generated_at": "2026-09-02T20:18:37Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -349,11 +330,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T20:15:14Z",
+      "observed_at": "2026-09-02T20:18:37Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T20:15:14Z",
+      "observed_at": "2026-09-02T20:18:37Z",
       "status": "ok"
     }
   }
