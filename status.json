@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "10h 56m",
+        "elapsed": "10h 59m",
         "id": "41504840",
         "kind": "research",
         "name": "pa01_cont_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-01T04:08:02Z"
       },
       {
-        "elapsed": "10h 52m",
+        "elapsed": "10h 55m",
         "id": "41504837",
         "kind": "research",
         "name": "pa01_cont_KH",
@@ -24,7 +24,7 @@
         "submitted": "2026-09-01T04:08:00Z"
       },
       {
-        "elapsed": "6h 22m",
+        "elapsed": "6h 25m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -36,7 +36,7 @@
         "task": "2"
       },
       {
-        "elapsed": "1h 03m",
+        "elapsed": "1h 07m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -48,15 +48,37 @@
         "task": "3"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "1m 42s",
+        "id": "41697525",
+        "kind": "research",
+        "name": "pm01_colda78_K0",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-02T09:55:51Z",
+        "state": "running",
+        "submitted": "2026-09-02T09:55:27Z"
+      },
+      {
+        "elapsed": "1m 42s",
+        "id": "41697527",
+        "kind": "research",
+        "name": "pm01_colda78_KL",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-02T09:55:51Z",
+        "state": "running",
+        "submitted": "2026-09-02T09:55:27Z"
+      },
+      {
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T09:54:09Z",
+        "started": "2026-09-02T09:57:26Z",
         "state": "running",
-        "submitted": "2026-09-02T09:51:34Z"
+        "submitted": "2026-09-02T09:54:33Z"
       },
       {
         "elapsed": "0s",
@@ -88,6 +110,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-09-02T15:12:28Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z",
         "task": "[4]"
@@ -190,7 +213,7 @@
       "failed": 0,
       "other": 0,
       "pending": 11,
-      "running": 5
+      "running": 7
     },
     "recent": [
       {
@@ -435,7 +458,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T09:54:18Z",
+  "generated_at": "2026-09-02T09:57:33Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -443,11 +466,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T09:54:18Z",
+      "observed_at": "2026-09-02T09:57:33Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T09:54:18Z",
+      "observed_at": "2026-09-02T09:57:33Z",
       "status": "ok"
     }
   }
