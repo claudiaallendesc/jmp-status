@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "17h 20m",
+        "elapsed": "17h 22m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,7 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "3h 02m",
+        "elapsed": "3h 05m",
         "id": "41504845",
         "kind": "research",
         "name": "pa01_sign_KH",
@@ -25,15 +25,15 @@
         "submitted": "2026-09-01T04:08:04Z"
       },
       {
-        "elapsed": "37s",
+        "elapsed": "13s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T20:51:08Z",
+        "started": "2026-09-02T20:54:09Z",
         "state": "running",
-        "submitted": "2026-09-02T20:49:12Z"
+        "submitted": "2026-09-02T20:52:14Z"
       },
       {
         "elapsed": "0s",
@@ -43,7 +43,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T04:04:25Z",
+        "started": "2026-09-03T00:34:30Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z"
       },
@@ -55,7 +55,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T04:50:26Z",
+        "started": "2026-09-02T23:03:12Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z",
         "task": "[4]"
@@ -79,7 +79,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T04:50:26Z",
+        "started": "2026-09-03T04:04:25Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -272,16 +272,6 @@
         "name": "pm01_a78_K0",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "1m 17s",
-        "ended": "2026-09-02T08:52:51Z",
-        "exit_code": 0,
-        "id": "41690966",
-        "kind": "research",
-        "name": "pm01_coldkkt_r3",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -304,7 +294,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T20:51:45Z",
+  "generated_at": "2026-09-02T20:54:22Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -312,11 +302,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T20:51:45Z",
+      "observed_at": "2026-09-02T20:54:22Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T20:51:45Z",
+      "observed_at": "2026-09-02T20:54:22Z",
       "status": "ok"
     }
   }
