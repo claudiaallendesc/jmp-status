@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "15h 22m",
+        "elapsed": "15h 25m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,7 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "10h 03m",
+        "elapsed": "10h 06m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -26,7 +26,7 @@
         "task": "3"
       },
       {
-        "elapsed": "1h 05m",
+        "elapsed": "1h 07m",
         "id": "41504845",
         "kind": "research",
         "name": "pa01_sign_KH",
@@ -37,15 +37,15 @@
         "submitted": "2026-09-01T04:08:04Z"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T18:54:11Z",
+        "started": "2026-09-02T18:57:04Z",
         "state": "running",
-        "submitted": "2026-09-02T18:51:30Z"
+        "submitted": "2026-09-02T18:54:32Z"
       },
       {
         "elapsed": "0s",
@@ -67,7 +67,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T00:34:41Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z",
         "task": "[4]"
@@ -402,26 +401,6 @@
         "name": "pm01_p1_pmoff_r2",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "1m 16s",
-        "ended": "2026-09-02T06:54:22Z",
-        "exit_code": 0,
-        "id": "41680609",
-        "kind": "research",
-        "name": "pm01_p1_pmon",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "1m 15s",
-        "ended": "2026-09-02T06:54:21Z",
-        "exit_code": 0,
-        "id": "41680605",
-        "kind": "research",
-        "name": "pm01_p1_pmoff",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -444,7 +423,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T18:54:20Z",
+  "generated_at": "2026-09-02T18:57:11Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -452,11 +431,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T18:54:20Z",
+      "observed_at": "2026-09-02T18:57:11Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T18:54:20Z",
+      "observed_at": "2026-09-02T18:57:11Z",
       "status": "ok"
     }
   }
