@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "18h 25m",
+        "elapsed": "18h 28m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,7 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "55m 04s",
+        "elapsed": "58m 08s",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -32,9 +32,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T21:57:00Z",
+        "started": "2026-09-02T22:00:04Z",
         "state": "running",
-        "submitted": "2026-09-02T21:54:24Z"
+        "submitted": "2026-09-02T21:57:18Z"
       },
       {
         "elapsed": "0s",
@@ -228,26 +228,6 @@
         "name": "bd01_canary",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "1m 44s",
-        "ended": "2026-09-02T09:57:35Z",
-        "exit_code": 0,
-        "id": "41697527",
-        "kind": "research",
-        "name": "pm01_colda78_KL",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "1m 44s",
-        "ended": "2026-09-02T09:57:35Z",
-        "exit_code": 0,
-        "id": "41697525",
-        "kind": "research",
-        "name": "pm01_colda78_K0",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -270,7 +250,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T21:57:07Z",
+  "generated_at": "2026-09-02T22:00:11Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -278,11 +258,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T21:57:07Z",
+      "observed_at": "2026-09-02T22:00:11Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T21:57:07Z",
+      "observed_at": "2026-09-02T22:00:11Z",
       "status": "ok"
     }
   }
