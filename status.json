@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "17h 49m",
+        "elapsed": "17h 52m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,7 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "3h 32m",
+        "elapsed": "3h 34m",
         "id": "41504845",
         "kind": "research",
         "name": "pa01_sign_KH",
@@ -25,7 +25,7 @@
         "submitted": "2026-09-01T04:08:04Z"
       },
       {
-        "elapsed": "19m 16s",
+        "elapsed": "22m 11s",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -37,15 +37,15 @@
         "task": "4"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "13s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T21:21:10Z",
+        "started": "2026-09-02T21:24:01Z",
         "state": "running",
-        "submitted": "2026-09-02T21:18:41Z"
+        "submitted": "2026-09-02T21:21:35Z"
       },
       {
         "elapsed": "0s",
@@ -55,7 +55,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T03:06:22Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z"
       },
@@ -78,7 +77,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T03:32:00Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -293,7 +291,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T21:21:19Z",
+  "generated_at": "2026-09-02T21:24:15Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -301,11 +299,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T21:21:19Z",
+      "observed_at": "2026-09-02T21:24:15Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T21:21:19Z",
+      "observed_at": "2026-09-02T21:24:15Z",
       "status": "ok"
     }
   }
