@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "15h 40m",
+        "elapsed": "15h 43m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,7 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "10h 21m",
+        "elapsed": "10h 24m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -26,7 +26,7 @@
         "task": "3"
       },
       {
-        "elapsed": "1h 23m",
+        "elapsed": "1h 25m",
         "id": "41504845",
         "kind": "research",
         "name": "pa01_sign_KH",
@@ -43,9 +43,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T19:12:13Z",
+        "started": "2026-09-02T19:15:00Z",
         "state": "running",
-        "submitted": "2026-09-02T19:09:18Z"
+        "submitted": "2026-09-02T19:12:47Z"
       },
       {
         "elapsed": "0s",
@@ -55,7 +55,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T02:49:15Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z"
       },
@@ -67,7 +66,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T00:34:41Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z",
         "task": "[4]"
@@ -362,16 +360,6 @@
         "name": "pm01_t5diag",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "1m 22s",
-        "ended": "2026-09-02T07:13:08Z",
-        "exit_code": 1,
-        "id": "41682579",
-        "kind": "research",
-        "name": "pm01_equiv_p2",
-        "partition": "gsb",
-        "state": "failed"
       }
     ],
     "recent_dropped": 0,
@@ -394,7 +382,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T19:12:23Z",
+  "generated_at": "2026-09-02T19:15:10Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -402,11 +390,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T19:12:23Z",
+      "observed_at": "2026-09-02T19:15:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T19:12:23Z",
+      "observed_at": "2026-09-02T19:15:10Z",
       "status": "ok"
     }
   }
