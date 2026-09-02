@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "19h 01m",
+        "elapsed": "19h 04m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,7 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "1h 31m",
+        "elapsed": "1h 34m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -26,26 +26,26 @@
         "task": "4"
       },
       {
-        "elapsed": "12m 42s",
-        "id": "41762808",
-        "kind": "research",
-        "name": "pm01_rp_K0",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-09-02T22:20:25Z",
-        "state": "running",
-        "submitted": "2026-09-02T22:16:39Z"
-      },
-      {
-        "elapsed": "2s",
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T22:33:05Z",
+        "started": "2026-09-02T22:36:07Z",
         "state": "running",
-        "submitted": "2026-09-02T22:30:42Z"
+        "submitted": "2026-09-02T22:33:12Z"
+      },
+      {
+        "elapsed": "10s",
+        "id": "41763151",
+        "kind": "research",
+        "name": "ssid01_l2a",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-02T22:36:07Z",
+        "state": "running",
+        "submitted": "2026-09-02T22:21:08Z"
       },
       {
         "elapsed": "0s",
@@ -78,7 +78,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T02:49:13Z",
+        "started": "2026-09-03T03:06:22Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -155,21 +155,10 @@
         "name": "pm01_rp_KL",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "priority",
+        "reason": "resources",
         "started": "2026-09-04T15:59:21Z",
         "state": "pending",
         "submitted": "2026-09-02T22:16:42Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41762827",
-        "kind": "research",
-        "name": "pm01_coldrp_K0",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-09-02T22:16:44Z"
       },
       {
         "elapsed": "0s",
@@ -181,17 +170,6 @@
         "reason": "dependency",
         "state": "pending",
         "submitted": "2026-09-02T22:16:47Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41763151",
-        "kind": "research",
-        "name": "ssid01_l2a",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-09-02T22:21:08Z"
       }
     ],
     "active_dropped": 0,
@@ -202,10 +180,30 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 13,
+      "pending": 11,
       "running": 4
     },
     "recent": [
+      {
+        "elapsed": "1m 41s",
+        "ended": "2026-09-02T22:35:34Z",
+        "exit_code": 0,
+        "id": "41762827",
+        "kind": "research",
+        "name": "pm01_coldrp_K0",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "13m 16s",
+        "ended": "2026-09-02T22:33:41Z",
+        "exit_code": 0,
+        "id": "41762808",
+        "kind": "research",
+        "name": "pm01_rp_K0",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "3h 48m",
         "ended": "2026-09-02T21:37:34Z",
@@ -308,7 +306,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T22:33:07Z",
+  "generated_at": "2026-09-02T22:36:17Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -316,11 +314,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T22:33:07Z",
+      "observed_at": "2026-09-02T22:36:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T22:33:07Z",
+      "observed_at": "2026-09-02T22:36:17Z",
       "status": "ok"
     }
   }
