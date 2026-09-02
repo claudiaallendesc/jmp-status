@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "9h 44m",
+        "elapsed": "9h 47m",
         "id": "41504840",
         "kind": "research",
         "name": "pa01_cont_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-01T04:08:02Z"
       },
       {
-        "elapsed": "9h 40m",
+        "elapsed": "9h 43m",
         "id": "41504837",
         "kind": "research",
         "name": "pa01_cont_KH",
@@ -24,7 +24,7 @@
         "submitted": "2026-09-01T04:08:00Z"
       },
       {
-        "elapsed": "5h 10m",
+        "elapsed": "5h 13m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -36,26 +36,15 @@
         "task": "2"
       },
       {
-        "elapsed": "13m 13s",
-        "id": "41689072",
-        "kind": "research",
-        "name": "pm01_canary_a20_r3",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-09-02T08:29:11Z",
-        "state": "running",
-        "submitted": "2026-09-02T08:27:27Z"
-      },
-      {
-        "elapsed": "3s",
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T08:42:21Z",
+        "started": "2026-09-02T08:45:18Z",
         "state": "running",
-        "submitted": "2026-09-02T08:39:36Z"
+        "submitted": "2026-09-02T08:42:41Z"
       },
       {
         "elapsed": "0s",
@@ -87,7 +76,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-02T11:24:07Z",
+        "started": "2026-09-02T11:03:03Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z",
         "task": "[3-4]"
@@ -190,9 +179,19 @@
       "failed": 0,
       "other": 0,
       "pending": 11,
-      "running": 5
+      "running": 4
     },
     "recent": [
+      {
+        "elapsed": "15m 56s",
+        "ended": "2026-09-02T08:45:07Z",
+        "exit_code": 0,
+        "id": "41689072",
+        "kind": "research",
+        "name": "pm01_canary_a20_r3",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "1m 28s",
         "ended": "2026-09-02T08:24:19Z",
@@ -395,7 +394,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T08:42:24Z",
+  "generated_at": "2026-09-02T08:45:24Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -403,11 +402,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T08:42:24Z",
+      "observed_at": "2026-09-02T08:45:24Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T08:42:24Z",
+      "observed_at": "2026-09-02T08:45:24Z",
       "status": "ok"
     }
   }
