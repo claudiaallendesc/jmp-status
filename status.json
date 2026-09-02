@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "10h 59m",
+        "elapsed": "11h 02m",
         "id": "41504840",
         "kind": "research",
         "name": "pa01_cont_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-01T04:08:02Z"
       },
       {
-        "elapsed": "10h 55m",
+        "elapsed": "10h 58m",
         "id": "41504837",
         "kind": "research",
         "name": "pa01_cont_KH",
@@ -24,7 +24,7 @@
         "submitted": "2026-09-01T04:08:00Z"
       },
       {
-        "elapsed": "6h 25m",
+        "elapsed": "6h 28m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -36,7 +36,7 @@
         "task": "2"
       },
       {
-        "elapsed": "1h 07m",
+        "elapsed": "1h 09m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -48,37 +48,15 @@
         "task": "3"
       },
       {
-        "elapsed": "1m 42s",
-        "id": "41697525",
-        "kind": "research",
-        "name": "pm01_colda78_K0",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-09-02T09:55:51Z",
-        "state": "running",
-        "submitted": "2026-09-02T09:55:27Z"
-      },
-      {
-        "elapsed": "1m 42s",
-        "id": "41697527",
-        "kind": "research",
-        "name": "pm01_colda78_KL",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-09-02T09:55:51Z",
-        "state": "running",
-        "submitted": "2026-09-02T09:55:27Z"
-      },
-      {
-        "elapsed": "7s",
+        "elapsed": "14s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T09:57:26Z",
+        "started": "2026-09-02T10:00:08Z",
         "state": "running",
-        "submitted": "2026-09-02T09:54:33Z"
+        "submitted": "2026-09-02T09:57:50Z"
       },
       {
         "elapsed": "0s",
@@ -213,9 +191,29 @@
       "failed": 0,
       "other": 0,
       "pending": 11,
-      "running": 7
+      "running": 5
     },
     "recent": [
+      {
+        "elapsed": "1m 44s",
+        "ended": "2026-09-02T09:57:35Z",
+        "exit_code": 0,
+        "id": "41697527",
+        "kind": "research",
+        "name": "pm01_colda78_KL",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "1m 44s",
+        "ended": "2026-09-02T09:57:35Z",
+        "exit_code": 0,
+        "id": "41697525",
+        "kind": "research",
+        "name": "pm01_colda78_K0",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "46m 46s",
         "ended": "2026-09-02T09:48:33Z",
@@ -458,7 +456,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T09:57:33Z",
+  "generated_at": "2026-09-02T10:00:22Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -466,11 +464,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T09:57:33Z",
+      "observed_at": "2026-09-02T10:00:22Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T09:57:33Z",
+      "observed_at": "2026-09-02T10:00:22Z",
       "status": "ok"
     }
   }
