@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "7h 11m",
+        "elapsed": "7h 14m",
         "id": "41504840",
         "kind": "research",
         "name": "pa01_cont_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-01T04:08:02Z"
       },
       {
-        "elapsed": "7h 07m",
+        "elapsed": "7h 10m",
         "id": "41504837",
         "kind": "research",
         "name": "pa01_cont_KH",
@@ -24,7 +24,7 @@
         "submitted": "2026-09-01T04:08:00Z"
       },
       {
-        "elapsed": "2h 37m",
+        "elapsed": "2h 40m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -36,26 +36,15 @@
         "task": "2"
       },
       {
-        "elapsed": "7m 42s",
-        "id": "41673100",
-        "kind": "research",
-        "name": "pm01_base_a20",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-09-02T06:01:34Z",
-        "state": "running",
-        "submitted": "2026-09-02T05:59:37Z"
-      },
-      {
-        "elapsed": "7s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T06:09:09Z",
+        "started": "2026-09-02T06:12:14Z",
         "state": "running",
-        "submitted": "2026-09-02T06:06:19Z"
+        "submitted": "2026-09-02T06:09:52Z"
       },
       {
         "elapsed": "0s",
@@ -87,6 +76,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-09-02T07:59:21Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z",
         "task": "[3-4]"
@@ -189,9 +179,19 @@
       "failed": 0,
       "other": 0,
       "pending": 11,
-      "running": 5
+      "running": 4
     },
     "recent": [
+      {
+        "elapsed": "10m 29s",
+        "ended": "2026-09-02T06:12:03Z",
+        "exit_code": 0,
+        "id": "41673100",
+        "kind": "research",
+        "name": "pm01_base_a20",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
       {
         "elapsed": "38s",
         "ended": "2026-09-02T06:00:46Z",
@@ -244,7 +244,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T06:09:16Z",
+  "generated_at": "2026-09-02T06:12:16Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -252,11 +252,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T06:09:16Z",
+      "observed_at": "2026-09-02T06:12:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T06:09:16Z",
+      "observed_at": "2026-09-02T06:12:16Z",
       "status": "ok"
     }
   }
