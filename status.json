@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "16h 31m",
+        "elapsed": "16h 34m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,19 +14,7 @@
         "task": "2"
       },
       {
-        "elapsed": "11h 12m",
-        "id": "41504848",
-        "kind": "research",
-        "name": "pa01_ms",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-09-02T08:50:27Z",
-        "state": "running",
-        "submitted": "2026-09-01T04:08:05Z",
-        "task": "3"
-      },
-      {
-        "elapsed": "2h 13m",
+        "elapsed": "2h 16m",
         "id": "41504845",
         "kind": "research",
         "name": "pa01_sign_KH",
@@ -37,15 +25,15 @@
         "submitted": "2026-09-01T04:08:04Z"
       },
       {
-        "elapsed": "3m 02s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T20:00:00Z",
+        "started": "2026-09-02T20:06:03Z",
         "state": "running",
-        "submitted": "2026-09-02T19:57:03Z"
+        "submitted": "2026-09-02T20:03:28Z"
       },
       {
         "elapsed": "0s",
@@ -55,6 +43,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-09-03T03:06:22Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z"
       },
@@ -89,6 +78,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-09-03T03:06:22Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -168,9 +158,20 @@
       "failed": 0,
       "other": 0,
       "pending": 10,
-      "running": 4
+      "running": 3
     },
     "recent": [
+      {
+        "elapsed": "11h 15m",
+        "ended": "2026-09-02T20:05:59Z",
+        "exit_code": 0,
+        "id": "41504848",
+        "kind": "research",
+        "name": "pa01_ms",
+        "partition": "normal",
+        "state": "completed",
+        "task": "3"
+      },
       {
         "elapsed": "18h 45m",
         "ended": "2026-09-02T17:47:05Z",
@@ -352,7 +353,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T20:03:02Z",
+  "generated_at": "2026-09-02T20:06:09Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -360,11 +361,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T20:03:02Z",
+      "observed_at": "2026-09-02T20:06:09Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T20:03:02Z",
+      "observed_at": "2026-09-02T20:06:09Z",
       "status": "ok"
     }
   }
