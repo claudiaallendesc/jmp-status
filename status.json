@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "3h 29m",
+        "elapsed": "3h 32m",
         "id": "41504840",
         "kind": "research",
         "name": "pa01_cont_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-01T04:08:02Z"
       },
       {
-        "elapsed": "3h 25m",
+        "elapsed": "3h 28m",
         "id": "41504837",
         "kind": "research",
         "name": "pa01_cont_KH",
@@ -24,18 +24,7 @@
         "submitted": "2026-09-01T04:08:00Z"
       },
       {
-        "elapsed": "3h 07m",
-        "id": "41504844",
-        "kind": "research",
-        "name": "pa01_sign_K0",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-09-01T23:19:47Z",
-        "state": "running",
-        "submitted": "2026-09-01T04:08:02Z"
-      },
-      {
-        "elapsed": "33m 51s",
+        "elapsed": "36m 53s",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -47,15 +36,15 @@
         "task": "1"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "8s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T02:27:04Z",
+        "started": "2026-09-02T02:30:05Z",
         "state": "running",
-        "submitted": "2026-09-02T02:24:30Z"
+        "submitted": "2026-09-02T02:27:26Z"
       },
       {
         "elapsed": "0s",
@@ -189,9 +178,20 @@
       "failed": 0,
       "other": 0,
       "pending": 11,
-      "running": 5
+      "running": 4
     },
-    "recent": [],
+    "recent": [
+      {
+        "elapsed": "3h 09m",
+        "ended": "2026-09-02T02:29:01Z",
+        "exit_code": 0,
+        "id": "41504844",
+        "kind": "research",
+        "name": "pa01_sign_K0",
+        "partition": "normal",
+        "state": "completed"
+      }
+    ],
     "recent_dropped": 0,
     "recent_omitted": 0,
     "service_count": 1,
@@ -212,7 +212,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T02:27:11Z",
+  "generated_at": "2026-09-02T02:30:13Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -220,11 +220,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T02:27:11Z",
+      "observed_at": "2026-09-02T02:30:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T02:27:11Z",
+      "observed_at": "2026-09-02T02:30:13Z",
       "status": "ok"
     }
   }
