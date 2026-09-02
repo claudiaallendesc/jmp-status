@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "18h 17m",
+        "elapsed": "18h 20m",
         "id": "41504840",
         "kind": "research",
         "name": "pa01_cont_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-01T04:08:02Z"
       },
       {
-        "elapsed": "18h 13m",
+        "elapsed": "18h 17m",
         "id": "41504837",
         "kind": "research",
         "name": "pa01_cont_KH",
@@ -24,7 +24,7 @@
         "submitted": "2026-09-01T04:08:00Z"
       },
       {
-        "elapsed": "13h 43m",
+        "elapsed": "13h 47m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -36,7 +36,7 @@
         "task": "2"
       },
       {
-        "elapsed": "8h 24m",
+        "elapsed": "8h 28m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -48,15 +48,26 @@
         "task": "3"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "2m 55s",
+        "id": "41729147",
+        "kind": "research",
+        "name": "bd01_hess_KL",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-02T17:16:06Z",
+        "state": "running",
+        "submitted": "2026-09-02T16:39:12Z"
+      },
+      {
+        "elapsed": "37s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-02T17:15:10Z",
+        "started": "2026-09-02T17:18:24Z",
         "state": "running",
-        "submitted": "2026-09-02T17:12:29Z"
+        "submitted": "2026-09-02T17:15:32Z"
       },
       {
         "elapsed": "0s",
@@ -191,8 +202,7 @@
         "name": "bd01_line",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-09-02T20:35:42Z",
+        "reason": "resources",
         "state": "pending",
         "submitted": "2026-09-02T16:39:05Z"
       },
@@ -203,22 +213,9 @@
         "name": "bd01_hess_K0",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-09-02T20:35:42Z",
+        "reason": "resources",
         "state": "pending",
         "submitted": "2026-09-02T16:39:09Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41729147",
-        "kind": "research",
-        "name": "bd01_hess_KL",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-09-02T20:35:42Z",
-        "state": "pending",
-        "submitted": "2026-09-02T16:39:12Z"
       }
     ],
     "active_dropped": 0,
@@ -229,8 +226,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 14,
-      "running": 5
+      "pending": 13,
+      "running": 6
     },
     "recent": [
       {
@@ -484,7 +481,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-02T17:15:17Z",
+  "generated_at": "2026-09-02T17:19:01Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -492,11 +489,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-02T17:15:17Z",
+      "observed_at": "2026-09-02T17:19:01Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-02T17:15:17Z",
+      "observed_at": "2026-09-02T17:19:01Z",
       "status": "ok"
     }
   }
