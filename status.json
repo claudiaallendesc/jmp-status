@@ -2,15 +2,26 @@
   "account": {
     "active": [
       {
+        "elapsed": "9m 16s",
+        "id": "41902782",
+        "kind": "research",
+        "name": "ssc01_a100d2_KL",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-03T20:54:11Z",
+        "state": "running",
+        "submitted": "2026-09-03T20:52:18Z"
+      },
+      {
         "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T20:54:01Z",
+        "started": "2026-09-03T21:03:25Z",
         "state": "running",
-        "submitted": "2026-09-03T20:51:23Z"
+        "submitted": "2026-09-03T21:02:28Z"
       },
       {
         "elapsed": "0s",
@@ -98,19 +109,9 @@
         "nodes": 1,
         "partition": "gsb",
         "reason": "priority",
+        "started": "2026-09-04T15:59:21Z",
         "state": "pending",
         "submitted": "2026-09-03T20:52:16Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41902782",
-        "kind": "research",
-        "name": "ssc01_a100d2_KL",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-09-03T20:52:18Z"
       }
     ],
     "active_dropped": 0,
@@ -121,8 +122,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 9,
-      "running": 1
+      "pending": 8,
+      "running": 2
     },
     "recent": [
       {
@@ -244,26 +245,6 @@
         "name": "ssid01_g5cold_K0",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "2m 20s",
-        "ended": "2026-09-03T09:03:02Z",
-        "exit_code": 0,
-        "id": "41821499",
-        "kind": "research",
-        "name": "ssid01_mmdisc",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "1h 30m",
-        "ended": "2026-09-03T09:00:30Z",
-        "exit_code": 0,
-        "id": "41821087",
-        "kind": "research",
-        "name": "ssid01_g5K0",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -286,19 +267,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T20:54:04Z",
-  "message": "Queued",
+  "generated_at": "2026-09-03T21:03:27Z",
+  "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T20:54:04Z",
+      "observed_at": "2026-09-03T21:03:27Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T20:54:04Z",
+      "observed_at": "2026-09-03T21:03:27Z",
       "status": "ok"
     }
   }
