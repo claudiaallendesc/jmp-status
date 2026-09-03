@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "9s",
+        "elapsed": "4s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T05:42:02Z",
+        "started": "2026-09-03T05:45:06Z",
         "state": "running",
-        "submitted": "2026-09-03T05:39:10Z"
+        "submitted": "2026-09-03T05:42:23Z"
       },
       {
         "elapsed": "0s",
@@ -20,7 +20,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T08:47:58Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -265,16 +264,6 @@
         "name": "pa01_cont_KH",
         "partition": "normal",
         "state": "completed"
-      },
-      {
-        "elapsed": "6m 21s",
-        "ended": "2026-09-02T17:44:12Z",
-        "exit_code": 0,
-        "id": "41729144",
-        "kind": "research",
-        "name": "bd01_hess_K0",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -297,7 +286,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T05:42:11Z",
+  "generated_at": "2026-09-03T05:45:10Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -305,11 +294,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T05:42:11Z",
+      "observed_at": "2026-09-03T05:45:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T05:42:11Z",
+      "observed_at": "2026-09-03T05:45:10Z",
       "status": "ok"
     }
   }
