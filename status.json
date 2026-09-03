@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "6s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T19:39:09Z",
+        "started": "2026-09-03T19:42:03Z",
         "state": "running",
-        "submitted": "2026-09-03T19:36:24Z"
+        "submitted": "2026-09-03T19:39:27Z"
       },
       {
         "elapsed": "0s",
@@ -221,16 +221,6 @@
         "name": "ssid01_g5K0",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "0s",
-        "ended": "2026-09-03T07:40:33Z",
-        "exit_code": 0,
-        "id": "41821090",
-        "kind": "research",
-        "name": "ssid01_g5KL",
-        "partition": "gsb",
-        "state": "cancelled"
       }
     ],
     "recent_dropped": 0,
@@ -253,7 +243,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T19:39:15Z",
+  "generated_at": "2026-09-03T19:42:10Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -261,11 +251,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T19:39:15Z",
+      "observed_at": "2026-09-03T19:42:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T19:39:15Z",
+      "observed_at": "2026-09-03T19:42:10Z",
       "status": "ok"
     }
   }
