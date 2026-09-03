@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1h 27m",
+        "elapsed": "1h 30m",
         "id": "41821087",
         "kind": "research",
         "name": "ssid01_g5K0",
@@ -13,15 +13,15 @@
         "submitted": "2026-09-03T07:29:24Z"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T08:57:04Z",
+        "started": "2026-09-03T09:00:04Z",
         "state": "running",
-        "submitted": "2026-09-03T08:54:28Z"
+        "submitted": "2026-09-03T08:57:18Z"
       },
       {
         "elapsed": "0s",
@@ -31,7 +31,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-04T05:33:01Z",
+        "started": "2026-09-04T06:25:23Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -119,7 +119,7 @@
         "name": "ssid01_mmdisc",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "priority",
+        "reason": "resources",
         "started": "2026-09-05T06:40:00Z",
         "state": "pending",
         "submitted": "2026-09-03T07:38:52Z"
@@ -342,7 +342,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T08:57:13Z",
+  "generated_at": "2026-09-03T09:00:09Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -350,11 +350,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T08:57:13Z",
+      "observed_at": "2026-09-03T09:00:09Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T08:57:13Z",
+      "observed_at": "2026-09-03T09:00:09Z",
       "status": "ok"
     }
   }
