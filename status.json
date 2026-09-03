@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "20h 55m",
+        "elapsed": "20h 58m",
         "id": "41504848",
         "kind": "research",
         "name": "pa01_ms",
@@ -14,26 +14,26 @@
         "task": "2"
       },
       {
-        "elapsed": "25s",
-        "id": "41770145",
+        "elapsed": "1m 16s",
+        "id": "41770143",
         "kind": "research",
-        "name": "ssid01_coldl3a_K0",
+        "name": "ssid01_l3aKL",
         "nodes": 1,
         "partition": "gsb",
-        "started": "2026-09-03T00:26:57Z",
+        "started": "2026-09-03T00:28:54Z",
         "state": "running",
-        "submitted": "2026-09-02T23:30:13Z"
+        "submitted": "2026-09-02T23:30:12Z"
       },
       {
-        "elapsed": "9s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T00:27:13Z",
+        "started": "2026-09-03T00:30:08Z",
         "state": "running",
-        "submitted": "2026-09-03T00:24:24Z"
+        "submitted": "2026-09-03T00:27:30Z"
       },
       {
         "elapsed": "0s",
@@ -43,6 +43,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-09-03T03:06:22Z",
         "state": "pending",
         "submitted": "2026-09-01T04:08:05Z"
       },
@@ -136,18 +137,6 @@
       },
       {
         "elapsed": "0s",
-        "id": "41770143",
-        "kind": "research",
-        "name": "ssid01_l3aKL",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-09-04T15:59:21Z",
-        "state": "pending",
-        "submitted": "2026-09-02T23:30:12Z"
-      },
-      {
-        "elapsed": "0s",
         "id": "41770146",
         "kind": "research",
         "name": "ssid01_coldl3a_KL",
@@ -166,10 +155,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 11,
+      "pending": 10,
       "running": 3
     },
     "recent": [
+      {
+        "elapsed": "1m 48s",
+        "ended": "2026-09-03T00:28:45Z",
+        "exit_code": 0,
+        "id": "41770145",
+        "kind": "research",
+        "name": "ssid01_coldl3a_K0",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "42m 26s",
         "ended": "2026-09-03T00:26:22Z",
@@ -343,7 +342,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T00:27:22Z",
+  "generated_at": "2026-09-03T00:30:10Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -351,11 +350,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T00:27:22Z",
+      "observed_at": "2026-09-03T00:30:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T00:27:22Z",
+      "observed_at": "2026-09-03T00:30:10Z",
       "status": "ok"
     }
   }
