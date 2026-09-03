@@ -2,15 +2,26 @@
   "account": {
     "active": [
       {
-        "elapsed": "35s",
+        "elapsed": "36s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T17:45:03Z",
+        "started": "2026-09-03T17:48:05Z",
         "state": "running",
-        "submitted": "2026-09-03T17:42:25Z"
+        "submitted": "2026-09-03T17:45:50Z"
+      },
+      {
+        "elapsed": "36s",
+        "id": "41879221",
+        "kind": "research",
+        "name": "ssc01_a100d_K0",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-03T17:48:05Z",
+        "state": "running",
+        "submitted": "2026-09-03T17:45:34Z"
       },
       {
         "elapsed": "0s",
@@ -20,6 +31,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-09-03T23:49:34Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -91,21 +103,12 @@
       },
       {
         "elapsed": "0s",
-        "id": "41879221",
-        "kind": "research",
-        "name": "ssc01_a100d_K0",
-        "nodes": 1,
-        "partition": "gsb",
-        "state": "pending",
-        "submitted": "2026-09-03T17:45:34Z"
-      },
-      {
-        "elapsed": "0s",
         "id": "41879222",
         "kind": "research",
         "name": "ssc01_a100d_KL",
         "nodes": 1,
         "partition": "gsb",
+        "reason": "resources",
         "state": "pending",
         "submitted": "2026-09-03T17:45:36Z"
       }
@@ -118,8 +121,8 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 9,
-      "running": 1
+      "pending": 8,
+      "running": 2
     },
     "recent": [
       {
@@ -263,19 +266,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T17:45:38Z",
-  "message": "Queued",
+  "generated_at": "2026-09-03T17:48:41Z",
+  "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T17:45:38Z",
+      "observed_at": "2026-09-03T17:48:41Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T17:45:38Z",
+      "observed_at": "2026-09-03T17:48:41Z",
       "status": "ok"
     }
   }
