@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "14s",
+        "elapsed": "12s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T20:30:02Z",
+        "started": "2026-09-03T20:33:00Z",
         "state": "running",
-        "submitted": "2026-09-03T20:27:47Z"
+        "submitted": "2026-09-03T20:30:28Z"
       },
       {
         "elapsed": "0s",
@@ -20,7 +20,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T23:30:34Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -89,18 +88,6 @@
         "reason": "dependency",
         "state": "pending",
         "submitted": "2026-09-01T17:02:37Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41899029",
-        "kind": "research",
-        "name": "ssc01_a100d2_replay",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-09-03T20:30:16Z",
-        "state": "pending",
-        "submitted": "2026-09-03T20:23:51Z"
       }
     ],
     "active_dropped": 0,
@@ -111,10 +98,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 8,
+      "pending": 7,
       "running": 1
     },
     "recent": [
+      {
+        "elapsed": "19s",
+        "ended": "2026-09-03T20:31:55Z",
+        "exit_code": 0,
+        "id": "41899029",
+        "kind": "research",
+        "name": "ssc01_a100d2_replay",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "12m 13s",
         "ended": "2026-09-03T18:06:21Z",
@@ -256,7 +253,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T20:30:16Z",
+  "generated_at": "2026-09-03T20:33:12Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -264,11 +261,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T20:30:16Z",
+      "observed_at": "2026-09-03T20:33:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T20:30:16Z",
+      "observed_at": "2026-09-03T20:33:12Z",
       "status": "ok"
     }
   }
