@@ -2,18 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "36s",
-        "id": "39005528",
-        "kind": "service",
-        "name": "jmp_status_collect",
-        "nodes": 1,
-        "partition": "service",
-        "started": "2026-09-03T17:48:05Z",
-        "state": "running",
-        "submitted": "2026-09-03T17:45:50Z"
-      },
-      {
-        "elapsed": "36s",
+        "elapsed": "3m 11s",
         "id": "41879221",
         "kind": "research",
         "name": "ssc01_a100d_K0",
@@ -24,6 +13,17 @@
         "submitted": "2026-09-03T17:45:34Z"
       },
       {
+        "elapsed": "7s",
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "nodes": 1,
+        "partition": "service",
+        "started": "2026-09-03T17:51:09Z",
+        "state": "running",
+        "submitted": "2026-09-03T17:48:54Z"
+      },
+      {
         "elapsed": "0s",
         "id": "41563199",
         "kind": "research",
@@ -31,7 +31,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T23:49:34Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -108,7 +107,8 @@
         "name": "ssc01_a100d_KL",
         "nodes": 1,
         "partition": "gsb",
-        "reason": "resources",
+        "reason": "priority",
+        "started": "2026-09-04T15:59:21Z",
         "state": "pending",
         "submitted": "2026-09-03T17:45:36Z"
       }
@@ -266,7 +266,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T17:48:41Z",
+  "generated_at": "2026-09-03T17:51:16Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -274,11 +274,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T17:48:41Z",
+      "observed_at": "2026-09-03T17:51:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T17:48:41Z",
+      "observed_at": "2026-09-03T17:51:16Z",
       "status": "ok"
     }
   }
