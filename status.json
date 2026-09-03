@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "18m 05s",
+        "elapsed": "20m 58s",
         "id": "41902782",
         "kind": "research",
         "name": "ssc01_a100d2_KL",
@@ -19,9 +19,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T21:12:08Z",
+        "started": "2026-09-03T21:15:01Z",
         "state": "running",
-        "submitted": "2026-09-03T21:09:21Z"
+        "submitted": "2026-09-03T21:12:24Z"
       },
       {
         "elapsed": "0s",
@@ -31,7 +31,6 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-04T07:06:35Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -257,7 +256,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T21:12:16Z",
+  "generated_at": "2026-09-03T21:15:09Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -265,11 +264,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T21:12:16Z",
+      "observed_at": "2026-09-03T21:15:09Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T21:12:16Z",
+      "observed_at": "2026-09-03T21:15:09Z",
       "status": "ok"
     }
   }
