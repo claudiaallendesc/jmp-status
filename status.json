@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "24m 29s",
+        "elapsed": "27m 32s",
         "id": "41504847",
         "kind": "research",
         "name": "pa01_sign_KL",
@@ -13,15 +13,15 @@
         "submitted": "2026-09-01T04:08:05Z"
       },
       {
-        "elapsed": "5s",
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T02:12:06Z",
+        "started": "2026-09-03T02:15:08Z",
         "state": "running",
-        "submitted": "2026-09-03T02:09:16Z"
+        "submitted": "2026-09-03T02:12:21Z"
       },
       {
         "elapsed": "0s",
@@ -339,7 +339,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T02:12:11Z",
+  "generated_at": "2026-09-03T02:15:14Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -347,11 +347,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T02:12:11Z",
+      "observed_at": "2026-09-03T02:15:14Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T02:12:11Z",
+      "observed_at": "2026-09-03T02:15:14Z",
       "status": "ok"
     }
   }
