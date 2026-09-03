@@ -2,26 +2,26 @@
   "account": {
     "active": [
       {
-        "elapsed": "3m 11s",
-        "id": "41879221",
-        "kind": "research",
-        "name": "ssc01_a100d_K0",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-09-03T17:48:05Z",
-        "state": "running",
-        "submitted": "2026-09-03T17:45:34Z"
-      },
-      {
-        "elapsed": "7s",
+        "elapsed": "10s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T17:51:09Z",
+        "started": "2026-09-03T17:54:06Z",
         "state": "running",
-        "submitted": "2026-09-03T17:48:54Z"
+        "submitted": "2026-09-03T17:51:26Z"
+      },
+      {
+        "elapsed": "8s",
+        "id": "41879222",
+        "kind": "research",
+        "name": "ssc01_a100d_KL",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-03T17:54:08Z",
+        "state": "running",
+        "submitted": "2026-09-03T17:45:36Z"
       },
       {
         "elapsed": "0s",
@@ -99,18 +99,6 @@
         "reason": "dependency",
         "state": "pending",
         "submitted": "2026-09-01T17:02:37Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41879222",
-        "kind": "research",
-        "name": "ssc01_a100d_KL",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "priority",
-        "started": "2026-09-04T15:59:21Z",
-        "state": "pending",
-        "submitted": "2026-09-03T17:45:36Z"
       }
     ],
     "active_dropped": 0,
@@ -121,10 +109,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 8,
+      "pending": 7,
       "running": 2
     },
     "recent": [
+      {
+        "elapsed": "5m 10s",
+        "ended": "2026-09-03T17:53:15Z",
+        "exit_code": 0,
+        "id": "41879221",
+        "kind": "research",
+        "name": "ssc01_a100d_K0",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "1m 57s",
         "ended": "2026-09-03T17:31:37Z",
@@ -266,7 +264,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T17:51:16Z",
+  "generated_at": "2026-09-03T17:54:16Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -274,11 +272,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T17:51:16Z",
+      "observed_at": "2026-09-03T17:54:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T17:51:16Z",
+      "observed_at": "2026-09-03T17:54:16Z",
       "status": "ok"
     }
   }
