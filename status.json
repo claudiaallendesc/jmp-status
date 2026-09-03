@@ -2,26 +2,26 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 12m",
-        "id": "41821561",
+        "elapsed": "23s",
+        "id": "41821563",
         "kind": "research",
-        "name": "ssid01_g5KL",
+        "name": "ssid01_g5cold_KL",
         "nodes": 1,
         "partition": "gsb",
-        "started": "2026-09-03T09:05:41Z",
+        "started": "2026-09-03T11:20:40Z",
         "state": "running",
-        "submitted": "2026-09-03T07:40:41Z"
+        "submitted": "2026-09-03T07:40:43Z"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T11:18:05Z",
+        "started": "2026-09-03T11:21:01Z",
         "state": "running",
-        "submitted": "2026-09-03T11:15:20Z"
+        "submitted": "2026-09-03T11:18:23Z"
       },
       {
         "elapsed": "0s",
@@ -31,7 +31,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-04T10:13:05Z",
+        "started": "2026-09-04T10:47:38Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -100,17 +100,6 @@
         "reason": "dependency",
         "state": "pending",
         "submitted": "2026-09-01T17:02:37Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "41821563",
-        "kind": "research",
-        "name": "ssid01_g5cold_KL",
-        "nodes": 1,
-        "partition": "gsb",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-09-03T07:40:43Z"
       }
     ],
     "active_dropped": 0,
@@ -121,10 +110,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 8,
+      "pending": 7,
       "running": 2
     },
     "recent": [
+      {
+        "elapsed": "2h 14m",
+        "ended": "2026-09-03T11:20:33Z",
+        "exit_code": 0,
+        "id": "41821561",
+        "kind": "research",
+        "name": "ssid01_g5KL",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "1m 38s",
         "ended": "2026-09-03T09:04:48Z",
@@ -278,7 +277,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T11:18:12Z",
+  "generated_at": "2026-09-03T11:21:03Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -286,11 +285,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T11:18:12Z",
+      "observed_at": "2026-09-03T11:21:03Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T11:18:12Z",
+      "observed_at": "2026-09-03T11:21:03Z",
       "status": "ok"
     }
   }
