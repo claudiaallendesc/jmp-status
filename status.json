@@ -2,26 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "5m 44s",
-        "id": "41820321",
-        "kind": "research",
-        "name": "ssid01_scan",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-09-03T07:18:27Z",
-        "state": "running",
-        "submitted": "2026-09-03T07:16:55Z"
-      },
-      {
-        "elapsed": "9s",
+        "elapsed": "6s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T07:24:02Z",
+        "started": "2026-09-03T07:27:02Z",
         "state": "running",
-        "submitted": "2026-09-03T07:22:33Z"
+        "submitted": "2026-09-03T07:24:21Z"
       },
       {
         "elapsed": "0s",
@@ -110,9 +99,19 @@
       "failed": 0,
       "other": 0,
       "pending": 7,
-      "running": 2
+      "running": 1
     },
     "recent": [
+      {
+        "elapsed": "6m 33s",
+        "ended": "2026-09-03T07:25:00Z",
+        "exit_code": 0,
+        "id": "41820321",
+        "kind": "research",
+        "name": "ssid01_scan",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "14s",
         "ended": "2026-09-03T04:35:01Z",
@@ -287,19 +286,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T07:24:11Z",
-  "message": "Running",
+  "generated_at": "2026-09-03T07:27:09Z",
+  "message": "Queued",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T07:24:11Z",
+      "observed_at": "2026-09-03T07:27:09Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T07:24:11Z",
+      "observed_at": "2026-09-03T07:27:09Z",
       "status": "ok"
     }
   }
