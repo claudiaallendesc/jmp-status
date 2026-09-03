@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "59m 55s",
+        "elapsed": "1h 02m",
         "id": "41902782",
         "kind": "research",
         "name": "ssc01_a100d2_KL",
@@ -13,15 +13,15 @@
         "submitted": "2026-09-03T20:52:18Z"
       },
       {
-        "elapsed": "2s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-03T21:54:04Z",
+        "started": "2026-09-03T21:57:01Z",
         "state": "running",
-        "submitted": "2026-09-03T21:51:36Z"
+        "submitted": "2026-09-03T21:54:11Z"
       },
       {
         "elapsed": "0s",
@@ -31,7 +31,7 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
-        "started": "2026-09-03T23:30:34Z",
+        "started": "2026-09-04T02:53:41Z",
         "state": "pending",
         "submitted": "2026-09-01T16:52:52Z"
       },
@@ -257,7 +257,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-03T21:54:06Z",
+  "generated_at": "2026-09-03T21:57:08Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -265,11 +265,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-03T21:54:06Z",
+      "observed_at": "2026-09-03T21:57:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-03T21:54:06Z",
+      "observed_at": "2026-09-03T21:57:08Z",
       "status": "ok"
     }
   }
