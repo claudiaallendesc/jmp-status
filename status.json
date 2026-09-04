@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "7s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-04T06:06:08Z",
+        "started": "2026-09-04T06:09:01Z",
         "state": "running",
-        "submitted": "2026-09-04T06:03:24Z"
+        "submitted": "2026-09-04T06:06:26Z"
       }
     ],
     "active_dropped": 0,
@@ -94,16 +94,6 @@
         "name": "ssc01_a100d2_replay",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "12m 13s",
-        "ended": "2026-09-03T18:06:21Z",
-        "exit_code": 0,
-        "id": "41879222",
-        "kind": "research",
-        "name": "ssc01_a100d_KL",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -126,7 +116,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-04T06:06:15Z",
+  "generated_at": "2026-09-04T06:09:03Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
@@ -134,11 +124,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-04T06:06:15Z",
+      "observed_at": "2026-09-04T06:09:03Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-04T06:06:15Z",
+      "observed_at": "2026-09-04T06:09:03Z",
       "status": "ok"
     }
   }
