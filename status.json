@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "7s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-04T13:09:06Z",
+        "started": "2026-09-04T13:12:08Z",
         "state": "running",
-        "submitted": "2026-09-04T13:06:23Z"
+        "submitted": "2026-09-04T13:09:24Z"
       },
       {
         "elapsed": "0s",
@@ -77,7 +77,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-04T13:09:13Z",
+  "generated_at": "2026-09-04T13:12:17Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -85,11 +85,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-04T13:09:13Z",
+      "observed_at": "2026-09-04T13:12:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-04T13:09:13Z",
+      "observed_at": "2026-09-04T13:12:17Z",
       "status": "ok"
     }
   }
