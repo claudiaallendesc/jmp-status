@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "5h 43m",
+        "elapsed": "5h 46m",
         "id": "41918030",
         "kind": "research",
         "name": "ssc01_a100d2_K0x86",
@@ -13,15 +13,15 @@
         "submitted": "2026-09-03T22:35:17Z"
       },
       {
-        "elapsed": "8s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-04T04:45:04Z",
+        "started": "2026-09-04T04:48:12Z",
         "state": "running",
-        "submitted": "2026-09-04T04:42:19Z"
+        "submitted": "2026-09-04T04:45:24Z"
       }
     ],
     "active_dropped": 0,
@@ -135,26 +135,6 @@
         "name": "ssc01_m3ctrl",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "1m 55s",
-        "ended": "2026-09-03T16:47:42Z",
-        "exit_code": 1,
-        "id": "41870914",
-        "kind": "research",
-        "name": "ssc01_gsc23",
-        "partition": "gsb",
-        "state": "failed"
-      },
-      {
-        "elapsed": "1m 34s",
-        "ended": "2026-09-03T16:45:21Z",
-        "exit_code": 0,
-        "id": "41870913",
-        "kind": "research",
-        "name": "ssc01_gsc1_ssc",
-        "partition": "gsb",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -177,7 +157,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-04T04:45:12Z",
+  "generated_at": "2026-09-04T04:48:19Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -185,11 +165,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-04T04:45:12Z",
+      "observed_at": "2026-09-04T04:48:19Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-04T04:45:12Z",
+      "observed_at": "2026-09-04T04:48:19Z",
       "status": "ok"
     }
   }
