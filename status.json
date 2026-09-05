@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2m 34s",
+        "elapsed": "5m 29s",
         "id": "42120301",
         "kind": "research",
         "name": "emp01_prep_BASE",
@@ -13,15 +13,15 @@
         "submitted": "2026-09-05T08:36:49Z"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "22s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-05T08:39:20Z",
+        "started": "2026-09-05T08:42:00Z",
         "state": "running",
-        "submitted": "2026-09-05T08:36:18Z"
+        "submitted": "2026-09-05T08:39:42Z"
       }
     ],
     "active_dropped": 0,
@@ -117,7 +117,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-05T08:39:27Z",
+  "generated_at": "2026-09-05T08:42:22Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -125,11 +125,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-05T08:39:27Z",
+      "observed_at": "2026-09-05T08:42:22Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-05T08:39:27Z",
+      "observed_at": "2026-09-05T08:42:22Z",
       "status": "ok"
     }
   }
