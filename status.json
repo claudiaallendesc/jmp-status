@@ -8,9 +8,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-05T09:00:06Z",
+        "started": "2026-09-05T09:03:06Z",
         "state": "running",
-        "submitted": "2026-09-05T08:57:33Z"
+        "submitted": "2026-09-05T09:00:29Z"
       },
       {
         "elapsed": "0s",
@@ -20,8 +20,21 @@
         "nodes": 1,
         "partition": "normal",
         "reason": "priority",
+        "started": "2026-09-06T15:48:49Z",
         "state": "pending",
         "submitted": "2026-09-05T08:59:20Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "42121996",
+        "kind": "research",
+        "name": "k0watch",
+        "name_note": "sanitized",
+        "nodes": 1,
+        "partition": "multiple",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-09-05T09:01:53Z"
       }
     ],
     "active_dropped": 0,
@@ -32,7 +45,7 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 1,
+      "pending": 2,
       "running": 1
     },
     "recent": [
@@ -127,7 +140,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-05T09:00:16Z",
+  "generated_at": "2026-09-05T09:03:16Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -135,11 +148,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-05T09:00:16Z",
+      "observed_at": "2026-09-05T09:03:16Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-05T09:00:16Z",
+      "observed_at": "2026-09-05T09:03:16Z",
       "status": "ok"
     }
   }
