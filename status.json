@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "3h 36m",
+        "elapsed": "3h 39m",
         "id": "42044305",
         "kind": "research",
         "name": "emp01_prep_BASE",
@@ -13,37 +13,37 @@
         "submitted": "2026-09-04T21:01:14Z"
       },
       {
-        "elapsed": "17m 21s",
-        "id": "42117772",
-        "kind": "research",
-        "name": "emp01p_shardB",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-09-05T08:06:57Z",
-        "state": "running",
-        "submitted": "2026-09-05T08:06:28Z"
-      },
-      {
-        "elapsed": "5m 00s",
-        "id": "42118742",
+        "elapsed": "1m 39s",
+        "id": "42119218",
         "kind": "research",
         "name": "emp01p_shardA",
         "nodes": 1,
         "partition": "gsb",
-        "started": "2026-09-05T08:19:18Z",
+        "started": "2026-09-05T08:25:31Z",
         "state": "running",
-        "submitted": "2026-09-05T08:19:15Z"
+        "submitted": "2026-09-05T08:25:26Z"
       },
       {
-        "elapsed": "5s",
+        "elapsed": "1m 39s",
+        "id": "42119219",
+        "kind": "research",
+        "name": "emp01p_shardB",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-05T08:25:31Z",
+        "state": "running",
+        "submitted": "2026-09-05T08:25:26Z"
+      },
+      {
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-05T08:24:13Z",
+        "started": "2026-09-05T08:27:03Z",
         "state": "running",
-        "submitted": "2026-09-05T08:21:21Z"
+        "submitted": "2026-09-05T08:24:32Z"
       }
     ],
     "active_dropped": 0,
@@ -58,6 +58,26 @@
       "running": 4
     },
     "recent": [
+      {
+        "elapsed": "6m 05s",
+        "ended": "2026-09-05T08:25:23Z",
+        "exit_code": 0,
+        "id": "42118742",
+        "kind": "research",
+        "name": "emp01p_shardA",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
+      {
+        "elapsed": "18m 26s",
+        "ended": "2026-09-05T08:25:23Z",
+        "exit_code": 0,
+        "id": "42117772",
+        "kind": "research",
+        "name": "emp01p_shardB",
+        "partition": "gsb",
+        "state": "cancelled"
+      },
       {
         "elapsed": "12m 00s",
         "ended": "2026-09-05T08:18:57Z",
@@ -89,7 +109,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-05T08:24:18Z",
+  "generated_at": "2026-09-05T08:27:10Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -97,11 +117,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-05T08:24:18Z",
+      "observed_at": "2026-09-05T08:27:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-05T08:24:18Z",
+      "observed_at": "2026-09-05T08:27:10Z",
       "status": "ok"
     }
   }
