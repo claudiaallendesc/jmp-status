@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 25m",
+        "elapsed": "2h 28m",
         "id": "42242705",
         "kind": "research",
         "name": "mc100_fanout_A100_KH",
@@ -14,15 +14,15 @@
         "submitted": "2026-09-06T12:08:54Z"
       },
       {
-        "elapsed": "6s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T14:57:04Z",
+        "started": "2026-09-06T15:00:01Z",
         "state": "running",
-        "submitted": "2026-09-06T14:54:27Z"
+        "submitted": "2026-09-06T14:57:22Z"
       },
       {
         "elapsed": "0s",
@@ -152,27 +152,6 @@
         "name": "emp01r1_prep_BASE",
         "partition": "gsb",
         "state": "completed"
-      },
-      {
-        "elapsed": "30s",
-        "ended": "2026-09-06T02:59:42Z",
-        "exit_code": 0,
-        "id": "42121996",
-        "kind": "research",
-        "name": "k0watch",
-        "name_note": "sanitized",
-        "partition": "gsb",
-        "state": "completed"
-      },
-      {
-        "elapsed": "14h 44m",
-        "ended": "2026-09-06T02:58:20Z",
-        "exit_code": 0,
-        "id": "42121725",
-        "kind": "research",
-        "name": "emp01_lane_K0",
-        "partition": "normal",
-        "state": "cancelled"
       }
     ],
     "recent_dropped": 0,
@@ -195,7 +174,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T14:57:10Z",
+  "generated_at": "2026-09-06T15:00:08Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -203,11 +182,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T14:57:10Z",
+      "observed_at": "2026-09-06T15:00:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T14:57:10Z",
+      "observed_at": "2026-09-06T15:00:08Z",
       "status": "ok"
     }
   }
