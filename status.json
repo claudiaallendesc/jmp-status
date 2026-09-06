@@ -2,27 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 10m",
-        "id": "42226768",
-        "kind": "research",
-        "name": "mc100_canary_B100_K0",
-        "name_note": "sanitized",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-09-06T07:17:17Z",
-        "state": "running",
-        "submitted": "2026-09-06T07:09:08Z"
-      },
-      {
-        "elapsed": "21s",
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T09:27:09Z",
+        "started": "2026-09-06T09:36:08Z",
         "state": "running",
-        "submitted": "2026-09-06T09:24:15Z"
+        "submitted": "2026-09-06T09:35:45Z"
       }
     ],
     "active_dropped": 0,
@@ -34,9 +22,20 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 2
+      "running": 1
     },
     "recent": [
+      {
+        "elapsed": "2h 16m",
+        "ended": "2026-09-06T09:33:32Z",
+        "exit_code": 0,
+        "id": "42226768",
+        "kind": "research",
+        "name": "mc100_canary_B100_K0",
+        "name_note": "sanitized",
+        "partition": "normal",
+        "state": "completed"
+      },
       {
         "elapsed": "11m 04s",
         "ended": "2026-09-06T08:25:04Z",
@@ -89,19 +88,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T09:27:30Z",
-  "message": "Running",
+  "generated_at": "2026-09-06T09:36:13Z",
+  "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T09:27:30Z",
+      "observed_at": "2026-09-06T09:36:13Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T09:27:30Z",
+      "observed_at": "2026-09-06T09:36:13Z",
       "status": "ok"
     }
   }
