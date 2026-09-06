@@ -2,15 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "3s",
+        "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T15:24:03Z",
+        "started": "2026-09-06T15:27:00Z",
         "state": "running",
-        "submitted": "2026-09-06T15:21:32Z"
+        "submitted": "2026-09-06T15:24:10Z"
       },
       {
         "elapsed": "0s",
@@ -42,8 +42,7 @@
         "name": "emp01r1_release_gate",
         "nodes": 1,
         "partition": "normal",
-        "reason": "scheduled",
-        "started": "2026-09-06T15:26:15Z",
+        "reason": "priority",
         "state": "pending",
         "submitted": "2026-09-06T14:56:17Z"
       }
@@ -173,7 +172,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T15:24:06Z",
+  "generated_at": "2026-09-06T15:27:07Z",
   "message": "Queued",
   "schema_version": 3,
   "sources": {
@@ -181,11 +180,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T15:24:06Z",
+      "observed_at": "2026-09-06T15:27:07Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T15:24:06Z",
+      "observed_at": "2026-09-06T15:27:07Z",
       "status": "ok"
     }
   }
