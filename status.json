@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 01m",
+        "elapsed": "2h 04m",
         "id": "42242705",
         "kind": "research",
         "name": "mc100_fanout_A100_KH",
@@ -20,9 +20,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T14:33:05Z",
+        "started": "2026-09-06T14:36:15Z",
         "state": "running",
-        "submitted": "2026-09-06T14:30:24Z"
+        "submitted": "2026-09-06T14:33:23Z"
       },
       {
         "elapsed": "0s",
@@ -185,7 +185,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T14:33:14Z",
+  "generated_at": "2026-09-06T14:36:24Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -193,11 +193,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T14:33:14Z",
+      "observed_at": "2026-09-06T14:36:24Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T14:33:14Z",
+      "observed_at": "2026-09-06T14:36:24Z",
       "status": "ok"
     }
   }
