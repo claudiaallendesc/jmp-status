@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "1h 28m",
+        "elapsed": "1h 31m",
         "id": "42226768",
         "kind": "research",
         "name": "mc100_canary_B100_K0",
@@ -14,15 +14,15 @@
         "submitted": "2026-09-06T07:09:08Z"
       },
       {
-        "elapsed": "14s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T08:45:08Z",
+        "started": "2026-09-06T08:48:09Z",
         "state": "running",
-        "submitted": "2026-09-06T08:42:24Z"
+        "submitted": "2026-09-06T08:45:39Z"
       }
     ],
     "active_dropped": 0,
@@ -89,7 +89,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T08:45:22Z",
+  "generated_at": "2026-09-06T08:48:18Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -97,11 +97,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T08:45:22Z",
+      "observed_at": "2026-09-06T08:48:18Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T08:45:22Z",
+      "observed_at": "2026-09-06T08:48:18Z",
       "status": "ok"
     }
   }
