@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "2h 54m",
+        "elapsed": "2h 57m",
         "id": "42262010",
         "kind": "research",
         "name": "tight01_s1_B100_K0",
@@ -14,7 +14,7 @@
         "submitted": "2026-09-06T17:11:46Z"
       },
       {
-        "elapsed": "2h 13m",
+        "elapsed": "2h 17m",
         "id": "42235407",
         "kind": "research",
         "name": "emp01r1_lane_K0",
@@ -25,15 +25,15 @@
         "submitted": "2026-09-06T10:09:34Z"
       },
       {
-        "elapsed": "5s",
+        "elapsed": "11s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T20:06:01Z",
+        "started": "2026-09-06T20:09:07Z",
         "state": "running",
-        "submitted": "2026-09-06T20:03:26Z"
+        "submitted": "2026-09-06T20:06:16Z"
       },
       {
         "elapsed": "0s",
@@ -49,13 +49,15 @@
       },
       {
         "elapsed": "0s",
-        "id": "42272905",
+        "id": "42275226",
         "kind": "research",
         "name": "emp01r1_release_gate",
         "nodes": 1,
         "partition": "normal",
+        "reason": "scheduled",
+        "started": "2026-09-06T20:38:13Z",
         "state": "pending",
-        "submitted": "2026-09-06T19:35:53Z"
+        "submitted": "2026-09-06T20:08:17Z"
       }
     ],
     "active_dropped": 0,
@@ -70,6 +72,16 @@
       "running": 3
     },
     "recent": [
+      {
+        "elapsed": "22s",
+        "ended": "2026-09-06T20:08:20Z",
+        "exit_code": 0,
+        "id": "42272905",
+        "kind": "research",
+        "name": "emp01r1_release_gate",
+        "partition": "normal",
+        "state": "completed"
+      },
       {
         "elapsed": "20s",
         "ended": "2026-09-06T19:36:00Z",
@@ -363,7 +375,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T20:06:07Z",
+  "generated_at": "2026-09-06T20:09:18Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -371,11 +383,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T20:06:07Z",
+      "observed_at": "2026-09-06T20:09:18Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T20:06:07Z",
+      "observed_at": "2026-09-06T20:09:18Z",
       "status": "ok"
     }
   }
