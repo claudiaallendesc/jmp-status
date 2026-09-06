@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "58m 05s",
+        "elapsed": "1h 10m",
         "id": "42226768",
         "kind": "research",
         "name": "mc100_canary_B100_K0",
@@ -14,26 +14,15 @@
         "submitted": "2026-09-06T07:09:08Z"
       },
       {
-        "elapsed": "1m 22s",
-        "id": "42230550",
-        "kind": "research",
-        "name": "emp01r1_prep_BASE",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-09-06T08:14:00Z",
-        "state": "running",
-        "submitted": "2026-09-06T08:12:53Z"
-      },
-      {
-        "elapsed": "13s",
+        "elapsed": "37s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T08:15:09Z",
+        "started": "2026-09-06T08:27:05Z",
         "state": "running",
-        "submitted": "2026-09-06T08:12:52Z"
+        "submitted": "2026-09-06T08:24:03Z"
       }
     ],
     "active_dropped": 0,
@@ -45,9 +34,19 @@
       "failed": 0,
       "other": 0,
       "pending": 0,
-      "running": 3
+      "running": 2
     },
     "recent": [
+      {
+        "elapsed": "11m 04s",
+        "ended": "2026-09-06T08:25:04Z",
+        "exit_code": 0,
+        "id": "42230550",
+        "kind": "research",
+        "name": "emp01r1_prep_BASE",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "30s",
         "ended": "2026-09-06T02:59:42Z",
@@ -90,7 +89,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T08:15:22Z",
+  "generated_at": "2026-09-06T08:27:42Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -98,11 +97,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T08:15:22Z",
+      "observed_at": "2026-09-06T08:27:42Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T08:15:22Z",
+      "observed_at": "2026-09-06T08:27:42Z",
       "status": "ok"
     }
   }
