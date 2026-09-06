@@ -2,38 +2,15 @@
   "account": {
     "active": [
       {
-        "elapsed": "14h 43m",
-        "id": "42121725",
-        "kind": "research",
-        "name": "emp01_lane_K0",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-09-05T12:13:40Z",
-        "state": "running",
-        "submitted": "2026-09-05T08:59:20Z"
-      },
-      {
-        "elapsed": "25s",
+        "elapsed": "2s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T02:57:06Z",
+        "started": "2026-09-06T03:00:06Z",
         "state": "running",
-        "submitted": "2026-09-06T02:54:46Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "42121996",
-        "kind": "research",
-        "name": "k0watch",
-        "name_note": "sanitized",
-        "nodes": 1,
-        "partition": "multiple",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-09-05T09:01:53Z"
+        "submitted": "2026-09-06T02:57:50Z"
       }
     ],
     "active_dropped": 0,
@@ -44,10 +21,32 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 1,
-      "running": 2
+      "pending": 0,
+      "running": 1
     },
-    "recent": [],
+    "recent": [
+      {
+        "elapsed": "30s",
+        "ended": "2026-09-06T02:59:42Z",
+        "exit_code": 0,
+        "id": "42121996",
+        "kind": "research",
+        "name": "k0watch",
+        "name_note": "sanitized",
+        "partition": "gsb",
+        "state": "completed"
+      },
+      {
+        "elapsed": "14h 44m",
+        "ended": "2026-09-06T02:58:20Z",
+        "exit_code": 0,
+        "id": "42121725",
+        "kind": "research",
+        "name": "emp01_lane_K0",
+        "partition": "normal",
+        "state": "cancelled"
+      }
+    ],
     "recent_dropped": 0,
     "recent_omitted": 0,
     "service_count": 1,
@@ -68,19 +67,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T02:57:31Z",
-  "message": "Running",
+  "generated_at": "2026-09-06T03:00:08Z",
+  "message": "No active jobs",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T02:57:31Z",
+      "observed_at": "2026-09-06T03:00:08Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T02:57:31Z",
+      "observed_at": "2026-09-06T03:00:08Z",
       "status": "ok"
     }
   }
