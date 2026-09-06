@@ -8,9 +8,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T03:24:24Z",
+        "started": "2026-09-06T03:27:11Z",
         "state": "running",
-        "submitted": "2026-09-06T03:21:22Z"
+        "submitted": "2026-09-06T03:24:48Z"
       }
     ],
     "active_dropped": 0,
@@ -67,7 +67,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T03:24:31Z",
+  "generated_at": "2026-09-06T03:27:18Z",
   "message": "No active jobs",
   "schema_version": 3,
   "sources": {
@@ -75,11 +75,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T03:24:31Z",
+      "observed_at": "2026-09-06T03:27:18Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T03:24:31Z",
+      "observed_at": "2026-09-06T03:27:18Z",
       "status": "ok"
     }
   }
