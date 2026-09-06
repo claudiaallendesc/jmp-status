@@ -2,15 +2,27 @@
   "account": {
     "active": [
       {
-        "elapsed": "9s",
+        "elapsed": "20s",
+        "id": "42262010",
+        "kind": "research",
+        "name": "tight01_s1_B100_K0",
+        "name_note": "sanitized",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-06T17:11:47Z",
+        "state": "running",
+        "submitted": "2026-09-06T17:11:46Z"
+      },
+      {
+        "elapsed": "5s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T17:09:01Z",
+        "started": "2026-09-06T17:12:02Z",
         "state": "running",
-        "submitted": "2026-09-06T17:06:29Z"
+        "submitted": "2026-09-06T17:09:29Z"
       },
       {
         "elapsed": "0s",
@@ -58,7 +70,7 @@
       "failed": 0,
       "other": 0,
       "pending": 3,
-      "running": 1
+      "running": 2
     },
     "recent": [
       {
@@ -224,19 +236,19 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T17:09:11Z",
-  "message": "Queued",
+  "generated_at": "2026-09-06T17:12:07Z",
+  "message": "Running",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T17:09:11Z",
+      "observed_at": "2026-09-06T17:12:07Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T17:09:11Z",
+      "observed_at": "2026-09-06T17:12:07Z",
       "status": "ok"
     }
   }
