@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "3h 41m",
+        "elapsed": "3h 44m",
         "id": "42235407",
         "kind": "research",
         "name": "emp01r1_lane_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-06T10:09:34Z"
       },
       {
-        "elapsed": "56m 23s",
+        "elapsed": "59m 28s",
         "id": "42276837",
         "kind": "research",
         "name": "tight01_s2_A100_KH",
@@ -25,15 +25,15 @@
         "submitted": "2026-09-06T20:36:42Z"
       },
       {
-        "elapsed": "6s",
+        "elapsed": "11s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T21:33:06Z",
+        "started": "2026-09-06T21:36:06Z",
         "state": "running",
-        "submitted": "2026-09-06T21:30:12Z"
+        "submitted": "2026-09-06T21:33:26Z"
       },
       {
         "elapsed": "0s",
@@ -363,17 +363,6 @@
         "name": "emp01r1_release_gate",
         "partition": "normal",
         "state": "completed"
-      },
-      {
-        "elapsed": "2h 16m",
-        "ended": "2026-09-06T09:33:32Z",
-        "exit_code": 0,
-        "id": "42226768",
-        "kind": "research",
-        "name": "mc100_canary_B100_K0",
-        "name_note": "sanitized",
-        "partition": "normal",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -396,7 +385,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T21:33:12Z",
+  "generated_at": "2026-09-06T21:36:17Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -404,11 +393,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T21:33:12Z",
+      "observed_at": "2026-09-06T21:36:17Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T21:33:12Z",
+      "observed_at": "2026-09-06T21:36:17Z",
       "status": "ok"
     }
   }
