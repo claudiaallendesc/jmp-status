@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "30m 48s",
+        "elapsed": "33m 28s",
         "id": "42262010",
         "kind": "research",
         "name": "tight01_s1_B100_K0",
@@ -14,15 +14,37 @@
         "submitted": "2026-09-06T17:11:46Z"
       },
       {
-        "elapsed": "32s",
+        "elapsed": "2m 37s",
+        "id": "42263594",
+        "kind": "research",
+        "name": "dllv01_AKH_r3",
+        "nodes": 1,
+        "partition": "normal",
+        "started": "2026-09-06T17:42:38Z",
+        "state": "running",
+        "submitted": "2026-09-06T17:38:36Z"
+      },
+      {
+        "elapsed": "2m 37s",
+        "id": "42263597",
+        "kind": "research",
+        "name": "dllv01_BK0_r3",
+        "nodes": 1,
+        "partition": "normal",
+        "started": "2026-09-06T17:42:38Z",
+        "state": "running",
+        "submitted": "2026-09-06T17:38:38Z"
+      },
+      {
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T17:42:03Z",
+        "started": "2026-09-06T17:45:06Z",
         "state": "running",
-        "submitted": "2026-09-06T17:39:47Z"
+        "submitted": "2026-09-06T17:42:49Z"
       },
       {
         "elapsed": "0s",
@@ -50,28 +72,6 @@
       },
       {
         "elapsed": "0s",
-        "id": "42263594",
-        "kind": "research",
-        "name": "dllv01_AKH_r3",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-09-06T17:38:36Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "42263597",
-        "kind": "research",
-        "name": "dllv01_BK0_r3",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-09-06T17:38:38Z"
-      },
-      {
-        "elapsed": "0s",
         "id": "42263642",
         "kind": "research",
         "name": "emp01r1_release_gate",
@@ -81,6 +81,28 @@
         "started": "2026-09-06T18:09:40Z",
         "state": "pending",
         "submitted": "2026-09-06T17:39:42Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "42264086",
+        "kind": "research",
+        "name": "dllv01_AKH_gsplit",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-09-06T17:43:49Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "42264087",
+        "kind": "research",
+        "name": "dllv01_BK0_gsplit",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "dependency",
+        "state": "pending",
+        "submitted": "2026-09-06T17:43:49Z"
       }
     ],
     "active_dropped": 0,
@@ -92,7 +114,7 @@
       "failed": 0,
       "other": 0,
       "pending": 5,
-      "running": 2
+      "running": 4
     },
     "recent": [
       {
@@ -308,7 +330,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T17:42:35Z",
+  "generated_at": "2026-09-06T17:45:15Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -316,11 +338,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T17:42:35Z",
+      "observed_at": "2026-09-06T17:45:15Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T17:42:35Z",
+      "observed_at": "2026-09-06T17:45:15Z",
       "status": "ok"
     }
   }
