@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "3m 33s",
+        "elapsed": "6m 24s",
         "id": "42262010",
         "kind": "research",
         "name": "tight01_s1_B100_K0",
@@ -20,9 +20,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T17:15:11Z",
+        "started": "2026-09-06T17:18:02Z",
         "state": "running",
-        "submitted": "2026-09-06T17:12:12Z"
+        "submitted": "2026-09-06T17:15:32Z"
       },
       {
         "elapsed": "0s",
@@ -235,7 +235,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T17:15:20Z",
+  "generated_at": "2026-09-06T17:18:11Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -243,11 +243,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T17:15:20Z",
+      "observed_at": "2026-09-06T17:18:11Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T17:15:20Z",
+      "observed_at": "2026-09-06T17:18:11Z",
       "status": "ok"
     }
   }
