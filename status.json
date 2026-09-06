@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "14h 31m",
+        "elapsed": "14h 34m",
         "id": "42121725",
         "kind": "research",
         "name": "emp01_lane_K0",
@@ -19,9 +19,9 @@
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-06T02:45:02Z",
+        "started": "2026-09-06T02:48:22Z",
         "state": "running",
-        "submitted": "2026-09-06T02:42:19Z"
+        "submitted": "2026-09-06T02:45:19Z"
       },
       {
         "elapsed": "0s",
@@ -68,7 +68,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-06T02:45:10Z",
+  "generated_at": "2026-09-06T02:48:29Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -76,11 +76,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T02:45:10Z",
+      "observed_at": "2026-09-06T02:48:29Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-06T02:45:10Z",
+      "observed_at": "2026-09-06T02:48:29Z",
       "status": "ok"
     }
   }
