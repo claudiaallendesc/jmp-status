@@ -1,64 +1,6 @@
 {
   "account": {
-    "active": [
-      {
-        "elapsed": "5m 24s",
-        "id": "42260391",
-        "kind": "research",
-        "name": "attr01_noopt_B_K0",
-        "nodes": 1,
-        "partition": "gsb",
-        "started": "2026-09-06T16:42:49Z",
-        "state": "running",
-        "submitted": "2026-09-06T16:42:34Z"
-      },
-      {
-        "elapsed": "11s",
-        "id": "39005528",
-        "kind": "service",
-        "name": "jmp_status_collect",
-        "nodes": 1,
-        "partition": "service",
-        "started": "2026-09-06T16:48:02Z",
-        "state": "running",
-        "submitted": "2026-09-06T16:45:57Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "42235407",
-        "kind": "research",
-        "name": "emp01r1_lane_K0",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "priority",
-        "state": "pending",
-        "submitted": "2026-09-06T10:09:34Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "42235411",
-        "kind": "research",
-        "name": "k0watch",
-        "name_note": "sanitized",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "dependency",
-        "state": "pending",
-        "submitted": "2026-09-06T10:09:39Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "42259595",
-        "kind": "research",
-        "name": "emp01r1_release_gate",
-        "nodes": 1,
-        "partition": "normal",
-        "reason": "scheduled",
-        "started": "2026-09-06T17:03:33Z",
-        "state": "pending",
-        "submitted": "2026-09-06T16:33:35Z"
-      }
-    ],
+    "active": [],
     "active_dropped": 0,
     "active_omitted": 0,
     "counts": {
@@ -67,10 +9,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 3,
-      "running": 2
+      "pending": 0,
+      "running": 0
     },
     "recent": [
+      {
+        "elapsed": "6m 19s",
+        "ended": "2026-09-06T16:49:08Z",
+        "exit_code": 0,
+        "id": "42260391",
+        "kind": "research",
+        "name": "attr01_noopt_B_K0",
+        "partition": "gsb",
+        "state": "completed"
+      },
       {
         "elapsed": "10s",
         "ended": "2026-09-06T16:33:36Z",
@@ -192,11 +144,29 @@
         "name": "emp01r1_prep_BASE",
         "partition": "gsb",
         "state": "completed"
+      },
+      {
+        "elapsed": "0s",
+        "exit_code": 0,
+        "id": "42235407",
+        "kind": "research",
+        "name": "emp01r1_lane_K0",
+        "partition": "normal",
+        "state": "pending"
+      },
+      {
+        "elapsed": "44s",
+        "exit_code": 0,
+        "id": "39005528",
+        "kind": "service",
+        "name": "jmp_status_collect",
+        "partition": "service",
+        "state": "running"
       }
     ],
     "recent_dropped": 0,
     "recent_omitted": 0,
-    "service_count": 1,
+    "service_count": 0,
     "window_hours": 12
   },
   "campaign": {
@@ -213,20 +183,19 @@
       "running": 0
     }
   },
-  "collector_health": "degraded",
-  "generated_at": "2026-09-06T16:48:13Z",
-  "message": "Running",
+  "collector_health": "offline",
+  "generated_at": "2026-09-06T16:51:57Z",
+  "message": "Status unavailable",
   "schema_version": 3,
   "sources": {
     "campaign": {
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-06T16:48:13Z",
-      "status": "ok"
+      "status": "unavailable"
     },
     "recent": {
-      "observed_at": "2026-09-06T16:48:13Z",
+      "observed_at": "2026-09-06T16:51:57Z",
       "status": "ok"
     }
   }
