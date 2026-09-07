@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "9h 16m",
+        "elapsed": "9h 20m",
         "id": "42235407",
         "kind": "research",
         "name": "emp01r1_lane_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-06T10:09:34Z"
       },
       {
-        "elapsed": "6m 12s",
+        "elapsed": "9m 21s",
         "id": "42302074",
         "kind": "research",
         "name": "ftol01_r6s2_A100_KH",
@@ -25,15 +25,15 @@
         "submitted": "2026-09-07T03:02:11Z"
       },
       {
-        "elapsed": "4s",
+        "elapsed": "12s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-07T03:09:01Z",
+        "started": "2026-09-07T03:12:02Z",
         "state": "running",
-        "submitted": "2026-09-07T03:06:37Z"
+        "submitted": "2026-09-07T03:09:10Z"
       },
       {
         "elapsed": "0s",
@@ -414,17 +414,6 @@
         "name": "emp01r1_release_gate",
         "partition": "normal",
         "state": "completed"
-      },
-      {
-        "elapsed": "2h 38m",
-        "ended": "2026-09-06T15:10:43Z",
-        "exit_code": 0,
-        "id": "42242705",
-        "kind": "research",
-        "name": "mc100_fanout_A100_KH",
-        "name_note": "sanitized",
-        "partition": "normal",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -447,7 +436,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-07T03:09:05Z",
+  "generated_at": "2026-09-07T03:12:14Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -455,11 +444,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-07T03:09:05Z",
+      "observed_at": "2026-09-07T03:12:14Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-07T03:09:05Z",
+      "observed_at": "2026-09-07T03:12:14Z",
       "status": "ok"
     }
   }
