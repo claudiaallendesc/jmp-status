@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "9h 26m",
+        "elapsed": "9h 28m",
         "id": "42235407",
         "kind": "research",
         "name": "emp01r1_lane_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-06T10:09:34Z"
       },
       {
-        "elapsed": "15m 20s",
+        "elapsed": "18m 17s",
         "id": "42302074",
         "kind": "research",
         "name": "ftol01_r6s2_A100_KH",
@@ -25,15 +25,15 @@
         "submitted": "2026-09-07T03:02:11Z"
       },
       {
-        "elapsed": "11s",
+        "elapsed": "8s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-07T03:18:02Z",
+        "started": "2026-09-07T03:21:02Z",
         "state": "running",
-        "submitted": "2026-09-07T03:15:22Z"
+        "submitted": "2026-09-07T03:18:38Z"
       },
       {
         "elapsed": "0s",
@@ -446,7 +446,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-07T03:18:13Z",
+  "generated_at": "2026-09-07T03:21:10Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -454,11 +454,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-07T03:18:13Z",
+      "observed_at": "2026-09-07T03:21:10Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-07T03:18:13Z",
+      "observed_at": "2026-09-07T03:21:10Z",
       "status": "ok"
     }
   }
