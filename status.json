@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "12h 08m",
+        "elapsed": "12h 11m",
         "id": "42235407",
         "kind": "research",
         "name": "emp01r1_lane_K0",
@@ -13,26 +13,15 @@
         "submitted": "2026-09-06T10:09:34Z"
       },
       {
-        "elapsed": "7s",
+        "elapsed": "11s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-07T06:00:06Z",
+        "started": "2026-09-07T06:03:01Z",
         "state": "running",
-        "submitted": "2026-09-07T05:57:13Z"
-      },
-      {
-        "elapsed": "0s",
-        "id": "42313879",
-        "kind": "research",
-        "name": "emp01r1_release_gate",
-        "nodes": 1,
-        "partition": "normal",
-        "started": "2026-09-07T06:00:13Z",
-        "state": "running",
-        "submitted": "2026-09-07T05:28:59Z"
+        "submitted": "2026-09-07T06:00:26Z"
       },
       {
         "elapsed": "0s",
@@ -45,6 +34,18 @@
         "reason": "dependency",
         "state": "pending",
         "submitted": "2026-09-06T10:09:39Z"
+      },
+      {
+        "elapsed": "0s",
+        "id": "42315109",
+        "kind": "research",
+        "name": "emp01r1_release_gate",
+        "nodes": 1,
+        "partition": "normal",
+        "reason": "scheduled",
+        "started": "2026-09-07T06:30:24Z",
+        "state": "pending",
+        "submitted": "2026-09-07T06:00:28Z"
       }
     ],
     "active_dropped": 0,
@@ -55,10 +56,20 @@
       "completing": 0,
       "failed": 0,
       "other": 0,
-      "pending": 1,
-      "running": 3
+      "pending": 2,
+      "running": 2
     },
     "recent": [
+      {
+        "elapsed": "18s",
+        "ended": "2026-09-07T06:00:31Z",
+        "exit_code": 0,
+        "id": "42313879",
+        "kind": "research",
+        "name": "emp01r1_release_gate",
+        "partition": "normal",
+        "state": "completed"
+      },
       {
         "elapsed": "14s",
         "ended": "2026-09-07T05:29:02Z",
@@ -322,26 +333,6 @@
         "name": "emp01r1_release_gate",
         "partition": "normal",
         "state": "completed"
-      },
-      {
-        "elapsed": "6m 19s",
-        "ended": "2026-09-06T18:00:47Z",
-        "exit_code": 0,
-        "id": "42264087",
-        "kind": "research",
-        "name": "dllv01_BK0_gsplit",
-        "partition": "normal",
-        "state": "completed"
-      },
-      {
-        "elapsed": "5m 53s",
-        "ended": "2026-09-06T18:00:21Z",
-        "exit_code": 0,
-        "id": "42264086",
-        "kind": "research",
-        "name": "dllv01_AKH_gsplit",
-        "partition": "normal",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -364,7 +355,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-07T06:00:13Z",
+  "generated_at": "2026-09-07T06:03:12Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -372,11 +363,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-07T06:00:13Z",
+      "observed_at": "2026-09-07T06:03:12Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-07T06:00:13Z",
+      "observed_at": "2026-09-07T06:03:12Z",
       "status": "ok"
     }
   }
