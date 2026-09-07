@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "9h 34m",
+        "elapsed": "9h 38m",
         "id": "42235407",
         "kind": "research",
         "name": "emp01r1_lane_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-06T10:09:34Z"
       },
       {
-        "elapsed": "24m 14s",
+        "elapsed": "27m 27s",
         "id": "42302074",
         "kind": "research",
         "name": "ftol01_r6s2_A100_KH",
@@ -25,15 +25,15 @@
         "submitted": "2026-09-07T03:02:11Z"
       },
       {
-        "elapsed": "2s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-07T03:27:05Z",
+        "started": "2026-09-07T03:30:11Z",
         "state": "running",
-        "submitted": "2026-09-07T03:24:31Z"
+        "submitted": "2026-09-07T03:27:11Z"
       },
       {
         "elapsed": "0s",
@@ -414,16 +414,6 @@
         "name": "emp01r1_release_gate",
         "partition": "normal",
         "state": "completed"
-      },
-      {
-        "elapsed": "39s",
-        "ended": "2026-09-06T15:29:00Z",
-        "exit_code": 0,
-        "id": "42253753",
-        "kind": "research",
-        "name": "emp01r1_release_gate",
-        "partition": "normal",
-        "state": "completed"
       }
     ],
     "recent_dropped": 0,
@@ -446,7 +436,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-07T03:27:07Z",
+  "generated_at": "2026-09-07T03:30:20Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -454,11 +444,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-07T03:27:07Z",
+      "observed_at": "2026-09-07T03:30:20Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-07T03:27:07Z",
+      "observed_at": "2026-09-07T03:30:20Z",
       "status": "ok"
     }
   }
