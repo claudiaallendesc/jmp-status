@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "7h 46m",
+        "elapsed": "7h 50m",
         "id": "42235407",
         "kind": "research",
         "name": "emp01r1_lane_K0",
@@ -13,7 +13,7 @@
         "submitted": "2026-09-06T10:09:34Z"
       },
       {
-        "elapsed": "19m 02s",
+        "elapsed": "22m 11s",
         "id": "42295577",
         "kind": "research",
         "name": "ftol01_r6s1_B100_K0",
@@ -25,15 +25,15 @@
         "submitted": "2026-09-07T01:19:39Z"
       },
       {
-        "elapsed": "8s",
+        "elapsed": "9s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-07T01:39:02Z",
+        "started": "2026-09-07T01:42:10Z",
         "state": "running",
-        "submitted": "2026-09-07T01:36:21Z"
+        "submitted": "2026-09-07T01:39:22Z"
       },
       {
         "elapsed": "0s",
@@ -49,15 +49,15 @@
       },
       {
         "elapsed": "0s",
-        "id": "42294873",
+        "id": "42296952",
         "kind": "research",
         "name": "emp01r1_release_gate",
         "nodes": 1,
         "partition": "normal",
         "reason": "scheduled",
-        "started": "2026-09-07T01:39:41Z",
+        "started": "2026-09-07T02:12:02Z",
         "state": "pending",
-        "submitted": "2026-09-07T01:09:42Z"
+        "submitted": "2026-09-07T01:42:04Z"
       }
     ],
     "active_dropped": 0,
@@ -72,6 +72,16 @@
       "running": 3
     },
     "recent": [
+      {
+        "elapsed": "19s",
+        "ended": "2026-09-07T01:42:06Z",
+        "exit_code": 0,
+        "id": "42294873",
+        "kind": "research",
+        "name": "emp01r1_release_gate",
+        "partition": "normal",
+        "state": "completed"
+      },
       {
         "elapsed": "24s",
         "ended": "2026-09-07T01:09:42Z",
@@ -436,7 +446,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-07T01:39:11Z",
+  "generated_at": "2026-09-07T01:42:19Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -444,11 +454,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-07T01:39:11Z",
+      "observed_at": "2026-09-07T01:42:19Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-07T01:39:11Z",
+      "observed_at": "2026-09-07T01:42:19Z",
       "status": "ok"
     }
   }
