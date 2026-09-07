@@ -2,7 +2,7 @@
   "account": {
     "active": [
       {
-        "elapsed": "7h 25m",
+        "elapsed": "7h 29m",
         "id": "42235407",
         "kind": "research",
         "name": "emp01r1_lane_K0",
@@ -13,15 +13,27 @@
         "submitted": "2026-09-06T10:09:34Z"
       },
       {
+        "elapsed": "1m 06s",
+        "id": "42295577",
+        "kind": "research",
+        "name": "ftol01_r6s1_B100_K0",
+        "name_note": "sanitized",
+        "nodes": 1,
+        "partition": "gsb",
+        "started": "2026-09-07T01:20:08Z",
+        "state": "running",
+        "submitted": "2026-09-07T01:19:39Z"
+      },
+      {
         "elapsed": "7s",
         "id": "39005528",
         "kind": "service",
         "name": "jmp_status_collect",
         "nodes": 1,
         "partition": "service",
-        "started": "2026-09-07T01:18:00Z",
+        "started": "2026-09-07T01:21:07Z",
         "state": "running",
-        "submitted": "2026-09-07T01:15:32Z"
+        "submitted": "2026-09-07T01:18:20Z"
       },
       {
         "elapsed": "0s",
@@ -57,7 +69,7 @@
       "failed": 0,
       "other": 0,
       "pending": 2,
-      "running": 2
+      "running": 3
     },
     "recent": [
       {
@@ -424,7 +436,7 @@
     }
   },
   "collector_health": "degraded",
-  "generated_at": "2026-09-07T01:18:07Z",
+  "generated_at": "2026-09-07T01:21:14Z",
   "message": "Running",
   "schema_version": 3,
   "sources": {
@@ -432,11 +444,11 @@
       "status": "unavailable"
     },
     "queue": {
-      "observed_at": "2026-09-07T01:18:07Z",
+      "observed_at": "2026-09-07T01:21:14Z",
       "status": "ok"
     },
     "recent": {
-      "observed_at": "2026-09-07T01:18:07Z",
+      "observed_at": "2026-09-07T01:21:14Z",
       "status": "ok"
     }
   }
